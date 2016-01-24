@@ -3,13 +3,6 @@
     This rule chooses "energía" as the translation of "power" when it is preceded by "wind". 
     Add your own rules within <rule> here, using the resources below as a guide 
   -->
-
-  <rule>
-    <match lemma="wind"/>
-    <match lemma="power" tags="n.*">
-      <select lemma="energía" tags="n.*"/>
-    </match>
-  </rule>
 <rule>
     <match lemma="bat" tags="n.*"><select lemma="ratpenat" tags="n.*"/></match>
   </rule>
@@ -28,11 +21,12 @@
     <match lemma="computer"  tags="n.*"/> 
     <match lemma="chip" tags="n.*"><select lemma="xip" tags="n.*"/></match> 
   </rule> 
+  <rule>
+    <match lemma="iron" tags="n.*"><select lemma="planxa" tags="n.*"/></match>
+  </rule>
   <rule> 
-    <match lemma="iron" tags="vblex.*"/> 
-    <match lemma="with"  tags="pr.*"/> 
-    <match lemma="a" tags="det.*"/> 
-    <match lemma="iron" tags="n.*"><select lemma="planxa" tags="n.*"/></match> 
+    <match lemma="melt" tags="vblex.*"/> 
+    <match lemma="iron" tags="n.*"><select lemma="ferro" tags="n.*"/></match> 
   </rule> 
   <rule> 
     <match lemma="paint" tags="vblex.*"/> 
