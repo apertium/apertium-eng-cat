@@ -14,29 +14,29 @@
     <match lemma="bat" tags="n.*"><select lemma="ratpenat" tags="n.*"/></match>
   </rule>
 <rule> 
-    <match lemma="baseball"/> 
-    <match lemma="bat"><select lemma="bat"/></match> 
+    <match lemma="baseball"  tags="n.*"/> 
+    <match lemma="bat" tags="n.*"><select lemma="bat"  tags="n.*"/></match> 
   </rule> 
  <rule> 
-    <match lemma="bird"/> 
-    <match lemma="crane"><select lemma="gruid"/></match> 
+    <match lemma="bird"  tags="n.*"/> 
+    <match lemma="crane" tags="n.*"><select lemma="gruid" tags="n.*"/></match> 
   </rule> 
 <rule>
     <match lemma="chip" tags="n.*"><select lemma="tros" tags="n.*"/></match>
   </rule>
  <rule> 
-    <match lemma="computer"/> 
-    <match lemma="chip"><select lemma="xip"/></match> 
-  </rule> 
- <rule> 
-    <match lemma="iron"/> 
-    <match lemma="with"/> 
-    <match lemma="a"/> 
-    <match lemma="iron"><select lemma="planxa"/></match> 
+    <match lemma="computer"  tags="n.*"/> 
+    <match lemma="chip" tags="n.*"><select lemma="xip" tags="n.*"/></match> 
   </rule> 
   <rule> 
-    <match lemma="paint"/> 
-    <match lemma="nail"><select lemma="ungla"/></match> 
+    <match lemma="iron" tags="vblex.*"/> 
+    <match lemma="with"  tags="pr.*"/> 
+    <match lemma="a" tags="det.*"/> 
+    <match lemma="iron" tags="n.*"><select lemma="planxa" tags="n.*"/></match> 
+  </rule> 
+  <rule> 
+    <match lemma="paint" tags="vblex.*"/> 
+    <match lemma="nail" tags="n.*"><select lemma="ungla" tags="n.*"/></match> 
   </rule>
   </rules> 
 <!-- 
