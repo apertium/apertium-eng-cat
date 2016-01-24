@@ -3549,7 +3549,7 @@
     <e><p><l>chink<s n="n"/></l><r>dring<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>chinrest<s n="n"/></l><r>barbada<s n="n"/><s n="f"/></r></p></e>
     <e r="RL" vl="en_GB"><p><l>chip<s n="n"/></l><r>patata<b/>fregida<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR" slr="tros"><p><l>chip<s n="n"/></l><r>tros<s n="n"/><s n="m"/></r></p></e>
+    <e slr="tros"><p><l>chip<s n="n"/></l><r>tros<s n="n"/><s n="m"/></r></p></e>
     <e slr="xip D"><p><l>chip<s n="n"/></l><r>xip<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>chiropter<s n="n"/></l><r>quiròpter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>chitin<s n="n"/></l><r>quitina<s n="n"/><s n="f"/></r></p></e>
@@ -4445,6 +4445,7 @@
     <e><p><l>crag<s n="n"/></l><r>penya<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>cranberry<s n="n"/></l><r>nabiu<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>crane<s n="n"/></l><r>grua<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>crane<s n="n"/></l><r>gruid<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>craniopharyngioma<s n="n"/></l><r>craniofaringioma<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>crankshaft<s n="n"/></l><r>cigonyal<s n="n"/><s n="m"/></r></p></e>
     <e r="LR" slr="accident"><p><l>crash<s n="n"/></l><r>accident<s n="n"/><s n="m"/></r></p></e>
@@ -36832,3 +36833,4 @@
     <e c="hic sunt dracones!"><p><l></l><r>segles<b/></r></p><par n="arabic-roman-ord"/><i>-</i><par n="arabic-roman-ord"/><p><l><b/>centuries</l><r></r></p><par n="B.C.-aC"/><p><l><s n="n"/></l><r><s n="n"/><s n="m"/></r></p></e>
   </section>
 </dictionary>
+

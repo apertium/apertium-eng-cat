@@ -1,0 +1,49 @@
+<rules>
+  <!-- 
+    This rule chooses "energía" as the translation of "power" when it is preceded by "wind". 
+    Add your own rules within <rule> here, using the resources below as a guide 
+  -->
+
+  <rule>
+    <match lemma="wind"/>
+    <match lemma="power" tags="n.*">
+      <select lemma="energía" tags="n.*"/>
+    </match>
+  </rule>
+<rule>
+    <match lemma="bat" tags="n.*"><select lemma="ratpenat" tags="n.*"/></match>
+  </rule>
+<rule> 
+    <match lemma="baseball"/> 
+    <match lemma="bat"><select lemma="bat"/></match> 
+  </rule> 
+ <rule> 
+    <match lemma="bird"/> 
+    <match lemma="crane"><select lemma="gruid"/></match> 
+  </rule> 
+<rule>
+    <match lemma="chip" tags="n.*"><select lemma="tros" tags="n.*"/></match>
+  </rule>
+ <rule> 
+    <match lemma="computer"/> 
+    <match lemma="chip"><select lemma="xip"/></match> 
+  </rule> 
+ <rule> 
+    <match lemma="iron"/> 
+    <match lemma="with"/> 
+    <match lemma="a"/> 
+    <match lemma="iron"><select lemma="planxa"/></match> 
+  </rule> 
+  <rule> 
+    <match lemma="paint"/> 
+    <match lemma="nail"><select lemma="ungla"/></match> 
+  </rule>
+  </rules> 
+<!-- 
+Resources: 
+    http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
+    http://wiki.apertium.org/wiki/Constraint-based_lexical_selection
+    http://wiki.apertium.org/wiki/Lexical_selection
+    http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
+-->
+
