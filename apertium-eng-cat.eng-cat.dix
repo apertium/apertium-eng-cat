@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 3
-	Entries: 36746
+	Entries: 36872
 	Sdefs: 90
 	Paradigms: 15
 	Last processed by: apertium-dixtools fix apertium-eng-cat.eng-cat.dix apertium-eng-cat.eng-cat.dix
@@ -29637,6 +29637,12 @@
 <e>       <p><l>Agnew<s n="np"/><s n="cog"/><s n="sg"/></l><r>Agnew<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Agostinacchio<s n="np"/><s n="cog"/><s n="pl"/></l><r>Agostinacchio<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Agostinacchio<s n="np"/><s n="cog"/><s n="sg"/></l><r>Agostinacchio<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Agricola<s n="np"/><s n="cog"/><s n="pl"/></l><r>Agrícola<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Agricola<s n="np"/><s n="cog"/><s n="sg"/></l><r>Agrícola<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Agrippa<s n="np"/><s n="cog"/><s n="pl"/></l><r>Agripa<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Agrippa<s n="np"/><s n="cog"/><s n="sg"/></l><r>Agripa<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Agrippina<s n="np"/><s n="cog"/><s n="pl"/></l><r>Agripina<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Agrippina<s n="np"/><s n="cog"/><s n="sg"/></l><r>Agripina<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Aguado<s n="np"/><s n="cog"/><s n="pl"/></l><r>Aguado<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Aguado<s n="np"/><s n="cog"/><s n="sg"/></l><r>Aguado<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Aguilera<s n="np"/><s n="cog"/><s n="pl"/></l><r>Aguilera<s n="np"/><s n="ant"/></r></p></e>
@@ -29685,6 +29691,8 @@
 <e>       <p><l>Alvarez<s n="np"/><s n="cog"/><s n="sg"/></l><r>Alvarez<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>al-Zawahiri<s n="np"/><s n="cog"/><s n="pl"/></l><r>al-Zawahiri<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>al-Zawahiri<s n="np"/><s n="cog"/><s n="sg"/></l><r>al-Zawahiri<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Amin<s n="np"/><s n="cog"/><s n="pl"/></l><r>Amin<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Amin<s n="np"/><s n="cog"/><s n="sg"/></l><r>Amin<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Amor<b/>Pérez<s n="np"/><s n="cog"/><s n="pl"/></l><r>Amor<b/>Pérez<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Amor<b/>Pérez<s n="np"/><s n="cog"/><s n="sg"/></l><r>Amor<b/>Pérez<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Amos<s n="np"/><s n="cog"/><s n="pl"/></l><r>Amos<s n="np"/><s n="ant"/></r></p></e>
@@ -29699,6 +29707,8 @@
 <e>       <p><l>Antonescu<s n="np"/><s n="cog"/><s n="sg"/></l><r>Antonescu<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Apple<s n="np"/><s n="cog"/><s n="pl"/></l><r>Apple<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Apple<s n="np"/><s n="cog"/><s n="sg"/></l><r>Apple<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Aquinas<s n="np"/><s n="cog"/><s n="pl"/></l><r>d'Aquino<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Aquinas<s n="np"/><s n="cog"/><s n="sg"/></l><r>d'Aquino<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Arafat<s n="np"/><s n="cog"/><s n="pl"/></l><r>Arafat<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Arafat<s n="np"/><s n="cog"/><s n="sg"/></l><r>Arafat<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Aranaga<s n="np"/><s n="cog"/><s n="pl"/></l><r>Aranaga<s n="np"/><s n="ant"/></r></p></e>
@@ -29723,10 +29733,18 @@
 <e>       <p><l>Asimov<s n="np"/><s n="cog"/><s n="sg"/></l><r>Asimov<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Asselborn<s n="np"/><s n="cog"/><s n="pl"/></l><r>Asselborn<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Asselborn<s n="np"/><s n="cog"/><s n="sg"/></l><r>Asselborn<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Atta<s n="np"/><s n="cog"/><s n="pl"/></l><r>Atta<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Atta<s n="np"/><s n="cog"/><s n="sg"/></l><r>Atta<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Attlee<s n="np"/><s n="cog"/><s n="pl"/></l><r>Attlee<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Attlee<s n="np"/><s n="cog"/><s n="sg"/></l><r>Attlee<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Atutxa<s n="np"/><s n="cog"/><s n="pl"/></l><r>Atutxa<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Atutxa<s n="np"/><s n="cog"/><s n="sg"/></l><r>Atutxa<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Aura<s n="np"/><s n="cog"/><s n="pl"/></l><r>Aura<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Aura<s n="np"/><s n="cog"/><s n="sg"/></l><r>Aura<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Aurelian<s n="np"/><s n="cog"/><s n="pl"/></l><r>Aurelià<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Aurelian<s n="np"/><s n="cog"/><s n="sg"/></l><r>Aurelià<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Aurelius<s n="np"/><s n="cog"/><s n="pl"/></l><r>Aureli<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Aurelius<s n="np"/><s n="cog"/><s n="sg"/></l><r>Aureli<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Avogadro<s n="np"/><s n="cog"/><s n="pl"/></l><r>Avogadro<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Avogadro<s n="np"/><s n="cog"/><s n="sg"/></l><r>Avogadro<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Azkarate<s n="np"/><s n="cog"/><s n="pl"/></l><r>Azkarate<s n="np"/><s n="ant"/></r></p></e>
@@ -29737,6 +29755,8 @@
 <e>       <p><l>Bach<s n="np"/><s n="cog"/><s n="sg"/></l><r>Bach<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Baeza<s n="np"/><s n="cog"/><s n="pl"/></l><r>Baeza<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Baeza<s n="np"/><s n="cog"/><s n="sg"/></l><r>Baeza<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Baggio<s n="np"/><s n="cog"/><s n="pl"/></l><r>Baggio<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Baggio<s n="np"/><s n="cog"/><s n="sg"/></l><r>Baggio<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Bagnasco<s n="np"/><s n="cog"/><s n="pl"/></l><r>Bagnasco<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Bagnasco<s n="np"/><s n="cog"/><s n="sg"/></l><r>Bagnasco<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Balboa<s n="np"/><s n="cog"/><s n="pl"/></l><r>Balboa<s n="np"/><s n="ant"/></r></p></e>
@@ -29745,6 +29765,10 @@
 <e>       <p><l>Baldwin<s n="np"/><s n="cog"/><s n="sg"/></l><r>Baldwin<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Balzac<s n="np"/><s n="cog"/><s n="pl"/></l><r>Balzac<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Balzac<s n="np"/><s n="cog"/><s n="sg"/></l><r>Balzac<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Banach<s n="np"/><s n="cog"/><s n="pl"/></l><r>Banach<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Banach<s n="np"/><s n="cog"/><s n="sg"/></l><r>Banach<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Barbarossa<s n="np"/><s n="cog"/><s n="pl"/></l><r>Barbarossa<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Barbarossa<s n="np"/><s n="cog"/><s n="sg"/></l><r>Barbarossa<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Barclay<s n="np"/><s n="cog"/><s n="pl"/></l><r>Barclay<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Barclay<s n="np"/><s n="cog"/><s n="sg"/></l><r>Barclay<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Barker<s n="np"/><s n="cog"/><s n="pl"/></l><r>Barker<s n="np"/><s n="ant"/></r></p></e>
@@ -29777,6 +29801,8 @@
 <e>       <p><l>Beethoven<s n="np"/><s n="cog"/><s n="sg"/></l><r>Beethoven<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Belinchón<s n="np"/><s n="cog"/><s n="pl"/></l><r>Belinchón<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Belinchón<s n="np"/><s n="cog"/><s n="sg"/></l><r>Belinchón<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Bellini<s n="np"/><s n="cog"/><s n="pl"/></l><r>Bellini<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Bellini<s n="np"/><s n="cog"/><s n="sg"/></l><r>Bellini<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Bell<s n="np"/><s n="cog"/><s n="pl"/></l><r>Bell<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Bell<s n="np"/><s n="cog"/><s n="sg"/></l><r>Bell<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Bennet<s n="np"/><s n="cog"/><s n="pl"/></l><r>Bennet<s n="np"/><s n="ant"/></r></p></e>
@@ -29825,6 +29851,8 @@
 <e>       <p><l>Bobadilla<s n="np"/><s n="cog"/><s n="sg"/></l><r>Bobadilla<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Bofill<b/>Mas<s n="np"/><s n="cog"/><s n="pl"/></l><r>Bofill<b/>Mas<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Bofill<b/>Mas<s n="np"/><s n="cog"/><s n="sg"/></l><r>Bofill<b/>Mas<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Bogart<s n="np"/><s n="cog"/><s n="pl"/></l><r>Bogart<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Bogart<s n="np"/><s n="cog"/><s n="sg"/></l><r>Bogart<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Bohr<s n="np"/><s n="cog"/><s n="pl"/></l><r>Bohr<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Bohr<s n="np"/><s n="cog"/><s n="sg"/></l><r>Bohr<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Bonaparte<s n="np"/><s n="cog"/><s n="pl"/></l><r>Bonaparte<s n="np"/><s n="ant"/></r></p></e>
@@ -29853,6 +29881,8 @@
 <e>       <p><l>Brahe<s n="np"/><s n="cog"/><s n="sg"/></l><r>Brahe<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Bralo<s n="np"/><s n="cog"/><s n="pl"/></l><r>Bralo<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Bralo<s n="np"/><s n="cog"/><s n="sg"/></l><r>Bralo<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Brando<s n="np"/><s n="cog"/><s n="pl"/></l><r>Brando<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Brando<s n="np"/><s n="cog"/><s n="sg"/></l><r>Brando<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Brandt<s n="np"/><s n="cog"/><s n="pl"/></l><r>Brandt<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Brandt<s n="np"/><s n="cog"/><s n="sg"/></l><r>Brandt<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Braun<s n="np"/><s n="cog"/><s n="pl"/></l><r>Braun<s n="np"/><s n="ant"/></r></p></e>
@@ -29865,8 +29895,12 @@
 <e>       <p><l>Browne<s n="np"/><s n="cog"/><s n="sg"/></l><r>Browne<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Brown<s n="np"/><s n="cog"/><s n="pl"/></l><r>Brown<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Brown<s n="np"/><s n="cog"/><s n="sg"/></l><r>Brown<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Buchanan<s n="np"/><s n="cog"/><s n="pl"/></l><r>Buchanan<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Buchanan<s n="np"/><s n="cog"/><s n="sg"/></l><r>Buchanan<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Buckley<s n="np"/><s n="cog"/><s n="pl"/></l><r>Buckley<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Buckley<s n="np"/><s n="cog"/><s n="sg"/></l><r>Buckley<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Burgess<s n="np"/><s n="cog"/><s n="pl"/></l><r>Burgess<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Burgess<s n="np"/><s n="cog"/><s n="sg"/></l><r>Burgess<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Burke<s n="np"/><s n="cog"/><s n="pl"/></l><r>Burke<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Burke<s n="np"/><s n="cog"/><s n="sg"/></l><r>Burke<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Burns<s n="np"/><s n="cog"/><s n="pl"/></l><r>Burns<s n="np"/><s n="ant"/></r></p></e>
@@ -29885,6 +29919,10 @@
 <e>       <p><l>Byrd<s n="np"/><s n="cog"/><s n="sg"/></l><r>Byrd<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Byrne<s n="np"/><s n="cog"/><s n="pl"/></l><r>Byrne<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Byrne<s n="np"/><s n="cog"/><s n="sg"/></l><r>Byrne<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Caesar<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cèsar<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Caesar<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cèsar<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Cagney<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cagney<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Cagney<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cagney<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Calderón<s n="np"/><s n="cog"/><s n="pl"/></l><r>Calderón<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Calderón<s n="np"/><s n="cog"/><s n="sg"/></l><r>Calderón<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Campbell<s n="np"/><s n="cog"/><s n="pl"/></l><r>Campbell<s n="np"/><s n="ant"/></r></p></e>
@@ -29897,22 +29935,32 @@
 <e>       <p><l>Cano<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cano<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Cantor<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cantor<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Cantor<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cantor<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Capp<s n="np"/><s n="cog"/><s n="pl"/></l><r>Capp<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Capp<s n="np"/><s n="cog"/><s n="sg"/></l><r>Capp<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Carballo<s n="np"/><s n="cog"/><s n="pl"/></l><r>Carballo<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Carballo<s n="np"/><s n="cog"/><s n="sg"/></l><r>Carballo<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Carey<s n="np"/><s n="cog"/><s n="pl"/></l><r>Carey<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Carey<s n="np"/><s n="cog"/><s n="sg"/></l><r>Carey<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Carmona<s n="np"/><s n="cog"/><s n="pl"/></l><r>Carmona<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Carmona<s n="np"/><s n="cog"/><s n="sg"/></l><r>Carmona<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Carnegie<s n="np"/><s n="cog"/><s n="pl"/></l><r>Carnegie<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Carnegie<s n="np"/><s n="cog"/><s n="sg"/></l><r>Carnegie<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Carod-Rovira<s n="np"/><s n="cog"/><s n="pl"/></l><r>Carod-Rovira<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Carod-Rovira<s n="np"/><s n="cog"/><s n="sg"/></l><r>Carod-Rovira<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Carretero<b/>i<b/>Grau<s n="np"/><s n="cog"/><s n="pl"/></l><r>Carretero<b/>i<b/>Grau<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Carretero<b/>i<b/>Grau<s n="np"/><s n="cog"/><s n="sg"/></l><r>Carretero<b/>i<b/>Grau<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Carrillo<s n="np"/><s n="cog"/><s n="pl"/></l><r>Carrillo<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Carrillo<s n="np"/><s n="cog"/><s n="sg"/></l><r>Carrillo<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Carr<s n="np"/><s n="cog"/><s n="pl"/></l><r>Carr<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Carr<s n="np"/><s n="cog"/><s n="sg"/></l><r>Carr<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Casals<s n="np"/><s n="cog"/><s n="pl"/></l><r>Casals<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Casals<s n="np"/><s n="cog"/><s n="sg"/></l><r>Casals<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Casanova<s n="np"/><s n="cog"/><s n="pl"/></l><r>Casanova<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Casanova<s n="np"/><s n="cog"/><s n="sg"/></l><r>Casanova<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Casares Quiroga<s n="np"/><s n="cog"/><s n="pl"/></l><r>Casares Quiroga<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Casares Quiroga<s n="np"/><s n="cog"/><s n="sg"/></l><r>Casares Quiroga<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Cassius<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cassi<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Cassius<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cassi<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Castro<s n="np"/><s n="cog"/><s n="pl"/></l><r>Castro<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Castro<s n="np"/><s n="cog"/><s n="sg"/></l><r>Castro<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Cauchy<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cauchy<s n="np"/><s n="ant"/></r></p></e>
@@ -29939,6 +29987,8 @@
 <e>       <p><l>Charlton<s n="np"/><s n="cog"/><s n="sg"/></l><r>Charlton<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Chatterley<s n="np"/><s n="cog"/><s n="pl"/></l><r>Chatterley<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Chatterley<s n="np"/><s n="cog"/><s n="sg"/></l><r>Chatterley<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Chaucer<s n="np"/><s n="cog"/><s n="pl"/></l><r>Chaucer<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Chaucer<s n="np"/><s n="cog"/><s n="sg"/></l><r>Chaucer<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Chavez<s n="np"/><s n="cog"/><s n="pl"/></l><r>Chavez<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Chávez<s n="np"/><s n="cog"/><s n="pl"/></l><r>Chávez<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Chavez<s n="np"/><s n="cog"/><s n="sg"/></l><r>Chavez<s n="np"/><s n="ant"/></r></p></e>
@@ -29955,8 +30005,12 @@
 <e>       <p><l>Chopin<s n="np"/><s n="cog"/><s n="sg"/></l><r>Chopin<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Christensen<s n="np"/><s n="cog"/><s n="pl"/></l><r>Christensen<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Christensen<s n="np"/><s n="cog"/><s n="sg"/></l><r>Christensen<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Christie<s n="np"/><s n="cog"/><s n="pl"/></l><r>Christie<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Christie<s n="np"/><s n="cog"/><s n="sg"/></l><r>Christie<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Churchill<s n="np"/><s n="cog"/><s n="pl"/></l><r>Churchill<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Churchill<s n="np"/><s n="cog"/><s n="sg"/></l><r>Churchill<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Cicero<s n="np"/><s n="cog"/><s n="pl"/></l><r>Ciceró<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Cicero<s n="np"/><s n="cog"/><s n="sg"/></l><r>Ciceró<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Cid<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cid<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Cid<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cid<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Cisneros<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cisneros<s n="np"/><s n="ant"/></r></p></e>
@@ -30005,12 +30059,20 @@
 <e>       <p><l>Columbus<s n="np"/><s n="cog"/><s n="sg"/></l><r>Columbus<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Conde<s n="np"/><s n="cog"/><s n="pl"/></l><r>Conde<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Conde<s n="np"/><s n="cog"/><s n="sg"/></l><r>Conde<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Condorcet<s n="np"/><s n="cog"/><s n="pl"/></l><r>Condorcet<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Condorcet<s n="np"/><s n="cog"/><s n="sg"/></l><r>Condorcet<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Connolly<s n="np"/><s n="cog"/><s n="pl"/></l><r>Connolly<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Connolly<s n="np"/><s n="cog"/><s n="sg"/></l><r>Connolly<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Constable<s n="np"/><s n="cog"/><s n="pl"/></l><r>Constable<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Constable<s n="np"/><s n="cog"/><s n="sg"/></l><r>Constable<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Constantius<s n="np"/><s n="cog"/><s n="pl"/></l><r>Constanci<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Constantius<s n="np"/><s n="cog"/><s n="sg"/></l><r>Constanci<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Contreras<s n="np"/><s n="cog"/><s n="pl"/></l><r>Contreras<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Contreras<s n="np"/><s n="cog"/><s n="sg"/></l><r>Contreras<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Conway<s n="np"/><s n="cog"/><s n="pl"/></l><r>Conway<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Conway<s n="np"/><s n="cog"/><s n="sg"/></l><r>Conway<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Coolidge<s n="np"/><s n="cog"/><s n="pl"/></l><r>Coolidge<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Coolidge<s n="np"/><s n="cog"/><s n="sg"/></l><r>Coolidge<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Copernicus<s n="np"/><s n="cog"/><s n="pl"/></l><r>Copernicus<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Copernicus<s n="np"/><s n="cog"/><s n="sg"/></l><r>Copernicus<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Coppola<s n="np"/><s n="cog"/><s n="pl"/></l><r>Coppola<s n="np"/><s n="ant"/></r></p></e>
@@ -30023,12 +30085,24 @@
 <e>       <p><l>Costello<s n="np"/><s n="cog"/><s n="sg"/></l><r>Costello<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Cowen<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cowen<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Cowen<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cowen<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Cranmer<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cranmer<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Cranmer<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cranmer<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Crassus<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cras<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Crassus<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cras<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Crawford<s n="np"/><s n="cog"/><s n="pl"/></l><r>Crawford<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Crawford<s n="np"/><s n="cog"/><s n="sg"/></l><r>Crawford<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Crespo<s n="np"/><s n="cog"/><s n="pl"/></l><r>Crespo<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Crespo<s n="np"/><s n="cog"/><s n="sg"/></l><r>Crespo<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Crick<s n="np"/><s n="cog"/><s n="pl"/></l><r>Crick<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Crick<s n="np"/><s n="cog"/><s n="sg"/></l><r>Crick<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Cromwell<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cromwell<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Cromwell<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cromwell<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Crosby<s n="np"/><s n="cog"/><s n="pl"/></l><r>Crosby<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Crosby<s n="np"/><s n="cog"/><s n="sg"/></l><r>Crosby<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Crowe<s n="np"/><s n="cog"/><s n="pl"/></l><r>Crowe<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Crowe<s n="np"/><s n="cog"/><s n="sg"/></l><r>Crowe<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Crowley<s n="np"/><s n="cog"/><s n="pl"/></l><r>Crowley<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Crowley<s n="np"/><s n="cog"/><s n="sg"/></l><r>Crowley<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Cruise<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cruise<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Cruise<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cruise<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Cruz-Díez<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cruz-Díez<s n="np"/><s n="ant"/></r></p></e>
@@ -30063,6 +30137,8 @@
 <e>       <p><l>de<b/>Brún<s n="np"/><s n="cog"/><s n="sg"/></l><r>de<b/>Brún<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>de<b/>Champlain<s n="np"/><s n="cog"/><s n="pl"/></l><r>de<b/>Champlain<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>de<b/>Champlain<s n="np"/><s n="cog"/><s n="sg"/></l><r>de<b/>Champlain<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>de<b/>Condorcet<s n="np"/><s n="cog"/><s n="pl"/></l><r>de<b/>Condorcet<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>de<b/>Condorcet<s n="np"/><s n="cog"/><s n="sg"/></l><r>de<b/>Condorcet<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>de<b/>Gaulle<s n="np"/><s n="cog"/><s n="pl"/></l><r>de<b/>Gaulle<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>de<b/>Gaulle<s n="np"/><s n="cog"/><s n="sg"/></l><r>de<b/>Gaulle<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>de Broglie<s n="np"/><s n="cog"/><s n="pl"/></l><r>de Broglie<s n="np"/><s n="ant"/></r></p></e>
@@ -30111,6 +30187,8 @@
 <e>       <p><l>Dirac<s n="np"/><s n="cog"/><s n="sg"/></l><r>Dirac<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Disney<s n="np"/><s n="cog"/><s n="pl"/></l><r>Disney<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Disney<s n="np"/><s n="cog"/><s n="sg"/></l><r>Disney<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Dixon<s n="np"/><s n="cog"/><s n="pl"/></l><r>Dixon<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Dixon<s n="np"/><s n="cog"/><s n="sg"/></l><r>Dixon<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Domenech<s n="np"/><s n="cog"/><s n="pl"/></l><r>Domenech<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Doménech<s n="np"/><s n="cog"/><s n="pl"/></l><r>Doménech<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Domènech<s n="np"/><s n="cog"/><s n="pl"/></l><r>Domènech<s n="np"/><s n="ant"/></r></p></e>
@@ -30123,6 +30201,10 @@
 <e>       <p><l>Donnedieu<s n="np"/><s n="cog"/><s n="sg"/></l><r>Donnedieu<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Donnelly<s n="np"/><s n="cog"/><s n="pl"/></l><r>Donnelly<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Donnelly<s n="np"/><s n="cog"/><s n="sg"/></l><r>Donnelly<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Doo<s n="np"/><s n="cog"/><s n="pl"/></l><r>Doo<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Doo<s n="np"/><s n="cog"/><s n="sg"/></l><r>Doo<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Doppler<s n="np"/><s n="cog"/><s n="pl"/></l><r>Doppler<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Doppler<s n="np"/><s n="cog"/><s n="sg"/></l><r>Doppler<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Dörler<s n="np"/><s n="cog"/><s n="pl"/></l><r>Dörler<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Dörler<s n="np"/><s n="cog"/><s n="sg"/></l><r>Dörler<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Dostoyevsky<s n="np"/><s n="cog"/><s n="pl"/></l><r>Dostoievski<s n="np"/><s n="ant"/></r></p></e>
@@ -30171,6 +30253,8 @@
 <e>       <p><l>Dyson<s n="np"/><s n="cog"/><s n="sg"/></l><r>Dyson<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Eastwood<s n="np"/><s n="cog"/><s n="pl"/></l><r>Eastwood<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Eastwood<s n="np"/><s n="cog"/><s n="sg"/></l><r>Eastwood<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Ebert<s n="np"/><s n="cog"/><s n="pl"/></l><r>Ebert<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Ebert<s n="np"/><s n="cog"/><s n="sg"/></l><r>Ebert<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Edison<s n="np"/><s n="cog"/><s n="pl"/></l><r>Edison<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Edison<s n="np"/><s n="cog"/><s n="sg"/></l><r>Edison<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Edwards<s n="np"/><s n="cog"/><s n="pl"/></l><r>Edwards<s n="np"/><s n="ant"/></r></p></e>
@@ -30189,6 +30273,10 @@
 <e>       <p><l>Eisenstein<s n="np"/><s n="cog"/><s n="sg"/></l><r>Eisenstein<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>ElBaradei<s n="np"/><s n="cog"/><s n="pl"/></l><r>ElBaradei<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>ElBaradei<s n="np"/><s n="cog"/><s n="sg"/></l><r>ElBaradei<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Elgar<s n="np"/><s n="cog"/><s n="pl"/></l><r>Elgar<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Elgar<s n="np"/><s n="cog"/><s n="sg"/></l><r>Elgar<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Eliot<s n="np"/><s n="cog"/><s n="pl"/></l><r>Eliot<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Eliot<s n="np"/><s n="cog"/><s n="sg"/></l><r>Eliot<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Ellington<s n="np"/><s n="cog"/><s n="pl"/></l><r>Ellington<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Ellington<s n="np"/><s n="cog"/><s n="sg"/></l><r>Ellington<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Ellison<s n="np"/><s n="cog"/><s n="pl"/></l><r>Ellison<s n="np"/><s n="ant"/></r></p></e>
@@ -30263,6 +30351,10 @@
 <e>       <p><l>Flanagan<s n="np"/><s n="cog"/><s n="sg"/></l><r>Flanagan<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Flanders<s n="np"/><s n="cog"/><s n="pl"/></l><r>Flanders<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Flanders<s n="np"/><s n="cog"/><s n="sg"/></l><r>Flanders<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Fleetwood<s n="np"/><s n="cog"/><s n="pl"/></l><r>Fleetwood<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Fleetwood<s n="np"/><s n="cog"/><s n="sg"/></l><r>Fleetwood<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Fleming<s n="np"/><s n="cog"/><s n="pl"/></l><r>Fleming<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Fleming<s n="np"/><s n="cog"/><s n="sg"/></l><r>Fleming<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Fletcher<s n="np"/><s n="cog"/><s n="pl"/></l><r>Fletcher<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Fletcher<s n="np"/><s n="cog"/><s n="sg"/></l><r>Fletcher<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Flores<s n="np"/><s n="cog"/><s n="pl"/></l><r>Flores<s n="np"/><s n="ant"/></r></p></e>
@@ -30273,6 +30365,8 @@
 <e>       <p><l>Foix<b/>i<b/>Mas<s n="np"/><s n="cog"/><s n="sg"/></l><r>Foix<b/>i<b/>Mas<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Foley<s n="np"/><s n="cog"/><s n="pl"/></l><r>Foley<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Foley<s n="np"/><s n="cog"/><s n="sg"/></l><r>Foley<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Fonda<s n="np"/><s n="cog"/><s n="pl"/></l><r>Fonda<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Fonda<s n="np"/><s n="cog"/><s n="sg"/></l><r>Fonda<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Font<b/>de<b/>Mora<b/>y<b/>Turón<s n="np"/><s n="cog"/><s n="pl"/></l><r>Font<b/>de<b/>Mora<b/>y<b/>Turón<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Font<b/>de<b/>Mora<b/>y<b/>Turón<s n="np"/><s n="cog"/><s n="sg"/></l><r>Font<b/>de<b/>Mora<b/>y<b/>Turón<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Forcada<s n="np"/><s n="cog"/><s n="pl"/></l><r>Forcada<s n="np"/><s n="ant"/></r></p></e>
@@ -30293,8 +30387,12 @@
 <e>       <p><l>Frattini<s n="np"/><s n="cog"/><s n="sg"/></l><r>Frattini<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Freeman<s n="np"/><s n="cog"/><s n="pl"/></l><r>Freeman<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Freeman<s n="np"/><s n="cog"/><s n="sg"/></l><r>Freeman<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Fresnel<s n="np"/><s n="cog"/><s n="pl"/></l><r>Fresnel<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Fresnel<s n="np"/><s n="cog"/><s n="sg"/></l><r>Fresnel<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Freud<s n="np"/><s n="cog"/><s n="pl"/></l><r>Freud<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Freud<s n="np"/><s n="cog"/><s n="sg"/></l><r>Freud<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Friedman<s n="np"/><s n="cog"/><s n="pl"/></l><r>Friedman<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Friedman<s n="np"/><s n="cog"/><s n="sg"/></l><r>Friedman<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Fritz<s n="np"/><s n="cog"/><s n="pl"/></l><r>Fritz<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Fritz<s n="np"/><s n="cog"/><s n="sg"/></l><r>Fritz<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Fujimori<s n="np"/><s n="cog"/><s n="pl"/></l><r>Fujimori<s n="np"/><s n="ant"/></r></p></e>
@@ -30335,6 +30433,8 @@
 <e>       <p><l>Gay-Lussac<s n="np"/><s n="cog"/><s n="sg"/></l><r>Gay-Lussac<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Genover-Mas<s n="np"/><s n="cog"/><s n="pl"/></l><r>Genover-Mas<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Genover-Mas<s n="np"/><s n="cog"/><s n="sg"/></l><r>Genover-Mas<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Gershwin<s n="np"/><s n="cog"/><s n="pl"/></l><r>Gershwin<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Gershwin<s n="np"/><s n="cog"/><s n="sg"/></l><r>Gershwin<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Gibbon<s n="np"/><s n="cog"/><s n="pl"/></l><r>Gibbon<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Gibbon<s n="np"/><s n="cog"/><s n="sg"/></l><r>Gibbon<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Gibbs<s n="np"/><s n="cog"/><s n="pl"/></l><r>Gibbs<s n="np"/><s n="ant"/></r></p></e>
@@ -30345,6 +30445,10 @@
 <e>       <p><l>Giles<s n="np"/><s n="cog"/><s n="sg"/></l><r>Giles<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Giménez<s n="np"/><s n="cog"/><s n="pl"/></l><r>Giménez<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Giménez<s n="np"/><s n="cog"/><s n="sg"/></l><r>Giménez<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Giuliani<s n="np"/><s n="cog"/><s n="pl"/></l><r>Giuliani<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Giuliani<s n="np"/><s n="cog"/><s n="sg"/></l><r>Giuliani<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Gladstone<s n="np"/><s n="cog"/><s n="pl"/></l><r>Gladstone<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Gladstone<s n="np"/><s n="cog"/><s n="sg"/></l><r>Gladstone<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Goddard<s n="np"/><s n="cog"/><s n="pl"/></l><r>Goddard<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Goddard<s n="np"/><s n="cog"/><s n="sg"/></l><r>Goddard<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Gödel<s n="np"/><s n="cog"/><s n="pl"/></l><r>Gödel<s n="np"/><s n="ant"/></r></p></e>
@@ -30401,16 +30505,22 @@
 <e>       <p><l>Griffith<s n="np"/><s n="cog"/><s n="sg"/></l><r>Griffith<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Grimm<s n="np"/><s n="cog"/><s n="pl"/></l><r>Grimm<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Grimm<s n="np"/><s n="cog"/><s n="sg"/></l><r>Grimm<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Grohl<s n="np"/><s n="cog"/><s n="pl"/></l><r>Grohl<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Grohl<s n="np"/><s n="cog"/><s n="sg"/></l><r>Grohl<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Grönfeldt<b/>Bergman<s n="np"/><s n="cog"/><s n="pl"/></l><r>Grönfeldt<b/>Bergman<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Grönfeldt<b/>Bergman<s n="np"/><s n="cog"/><s n="sg"/></l><r>Grönfeldt<b/>Bergman<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Gutenberg<s n="np"/><s n="cog"/><s n="pl"/></l><r>Gutenberg<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Gutenberg<s n="np"/><s n="cog"/><s n="sg"/></l><r>Gutenberg<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Guthrie<s n="np"/><s n="cog"/><s n="pl"/></l><r>Guthrie<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Guthrie<s n="np"/><s n="cog"/><s n="sg"/></l><r>Guthrie<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Gutiérrez<s n="np"/><s n="cog"/><s n="pl"/></l><r>Gutiérrez<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Gutiérrez<s n="np"/><s n="cog"/><s n="sg"/></l><r>Gutiérrez<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Guzman<s n="np"/><s n="cog"/><s n="pl"/></l><r>Guzman<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Guzman<s n="np"/><s n="cog"/><s n="sg"/></l><r>Guzman<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Habsburg<s n="np"/><s n="cog"/><s n="pl"/></l><r>Habsburg<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Habsburg<s n="np"/><s n="cog"/><s n="sg"/></l><r>Habsburg<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Haeckel<s n="np"/><s n="cog"/><s n="pl"/></l><r>Haeckel<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Haeckel<s n="np"/><s n="cog"/><s n="sg"/></l><r>Haeckel<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Halder<s n="np"/><s n="cog"/><s n="pl"/></l><r>Halder<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Halder<s n="np"/><s n="cog"/><s n="sg"/></l><r>Halder<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hallikmägi<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hallikmägi<s n="np"/><s n="ant"/></r></p></e>
@@ -30427,30 +30537,44 @@
 <e>       <p><l>Hancock<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hancock<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Handel<s n="np"/><s n="cog"/><s n="pl"/></l><r>Handel<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Handel<s n="np"/><s n="cog"/><s n="sg"/></l><r>Handel<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Hank<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hank<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Hank<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hank<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hardy<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hardy<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hardy<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hardy<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Harper<s n="np"/><s n="cog"/><s n="pl"/></l><r>Harper<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Harper<s n="np"/><s n="cog"/><s n="sg"/></l><r>Harper<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Haupert<s n="np"/><s n="cog"/><s n="pl"/></l><r>Haupert<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Haupert<s n="np"/><s n="cog"/><s n="sg"/></l><r>Haupert<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Hausdorff<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hausdorff<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Hausdorff<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hausdorff<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hawke<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hawke<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hawke<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hawke<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hawking<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hawking<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hawking<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hawking<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hawkins<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hawkins<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hawkins<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hawkins<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Hawthorne<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hawthorne<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Hawthorne<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hawthorne<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Haydn<s n="np"/><s n="cog"/><s n="pl"/></l><r>Haydn<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Haydn<s n="np"/><s n="cog"/><s n="sg"/></l><r>Haydn<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hayes<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hayes<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hayes<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hayes<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Healy<s n="np"/><s n="cog"/><s n="pl"/></l><r>Healy<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Healy<s n="np"/><s n="cog"/><s n="sg"/></l><r>Healy<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Heidegger<s n="np"/><s n="cog"/><s n="pl"/></l><r>Heidegger<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Heidegger<s n="np"/><s n="cog"/><s n="sg"/></l><r>Heidegger<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Heisenberg<s n="np"/><s n="cog"/><s n="pl"/></l><r>Heisenberg<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Heisenberg<s n="np"/><s n="cog"/><s n="sg"/></l><r>Heisenberg<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Helmholtz<s n="np"/><s n="cog"/><s n="pl"/></l><r>Helmholtz<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Helmholtz<s n="np"/><s n="cog"/><s n="sg"/></l><r>Helmholtz<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hemingway<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hemingway<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hemingway<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hemingway<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Henderson<s n="np"/><s n="cog"/><s n="pl"/></l><r>Henderson<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Henderson<s n="np"/><s n="cog"/><s n="sg"/></l><r>Henderson<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hendrix<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hendrix<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hendrix<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hendrix<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Hepburn<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hepburn<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Hepburn<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hepburn<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Heras<s n="np"/><s n="cog"/><s n="pl"/></l><r>Heras<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Heras<s n="np"/><s n="cog"/><s n="sg"/></l><r>Heras<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hergé<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hergé<s n="np"/><s n="ant"/></r></p></e>
@@ -30463,6 +30587,8 @@
 <e>       <p><l>Hernández<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hernández<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hess<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hess<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hess<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hess<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Hewitt<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hewitt<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Hewitt<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hewitt<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Higginson<s n="np"/><s n="cog"/><s n="pl"/></l><r>Higginson<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Higginson<s n="np"/><s n="cog"/><s n="sg"/></l><r>Higginson<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Higgins<s n="np"/><s n="cog"/><s n="pl"/></l><r>Higgins<s n="np"/><s n="ant"/></r></p></e>
@@ -30471,6 +30597,8 @@
 <e>       <p><l>Higgs<s n="np"/><s n="cog"/><s n="sg"/></l><r>Higgs<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hilbert<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hilbert<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hilbert<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hilbert<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Himmler<s n="np"/><s n="cog"/><s n="pl"/></l><r>Himmler<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Himmler<s n="np"/><s n="cog"/><s n="sg"/></l><r>Himmler<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hirsch<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hirsch<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hirsch<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hirsch<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hitchcock<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hitchcock<s n="np"/><s n="ant"/></r></p></e>
@@ -30485,12 +30613,20 @@
 <e>       <p><l>Hoffman<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hoffman<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hogan<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hogan<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hogan<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hogan<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Holbein<s n="np"/><s n="cog"/><s n="pl"/></l><r>Holbein<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Holbein<s n="np"/><s n="cog"/><s n="sg"/></l><r>Holbein<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Holmes<s n="np"/><s n="cog"/><s n="pl"/></l><r>Holmes<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Holmes<s n="np"/><s n="cog"/><s n="sg"/></l><r>Holmes<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Honorius<s n="np"/><s n="cog"/><s n="pl"/></l><r>Honori<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Honorius<s n="np"/><s n="cog"/><s n="sg"/></l><r>Honori<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hooke<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hooke<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hooke<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hooke<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hopkins<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hopkins<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hopkins<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hopkins<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Howe<s n="np"/><s n="cog"/><s n="pl"/></l><r>Howe<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Howe<s n="np"/><s n="cog"/><s n="sg"/></l><r>Howe<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Hubbard<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hubbard<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Hubbard<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hubbard<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hudacký<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hudacký<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hudacký<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hudacký<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Huegun<s n="np"/><s n="cog"/><s n="pl"/></l><r>Huegun<s n="np"/><s n="ant"/></r></p></e>
@@ -30507,6 +30643,8 @@
 <e>       <p><l>Huntington<s n="np"/><s n="cog"/><s n="sg"/></l><r>Huntington<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Hussein<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hussein<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Hussein<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hussein<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Husserl<s n="np"/><s n="cog"/><s n="pl"/></l><r>Husserl<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Husserl<s n="np"/><s n="cog"/><s n="sg"/></l><r>Husserl<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Huygens<s n="np"/><s n="cog"/><s n="pl"/></l><r>Huygens<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Huygens<s n="np"/><s n="cog"/><s n="sg"/></l><r>Huygens<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Ibáñez<s n="np"/><s n="cog"/><s n="pl"/></l><r>Ibáñez<s n="np"/><s n="ant"/></r></p></e>
@@ -30569,6 +30707,8 @@
 <e>       <p><l>Jonson<s n="np"/><s n="cog"/><s n="sg"/></l><r>Jonson<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Jordana<s n="np"/><s n="cog"/><s n="pl"/></l><r>Jordana<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Jordana<s n="np"/><s n="cog"/><s n="sg"/></l><r>Jordana<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Josephus<s n="np"/><s n="cog"/><s n="pl"/></l><r>Josep<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Josephus<s n="np"/><s n="cog"/><s n="sg"/></l><r>Josep<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Juárez<s n="np"/><s n="cog"/><s n="pl"/></l><r>Juárez<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Juárez<s n="np"/><s n="cog"/><s n="sg"/></l><r>Juárez<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Kaczynski<s n="np"/><s n="cog"/><s n="pl"/></l><r>Kaczynski<s n="np"/><s n="ant"/></r></p></e>
@@ -30605,6 +30745,8 @@
 <e>       <p><l>Keynes<s n="np"/><s n="cog"/><s n="sg"/></l><r>Keynes<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Khan<s n="np"/><s n="cog"/><s n="pl"/></l><r>Khan<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Khan<s n="np"/><s n="cog"/><s n="sg"/></l><r>Khan<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Khrushchev<s n="np"/><s n="cog"/><s n="pl"/></l><r>Khrusxov<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Khrushchev<s n="np"/><s n="cog"/><s n="sg"/></l><r>Khrusxov<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Kidman<s n="np"/><s n="cog"/><s n="pl"/></l><r>Kidman<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Kidman<s n="np"/><s n="cog"/><s n="sg"/></l><r>Kidman<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>King<s n="np"/><s n="cog"/><s n="pl"/></l><r>King<s n="np"/><s n="ant"/></r></p></e>
@@ -30635,6 +30777,8 @@
 <e>       <p><l>Kross<s n="np"/><s n="cog"/><s n="sg"/></l><r>Kross<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Kubrick<s n="np"/><s n="cog"/><s n="pl"/></l><r>Kubrick<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Kubrick<s n="np"/><s n="cog"/><s n="sg"/></l><r>Kubrick<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Kuiper<s n="np"/><s n="cog"/><s n="pl"/></l><r>Kuiper<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Kuiper<s n="np"/><s n="cog"/><s n="sg"/></l><r>Kuiper<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Kułakowski<s n="np"/><s n="cog"/><s n="pl"/></l><r>Kułakowski<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Kułakowski<s n="np"/><s n="cog"/><s n="sg"/></l><r>Kułakowski<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Kurosawa<s n="np"/><s n="cog"/><s n="pl"/></l><r>Kurosawa<s n="np"/><s n="ant"/></r></p></e>
@@ -30705,6 +30849,8 @@
 <e>       <p><l>Lovecraft<s n="np"/><s n="cog"/><s n="sg"/></l><r>Lovecraft<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Lozoya<s n="np"/><s n="cog"/><s n="pl"/></l><r>Lozoya<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Lozoya<s n="np"/><s n="cog"/><s n="sg"/></l><r>Lozoya<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Luther<s n="np"/><s n="cog"/><s n="pl"/></l><r>Luther<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Luther<s n="np"/><s n="cog"/><s n="sg"/></l><r>Luther<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Lux<s n="np"/><s n="cog"/><s n="pl"/></l><r>Lux<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Lux<s n="np"/><s n="cog"/><s n="sg"/></l><r>Lux<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Lynch<s n="np"/><s n="cog"/><s n="pl"/></l><r>Lynch<s n="np"/><s n="ant"/></r></p></e>
@@ -30723,6 +30869,8 @@
 <e>       <p><l>MacGyver<s n="np"/><s n="cog"/><s n="sg"/></l><r>MacGyver<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Machiavelli<s n="np"/><s n="cog"/><s n="pl"/></l><r>Machiavelli<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Machiavelli<s n="np"/><s n="cog"/><s n="sg"/></l><r>Machiavelli<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Macintosh<s n="np"/><s n="cog"/><s n="pl"/></l><r>Macintosh<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Macintosh<s n="np"/><s n="cog"/><s n="sg"/></l><r>Macintosh<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>MacKenna<s n="np"/><s n="cog"/><s n="pl"/></l><r>MacKenna<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>MacKenna<s n="np"/><s n="cog"/><s n="sg"/></l><r>MacKenna<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>MacMahon<s n="np"/><s n="cog"/><s n="pl"/></l><r>MacMahon<s n="np"/><s n="ant"/></r></p></e>
@@ -31356,6 +31504,8 @@
 <e>       <p><l>Schwinger<s n="np"/><s n="cog"/><s n="sg"/></l><r>Schwinger<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Scorsese<s n="np"/><s n="cog"/><s n="pl"/></l><r>Scorsese<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Scorsese<s n="np"/><s n="cog"/><s n="sg"/></l><r>Scorsese<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Seneca<s n="np"/><s n="cog"/><s n="pl"/></l><r>Sèneca<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Seneca<s n="np"/><s n="cog"/><s n="sg"/></l><r>Sèneca<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Seppänen<s n="np"/><s n="cog"/><s n="pl"/></l><r>Seppänen<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Seppänen<s n="np"/><s n="cog"/><s n="sg"/></l><r>Seppänen<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Serra<s n="np"/><s n="cog"/><s n="pl"/></l><r>Serra<s n="np"/><s n="ant"/></r></p></e>
@@ -31470,6 +31620,8 @@
 <e>       <p><l>Swoboda<s n="np"/><s n="cog"/><s n="sg"/></l><r>Swoboda<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Szymański<s n="np"/><s n="cog"/><s n="pl"/></l><r>Szymański<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Szymański<s n="np"/><s n="cog"/><s n="sg"/></l><r>Szymański<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Tacitus<s n="np"/><s n="cog"/><s n="pl"/></l><r>Tàcit<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Tacitus<s n="np"/><s n="cog"/><s n="sg"/></l><r>Tàcit<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Tanner<s n="np"/><s n="cog"/><s n="pl"/></l><r>Tanner<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Tanner<s n="np"/><s n="cog"/><s n="sg"/></l><r>Tanner<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Tarantino<s n="np"/><s n="cog"/><s n="pl"/></l><r>Tarantino<s n="np"/><s n="ant"/></r></p></e>
@@ -31506,6 +31658,8 @@
 <e>       <p><l>Torres<s n="np"/><s n="cog"/><s n="sg"/></l><r>Torres<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Townshend<s n="np"/><s n="cog"/><s n="pl"/></l><r>Townshend<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Townshend<s n="np"/><s n="cog"/><s n="sg"/></l><r>Townshend<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Trajan<s n="np"/><s n="cog"/><s n="pl"/></l><r>Trajà<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Trajan<s n="np"/><s n="cog"/><s n="sg"/></l><r>Trajà<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Trotsky<s n="np"/><s n="cog"/><s n="pl"/></l><r>Trotski<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Trotsky<s n="np"/><s n="cog"/><s n="sg"/></l><r>Trotski<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Trudeau<s n="np"/><s n="cog"/><s n="pl"/></l><r>Trudeau<s n="np"/><s n="ant"/></r></p></e>
@@ -31558,6 +31712,10 @@
 <e>       <p><l>Verheugen<s n="np"/><s n="cog"/><s n="sg"/></l><r>Verheugen<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Verne<s n="np"/><s n="cog"/><s n="pl"/></l><r>Verne<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Verne<s n="np"/><s n="cog"/><s n="sg"/></l><r>Verne<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Vespasian<s n="np"/><s n="cog"/><s n="pl"/></l><r>Vespasià<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Vespasian<s n="np"/><s n="cog"/><s n="sg"/></l><r>Vespasià<s n="np"/><s n="ant"/></r></p></e>
+<e r="LR"><p><l>Virgil<s n="np"/><s n="cog"/><s n="pl"/></l><r>Virgili<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Virgil<s n="np"/><s n="cog"/><s n="sg"/></l><r>Virgili<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Vlasák<s n="np"/><s n="cog"/><s n="pl"/></l><r>Vlasák<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Vlasák<s n="np"/><s n="cog"/><s n="sg"/></l><r>Vlasák<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Vogels<s n="np"/><s n="cog"/><s n="pl"/></l><r>Vogels<s n="np"/><s n="ant"/></r></p></e>
@@ -31655,39 +31813,6 @@
 <e>       <p><l>Zurbarán<s n="np"/><s n="cog"/><s n="sg"/></l><r>Zurbarán<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Zuse<s n="np"/><s n="cog"/><s n="pl"/></l><r>Zuse<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Zuse<s n="np"/><s n="cog"/><s n="sg"/></l><r>Zuse<s n="np"/><s n="ant"/></r></p></e>
-
-<e>       <p><l>Caesar<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cèsar<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Cassius<s n="np"/><s n="cog"/><s n="sg"/></l><r>Cassi<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Christie<s n="np"/><s n="cog"/><s n="sg"/></l><r>Christie<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Doppler<s n="np"/><s n="cog"/><s n="sg"/></l><r>Doppler<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Eliot<s n="np"/><s n="cog"/><s n="sg"/></l><r>Eliot<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Fleetwood<s n="np"/><s n="cog"/><s n="sg"/></l><r>Fleetwood<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Fleming<s n="np"/><s n="cog"/><s n="sg"/></l><r>Fleming<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Fresnel<s n="np"/><s n="cog"/><s n="sg"/></l><r>Fresnel<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Friedman<s n="np"/><s n="cog"/><s n="sg"/></l><r>Friedman<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Hepburn<s n="np"/><s n="cog"/><s n="sg"/></l><r>Hepburn<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Himmler<s n="np"/><s n="cog"/><s n="sg"/></l><r>Himmler<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Khrushchev<s n="np"/><s n="cog"/><s n="sg"/></l><r>Khrusxov<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Kuiper<s n="np"/><s n="cog"/><s n="sg"/></l><r>Kuiper<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Luther<s n="np"/><s n="cog"/><s n="sg"/></l><r>Luther<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Macintosh<s n="np"/><s n="cog"/><s n="sg"/></l><r>Macintosh<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Doo<s n="np"/><s n="cog"/><s n="sg"/></l><r>Doo<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Caesar<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cèsar<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Cassius<s n="np"/><s n="cog"/><s n="pl"/></l><r>Cassi<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Christie<s n="np"/><s n="cog"/><s n="pl"/></l><r>Christie<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Doppler<s n="np"/><s n="cog"/><s n="pl"/></l><r>Doppler<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Eliot<s n="np"/><s n="cog"/><s n="pl"/></l><r>Eliot<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Fleetwood<s n="np"/><s n="cog"/><s n="pl"/></l><r>Fleetwood<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Fleming<s n="np"/><s n="cog"/><s n="pl"/></l><r>Fleming<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Fresnel<s n="np"/><s n="cog"/><s n="pl"/></l><r>Fresnel<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Friedman<s n="np"/><s n="cog"/><s n="pl"/></l><r>Friedman<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Hepburn<s n="np"/><s n="cog"/><s n="pl"/></l><r>Hepburn<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Himmler<s n="np"/><s n="cog"/><s n="pl"/></l><r>Himmler<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Khrushchev<s n="np"/><s n="cog"/><s n="pl"/></l><r>Khrusxov<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Kuiper<s n="np"/><s n="cog"/><s n="pl"/></l><r>Kuiper<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Luther<s n="np"/><s n="cog"/><s n="pl"/></l><r>Luther<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Macintosh<s n="np"/><s n="cog"/><s n="pl"/></l><r>Macintosh<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Doo<s n="np"/><s n="cog"/><s n="pl"/></l><r>Doo<s n="np"/><s n="ant"/></r></p></e>
 
     <!-- Toponyms-->
 
