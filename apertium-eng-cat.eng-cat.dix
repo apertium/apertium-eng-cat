@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 3
-	Entries: 36987
+	Entries: 37001
 	Sdefs: 90
 	Paradigms: 15
 	Last processed by: apertium-dixtools fix apertium-eng-cat.eng-cat.dix apertium-eng-cat.eng-cat.dix
@@ -15939,27 +15939,27 @@
     <!-- ******************************
           group adj_symbol
       ****************************** -->
-<e>       <p><l>almerian<s n="adj"/></l>               <r>d'Almeria<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>Almerian<s n="adj"/></l>               <r>d'Almeria<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>Callistoan<s n="adj"/></l>             <r>cal·listià<s n="adj"/></r></p></e>
 <e>       <p><l>Catalan-speaking<s n="adj"/></l>       <r>de<b/>parla<b/>català<s n="adj"/></r></p></e>
 <e>       <p><l>English-speaking<s n="adj"/></l>       <r>de<b/>parla<b/>anglès<s n="adj"/></r></p></e>
 <e>       <p><l>Eulerian<s n="adj"/></l>               <r>eulerià<s n="adj"/></r></p></e>
-<e>       <p><l>franciscan<s n="adj"/></l>             <r>franciscà<s n="adj"/></r></p></e>
+<e>       <p><l>Franciscan<s n="adj"/></l>             <r>franciscà<s n="adj"/></r></p></e>
 <e>       <p><l>Galilean<s n="adj"/></l>               <r>galileà<s n="adj"/></r></p></e>
-<e>       <p><l>gipuzkoan<s n="adj"/></l>              <r>guipuscoà<s n="adj"/></r></p></e>
+<e>       <p><l>Gipuzkoan<s n="adj"/></l>              <r>guipuscoà<s n="adj"/></r></p></e>
 <e>       <p><l>HIV<b/>positive<s n="adj"/></l>        <r>VIH<b/>positiu<s n="adj"/></r></p></e>
 <e>       <p><l>Japanese-American<s n="adj"/></l>      <r>americà<g><b/>d'origen<b/>japonès</g><s n="adj"/></r></p></e>
 <e>       <p><l>Jovian<s n="adj"/></l>                 <r>jovià<s n="adj"/></r></p></e>
-<e>       <p><l>julian<s n="adj"/></l>                 <r>julià<s n="adj"/></r></p></e>
-<e>       <p><l>latin<b/>American<s n="adj"/></l>      <r>llatinoamericà<s n="adj"/></r></p></e>
-<e>       <p><l>liman<s n="adj"/></l>                  <r>de<b/>Lima<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>marbellan<s n="adj"/></l>              <r>de<b/>Marbella<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>Julian<s n="adj"/></l>                 <r>julià<s n="adj"/></r></p></e>
+<e>       <p><l>Latin<b/>American<s n="adj"/></l>      <r>llatinoamericà<s n="adj"/></r></p></e>
+<e>       <p><l>Liman<s n="adj"/></l>                  <r>de<b/>Lima<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>Marbellan<s n="adj"/></l>              <r>de<b/>Marbella<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>Newtonian<s n="adj"/></l>              <r>newtonià<s n="adj"/></r></p></e>
-<e>       <p><l>north<b/>American<s n="adj"/></l>      <r>nord-americà<s n="adj"/></r></p></e>
-<e>       <p><l>romanian<s n="adj"/></l>               <r>romanès<s n="adj"/></r></p></e>
+<e>       <p><l>North<b/>American<s n="adj"/></l>      <r>nord-americà<s n="adj"/></r></p></e>
+<e>       <p><l>Romanian<s n="adj"/></l>               <r>romanès<s n="adj"/></r></p></e>
 <e r="RL"><p><l>San<b/>Juan<s n="adj"/></l>            <r>santjoaner<s n="adj"/></r></p></e>
 <e>       <p><l>Spanish-speaking<s n="adj"/></l>       <r>de<b/>parla<b/>castellà<s n="adj"/></r></p></e>
-<e>       <p><l>são<b/>Paulan<s n="adj"/></l>          <r>de<b/>São<b/>Paulo<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>São<b/>Paulan<s n="adj"/></l>          <r>de<b/>São<b/>Paulo<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>a<b/>posteriori<s n="adj"/></l>        <r>a<b/>posteriori<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>abandoned<s n="adj"/></l>              <r>abandonat<s n="adj"/></r></p></e>
 <e>       <p><l>abdominal<s n="adj"/></l>              <r>abdominal<s n="adj"/><s n="mf"/></r></p></e>
@@ -16021,7 +16021,7 @@
 <e>       <p><l>admissible<s n="adj"/></l>             <r>admissible<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>admonitory<s n="adj"/></l>             <r>admonitori<s n="adj"/></r></p></e>
 <e>       <p><l>adoptive<s n="adj"/></l>               <r>adoptiu<s n="adj"/></r></p></e>
-<e>       <p><l>adriatic<s n="adj"/></l>               <r>adriàtic<s n="adj"/></r></p></e>
+<e>       <p><l>Adriatic<s n="adj"/></l>               <r>adriàtic<s n="adj"/></r></p></e>
 <e>       <p><l>adulterous<s n="adj"/></l>             <r>adulterí<s n="adj"/></r></p></e>
 <e>       <p><l>advantageous<s n="adj"/></l>           <r>avantatjós<s n="adj"/></r></p></e>
 <e>       <p><l>adventitious<s n="adj"/></l>           <r>adventici<s n="adj"/></r></p></e>
@@ -16043,9 +16043,9 @@
 <e>       <p><l>affirmative<s n="adj"/></l>            <r>afirmatiu<s n="adj"/></r></p></e>
 <e>       <p><l>affluent<s n="adj"/></l>               <r>opulent<s n="adj"/></r></p></e>
 <e>       <p><l>affordable<s n="adj"/></l>             <r>assequible<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>afghan<s n="adj"/></l>                 <r>afganès<s n="adj"/></r></p></e>
+<e>       <p><l>Afghan<s n="adj"/></l>                 <r>afganès<s n="adj"/></r></p></e>
 <e>       <p><l>afraid<s n="adj"/></l>                 <r>temorós<s n="adj"/></r></p></e>
-<e>       <p><l>african<s n="adj"/></l>                <r>africà<s n="adj"/></r></p></e>
+<e>       <p><l>African<s n="adj"/></l>                <r>africà<s n="adj"/></r></p></e>
 <!-- segon paquet (polisèmics) ADJS nous: revisió Elisa-->
 <e>       <p><l>agglutinative<s n="adj"/></l>          <r>aglutinant<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>agglutinative<s n="adj"/></l>          <r>aglutinatiu<s n="adj"/></r></p></e>
@@ -16064,14 +16064,14 @@
 <e>       <p><l>agro-industrial<s n="adj"/></l>        <r>agroindustrial<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>akin<s n="adj"/></l>                   <r>semblant<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>alarming<s n="adj"/></l>               <r>alarmant<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>albanian<s n="adj"/></l>               <r>albanès<s n="adj"/></r></p></e>
+<e>       <p><l>Albanian<s n="adj"/></l>               <r>albanès<s n="adj"/></r></p></e>
 <e>       <p><l>albino<s n="adj"/></l>                 <r>albí<s n="adj"/></r></p></e>
 <e r="LR"><p><l>alcaline<s n="adj"/></l>               <r>alcalí<s n="adj"/></r></p></e>
 <e>       <p><l>alchemic<s n="adj"/></l>               <r>alquímic<s n="adj"/></r></p></e>
 <e>       <p><l>alcoholic<s n="adj"/></l>              <r>alcohòlic<s n="adj"/></r></p></e>
 <e r="LR" a="mariola"><p><l>algal<s n="adj"/></l>      <r>d'algues<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>algebraic<s n="adj"/></l>              <r>algebraic<s n="adj"/></r></p></e>
-<e>       <p><l>algerian<s n="adj"/></l>               <r>argelí<s n="adj"/></r></p></e>
+<e>       <p><l>Algerian<s n="adj"/></l>               <r>argelí<s n="adj"/></r></p></e>
 <e>       <p><l>algorithmic<s n="adj"/></l>            <r>algorítmic<s n="adj"/></r></p></e>
 <e>       <p><l>alike<s n="adj"/></l>                  <r>semblant<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>alimentary<s n="adj"/></l>             <r>alimentari<s n="adj"/></r></p></e>
@@ -16099,7 +16099,7 @@
 <e>       <p><l>ambiguous<s n="adj"/></l>              <r>ambigu<s n="adj"/></r></p></e>
 <e>       <p><l>ambitious<s n="adj"/></l>              <r>ambiciós<s n="adj"/></r></p></e>
 <e>       <p><l>ambivalent<s n="adj"/></l>             <r>ambivalent<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>american<s n="adj"/></l>               <r>americà<s n="adj"/></r></p></e>
+<e>       <p><l>American<s n="adj"/></l>               <r>americà<s n="adj"/></r></p></e>
 <e>       <p><l>amicable<s n="adj"/></l>               <r>amigable<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>amino<s n="adj"/></l>                  <r>aminat<s n="adj"/></r></p></e>
 <e>       <p><l>amitotic<s n="adj"/></l>               <r>amitòtic<s n="adj"/></r></p></e>
@@ -16123,12 +16123,12 @@
 <e>       <p><l>anatomical<s n="adj"/></l>             <r>anatòmic<s n="adj"/></r></p></e>
 <e>       <p><l>ancient<s n="adj"/></l>                <r>antic<s n="adj"/></r></p></e>
 <e r="LR"><p><l>ancillary<s n="adj"/></l>              <r>subsidiari<s n="adj"/></r></p></e>
-<e>       <p><l>andalusian<s n="adj"/></l>             <r>andalús<s n="adj"/></r></p></e>
-<e>       <p><l>andorran<s n="adj"/></l>               <r>andorrà<s n="adj"/></r></p></e>
+<e>       <p><l>Andalusian<s n="adj"/></l>             <r>andalús<s n="adj"/></r></p></e>
+<e>       <p><l>Andorran<s n="adj"/></l>               <r>andorrà<s n="adj"/></r></p></e>
 <e>       <p><l>anechoic<s n="adj"/></l>               <r>anecoic<s n="adj"/></r></p></e>
 <e>       <p><l>anemophilous<s n="adj"/></l>           <r>anemòfil<s n="adj"/></r></p></e>
 <e>       <p><l>anglo-saxon<s n="adj"/></l>            <r>anglosaxó<s n="adj"/></r></p></e>
-<e>       <p><l>angolan<s n="adj"/></l>                <r>angolès<s n="adj"/></r></p></e>
+<e>       <p><l>Angolan<s n="adj"/></l>                <r>angolès<s n="adj"/></r></p></e>
 <e>       <p><l>angry<s n="adj"/><s n="sint"/></l>     <r>enfadat<s n="adj"/></r></p></e>
 <e>       <p><l>angular<s n="adj"/></l>                <r>angular<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>animal<s n="adj"/></l>                 <r>animal<s n="adj"/><s n="mf"/></r></p></e>
@@ -16139,7 +16139,7 @@
 <e>       <p><l>annular<s n="adj"/></l>                <r>anular<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>anomalous<s n="adj"/></l>              <r>anòmal<s n="adj"/></r></p></e>
 <e>       <p><l>anonymous<s n="adj"/></l>              <r>anònim<s n="adj"/></r></p></e>
-<e>       <p><l>antarctic<s n="adj"/></l>              <r>antàrtic<s n="adj"/></r></p></e>
+<e>       <p><l>Antarctic<s n="adj"/></l>              <r>antàrtic<s n="adj"/></r></p></e>
 <e>       <p><l>antepenultimate<s n="adj"/></l>        <r>antepenúltim<s n="adj"/></r></p></e>
 <e>       <p><l>anthropological<s n="adj"/></l>        <r>antropològic<s n="adj"/></r></p></e>
 <e>       <p><l>anthropophagus<s n="adj"/></l>         <r>antropòfag<s n="adj"/></r></p></e>
@@ -16179,9 +16179,9 @@
 <e>       <p><l>apterous<s n="adj"/></l>               <r>àpter<s n="adj"/></r></p></e>
 <e>       <p><l>aquatic<s n="adj"/></l>                <r>aquàtic<s n="adj"/></r></p></e>
 <e>       <p><l>aqueous<s n="adj"/></l>                <r>aquós<s n="adj"/></r></p></e>
-<e>       <p><l>arab<s n="adj"/></l>                   <r>àrab<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>Arab<s n="adj"/></l>                   <r>àrab<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>arable<s n="adj"/></l>                 <r>cultivable<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>aragonese<s n="adj"/></l>              <r>aragonès<s n="adj"/></r></p></e>
+<e>       <p><l>Aragonese<s n="adj"/></l>              <r>aragonès<s n="adj"/></r></p></e>
 <e>       <p><l>arbitrary<s n="adj"/></l>              <r>arbitrari<s n="adj"/></r></p></e>
 <e>       <p><l>arborescent<s n="adj"/></l>            <r>arbori<s n="adj"/></r></p></e>
 <e>       <p><l>archaeologic<s n="adj"/></l>           <r>arqueològic<s n="adj"/></r></p></e>
@@ -16189,12 +16189,12 @@
 <e>       <p><l>archimedean<s n="adj"/></l>            <r>arquimedià<s n="adj"/></r></p></e>
 <e>       <p><l>architectural<s n="adj"/></l>          <r>arquitectònic<s n="adj"/></r></p></e>
 <e>       <p><l>archival<s n="adj"/></l>               <r>arxivístic<s n="adj"/></r></p></e>
-<e>       <p><l>arctic<s n="adj"/></l>                 <r>àrtic<s n="adj"/></r></p></e>
+<e>       <p><l>Arctic<s n="adj"/></l>                 <r>àrtic<s n="adj"/></r></p></e>
 <e>       <p><l>arduous<s n="adj"/></l>                <r>ardu<s n="adj"/></r></p></e>
 <e>       <p><l>areal<s n="adj"/></l>                  <r>areal<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>arenicolous<s n="adj"/></l>            <r>arenícola<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>argentine<s n="adj"/></l>              <r>argentí<s n="adj"/></r></p></e>
-<e>       <p><l>argentinian<s n="adj"/></l>            <r>argentí<s n="adj"/></r></p></e>
+<e>       <p><l>Argentinian<s n="adj"/></l>            <r>argentí<s n="adj"/></r></p></e>
 <e>       <p><l>argotic<s n="adj"/></l>                <r>argòtic<s n="adj"/></r></p></e>
 <e>       <p><l>arid<s n="adj"/></l>                   <r>àrid<s n="adj"/></r></p></e>
 <e>       <p><l>aristocratic<s n="adj"/></l>           <r>aristocràtic<s n="adj"/></r></p></e>
@@ -16206,7 +16206,7 @@
 <e>       <p><l>aromatic<s n="adj"/></l>               <r>aromàtic<s n="adj"/></r></p></e>
 <e>       <p><l>arrogant<s n="adj"/></l>               <r>arrogant<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>arterial<s n="adj"/></l>               <r>arterial<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>arthurian<s n="adj"/></l>              <r>artúric<s n="adj"/></r></p></e>
+<e>       <p><l>Arthurian<s n="adj"/></l>              <r>artúric<s n="adj"/></r></p></e>
 <e>       <p><l>articular<s n="adj"/></l>              <r>articular<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>articulate<s n="adj"/></l>             <r>articulat<s n="adj"/></r></p></e>
 <e>       <p><l>articulatory<s n="adj"/></l>           <r>articulatori<s n="adj"/></r></p></e>
@@ -16216,7 +16216,7 @@
 <e>       <p><l>aseptic<s n="adj"/></l>                <r>asèptic<s n="adj"/></r></p></e>
 <e>       <p><l>asexual<s n="adj"/></l>                <r>asexual<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>ashamed<s n="adj"/></l>                <r>avergonyit<s n="adj"/></r></p></e>
-<e>       <p><l>asian<s n="adj"/></l>                  <r>asiàtic<s n="adj"/></r></p></e>
+<e>       <p><l>Asian<s n="adj"/></l>                  <r>asiàtic<s n="adj"/></r></p></e>
 <e>       <p><l>asleep<s n="adj"/></l>                 <r>adormit<s n="adj"/></r></p></e>
 <e>       <p><l>asocial<s n="adj"/></l>                <r>asocial<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>aspectual<s n="adj"/></l>              <r>aspectual<s n="adj"/><s n="mf"/></r></p></e>
@@ -16248,8 +16248,8 @@
 <e r="RL"><p><l>audible<s n="adj"/></l>                <r>sonor<s n="adj"/></r></p></e>
 <e>       <p><l>audiovisual<s n="adj"/></l>            <r>audiovisual<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>auricular<s n="adj"/></l>              <r>auricular<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>australian<s n="adj"/></l>             <r>australià<s n="adj"/></r></p></e>
-<e>       <p><l>austrian<s n="adj"/></l>               <r>austríac<s n="adj"/></r></p></e>
+<e>       <p><l>Australian<s n="adj"/></l>             <r>australià<s n="adj"/></r></p></e>
+<e>       <p><l>Austrian<s n="adj"/></l>               <r>austríac<s n="adj"/></r></p></e>
 <e>       <p><l>autarchic<s n="adj"/></l>              <r>autàrquic<s n="adj"/></r></p></e>
 <e>       <p><l>authentic<s n="adj"/></l>              <r>autèntic<s n="adj"/></r></p></e>
 <e>       <p><l>authoritarian<s n="adj"/></l>          <r>autoritari<s n="adj"/></r></p></e>
@@ -16276,19 +16276,19 @@
 <e>       <p><l>axis<s n="adj"/></l>                   <r>eix<s n="adj"/></r></p></e>
 <e>       <p><l>axonometric<s n="adj"/></l>            <r>axonomètric<s n="adj"/></r></p></e>
 <e>       <p><l>azimuthal<s n="adj"/></l>              <r>azimutal<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>babylonian<s n="adj"/></l>             <r>babilònic<s n="adj"/></r></p></e>
+<e>       <p><l>Babylonian<s n="adj"/></l>             <r>babilònic<s n="adj"/></r></p></e>
 <e>       <p><l>back<s n="adj"/></l>                   <r>posterior<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>bacteriological<s n="adj"/></l>        <r>bacteriològic<s n="adj"/></r></p></e>
 <e>       <p><l>bad<s n="adj"/><s n="sint"/></l>       <r>dolent<s n="adj"/></r></p></e>
 <e>       <p><l>bad<s n="adj"/><s n="sint"/><s n="comp"/></l><r>pitjor<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>bad<s n="adj"/><s n="sint"/><s n="sup"/></l><r>pitjor<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>balearic<s n="adj"/></l>               <r>balear<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>balkan<s n="adj"/></l>                 <r>balcànic<s n="adj"/></r></p></e>
+<e>       <p><l>Balearic<s n="adj"/></l>               <r>balear<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>Balkan<s n="adj"/></l>                 <r>balcànic<s n="adj"/></r></p></e>
 <e>       <p><l>ballistic<s n="adj"/></l>              <r>balístic<s n="adj"/></r></p></e>
 <e a="prompsit2cdl"><p><l>banking<s n="adj"/></l>      <r>bancari<s n="adj"/></r></p></e>
 <e>       <p><l>barbaric<s n="adj"/></l>               <r>bàrbar<s n="adj"/></r></p></e>
-<e r="RL"><p><l>barcelona<s n="adj"/></l>              <r>blaugrana<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>barcelonan<s n="adj"/></l>             <r>barceloní<s n="adj"/></r></p></e>
+<e r="RL"><p><l>Barcelona<s n="adj"/></l>              <r>blaugrana<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>Barcelonan<s n="adj"/></l>             <r>barceloní<s n="adj"/></r></p></e>
 <e>       <p><l>barefoot<s n="adj"/></l>               <r>descalç<s n="adj"/></r></p></e>
 <e>       <p><l>barometric<s n="adj"/></l>             <r>baromètric<s n="adj"/></r></p></e>
 <e>       <p><l>barren<s n="adj"/><s n="sint"/></l>    <r>estèril<s n="adj"/><s n="mf"/></r></p></e>
@@ -17905,7 +17905,7 @@
 <e>       <p><l>jacobist<s n="adj"/></l>               <r>jacobita<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>jacobite<s n="adj"/></l>               <r>jacobita<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>jamaican<s n="adj"/></l>               <r>jamaicà<s n="adj"/></r></p></e>
-<e>       <p><l>japanese<s n="adj"/></l>               <r>japonès<s n="adj"/></r></p></e>
+<e>       <p><l>Japanese<s n="adj"/></l>               <r>japonès<s n="adj"/></r></p></e>
 <e r="LR"><p><l>jaunty<s n="adj"/><s n="sint"/></l>    <r>desenfadat<s n="adj"/></r></p></e>
 <e>       <p><l>jealous<s n="adj"/></l>                <r>gelós<s n="adj"/></r></p></e>
 <e>       <p><l>jewish<s n="adj"/></l>                 <r>jueu<s n="adj"/></r></p></e>
@@ -32886,6 +32886,20 @@
 <e>       <p><l>Tallinn<s n="np"/><s n="top"/><s n="sg"/></l><r>Tallinn<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Ulster<s n="np"/><s n="top"/><s n="sg"/></l><r>Ulster<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Vichy<s n="np"/><s n="top"/><s n="sg"/></l><r>Vichy<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Ephesus<s n="np"/><s n="top"/><s n="sg"/></l><r>Efes<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Adriatic<b/>Sea<s n="np"/><s n="top"/><s n="sg"/></l><r>Mar<b/>Adriàtic<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Cagliari<s n="np"/><s n="top"/><s n="sg"/></l><r>Càller<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Canary<b/>Wharf<s n="np"/><s n="top"/><s n="sg"/></l><r>Canary<b/>Wharf<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Danube<s n="np"/><s n="top"/><s n="sg"/></l><r>Danubi<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Epirus<s n="np"/><s n="top"/><s n="sg"/></l><r>Epir<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Santa<b/>Fe<s n="np"/><s n="top"/><s n="sg"/></l><r>Santa<b/>Fe<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Lombardy<s n="np"/><s n="top"/><s n="sg"/></l><r>Llombardia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Loch<b/>Ness<s n="np"/><s n="top"/><s n="sg"/></l><r>Llac<b/>Ness<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Notre-Dame<s n="np"/><s n="top"/><s n="sg"/></l><r>Notre-Dame<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Olympia<s n="np"/><s n="top"/><s n="sg"/></l><r>Olímpia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Shetland<b/>Islands<s n="np"/><s n="top"/><s n="pl"/></l><r>Illes<b/>Shetland<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Aegean<b/>Sea<s n="np"/><s n="top"/><s n="sg"/></l><r>Mar<b/>Egeu<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Java<s n="np"/><s n="top"/><s n="sg"/></l><r>Java<s n="np"/><s n="loc"/></r></p></e>
 
     <!-- Other -->
 
@@ -36571,7 +36585,7 @@
 <e>       <p><l>or<s n="cnjcoo"/></l>                  <r>o<s n="cnjcoo"/></r></p></e>
 <e r="RL"><p><l>or<s n="cnjcoo"/></l>                  <r>o<b/>bé<s n="cnjcoo"/></r></p></e>
 <e r="RL" srl="or"><p><l>or<s n="cnjcoo"/></l>         <r>ni<s n="cnjcoo"/></r></p></e>
-<e c="comparatives"><p><l>than<s n="cnjcoo"/></l>      <r>que<s n="cnjcoo"/></r></p></e>
+<e c="comparatives"><p><l>than<s n="cnjsub"/></l>      <r>que<s n="cnjcoo"/></r></p></e>
 <!--Fi CNJ -->
 <!--Fi ADVS, PREADVS i CNJ -->
 <!--DETERMINANTS, PREPOSICIONS I PRONOMS (inclou predeterminants, relatius i genitiu saxó) -->
@@ -36644,12 +36658,12 @@
 <e r="LR" c="MG: traducció per defecte ca-en és per ara 'his'"><p><l>her<s n="det"/><s n="pos"/><s n="sp"/></l><r>el<b/>seu<s n="det"/><s n="pos"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="LR" c="MG: traducció per defecte ca-en és per ara 'his'"><p><l>his<s n="det"/><s n="pos"/><s n="sp"/></l><r>el<b/>seu<s n="det"/><s n="pos"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="RL" c="MG: traducció per defecte ca-en és per ara 'his'"><p><l>his<s n="det"/></l><r>el<b/>seu<s n="det"/></r></p></e>
-<e r="LR"><p><l>how<b/>many<s n="det"/><s n="itg"/></l><r>quant<s n="det"/><s n="itg"/><s n="GD"/></r></p></e>
-<e r="RL"><p><l>how<b/>many<s n="det"/><s n="itg"/><s n="pl"/></l><r>quant<s n="det"/><s n="itg"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>how<b/>many<s n="det"/><s n="itg"/><s n="pl"/></l><r>quant<s n="det"/><s n="itg"/><s n="f"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>how<b/>much<s n="det"/><s n="itg"/></l><r>quant<s n="det"/><s n="itg"/><s n="GD"/></r></p></e>
-<e r="RL" c="MG: de fet això s'hauria de fer pel transfer: si nom és incomptable, how much, si és plural, how many (quants inders : how much money)."><p><l>how<b/>much<s n="det"/><s n="itg"/><s n="sg"/></l><r>quant<s n="det"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>how<b/>much<s n="det"/><s n="itg"/><s n="sg"/></l><r>quant<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>how<b/>many<s n="adv"/><s n="itg"/></l><r>quant<s n="det"/><s n="itg"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>how<b/>many<s n="adv"/><s n="itg"/></l><r>quant<s n="det"/><s n="itg"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>how<b/>many<s n="adv"/><s n="itg"/></l><r>quant<s n="det"/><s n="itg"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>how<b/>much<s n="adv"/><s n="itg"/></l><r>quant<s n="det"/><s n="itg"/><s n="GD"/></r></p></e>
+<e r="RL" c="MG: de fet això s'hauria de fer pel transfer: si nom és incomptable, how much, si és plural, how many (quants inders : how much money)."><p><l>how<b/>much<s n="adv"/><s n="itg"/><s n="sg"/></l><r>quant<s n="det"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>how<b/>much<s n="adv"/><s n="itg"/><s n="sg"/></l><r>quant<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>hundredth<s n="det"/><s n="ord"/><s n="sp"/></l><r>centè<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>hundredth<s n="det"/></l>              <r>centè<s n="det"/></r></p></e>
 <e r="LR"><p><l>its<s n="det"/><s n="pos"/><s n="sp"/></l><r>el<b/>seu<s n="det"/><s n="pos"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -36697,8 +36711,8 @@
 <e r="RL"><p><l>seven<b/>hundredth<s n="det"/></l>     <r>set-centè<s n="det"/></r></p></e>
 <e r="LR"><p><l>seventeenth<s n="det"/><s n="ord"/><s n="sp"/></l><r>dissetè<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>seventeenth<s n="det"/></l>            <r>dissetè<s n="det"/></r></p></e>
-<e r="LR"><p><l>seventh<s n="det"/><s n="ord"/><s n="sp"/></l><r>setè<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
-<e r="RL"><p><l>seventh<s n="det"/></l>                <r>setè<s n="det"/></r></p></e>
+<e r="LR"><p><l>seventh<s n="adj"/><s n="ord"/></l>    <r>setè<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>seventh<s n="adj"/></l>                <r>setè<s n="det"/></r></p></e>
 <e r="LR"><p><l>seventieth<s n="det"/><s n="ord"/><s n="sp"/></l><r>setantè<s n="det"/><s n="ord"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>seventieth<s n="det"/></l>             <r>setantè<s n="det"/></r></p></e>
 <e r="LR"><p><l>several<s n="det"/><s n="ind"/></l>    <r>divers<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
@@ -36762,9 +36776,9 @@
 <e r="RL"><p><l>two<b/>hundredth<s n="det"/></l>       <r>dos-centè<s n="det"/></r></p></e>
 <e r="LR"><p><l>various<s n="det"/><s n="ind"/></l>    <r>divers<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
 <!--<e r="RL"><p><l>too<b/>much<s n="det"/><s n="qnt"/><s n="sg"/></l><r>massa<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>-->
-<e r="LR"><p><l>what<s n="det"/><s n="itg"/><s n="sp"/></l><r>quin<s n="det"/><s n="itg"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="LR"><p><l>what<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>quin<s n="det"/><s n="itg"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>whatever<s n="det"/><s n="ind"/></l>   <r>qualsevol<s n="det"/><s n="ind"/><s n="mf"/></r></p></e>
-<e r="LR"><p><l>which<s n="det"/><s n="itg"/><s n="sp"/></l><r>quin<s n="det"/><s n="itg"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="LR"><p><l>which<s n="prn"/><s n="itg"/><s n="sp"/></l><r>quin<s n="det"/><s n="itg"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>which<s n="det"/></l>                  <r>quin<s n="det"/></r></p></e>
 <e r="LR" c="MG: a tractar pel trànsfer"><p><l>whose<s n="det"/><s n="itg"/></l><r>de<b/>qui<s n="det"/><s n="itg"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>your<s n="det"/><s n="pos"/><s n="sp"/></l><r>el<b/>vostre<s n="det"/><s n="pos"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -36784,19 +36798,19 @@
 <e r="RL"><p><l>a<b/>few<s n="prn"/><s n="tn"/><s n="mf"/></l><r>uns<b/>quants<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
 <!--Fi Preposicions -->
 <!--PRN i REL-->
-<e r="LR"><p><l>all<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>tot<s n="prn"/><s n="tn"/><s n="m"/><s n="ND"/></r></p></e>
-<e r="RL"><p><l>all<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>tot<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>all<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>tot<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>all<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>tot<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>all<s n="prn"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>tot<s n="prn"/><s n="tn"/><s n="m"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>all<s n="prn"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>tot<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>all<s n="prn"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>tot<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>all<s n="prn"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>tot<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>another<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>un<b/>altre<s n="prn"/><s n="tn"/><s n="GD"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>another<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>un<b/>altre<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL" c="MG: Falta fer la direcció català-anglès per a pl: 'unes altres' 'uns altres'"><p><l>another<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>un<b/>altre<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>another<b/>one<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>un<b/>altre<s n="prn"/><s n="tn"/><s n="GD"/><s n="sg"/></r></p></e>
-<e r="RL" c="frases interrogatives"><p><l>any<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>algun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL" c="frases interrogatives"><p><l>any<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>algun<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="LR" c="preguntes, condicional (posar 'ND' també?)" i="yes"><p><l>any<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>algun<s n="prn"/><s n="tn"/><s n="GD"/><s n="ND"/></r></p></e>
-<e r="RL" c="preguntes, negatives. EN-CA: per trànsfer (fr negatives)"><p><l>any<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>cap<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" c="frases afirmatives"><p><l>any<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="ND"/></r></p></e>
+<e r="RL" c="frases interrogatives"><p><l>any<s n="prn"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>algun<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL" c="frases interrogatives"><p><l>any<s n="prn"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>algun<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR" c="preguntes, condicional (posar 'ND' també?)" i="yes"><p><l>any<s n="prn"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>algun<s n="prn"/><s n="tn"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL" c="preguntes, negatives. EN-CA: per trànsfer (fr negatives)"><p><l>any<s n="prn"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>cap<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" c="frases afirmatives"><p><l>any<s n="prn"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="ND"/></r></p></e>
 <e c="any one i anyone/anybody tenen significats diferents, s'ha escollit 'any one' com a traducció"><p><l>any<b/>one<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>any<b/>one<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
 <e c="preguntes, condicional" i="yes"><p><l>anybody<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>algú<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
@@ -36816,7 +36830,7 @@
 <e r="RL"><p><l>both<s n="prn"/><s n="tn"/><s n="mf"/></l><r>ambdós<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
 <e>       <p><l>each<s n="prn"/></l>                   <r>cadascú<s n="prn"/></r></p></e>
 <e r="LR"><p><l>either<s n="prn"/></l>                 <r>cap<s n="prn"/></r></p></e>
-<e r="LR"><p><l>either<s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></l><r>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="ND"/></r></p></e>
+<e r="LR"><p><l>either<s n="prn"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>qualsevol<s n="prn"/><s n="tn"/><s n="mf"/><s n="ND"/></r></p></e>
 <e>       <p><l>everybody<s n="prn"/></l>              <r>tothom<s n="prn"/></r></p></e>
 <e r="LR"><p><l>everyone<s n="prn"/></l>               <r>tothom<s n="prn"/></r></p></e>
 <e>       <p><l>everything<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>tot<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
@@ -36907,12 +36921,12 @@
 <e r="RL"><p><l>some<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>algun<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 <e c="frases afirmatives"><p><l>somebody<s n="prn"/></l><r>algú<s n="prn"/></r></p></e>
 <e r="LR"><p><l>someone<s n="prn"/></l>                <r>algú<s n="prn"/></r></p></e>
-<e>       <p><l>something<s n="prn"/><s n="tn"/><s n="nt"/></l><r>alguna<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+<e>       <p><l>something<s n="prn"/><s n="ind"/><s n="nt"/></l><r>alguna<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
 <!-- <e r="LR"><p><l>such<s n="prn"/></l><r>tal<s n="det"/></r></p></e> -->
-<e>       <p><l>that<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>allò<s n="prn"/><s n="tn"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>that<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>aquell<s n="prn"/><s n="tn"/><s n="GD"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>that<s n="prn"/><s n="tn"/><s n="mf"/></l><r>aquell<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>that<s n="prn"/><s n="tn"/><s n="mf"/></l><r>aquell<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+<e>       <p><l>that<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></l><r>allò<s n="prn"/><s n="tn"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>that<s n="prn"/><s n="dem"/><s n="mf"/><s n="pl"/></l><r>aquell<s n="prn"/><s n="tn"/><s n="GD"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>that<s n="prn"/><s n="dem"/><s n="mf"/></l><r>aquell<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>that<s n="prn"/><s n="dem"/><s n="mf"/></l><r>aquell<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>the<b/>majority<s n="prn"/></l>        <r>la<b/>majoria<s n="prn"/></r></p></e>
 <e>       <p><l>the<b/>one<s n="prn"/><s n="tn"/><s n="mf"/></l><r>el<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>the<b/>one<s n="prn"/><s n="tn"/><s n="mf"/></l><r>la<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
@@ -36923,15 +36937,15 @@
 <e r="LR"><p><l>themselves<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>they<b/>all<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/></l><r>tots<b/>ells<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>they<b/>all<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/></l><r>totes<b/>elles<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/></r></p></e>
-<e vr="cat"><p><l>this<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>això<s n="prn"/><s n="tn"/><s n="m"/><s n="sp"/></r></p></e>
-<e vr="val"><p><l>this<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>açò<s n="prn"/><s n="tn"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>this<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>aquest<s n="prn"/><s n="tn"/><s n="GD"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>this<s n="prn"/><s n="tn"/><s n="mf"/></l><r>aquest<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>this<s n="prn"/><s n="tn"/><s n="mf"/></l><r>aquest<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
+<e vr="cat"><p><l>this<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></l><r>això<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+<e vr="val"><p><l>this<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/></l><r>açò<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+<e r="LR"><p><l>this<s n="prn"/><s n="dem"/><s n="mf"/><s n="pl"/></l><r>aquest<s n="prn"/><s n="tn"/><s n="GD"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>this<s n="prn"/><s n="dem"/><s n="mf"/></l><r>aquest<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>this<s n="prn"/><s n="dem"/><s n="mf"/></l><r>aquest<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
 <e>       <p><l>too<b/>many<s n="prn"/></l>            <r>massa<s n="prn"/></r></p></e>
 <e>       <p><l>we<b/>all<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/></l><r>tots<b/>nosaltres<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>we<b/>all<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/></l><r>totes<b/>nosaltres<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/></r></p></e>
-<e c="Per ara tot serà sg en català, però mirar després frases del tipus: 'what are your fauvorite dishes'-quins són... Però: 'What are fractals'- què son..."><p><l>what<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>què<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
+<e c="Per ara tot serà sg en català, però mirar després frases del tipus: 'what are your fauvorite dishes'-quins són... Però: 'What are fractals'- què son..."><p><l>what<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>què<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>whatever<s n="prn"/><s n="tn"/><s n="m"/></l><r>qualsevol<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>which<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>quin<s n="prn"/><s n="itg"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>which<s n="prn"/><s n="itg"/><s n="m"/><s n="sp"/></l><r>quin<s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
@@ -36959,32 +36973,32 @@
     <!-- ******************************
           group rel_symbol
       ****************************** -->
-<e>       <p><l>that<s n="rel"/></l>                   <r>que<s n="rel"/></r></p></e>
-<e r="LR"><p><l>the<b/>one<b/>which<s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="GD"/><s n="sg"/></r></p></e>
-<e>       <p><l>the<b/>one<b/>who<s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>el<b/>qui<s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>the<b/>one<b/>who<s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>el<b/>qui<s n="rel"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>the<b/>ones<b/>that<s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="GD"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>the<b/>ones<b/>who<s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="GD"/><s n="pl"/></r></p></e>
-<e>       <p><l>those<b/>that<s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>those<b/>that<s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="f"/><s n="pl"/></r></p></e>
-<e>       <p><l>those<b/>who<s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>qui<s n="rel"/><s n="nn"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>those<b/>who<s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>qui<s n="rel"/><s n="nn"/><s n="f"/><s n="pl"/></r></p></e>
-<e>       <p><l>what<s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>what<s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>what<s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>allò<b/>que<s n="rel"/><s n="nn"/><s n="nt"/><s n="sg"/></r></p></e>
-<e>       <p><l>where<s n="rel"/></l>                  <r>on<s n="rel"/></r></p></e>
-<e r="RL"><p><l>where<s n="rel"/></l>                  <r>a<b/>on<s n="rel"/></r></p></e>
-<e r="LR"><p><l>which<s n="rel"/></l>                  <r>que<s n="rel"/></r></p></e>
-<e r="RL" c="en què - in which"><p><l>which<s n="rel"/><s n="an"/></l><r>què<s n="rel"/><s n="nn"/></r></p></e>
-<e r="LR"><p><l>which<s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></l><r>el<b/>qual<s n="rel"/><s n="nn"/><s n="GD"/><s n="ND"/></r></p></e>
-<e r="RL"><p><l>which<s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></l><r>el<b/>qual<s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>which<s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></l><r>el<b/>qual<s n="rel"/><s n="nn"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>which<s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></l><r>el<b/>qual<s n="rel"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>which<s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></l><r>el<b/>qual<s n="rel"/><s n="nn"/><s n="f"/><s n="pl"/></r></p></e>
-<e r="LR"><p><l>who<s n="rel"/></l>                    <r>que<s n="rel"/></r></p></e>
-<e r="RL"><p><l>who<s n="rel"/><s n="an"/></l>         <r>qui<s n="rel"/><s n="nn"/></r></p></e>
-<e r="LR" c="amb qui - with whom"><p><l>whom<s n="rel"/><s n="an"/></l><r>qui<s n="rel"/><s n="nn"/></r></p></e>
-<e r="LR"><p><l>whose<s n="rel"/><s n="aa"/><s n="mf"/><s n="sp"/></l><r>del<b/>qual<s n="rel"/><s n="aa"/><s n="GD"/><s n="ND"/></r></p></e>
+<e>       <p><l>that<s n="prn"/><s n="rel"/></l>       <r>que<s n="rel"/></r></p></e>
+<e r="LR"><p><l>the<b/>one<b/>which<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="GD"/><s n="sg"/></r></p></e>
+<e>       <p><l>the<b/>one<b/>who<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>el<b/>qui<s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>the<b/>one<b/>who<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>el<b/>qui<s n="rel"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>the<b/>ones<b/>that<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="GD"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>the<b/>ones<b/>who<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="GD"/><s n="pl"/></r></p></e>
+<e>       <p><l>those<b/>that<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>those<b/>that<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>those<b/>who<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>qui<s n="rel"/><s n="nn"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>those<b/>who<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="pl"/></l><r>el<b/>qui<s n="rel"/><s n="nn"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>what<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>what<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>el<b/>que<s n="rel"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>what<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="sg"/></l><r>allò<b/>que<s n="rel"/><s n="nn"/><s n="nt"/><s n="sg"/></r></p></e>
+<e>       <p><l>where<s n="prn"/><s n="rel"/></l>      <r>on<s n="rel"/></r></p></e>
+<e r="RL"><p><l>where<s n="prn"/><s n="rel"/></l>      <r>a<b/>on<s n="rel"/></r></p></e>
+<e r="LR"><p><l>which<s n="prn"/><s n="rel"/></l>      <r>que<s n="rel"/></r></p></e>
+<e r="RL" c="en què - in which"><p><l>which<s n="prn"/><s n="rel"/><s n="an"/></l><r>què<s n="rel"/><s n="nn"/></r></p></e>
+<e r="LR"><p><l>which<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></l><r>el<b/>qual<s n="rel"/><s n="nn"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>which<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></l><r>el<b/>qual<s n="rel"/><s n="nn"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>which<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></l><r>el<b/>qual<s n="rel"/><s n="nn"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>which<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></l><r>el<b/>qual<s n="rel"/><s n="nn"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>which<s n="prn"/><s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></l><r>el<b/>qual<s n="rel"/><s n="nn"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>who<s n="prn"/><s n="rel"/></l>        <r>que<s n="rel"/></r></p></e>
+<e r="RL"><p><l>who<s n="prn"/><s n="rel"/><s n="an"/></l><r>qui<s n="rel"/><s n="nn"/></r></p></e>
+<e r="LR" c="amb qui - with whom"><p><l>whom<s n="prn"/><s n="rel"/><s n="an"/></l><r>qui<s n="rel"/><s n="nn"/></r></p></e>
+<e r="LR"><p><l>whose<s n="prn"/><s n="rel"/><s n="aa"/><s n="mf"/><s n="sp"/></l><r>del<b/>qual<s n="rel"/><s n="aa"/><s n="GD"/><s n="ND"/></r></p></e>
 <!--Fi PRN i REL-->
 <!--Traduccions buides: genitiu -->
     <!-- ******************************
@@ -37081,7 +37095,7 @@
 <e>       <p><l>be<g><b/>likely</g><s n="vblex"/></l>  <r>probablement<b/>poder<s n="vbmod"/></r></p></e>
 <e r="RL"><p><l>be<g><b/>necessary</g><s n="vblex"/></l><r>caldre<s n="vbmod"/></r></p></e>
 <e>       <p><l>be<g><b/>unlikely</g><s n="vblex"/></l><r>probablement<b/>no<b/>poder<s n="vbmod"/></r></p></e>
-<e>       <p><l>can<s n="vaux"/></l>                   <r>poder<s n="vbmod"/></r></p></e>
+<e>       <p><l>can<s n="vbmod"/></l>                  <r>poder<s n="vbmod"/></r></p></e>
 <!--Fi verbs multiparaula -->
 <e>       <p><l>have<g><b/>to</g><s n="vbmod"/></l>    <r>haver<g><b/>de</g><s n="vbmod"/></r></p></e>
 <e r="LR"><p><l>may<s n="vbmod"/></l>                  <r>poder<s n="vbmod"/></r></p></e>
