@@ -2,8 +2,8 @@
 <!--
 	Dictionary:
 	Sections: 3
-	Entries: 37001
-	Sdefs: 90
+	Entries: 37128
+	Sdefs: 91
 	Paradigms: 15
 	Last processed by: apertium-dixtools fix apertium-eng-cat.eng-cat.dix apertium-eng-cat.eng-cat.dix
 
@@ -101,6 +101,7 @@
     <sdef n="apos" /> 
     <sdef n="percent" /> 
     <sdef n="mon" /> 
+    <sdef n="org" /> 
   </sdefs>
   <pardefs>
 <pardef n="Abc">
@@ -32903,144 +32904,271 @@
 
     <!-- Other -->
 
-<e>       <p><l>20th<b/>Century<b/>Fox<s n="np"/><s n="al"/></l><r>20th<b/>Century<b/>Fox<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>AC/DC<s n="np"/><s n="al"/></l>        <r>AC/DC<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Adobe<s n="np"/><s n="al"/></l>        <r>Adobe<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Aer<b/>Lingus<s n="np"/><s n="al"/></l><r>Aer<b/>Lingus<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Alice<b/>in<b/>Chains<s n="np"/><s n="al"/></l><r>Alice<b/>in<b/>Chains<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Apertium<s n="np"/><s n="al"/></l>     <r>Apertium<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Athletic<b/>Bilbao<s n="np"/><s n="al"/></l><r>Athletic<b/>Club<b/>Bilbao<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Barça<s n="np"/><s n="al"/></l>        <r>Barça<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Battle<b/>of<b/>Austerlitz<s n="np"/><s n="al"/></l><r>Batalla<b/>d'Austerlitz<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Bermeo<b/>Hiriko<s n="np"/><s n="al"/></l><r>Bermeo<b/>Hiriko<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Bing<s n="np"/><s n="al"/></l>         <r>Bing<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Boeing<s n="np"/><s n="al"/></l>       <r>Boeing<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Brazomar<b/>inlet<s n="np"/><s n="al"/></l><r>entrada<b/>de<b/>Brazomar<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>British<b/>Airways<s n="np"/><s n="al"/></l><r>British<b/>Airways<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>CAC<b/>40<s n="np"/><s n="al"/></l>    <r>CAC<b/>40<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Callisto<s n="np"/><s n="al"/></l>     <r>Cal·listo<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Cambridge<s n="np"/><s n="al"/></l>    <r>Cambridge<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e a="prompsit2cdl"><p><l>casadellibro.com<s n="np"/><s n="al"/></l><r>casadellibro.com<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>China<b/>National<b/>Petroleum<b/>Corporation<s n="np"/><s n="al"/></l><r>China<b/>National<b/>Petroleum<b/>Corporation<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Cold<b/>War<s n="np"/><s n="al"/></l>  <r>Guerra<b/>Freda<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Conducator<s n="np"/><s n="al"/></l>   <r>Conducator<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>del Corazón<s n="np"/><s n="al"/></l>  <r>del Corazón<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>del Cortijo<s n="np"/><s n="al"/></l>  <r>del Cortijo<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>de Lourdes<s n="np"/><s n="al"/></l>   <r>de Lourdes<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>del Prado<s n="np"/><s n="al"/></l>    <r>del Prado<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Dopplr<s n="np"/><s n="al"/></l>       <r>Dopplr<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Dow<b/>Jones<s n="np"/><s n="al"/></l> <r>Dow<b/>Jones<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e a="mariola"><p><l>Dunaliella<s n="np"/><s n="al"/></l><r>Dunaliella<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Duran<b/>Duran<s n="np"/><s n="al"/></l><r>Duran<b/>Duran<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>E.H.<b/>Sukarra<s n="np"/><s n="al"/></l><r>E.H.<b/>Sukarra<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>El<b/>Correo<s n="np"/><s n="al"/></l> <r>El<b/>Correo<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e a="prompsit2cdl"><p><l>Espasa<b/>Calpe<s n="np"/><s n="al"/></l><r>Espasa<b/>Calpe<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e a="prompsit2cdl"><p><l>Espasa<s n="np"/><s n="al"/></l><r>Espasa<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>European<b/>Defence<b/>Agency<s n="np"/><s n="al"/></l><r>Agència<b/>Europea<b/>de<b/>Defensa<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>European<b/>People's<b/>Party<s n="np"/><s n="al"/></l><r>Partit<b/>Popular<b/>Europeu<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e a="prompsit2cdl"><p><l>Explorer<s n="np"/><s n="al"/></l><r>Explorer<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Facebook<s n="np"/><s n="al"/></l>     <r>Facebook<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>First<b/>World<b/>War<s n="np"/><s n="al"/></l><r>Primera<b/>Guerra<b/>Mundial<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Flaviobriga<b/>flag<s n="np"/><s n="al"/></l><r>Bandera<b/>Flaviobriga<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Flickr<s n="np"/><s n="al"/></l>       <r>Flickr<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>FORTRAN<s n="np"/><s n="al"/></l>      <r>FORTRAN<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Fortune<b/>500<s n="np"/><s n="al"/></l><r>Fortune<b/>500<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Friendfeed<s n="np"/><s n="al"/></l>   <r>Friendfeed<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>FTSE<b/>100<s n="np"/><s n="al"/></l>  <r>FTSE<b/>100<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Galician<b/>sports<b/>foundation<s n="np"/><s n="al"/></l><r>Fundació<b/>Deporti<b/>Galego<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Ganymede<s n="np"/><s n="al"/></l>     <r>Ganimedes<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Garmin<s n="np"/><s n="al"/></l>       <r>Garmin<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>GNU<s n="np"/><s n="al"/></l>          <r>GNU<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Google<b/>Summer<b/>of<b/>Code<s n="np"/><s n="al"/></l><r>Google<b/>Summer<b/>of<b/>Code<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Google<s n="np"/><s n="al"/></l>       <r>Google<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Great<b/>Depression<s n="np"/><s n="al"/></l><r>Gran<b/>depressió<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Great<b/>War<s n="np"/><s n="al"/></l> <r>Gran<b/>Guerra<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Greenpeace<s n="np"/><s n="al"/></l>   <r>Greenpeace<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Grupo<b/>Barbanza<s n="np"/><s n="al"/></l><r>Grupo<b/>Barbanza<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Harvard<s n="np"/><s n="al"/></l>      <r>Harvard<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Hubble<b/>Space<b/>Telescope<s n="np"/><s n="al"/></l><r>Telescopi<b/>espacial<b/>Hubble<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Hubble<s n="np"/><s n="al"/></l>       <r>Hubble<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Iberia<b/>Ashland<s n="np"/><s n="al"/></l><r>Iberia<b/>Ashland<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Ibex<b/>35<s n="np"/><s n="al"/></l>   <r>Ibex<b/>35<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>IHeardItOn<s n="np"/><s n="al"/></l>   <r>IHeardItOn<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>International<b/>Bank<b/>for<b/>Reconstruction<b/>and<b/>Development<s n="np"/><s n="al"/></l><r>Banc<b/>Internacional<b/>de<b/>Reconstrucció<b/>i<b/>Foment<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>International<b/>Bank<b/>for<b/>Reconstruction<b/>and<b/>Development<s n="np"/><s n="al"/></l><r>Banc<b/>Internacional<b/>per<b/>a<b/>la<b/>Reconstrucció<b/>i<b/>el<b/>Foment<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>International<b/>Monetary<b/>Fund<s n="np"/><s n="al"/></l><r>Fons<b/>Monetari<b/>Internacional<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>iTunes<s n="np"/><s n="al"/></l>       <r>iTunes<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Koran<s n="np"/><s n="al"/></l>        <r>Alcorà<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Kursaal<s n="np"/><s n="al"/></l>      <r>Kursaal<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Le<b/>Monde<s n="np"/><s n="al"/></l>  <r>Le<b/>Monde<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Lexmark<s n="np"/><s n="al"/></l>      <r>Lexmark<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Linux<s n="np"/><s n="al"/></l>        <r>Linux<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Liverpool<s n="np"/><s n="al"/></l>    <r>Liverpool<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Los<b/>Alamos<b/>National<b/>Laboratory<s n="np"/><s n="al"/></l><r>Laboratori<b/>National<b/>de<b/>Los<b/>Alamos<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Metallica<s n="np"/><s n="al"/></l>    <r>Metallica<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Microsoft<b/>Bing<s n="np"/><s n="al"/></l><r>Microsoft<b/>Bing<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Microsoft<s n="np"/><s n="al"/></l>    <r>Microsoft<s n="np"/><s n="al"/></r></p></e>
-<e>       <p><l>Middle<b/>Kingdom<s n="np"/><s n="al"/></l><r>Imperi<b/>mitjà<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Mirari<s n="np"/><s n="al"/></l>       <r>Mirari<s n="np"/><s n="al"/></r></p></e>
-<e>       <p><l>Mozilla<s n="np"/><s n="al"/></l>      <r>Mozilla<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>National<b/>Anti-Doping<b/>Agency<s n="np"/><s n="al"/></l><r>Agència<b/>Estatal<b/>Antidopatge<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e a="prompsit2cdl"><p><l>Netscape<s n="np"/><s n="al"/></l><r>Netscape<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>New<b/>York<b/>Stock<b/>Exchange<s n="np"/><s n="al"/></l><r>Borsa<b/>de<b/>Nova<b/>York<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>New<b/>York<b/>Times<s n="np"/><s n="al"/></l><r>New<b/>York<b/>Times<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Nike<s n="np"/><s n="al"/></l>         <r>Nike<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Nintendo<s n="np"/><s n="al"/></l>     <r>Nintendo<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>North<b/>Atlantic<b/>Treaty<b/>Organization<s n="np"/><s n="al"/></l><r>Organització<b/>del<b/>Tractat<b/>de<b/>l'Atlàntic<b/>Nord<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Oracle<s n="np"/><s n="al"/></l>       <r>Oracle<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Paris<b/>Bourse<s n="np"/><s n="al"/></l><r>Borsa<b/>de<b/>París<s n="np"/><s n="al"/><s n="f"/></r></p></e>
+<e>       <p><l>20th<b/>Century<b/>Fox<s n="np"/><s n="al"/><s n="sg"/></l><r>20th<b/>Century<b/>Fox<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>AC/DC<s n="np"/><s n="al"/><s n="sg"/></l>        <r>AC/DC<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Adobe<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Adobe<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Aer<b/>Lingus<s n="np"/><s n="al"/><s n="sg"/></l><r>Aer<b/>Lingus<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Alice<b/>in<b/>Chains<s n="np"/><s n="al"/><s n="sg"/></l><r>Alice<b/>in<b/>Chains<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Apertium<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Apertium<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Athletic<b/>Bilbao<s n="np"/><s n="al"/><s n="sg"/></l><r>Athletic<b/>Club<b/>Bilbao<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Barça<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Barça<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Battle<b/>of<b/>Austerlitz<s n="np"/><s n="al"/><s n="sg"/></l><r>Batalla<b/>d'Austerlitz<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Bermeo<b/>Hiriko<s n="np"/><s n="al"/><s n="sg"/></l><r>Bermeo<b/>Hiriko<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Bing<s n="np"/><s n="al"/><s n="sg"/></l>         <r>Bing<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Boeing<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Boeing<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Brazomar<b/>inlet<s n="np"/><s n="al"/><s n="sg"/></l><r>entrada<b/>de<b/>Brazomar<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>British<b/>Airways<s n="np"/><s n="al"/><s n="sg"/></l><r>British<b/>Airways<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>CAC<b/>40<s n="np"/><s n="al"/><s n="sg"/></l>    <r>CAC<b/>40<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Callisto<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Cal·listo<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Cambridge<s n="np"/><s n="al"/><s n="sg"/></l>    <r>Cambridge<s n="np"/><s n="al"/></r></p></e>
+<e a="prompsit2cdl"><p><l>casadellibro.com<s n="np"/><s n="al"/><s n="sg"/></l><r>casadellibro.com<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>China<b/>National<b/>Petroleum<b/>Corporation<s n="np"/><s n="al"/><s n="sg"/></l><r>China<b/>National<b/>Petroleum<b/>Corporation<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Cold<b/>War<s n="np"/><s n="al"/><s n="sg"/></l>  <r>Guerra<b/>Freda<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Conducator<s n="np"/><s n="al"/><s n="sg"/></l>   <r>Conducator<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>del Corazón<s n="np"/><s n="al"/><s n="sg"/></l>  <r>del Corazón<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>del Cortijo<s n="np"/><s n="al"/><s n="sg"/></l>  <r>del Cortijo<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>de Lourdes<s n="np"/><s n="al"/><s n="sg"/></l>   <r>de Lourdes<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>del Prado<s n="np"/><s n="al"/><s n="sg"/></l>    <r>del Prado<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Dopplr<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Dopplr<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Dow<b/>Jones<s n="np"/><s n="al"/><s n="sg"/></l> <r>Dow<b/>Jones<s n="np"/><s n="al"/></r></p></e>
+<e a="mariola"><p><l>Dunaliella<s n="np"/><s n="al"/><s n="sg"/></l><r>Dunaliella<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Duran<b/>Duran<s n="np"/><s n="al"/><s n="sg"/></l><r>Duran<b/>Duran<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>E.H.<b/>Sukarra<s n="np"/><s n="al"/><s n="sg"/></l><r>E.H.<b/>Sukarra<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>El<b/>Correo<s n="np"/><s n="al"/><s n="sg"/></l> <r>El<b/>Correo<s n="np"/><s n="al"/></r></p></e>
+<e a="prompsit2cdl"><p><l>Espasa<b/>Calpe<s n="np"/><s n="al"/><s n="sg"/></l><r>Espasa<b/>Calpe<s n="np"/><s n="al"/></r></p></e>
+<e a="prompsit2cdl"><p><l>Espasa<s n="np"/><s n="al"/><s n="sg"/></l><r>Espasa<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>European<b/>Defence<b/>Agency<s n="np"/><s n="al"/><s n="sg"/></l><r>Agència<b/>Europea<b/>de<b/>Defensa<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>European<b/>People's<b/>Party<s n="np"/><s n="al"/><s n="sg"/></l><r>Partit<b/>Popular<b/>Europeu<s n="np"/><s n="al"/></r></p></e>
+<e a="prompsit2cdl"><p><l>Explorer<s n="np"/><s n="al"/><s n="sg"/></l><r>Explorer<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Facebook<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Facebook<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>First<b/>World<b/>War<s n="np"/><s n="al"/><s n="sg"/></l><r>Primera<b/>Guerra<b/>Mundial<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Flaviobriga<b/>flag<s n="np"/><s n="al"/><s n="sg"/></l><r>Bandera<b/>Flaviobriga<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Flickr<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Flickr<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>FORTRAN<s n="np"/><s n="al"/><s n="sg"/></l>      <r>FORTRAN<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Fortune<b/>500<s n="np"/><s n="al"/><s n="sg"/></l><r>Fortune<b/>500<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Friendfeed<s n="np"/><s n="al"/><s n="sg"/></l>   <r>Friendfeed<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>FTSE<b/>100<s n="np"/><s n="al"/><s n="sg"/></l>  <r>FTSE<b/>100<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Galician<b/>sports<b/>foundation<s n="np"/><s n="al"/><s n="sg"/></l><r>Fundació<b/>Deporti<b/>Galego<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Ganymede<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Ganimedes<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Garmin<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Garmin<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>GNU<s n="np"/><s n="al"/><s n="sg"/></l>          <r>GNU<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Google<b/>Summer<b/>of<b/>Code<s n="np"/><s n="al"/><s n="sg"/></l><r>Google<b/>Summer<b/>of<b/>Code<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Google<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Google<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Great<b/>Depression<s n="np"/><s n="al"/><s n="sg"/></l><r>Gran<b/>depressió<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Great<b/>War<s n="np"/><s n="al"/><s n="sg"/></l> <r>Gran<b/>Guerra<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Greenpeace<s n="np"/><s n="al"/><s n="sg"/></l>   <r>Greenpeace<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Grupo<b/>Barbanza<s n="np"/><s n="al"/><s n="sg"/></l><r>Grupo<b/>Barbanza<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Harvard<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Harvard<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Hubble<b/>Space<b/>Telescope<s n="np"/><s n="al"/><s n="sg"/></l><r>Telescopi<b/>espacial<b/>Hubble<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Hubble<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Hubble<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Iberia<b/>Ashland<s n="np"/><s n="al"/><s n="sg"/></l><r>Iberia<b/>Ashland<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Ibex<b/>35<s n="np"/><s n="al"/><s n="sg"/></l>   <r>Ibex<b/>35<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>IHeardItOn<s n="np"/><s n="al"/><s n="sg"/></l>   <r>IHeardItOn<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>International<b/>Bank<b/>for<b/>Reconstruction<b/>and<b/>Development<s n="np"/><s n="al"/><s n="sg"/></l><r>Banc<b/>Internacional<b/>de<b/>Reconstrucció<b/>i<b/>Foment<s n="np"/><s n="al"/></r></p></e>
+<e r="RL"><p><l>International<b/>Bank<b/>for<b/>Reconstruction<b/>and<b/>Development<s n="np"/><s n="al"/><s n="sg"/></l><r>Banc<b/>Internacional<b/>per<b/>a<b/>la<b/>Reconstrucció<b/>i<b/>el<b/>Foment<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>International<b/>Monetary<b/>Fund<s n="np"/><s n="al"/><s n="sg"/></l><r>Fons<b/>Monetari<b/>Internacional<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>iTunes<s n="np"/><s n="al"/><s n="sg"/></l>       <r>iTunes<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Koran<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Alcorà<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Kursaal<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Kursaal<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Le<b/>Monde<s n="np"/><s n="al"/><s n="sg"/></l>  <r>Le<b/>Monde<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Lexmark<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Lexmark<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Linux<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Linux<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Liverpool<s n="np"/><s n="al"/><s n="sg"/></l>    <r>Liverpool<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Los<b/>Alamos<b/>National<b/>Laboratory<s n="np"/><s n="al"/><s n="sg"/></l><r>Laboratori<b/>National<b/>de<b/>Los<b/>Alamos<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Metallica<s n="np"/><s n="al"/><s n="sg"/></l>    <r>Metallica<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Microsoft<b/>Bing<s n="np"/><s n="al"/><s n="sg"/></l><r>Microsoft<b/>Bing<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Microsoft<s n="np"/><s n="al"/><s n="sg"/></l>    <r>Microsoft<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Middle<b/>Kingdom<s n="np"/><s n="al"/><s n="sg"/></l><r>Imperi<b/>mitjà<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Mirari<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Mirari<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Mozilla<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Mozilla<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>National<b/>Anti-Doping<b/>Agency<s n="np"/><s n="al"/><s n="sg"/></l><r>Agència<b/>Estatal<b/>Antidopatge<s n="np"/><s n="al"/></r></p></e>
+<e a="prompsit2cdl"><p><l>Netscape<s n="np"/><s n="al"/><s n="sg"/></l><r>Netscape<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>New<b/>York<b/>Stock<b/>Exchange<s n="np"/><s n="al"/><s n="sg"/></l><r>Borsa<b/>de<b/>Nova<b/>York<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>New<b/>York<b/>Times<s n="np"/><s n="al"/><s n="sg"/></l><r>New<b/>York<b/>Times<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nike<s n="np"/><s n="al"/><s n="sg"/></l>         <r>Nike<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nintendo<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Nintendo<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>North<b/>Atlantic<b/>Treaty<b/>Organization<s n="np"/><s n="al"/><s n="sg"/></l><r>Organització<b/>del<b/>Tractat<b/>de<b/>l'Atlàntic<b/>Nord<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Oracle<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Oracle<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Paris<b/>Bourse<s n="np"/><s n="al"/><s n="sg"/></l><r>Borsa<b/>de<b/>París<s n="np"/><s n="al"/></r></p></e>
 <e a="eleka"><p><l>Pasai<b/>San<b/>Pedro<s n="np"/><s n="al"/><s n="sg"/></l><r>Pasai<b/>Sant<b/>Pere<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>PayPal<s n="np"/><s n="al"/></l>       <r>PayPal<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Phoney<b/>War<s n="np"/><s n="al"/></l><r>Guerra<b/>de<b/>broma<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>Pleistocene<s n="np"/><s n="al"/></l>  <r>Pleistocè<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Pleistocene<s n="np"/><s n="al"/></l>  <r>Plistocè<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Prague<b/>Spring<s n="np"/><s n="al"/></l><r>Primavera<b/>de<b/>Praga<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>Qu'ran<s n="np"/><s n="al"/></l>       <r>Alcorà<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>Quran<s n="np"/><s n="al"/></l>        <r>Alcorà<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>RAID<s n="np"/><s n="al"/></l>         <r>RAID<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Realitatea<b/>TV<s n="np"/><s n="al"/></l><r>Realitatea<b/>TV<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Repsol<s n="np"/><s n="al"/></l>       <r>Repsol<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+<e>       <p><l>PayPal<s n="np"/><s n="al"/><s n="sg"/></l>       <r>PayPal<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Phoney<b/>War<s n="np"/><s n="al"/><s n="sg"/></l><r>Guerra<b/>de<b/>broma<s n="np"/><s n="al"/></r></p></e>
+<e r="RL"><p><l>Pleistocene<s n="np"/><s n="al"/><s n="sg"/></l>  <r>Pleistocè<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Pleistocene<s n="np"/><s n="al"/><s n="sg"/></l>  <r>Plistocè<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Prague<b/>Spring<s n="np"/><s n="al"/><s n="sg"/></l><r>Primavera<b/>de<b/>Praga<s n="np"/><s n="al"/></r></p></e>
+<e r="LR"><p><l>Qu'ran<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Alcorà<s n="np"/><s n="al"/></r></p></e>
+<e r="LR"><p><l>Quran<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Alcorà<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>RAID<s n="np"/><s n="al"/><s n="sg"/></l>         <r>RAID<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Realitatea<b/>TV<s n="np"/><s n="al"/><s n="sg"/></l><r>Realitatea<b/>TV<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Repsol<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Repsol<s n="np"/><s n="al"/></r></p></e>
 <e r="RL" a="eleka"><p><l>Rowing<b/>Club<b/>of<b/>Zumaia<s n="np"/><s n="al"/><s n="sg"/></l><r>Zumaiako<b/>Arraun<b/>Elkartea<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL" a="eleka"><p><l>Rowing<b/>Club<s n="np"/><s n="al"/><s n="sg"/></l><r>Arraun<b/>Elkartea<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>S&amp;P<b/>500<s n="np"/><s n="al"/></l><r>S&amp;P<b/>500<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>S&amp;P<b/>TSX<s n="np"/><s n="al"/></l><r>S&amp;P<b/>TSX<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+<e>       <p><l>S&amp;P<b/>500<s n="np"/><s n="al"/><s n="sg"/></l><r>S&amp;P<b/>500<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>S&amp;P<b/>TSX<s n="np"/><s n="al"/><s n="sg"/></l><r>S&amp;P<b/>TSX<s n="np"/><s n="al"/></r></p></e>
 <e a="eleka"><p><l>San<b/>Miguel<s n="np"/><s n="al"/><s n="sg"/></l><r>San<b/>Miguel<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>Second<b/>World<b/>War<s n="np"/><s n="al"/></l><r>Segona<b/>Guerra<b/>Mundial<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Sinn<b/>Féin<s n="np"/><s n="al"/></l> <r>Sinn<b/>Féin<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e a="mariola"><p><l>Spirulina<s n="np"/><s n="al"/></l><r>Spirulina<s n="np"/><s n="al"/></r></p></e>
-<e>       <p><l>Tel<b/>Aviv<s n="np"/><s n="al"/></l>  <r>Tel<b/>Aviv<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Telefónica<s n="np"/><s n="al"/></l>   <r>Telefónica<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Texas<b/>Instruments<s n="np"/><s n="al"/></l><r>Texas<b/>Instruments<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>The<b/>New<b/>York<b/>Times<s n="np"/><s n="al"/></l><r>The<b/>New<b/>York<b/>Times<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>The<b/>Wall<b/>Street<b/>Journal<s n="np"/><s n="al"/></l><r>The<b/>Wall<b/>Street<b/>Journal<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Treaty<b/>establishing<b/>a<b/>Constitution<b/>for<b/>Europe<s n="np"/><s n="al"/></l><r>Tractat<b/>pel<b/>qual<b/>s'establix<b/>una<b/>Constitució<b/>per<b/>a<b/>Europa<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Treaty<b/>of<b/>Friendship,<b/>Cooperation<b/>and<b/>Mutual<b/>Assistance<s n="np"/><s n="al"/></l><r>Tractat<b/>d'Amistat,<b/>Col·laboració<b/>i<b/>Assistència<b/>Mútua<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e a="prompsit2cdl"><p><l>Trust<s n="np"/><s n="al"/></l><r>Trust<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Twitter<s n="np"/><s n="al"/></l>      <r>Twitter<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>United<b/>Nations<s n="np"/><s n="al"/></l><r>Nacions<b/>Unides<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Universidad<b/>Politécnica<b/>de<b/>Valencia<s n="np"/><s n="al"/></l><r>Universitat<b/>Politècnica<b/>de<b/>València<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>University<b/>of<b/>Pisa<s n="np"/><s n="al"/></l><r>Universitat<b/>de<b/>Pisa<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Unix<s n="np"/><s n="al"/></l>         <r>Unix<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Uria<s n="np"/><s n="al"/></l>         <r>Uria<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e a="prompsit2cdl"><p><l>VeriSign<s n="np"/><s n="al"/></l><r>VeriSign<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Virgin<b/>Classics<s n="np"/><s n="al"/></l><r>Virgin<b/>Classics<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e a="prompsit2cdl"><p><l>Visa<b/>Electron<s n="np"/><s n="al"/></l><r>Visa<b/>Electron<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e a="prompsit2cdl"><p><l>Visa<s n="np"/><s n="al"/></l><r>Visa<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Waiting<b/>for<b/>Godot<s n="np"/><s n="al"/></l><r>Tot<b/>esperant<b/>Godot<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Wall<b/>Street<b/>Journal<s n="np"/><s n="al"/></l><r>Wall<b/>Street<b/>Journal<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Warsaw<b/>Pact<s n="np"/><s n="al"/></l><r>Pacte<b/>de<b/>Varsòvia<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Web<b/>2.0<s n="np"/><s n="al"/></l>   <r>Web<b/>2.0<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Wi-Fi<s n="np"/><s n="al"/></l>        <r>Wi-Fi<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Wikipedia<s n="np"/><s n="al"/></l>    <r>Viquipèdia<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Windows<s n="np"/><s n="al"/></l>      <r>Windows<s n="np"/><s n="al"/></r></p></e>
-<e>       <p><l>World<b/>Anti-Doping<b/>Agency<s n="np"/><s n="al"/></l><r>Agència<b/>Mundial<b/>Antidopatge<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>World<b/>Bank<b/>Group<s n="np"/><s n="al"/></l><r>Grup<b/>Banc<b/>Mundial<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>World<b/>Bank<s n="np"/><s n="al"/></l><r>Banc<b/>Mundial<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>World<b/>Health<b/>Organisation<s n="np"/><s n="al"/></l><r>Organització<b/>Mundial<b/>de<b/>la<b/>Salut<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>World<b/>War<b/>II<s n="np"/><s n="al"/></l><r>Segona<b/>Guerra<b/>Mundial<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>World<b/>War<b/>I<s n="np"/><s n="al"/></l><r>Primera<b/>Guerra<b/>Mundial<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Yahoo!<s n="np"/><s n="al"/></l>       <r>Yahoo!<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>YouTube<s n="np"/><s n="al"/></l>      <r>YouTube<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+<e>       <p><l>Second<b/>World<b/>War<s n="np"/><s n="al"/><s n="sg"/></l><r>Segona<b/>Guerra<b/>Mundial<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Sinn<b/>Féin<s n="np"/><s n="al"/><s n="sg"/></l> <r>Sinn<b/>Féin<s n="np"/><s n="al"/></r></p></e>
+<e a="mariola"><p><l>Spirulina<s n="np"/><s n="al"/><s n="sg"/></l><r>Spirulina<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Tel<b/>Aviv<s n="np"/><s n="al"/><s n="sg"/></l>  <r>Tel<b/>Aviv<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Telefónica<s n="np"/><s n="al"/><s n="sg"/></l>   <r>Telefónica<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Texas<b/>Instruments<s n="np"/><s n="al"/><s n="sg"/></l><r>Texas<b/>Instruments<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>The<b/>New<b/>York<b/>Times<s n="np"/><s n="al"/><s n="sg"/></l><r>The<b/>New<b/>York<b/>Times<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>The<b/>Wall<b/>Street<b/>Journal<s n="np"/><s n="al"/><s n="sg"/></l><r>The<b/>Wall<b/>Street<b/>Journal<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Treaty<b/>establishing<b/>a<b/>Constitution<b/>for<b/>Europe<s n="np"/><s n="al"/><s n="sg"/></l><r>Tractat<b/>pel<b/>qual<b/>s'establix<b/>una<b/>Constitució<b/>per<b/>a<b/>Europa<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Treaty<b/>of<b/>Friendship,<b/>Cooperation<b/>and<b/>Mutual<b/>Assistance<s n="np"/><s n="al"/><s n="sg"/></l><r>Tractat<b/>d'Amistat,<b/>Col·laboració<b/>i<b/>Assistència<b/>Mútua<s n="np"/><s n="al"/></r></p></e>
+<e a="prompsit2cdl"><p><l>Trust<s n="np"/><s n="al"/><s n="sg"/></l><r>Trust<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Twitter<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Twitter<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>United<b/>Nations<s n="np"/><s n="al"/><s n="sg"/></l><r>Nacions<b/>Unides<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Universidad<b/>Politécnica<b/>de<b/>Valencia<s n="np"/><s n="al"/><s n="sg"/></l><r>Universitat<b/>Politècnica<b/>de<b/>València<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>University<b/>of<b/>Pisa<s n="np"/><s n="al"/><s n="sg"/></l><r>Universitat<b/>de<b/>Pisa<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Unix<s n="np"/><s n="al"/><s n="sg"/></l>         <r>Unix<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Uria<s n="np"/><s n="al"/><s n="sg"/></l>         <r>Uria<s n="np"/><s n="al"/></r></p></e>
+<e a="prompsit2cdl"><p><l>VeriSign<s n="np"/><s n="al"/><s n="sg"/></l><r>VeriSign<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Virgin<b/>Classics<s n="np"/><s n="al"/><s n="sg"/></l><r>Virgin<b/>Classics<s n="np"/><s n="al"/></r></p></e>
+<e a="prompsit2cdl"><p><l>Visa<b/>Electron<s n="np"/><s n="al"/><s n="sg"/></l><r>Visa<b/>Electron<s n="np"/><s n="al"/></r></p></e>
+<e a="prompsit2cdl"><p><l>Visa<s n="np"/><s n="al"/><s n="sg"/></l><r>Visa<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Waiting<b/>for<b/>Godot<s n="np"/><s n="al"/><s n="sg"/></l><r>Tot<b/>esperant<b/>Godot<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Wall<b/>Street<b/>Journal<s n="np"/><s n="al"/><s n="sg"/></l><r>Wall<b/>Street<b/>Journal<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Warsaw<b/>Pact<s n="np"/><s n="al"/><s n="sg"/></l><r>Pacte<b/>de<b/>Varsòvia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Web<b/>2.0<s n="np"/><s n="al"/><s n="sg"/></l>   <r>Web<b/>2.0<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Wi-Fi<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Wi-Fi<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Wikipedia<s n="np"/><s n="al"/><s n="sg"/></l>    <r>Viquipèdia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Windows<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>World<b/>Anti-Doping<b/>Agency<s n="np"/><s n="al"/><s n="sg"/></l><r>Agència<b/>Mundial<b/>Antidopatge<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>World<b/>Bank<b/>Group<s n="np"/><s n="al"/><s n="sg"/></l><r>Grup<b/>Banc<b/>Mundial<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>World<b/>Bank<s n="np"/><s n="al"/><s n="sg"/></l><r>Banc<b/>Mundial<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>World<b/>Health<b/>Organisation<s n="np"/><s n="al"/><s n="sg"/></l><r>Organització<b/>Mundial<b/>de<b/>la<b/>Salut<s n="np"/><s n="al"/></r></p></e>
+<e r="LR"><p><l>World<b/>War<b/>II<s n="np"/><s n="al"/><s n="sg"/></l><r>Segona<b/>Guerra<b/>Mundial<s n="np"/><s n="al"/></r></p></e>
+<e r="LR"><p><l>World<b/>War<b/>I<s n="np"/><s n="al"/><s n="sg"/></l><r>Primera<b/>Guerra<b/>Mundial<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Yahoo!<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Yahoo!<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>YouTube<s n="np"/><s n="al"/><s n="sg"/></l>      <r>YouTube<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Fleetwood<b/>Mac<s n="np"/><s n="al"/><s n="sg"/></l><r>Fleetwood<b/>Mac<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>ABBA<s n="np"/><s n="al"/><s n="sg"/></l>         <r>ABBA<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Apple<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Apple<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Macintosh<s n="np"/><s n="al"/><s n="sg"/></l>    <r>Macintosh<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Apple<b/>Macintosh<s n="np"/><s n="al"/><s n="sg"/></l><r>Apple<b/>Macintosh<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Microsoft<b/>Windows<s n="np"/><s n="al"/><s n="sg"/></l><r>Microsoft<b/>Windows<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Microsoft<b/>Office<s n="np"/><s n="al"/><s n="sg"/></l><r>Microsoft<b/>Office<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Microsoft<b/>Word<s n="np"/><s n="al"/><s n="sg"/></l><r>Microsoft<b/>Word<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Microsoft<b/>Excel<s n="np"/><s n="al"/><s n="sg"/></l><r>Microsoft<b/>Excel<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Microsoft<b/>PowerPoint<s n="np"/><s n="al"/><s n="sg"/></l><r>Microsoft<b/>PowerPoint<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Microsoft<b/>Access<s n="np"/><s n="al"/><s n="sg"/></l><r>Microsoft<b/>Access<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Microsoft<b/>OneNote<s n="np"/><s n="al"/><s n="sg"/></l><r>Microsoft<b/>OneNote<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>95<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>95<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>98<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>98<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>2000<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>2000<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>XP<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>XP<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>Vista<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>Vista<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>7<s n="np"/><s n="al"/><s n="sg"/></l> <r>Windows<b/>7<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>8<s n="np"/><s n="al"/><s n="sg"/></l> <r>Windows<b/>8<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>8.1<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>8.1<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>10<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>10<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>ME<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>ME<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>NT<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>NT<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>Server<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>Server<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>Embedded<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>Embedded<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>Phone<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>Phone<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>Mobile<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>Mobile<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Windows<b/>3.1<s n="np"/><s n="al"/><s n="sg"/></l><r>Windows<b/>3.1<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>iOS<s n="np"/><s n="al"/><s n="sg"/></l>          <r>iOS<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Adobe<b/>Illustrator<s n="np"/><s n="al"/><s n="sg"/></l><r>Adobe<b/>Illustrator<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Adobe<b/>Photoshop<s n="np"/><s n="al"/><s n="sg"/></l><r>Adobe<b/>Photoshop<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Airbus<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Airbus<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Amazon<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Amazon<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Amtrak<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Amtrak<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Android<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Android<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Atari<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Atari<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Audi<s n="np"/><s n="al"/><s n="sg"/></l>         <r>Audi<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Bauhaus<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Bauhaus<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Bayer<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Bayer<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Mercedes-Benz<s n="np"/><s n="al"/><s n="sg"/></l><r>Mercedes-Benz<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Chevrolet<s n="np"/><s n="al"/><s n="sg"/></l>    <r>Chevrolet<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Coca-Cola<s n="np"/><s n="al"/><s n="sg"/></l>    <r>Coca-Cola<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Compaq<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Compaq<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Debian<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Debian<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Debian<b/>Hamm<s n="np"/><s n="al"/><s n="sg"/></l><r>Debian<b/>Hamm<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Debian<b/>Slink<s n="np"/><s n="al"/><s n="sg"/></l><r>Debian<b/>Slink<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Debian<b/>Potato<s n="np"/><s n="al"/><s n="sg"/></l><r>Debian<b/>Potato<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Debian<b/>Woody<s n="np"/><s n="al"/><s n="sg"/></l><r>Debian<b/>Woody<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Debian<b/>Sarge<s n="np"/><s n="al"/><s n="sg"/></l><r>Debian<b/>Sarge<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Debian<b/>Etch<s n="np"/><s n="al"/><s n="sg"/></l><r>Debian<b/>Etch<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Debian<b/>Lenny<s n="np"/><s n="al"/><s n="sg"/></l><r>Debian<b/>Lenny<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Debian<b/>Squeeze<s n="np"/><s n="al"/><s n="sg"/></l><r>Debian<b/>Squeeze<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Debian<b/>Wheezy<s n="np"/><s n="al"/><s n="sg"/></l><r>Debian<b/>Wheezy<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Debian<b/>Jessie<s n="np"/><s n="al"/><s n="sg"/></l><r>Debian<b/>Jessie<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Debian<b/>Stretch<s n="np"/><s n="al"/><s n="sg"/></l><r>Debian<b/>Stretch<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Delphi<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Delphi<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Deutsche<b/>Bank<s n="np"/><s n="al"/><s n="sg"/></l><r>Deutsche<b/>Bank<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Deutsche<b/>Bahn<s n="np"/><s n="al"/><s n="sg"/></l><r>Deutsche<b/>Bahn<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Doctor<b/>Who<s n="np"/><s n="al"/><s n="sg"/></l><r>Doctor<b/>Who<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Emacs<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Emacs<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Pink<b/>Floyd<s n="np"/><s n="al"/><s n="sg"/></l><r>Pink<b/>Floyd<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Franz<b/>Ferdinand<s n="np"/><s n="al"/><s n="sg"/></l><r>Franz<b/>Ferdinand<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Sinn Féin<s n="np"/><s n="org"/></l>   <r>Sinn Féin<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Hewlett-Packard<s n="np"/><s n="al"/><s n="sg"/></l><r>Hewlett-Packard<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Honda<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Honda<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Hyundai<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Hyundai<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Iberia<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Iberia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Jaguar<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Jaguar<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Java<s n="np"/><s n="al"/><s n="sg"/></l>         <r>Java<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>JavaScript<s n="np"/><s n="al"/><s n="sg"/></l>   <r>JavaScript<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>ThyssenKrupp<s n="np"/><s n="al"/><s n="sg"/></l> <r>ThyssenKrupp<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>LEGO<s n="np"/><s n="al"/><s n="sg"/></l>         <r>LEGO<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Mazda<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Mazda<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nissan<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Nissan<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nirvana<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Nirvana<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nokia<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Nokia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Norton<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Norton<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Opel<s n="np"/><s n="al"/><s n="sg"/></l>         <r>Opel<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Pepsi<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Pepsi<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Sex<b/>Pistols<s n="np"/><s n="al"/><s n="sg"/></l><r>Sex<b/>Pistols<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>PlayStation<s n="np"/><s n="al"/><s n="sg"/></l>  <r>PlayStation<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>PlayStation<b/>2<s n="np"/><s n="al"/><s n="sg"/></l><r>PlayStation<b/>2<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>PlayStation<b/>3<s n="np"/><s n="al"/><s n="sg"/></l><r>PlayStation<b/>3<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>PlayStation<b/>4<s n="np"/><s n="al"/><s n="sg"/></l><r>PlayStation<b/>4<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>PlayStation<b/>Portable<s n="np"/><s n="al"/><s n="sg"/></l><r>PlayStation<b/>Portable<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>PlayStation<b/>Vita<s n="np"/><s n="al"/><s n="sg"/></l><r>PlayStation<b/>Vita<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Xbox<s n="np"/><s n="al"/><s n="sg"/></l>         <r>Xbox<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Xbox<b/>360<s n="np"/><s n="al"/><s n="sg"/></l>  <r>Xbox<b/>360<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Xbox<b/>One<s n="np"/><s n="al"/><s n="sg"/></l>  <r>Xbox<b/>One<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nintendo<b/>Entertainment<b/>System<s n="np"/><s n="al"/><s n="sg"/></l><r>Nintendo<b/>Entertainment<b/>System<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Super<b/>Nintendo<b/>Entertainment<b/>System<s n="np"/><s n="al"/><s n="sg"/></l><r>Super<b/>Nintendo<b/>Entertainment<b/>System<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nintendo<b/>64<s n="np"/><s n="al"/><s n="sg"/></l><r>Nintendo<b/>64<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>GameCube<s n="np"/><s n="al"/><s n="sg"/></l>     <r>GameCube<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Wii<s n="np"/><s n="al"/><s n="sg"/></l>          <r>Wii<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Wii<b/>U<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Wii<b/>U<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nintendo<b/>Switch<s n="np"/><s n="al"/><s n="sg"/></l><r>Nintendo<b/>Switch<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>GameBoy<s n="np"/><s n="al"/><s n="sg"/></l>      <r>GameBoy<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>GameBoy<b/>Pocket<s n="np"/><s n="al"/><s n="sg"/></l><r>GameBoy<b/>Pocket<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>GameBoy<b/>Color<s n="np"/><s n="al"/><s n="sg"/></l><r>GameBoy<b/>Color<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>GameBoy<b/>Advance<s n="np"/><s n="al"/><s n="sg"/></l><r>GameBoy<b/>Advance<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>GameBoy<b/>Advance SP<s n="np"/><s n="al"/><s n="sg"/></l><r>GameBoy<b/>Advance SP<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>GameBoy<b/>Micro<s n="np"/><s n="al"/><s n="sg"/></l><r>GameBoy<b/>Micro<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nintendo<b/>DS<s n="np"/><s n="al"/><s n="sg"/></l><r>Nintendo<b/>DS<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nintendo<b/>DS<b/>Lite<s n="np"/><s n="al"/><s n="sg"/></l><r>Nintendo<b/>DS<b/>Lite<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nintendo<b/>DSi<s n="np"/><s n="al"/><s n="sg"/></l><r>Nintendo<b/>DSi<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nintendo<b/>DSi<b/>XL<s n="np"/><s n="al"/><s n="sg"/></l><r>Nintendo<b/>DSi<b/>XL<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nintendo<b/>3DS<s n="np"/><s n="al"/><s n="sg"/></l><r>Nintendo<b/>3DS<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nintendo<b/>3DS<b/>XL<s n="np"/><s n="al"/><s n="sg"/></l><r>Nintendo<b/>3DS<b/>XL<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Nintendo<b/>2DS<s n="np"/><s n="al"/><s n="sg"/></l><r>Nintendo<b/>2DS<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>New<b/>Nintendo<b/>2DS<s n="np"/><s n="al"/><s n="sg"/></l><r>New<b/>Nintendo<b/>2DS<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>New<b/>Nintendo<b/>3DS<s n="np"/><s n="al"/><s n="sg"/></l><r>New<b/>Nintendo<b/>3DS<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>New<b/>Nintendo<b/>3DS<b/>XL<s n="np"/><s n="al"/><s n="sg"/></l><r>New<b/>Nintendo<b/>3DS<b/>XL<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Pokémon<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Pokémon<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Porsche<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Porsche<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>PowerPC<s n="np"/><s n="al"/><s n="sg"/></l>      <r>PowerPC<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>QuickTime<s n="np"/><s n="al"/><s n="sg"/></l>    <r>QuickTime<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Al<b/>Qaeda<s n="np"/><s n="org"/></l> <r>Al<b/>Qaeda<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Renault<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Renault<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>SEGA<s n="np"/><s n="al"/><s n="sg"/></l>         <r>SEGA<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Siemens<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Siemens<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Suzuki<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Suzuki<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>TeX<s n="np"/><s n="al"/><s n="sg"/></l>          <r>TeX<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>LaTeX<s n="np"/><s n="al"/><s n="sg"/></l>        <r>LaTeX<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Toyota<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Toyota<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Volkswagen<s n="np"/><s n="al"/><s n="sg"/></l>   <r>Volkswagen<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Walmart<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Walmart<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>WordPerfect<s n="np"/><s n="al"/><s n="sg"/></l>  <r>WordPerfect<s n="np"/><s n="al"/></r></p></e>
 
     <!-- ******************************
           group adv_symbol
@@ -37182,23 +37310,23 @@
       ****************************** -->
 <e>       <p><l>be<s n="vbser"/></l>                   <r>ser<s n="vbser"/></r></p></e>
 <e>       <p><l>have<s n="vbhaver"/></l>               <r>haver<s n="vbhaver"/></r></p></e>
-<e>       <p><l>Bermeo<s n="np"/><s n="al"/></l>       <r>Bermeo<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Candy<s n="np"/><s n="al"/></l>        <r>Candy<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Iberdrola<s n="np"/><s n="al"/></l>    <r>Iberdrola<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Euskadi<b/>Irratia<s n="np"/><s n="al"/></l><r>Euskadi<b/>Irratia<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>television<b/>of<b/>the<b/>Basque<b/>Country<s n="np"/><s n="al"/></l><r>Euskal<b/>Telebista<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Federation<b/>of<b/>Cantabria<s n="np"/><s n="al"/></l><r>Federació<b/>Càntabra<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Ondartza<b/>Society<s n="np"/><s n="al"/></l><r>Societat<b/>Ondartza<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Fishermen's<b/>museum<s n="np"/><s n="al"/></l><r>Museu<b/>del<b/>Pescador<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Chile<b/>room<s n="np"/><s n="al"/></l><r>Sala<b/>Xile<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Inmobiliaria<b/>Orio<s n="np"/><s n="al"/></l><r>Immobiliària<b/>Orio<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>San<b/>Juan<s n="np"/><s n="al"/></l>  <r>Sant<b/>Joan<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>San<b/>Pedro<s n="np"/><s n="al"/></l> <r>Sant<b/>Pere<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Amenabar<s n="np"/><s n="al"/></l>     <r>Amenabar<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Arantzazu<s n="np"/><s n="al"/></l>    <r>Arantzazu<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Endesa<s n="np"/><s n="al"/></l>       <r>Endesa<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Pasajes<b/>San<b/>Juan<s n="np"/><s n="al"/></l><r>Passatges<b/>Sant<b/>Joan<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Pasajes<b/>San<b/>Pedro<s n="np"/><s n="al"/></l><r>Passatges<b/>Sant<b/>Pere<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+<e>       <p><l>Bermeo<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Bermeo<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Candy<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Candy<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Iberdrola<s n="np"/><s n="al"/><s n="sg"/></l>    <r>Iberdrola<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Euskadi<b/>Irratia<s n="np"/><s n="al"/><s n="sg"/></l><r>Euskadi<b/>Irratia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>television<b/>of<b/>the<b/>Basque<b/>Country<s n="np"/><s n="al"/><s n="sg"/></l><r>Euskal<b/>Telebista<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Federation<b/>of<b/>Cantabria<s n="np"/><s n="al"/><s n="sg"/></l><r>Federació<b/>Càntabra<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Ondartza<b/>Society<s n="np"/><s n="al"/><s n="sg"/></l><r>Societat<b/>Ondartza<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Fishermen's<b/>museum<s n="np"/><s n="al"/><s n="sg"/></l><r>Museu<b/>del<b/>Pescador<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Chile<b/>room<s n="np"/><s n="al"/><s n="sg"/></l><r>Sala<b/>Xile<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Inmobiliaria<b/>Orio<s n="np"/><s n="al"/><s n="sg"/></l><r>Immobiliària<b/>Orio<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>San<b/>Juan<s n="np"/><s n="al"/><s n="sg"/></l>  <r>Sant<b/>Joan<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>San<b/>Pedro<s n="np"/><s n="al"/><s n="sg"/></l> <r>Sant<b/>Pere<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Amenabar<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Amenabar<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Arantzazu<s n="np"/><s n="al"/><s n="sg"/></l>    <r>Arantzazu<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Endesa<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Endesa<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Pasajes<b/>San<b/>Juan<s n="np"/><s n="al"/><s n="sg"/></l><r>Passatges<b/>Sant<b/>Joan<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Pasajes<b/>San<b/>Pedro<s n="np"/><s n="al"/><s n="sg"/></l><r>Passatges<b/>Sant<b/>Pere<s n="np"/><s n="al"/></r></p></e>
 <e>       <p><l>bass<b/>drum<s n="n"/></l>             <r>bombo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>wild<b/>boar<s n="n"/></l>             <r>senglar<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>aborigine<s n="n"/></l>                <r>aborigen<s n="n"/><s n="mf"/></r></p></e>
@@ -37270,91 +37398,91 @@
 <e>       <p><l>jetty<s n="n"/></l>                    <r>espigó<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>estropadak<s n="n"/></l>               <r>estropadak<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ikurrina<s n="n"/></l>                 <r>ikurrina<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>Seguros<b/>Zurich<s n="np"/><s n="al"/></l><r>Seguros<b/>Zurich<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Servicristal<s n="np"/><s n="al"/></l> <r>Servicristal<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Super<b/>BM<s n="np"/><s n="al"/></l>  <r>Super<b/>BM<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Talaiberri<b/>Txakolindegia<s n="np"/><s n="al"/></l><r>Talaiberri<b/>Txakolindegia<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Tirán<s n="np"/><s n="al"/></l>        <r>Tirán<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Tostartean<s n="np"/><s n="al"/></l>   <r>Tostartean<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Trintxerpe<s n="np"/><s n="al"/></l>   <r>Trintxerpe<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Trintxerpeko<s n="np"/><s n="al"/></l> <r>Trintxerpeko<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Umpro<s n="np"/><s n="al"/></l>        <r>Umpro<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Ur<b/>Kirolak<s n="np"/><s n="al"/></l><r>Ur<b/>Kirolak<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Urcabal<s n="np"/><s n="al"/></l>      <r>Urcabal<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Urdaibai<s n="np"/><s n="al"/></l>     <r>Urdaibai<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Urdiales<s n="np"/><s n="al"/></l>     <r>Urdiales<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Zarautz<s n="np"/><s n="al"/></l>      <r>Zarautz<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Zarautz<b/>Inmob.<b/>Orio<s n="np"/><s n="al"/></l><r>Zarautz<b/>Inmob.<b/>Orio<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Zumaia<s n="np"/><s n="al"/></l>       <r>Zumaia<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Zurich<s n="np"/><s n="al"/></l>       <r>Zurich<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>ACT<s n="np"/><s n="al"/></l>          <r>ACT<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>AOL<s n="np"/><s n="al"/></l>          <r>AOL<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Mecos<b/>Mondariz<s n="np"/><s n="al"/></l><r>Mecos<b/>Mondariz<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Naturhouse<s n="np"/><s n="al"/></l>   <r>Naturhouse<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Naturhouse<b/>Castro<s n="np"/><s n="al"/></l><r>Naturhouse<b/>Castro<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Open<b/>Directory<s n="np"/><s n="al"/></l><r>Open<b/>Directory<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Orio<s n="np"/><s n="al"/></l>         <r>Orio<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Orioko<b/>Txanpa<s n="np"/><s n="al"/></l><r>Orioko<b/>Txanpa<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Pasquier<s n="np"/><s n="al"/></l>     <r>Pasquier<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Relax<s n="np"/><s n="al"/></l>        <r>Relax<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Aiten<b/>Etxe<s n="np"/><s n="al"/></l><r>Aiten<b/>Etxe<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Algorri<s n="np"/><s n="al"/></l>      <r>Algorri<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Ambilamp<s n="np"/><s n="al"/></l>     <r>Ambilamp<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Aquarium<s n="np"/><s n="al"/></l>     <r>Aquarium<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Arkote<s n="np"/><s n="al"/></l>       <r>Arkote<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Ashland<s n="np"/><s n="al"/></l>      <r>Ashland<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Astillero<s n="np"/><s n="al"/></l>    <r>Astillero<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>DMOZ<s n="np"/><s n="al"/></l>         <r>DMOZ<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Diario<b/>Montañés<s n="np"/><s n="al"/></l><r>Diario<b/>Montañés<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Donibane<s n="np"/><s n="al"/></l>     <r>Donibane<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>EPO<s n="np"/><s n="al"/></l>          <r>EPO<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>EPO-rh<s n="np"/><s n="al"/></l>       <r>EPO-rh<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Ecolmare<s n="np"/><s n="al"/></l>     <r>Ecolmare<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Eibar<s n="np"/><s n="al"/></l>        <r>Eibar<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>El<b/>Corte<b/>Inglés<s n="np"/><s n="al"/></l><r>El<b/>Corte<b/>Inglés<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Erriko<b/>Kirolak<s n="np"/><s n="al"/></l><r>Erriko<b/>Kirolak<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Eusko<b/>Label<s n="np"/><s n="al"/></l><r>Eusko<b/>Label<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Eusko<b/>Tren<s n="np"/><s n="al"/></l><r>Eusko<b/>Tren<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Eusko<b/>Trenbideak<s n="np"/><s n="al"/></l><r>Eusko<b/>Trenbideak<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Euskolabel<s n="np"/><s n="al"/></l>   <r>Euskolabel<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Euskotren<s n="np"/><s n="al"/></l>    <r>Euskotren<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Fat<b/>Man<s n="np"/><s n="al"/></l>   <r>Fat<b/>Man<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Indaux<s n="np"/><s n="al"/></l>       <r>Indaux<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Isuntza<s n="np"/><s n="al"/></l>      <r>Isuntza<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Kaiku<s n="np"/><s n="al"/></l>        <r>Kaiku<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Koxtape<s n="np"/><s n="al"/></l>      <r>Koxtape<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>LOTURA<s n="np"/><s n="al"/></l>       <r>LOTURA<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Laredo<s n="np"/><s n="al"/></l>       <r>Laredo<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Laredo<b/>RC<s n="np"/><s n="al"/></l> <r>Laredo<b/>RC<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Little<b/>Boy<s n="np"/><s n="al"/></l><r>Little<b/>Boy<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Samertolameu<s n="np"/><s n="al"/></l> <r>Samertolameu<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>SPICE<s n="np"/><s n="al"/></l>        <r>SPICE<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Grafilur<s n="np"/><s n="al"/></l>     <r>Grafilur<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Altuna<s n="np"/><s n="al"/></l>       <r>Altuna<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Avia<s n="np"/><s n="al"/></l>         <r>Avia<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Hondarribia<s n="np"/><s n="al"/></l>  <r>Hondarribia<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Localia<s n="np"/><s n="al"/></l>      <r>Localia<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Orsa<s n="np"/><s n="al"/></l>         <r>Orsa<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Pasaia<s n="np"/><s n="al"/></l>       <r>Pasaia<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Pedreña<s n="np"/><s n="al"/></l>      <r>Pedreña<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Plentzia<s n="np"/><s n="al"/></l>     <r>Plentzia<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Reta<s n="np"/><s n="al"/></l>         <r>Reta<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Carglass<s n="np"/><s n="al"/></l>     <r>Carglass<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Xunta<b/>de<b/>Galicia<s n="np"/><s n="al"/></l><r>Xunta<b/>de<b/>Galícia<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>rowing<b/>club<b/>of<b/>Hondarribia<s n="np"/><s n="al"/></l><r>club<b/>de<b/>rem<b/>de<b/>Hondarribia<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Abra-Real<b/>Sporting<b/>Club<s n="np"/><s n="al"/></l><r>Abra-Real<b/>Sporting<b/>Club<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>Batura<b/>Mobile<b/>Solutions<s n="np"/><s n="al"/></l><r>Batura<b/>Mobile<b/>Solutions<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>CAIXANOVA<s n="np"/><s n="al"/></l>    <r>CAIXANOVA<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Caja<b/>Madrid<s n="np"/><s n="al"/></l><r>Caja<b/>Madrid<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>San<b/>Miguel<b/>League<s n="np"/><s n="al"/></l><r>liga<b/>San<b/>Miguel<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Xunqueiriña<s n="np"/><s n="al"/></l>  <r>Xunqueiriña<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>Crown<b/>Caja<b/>Madrid<s n="np"/><s n="al"/></l><r>Corona<b/>Caja<b/>Madrid<s n="np"/><s n="al"/><s n="f"/></r></p></e>
-<e>       <p><l>boat<b/>race<b/>of<b/>getxo<s n="np"/><s n="al"/></l><r>getxoko<b/>estropaden<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>flag<b/>of<b/>riveira<b/>city<s n="np"/><s n="al"/></l><r>bandeira<b/>cidade<b/>riveira<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>ikurrina<b/>of<b/>the<b/>port<b/>of<b/>pasaia<s n="np"/><s n="al"/></l><r>pasaiako<b/>portuko<b/>ikurriña<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e>       <p><l>port<b/>of<b/>pasaia<s n="np"/><s n="al"/></l><r>pasaiako<b/>ikurriña<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>fishermen's<b/>association<s n="np"/><s n="al"/></l><r>kofradiaren<s n="np"/><s n="al"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>Day<b/>of<b/>Rural<b/>Sports<s n="np"/><s n="al"/></l><r>Erriko<b/>Kirolak<b/>Eguna<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+<e>       <p><l>Seguros<b/>Zurich<s n="np"/><s n="al"/><s n="sg"/></l><r>Seguros<b/>Zurich<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Servicristal<s n="np"/><s n="al"/><s n="sg"/></l> <r>Servicristal<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Super<b/>BM<s n="np"/><s n="al"/><s n="sg"/></l>  <r>Super<b/>BM<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Talaiberri<b/>Txakolindegia<s n="np"/><s n="al"/><s n="sg"/></l><r>Talaiberri<b/>Txakolindegia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Tirán<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Tirán<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Tostartean<s n="np"/><s n="al"/><s n="sg"/></l>   <r>Tostartean<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Trintxerpe<s n="np"/><s n="al"/><s n="sg"/></l>   <r>Trintxerpe<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Trintxerpeko<s n="np"/><s n="al"/><s n="sg"/></l> <r>Trintxerpeko<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Umpro<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Umpro<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Ur<b/>Kirolak<s n="np"/><s n="al"/><s n="sg"/></l><r>Ur<b/>Kirolak<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Urcabal<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Urcabal<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Urdaibai<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Urdaibai<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Urdiales<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Urdiales<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Zarautz<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Zarautz<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Zarautz<b/>Inmob.<b/>Orio<s n="np"/><s n="al"/><s n="sg"/></l><r>Zarautz<b/>Inmob.<b/>Orio<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Zumaia<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Zumaia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Zurich<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Zurich<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>ACT<s n="np"/><s n="al"/><s n="sg"/></l>          <r>ACT<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>AOL<s n="np"/><s n="al"/><s n="sg"/></l>          <r>AOL<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Mecos<b/>Mondariz<s n="np"/><s n="al"/><s n="sg"/></l><r>Mecos<b/>Mondariz<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Naturhouse<s n="np"/><s n="al"/><s n="sg"/></l>   <r>Naturhouse<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Naturhouse<b/>Castro<s n="np"/><s n="al"/><s n="sg"/></l><r>Naturhouse<b/>Castro<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Open<b/>Directory<s n="np"/><s n="al"/><s n="sg"/></l><r>Open<b/>Directory<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Orio<s n="np"/><s n="al"/><s n="sg"/></l>         <r>Orio<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Orioko<b/>Txanpa<s n="np"/><s n="al"/><s n="sg"/></l><r>Orioko<b/>Txanpa<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Pasquier<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Pasquier<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Relax<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Relax<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Aiten<b/>Etxe<s n="np"/><s n="al"/><s n="sg"/></l><r>Aiten<b/>Etxe<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Algorri<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Algorri<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Ambilamp<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Ambilamp<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Aquarium<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Aquarium<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Arkote<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Arkote<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Ashland<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Ashland<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Astillero<s n="np"/><s n="al"/><s n="sg"/></l>    <r>Astillero<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>DMOZ<s n="np"/><s n="al"/><s n="sg"/></l>         <r>DMOZ<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Diario<b/>Montañés<s n="np"/><s n="al"/><s n="sg"/></l><r>Diario<b/>Montañés<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Donibane<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Donibane<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>EPO<s n="np"/><s n="al"/><s n="sg"/></l>          <r>EPO<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>EPO-rh<s n="np"/><s n="al"/><s n="sg"/></l>       <r>EPO-rh<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Ecolmare<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Ecolmare<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Eibar<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Eibar<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>El<b/>Corte<b/>Inglés<s n="np"/><s n="al"/><s n="sg"/></l><r>El<b/>Corte<b/>Inglés<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Erriko<b/>Kirolak<s n="np"/><s n="al"/><s n="sg"/></l><r>Erriko<b/>Kirolak<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Eusko<b/>Label<s n="np"/><s n="al"/><s n="sg"/></l><r>Eusko<b/>Label<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Eusko<b/>Tren<s n="np"/><s n="al"/><s n="sg"/></l><r>Eusko<b/>Tren<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Eusko<b/>Trenbideak<s n="np"/><s n="al"/><s n="sg"/></l><r>Eusko<b/>Trenbideak<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Euskolabel<s n="np"/><s n="al"/><s n="sg"/></l>   <r>Euskolabel<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Euskotren<s n="np"/><s n="al"/><s n="sg"/></l>    <r>Euskotren<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Fat<b/>Man<s n="np"/><s n="al"/><s n="sg"/></l>   <r>Fat<b/>Man<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Indaux<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Indaux<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Isuntza<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Isuntza<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Kaiku<s n="np"/><s n="al"/><s n="sg"/></l>        <r>Kaiku<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Koxtape<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Koxtape<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>LOTURA<s n="np"/><s n="al"/><s n="sg"/></l>       <r>LOTURA<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Laredo<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Laredo<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Laredo<b/>RC<s n="np"/><s n="al"/><s n="sg"/></l> <r>Laredo<b/>RC<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Little<b/>Boy<s n="np"/><s n="al"/><s n="sg"/></l><r>Little<b/>Boy<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Samertolameu<s n="np"/><s n="al"/><s n="sg"/></l> <r>Samertolameu<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>SPICE<s n="np"/><s n="al"/><s n="sg"/></l>        <r>SPICE<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Grafilur<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Grafilur<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Altuna<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Altuna<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Avia<s n="np"/><s n="al"/><s n="sg"/></l>         <r>Avia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Hondarribia<s n="np"/><s n="al"/><s n="sg"/></l>  <r>Hondarribia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Localia<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Localia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Orsa<s n="np"/><s n="al"/><s n="sg"/></l>         <r>Orsa<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Pasaia<s n="np"/><s n="al"/><s n="sg"/></l>       <r>Pasaia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Pedreña<s n="np"/><s n="al"/><s n="sg"/></l>      <r>Pedreña<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Plentzia<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Plentzia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Reta<s n="np"/><s n="al"/><s n="sg"/></l>         <r>Reta<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Carglass<s n="np"/><s n="al"/><s n="sg"/></l>     <r>Carglass<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Xunta<b/>de<b/>Galicia<s n="np"/><s n="al"/><s n="sg"/></l><r>Xunta<b/>de<b/>Galícia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>rowing<b/>club<b/>of<b/>Hondarribia<s n="np"/><s n="al"/><s n="sg"/></l><r>club<b/>de<b/>rem<b/>de<b/>Hondarribia<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Abra-Real<b/>Sporting<b/>Club<s n="np"/><s n="al"/><s n="sg"/></l><r>Abra-Real<b/>Sporting<b/>Club<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Batura<b/>Mobile<b/>Solutions<s n="np"/><s n="al"/><s n="sg"/></l><r>Batura<b/>Mobile<b/>Solutions<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>CAIXANOVA<s n="np"/><s n="al"/><s n="sg"/></l>    <r>CAIXANOVA<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Caja<b/>Madrid<s n="np"/><s n="al"/><s n="sg"/></l><r>Caja<b/>Madrid<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>San<b/>Miguel<b/>League<s n="np"/><s n="al"/><s n="sg"/></l><r>liga<b/>San<b/>Miguel<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Xunqueiriña<s n="np"/><s n="al"/><s n="sg"/></l>  <r>Xunqueiriña<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>Crown<b/>Caja<b/>Madrid<s n="np"/><s n="al"/><s n="sg"/></l><r>Corona<b/>Caja<b/>Madrid<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>boat<b/>race<b/>of<b/>getxo<s n="np"/><s n="al"/><s n="sg"/></l><r>getxoko<b/>estropaden<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>flag<b/>of<b/>riveira<b/>city<s n="np"/><s n="al"/><s n="sg"/></l><r>bandeira<b/>cidade<b/>riveira<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>ikurrina<b/>of<b/>the<b/>port<b/>of<b/>pasaia<s n="np"/><s n="al"/><s n="sg"/></l><r>pasaiako<b/>portuko<b/>ikurriña<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>port<b/>of<b/>pasaia<s n="np"/><s n="al"/><s n="sg"/></l><r>pasaiako<b/>ikurriña<s n="np"/><s n="al"/></r></p></e>
+<e r="RL"><p><l>fishermen's<b/>association<s n="np"/><s n="al"/><s n="sg"/></l><r>kofradiaren<s n="np"/><s n="al"/></r></p></e>
+<e r="RL"><p><l>Day<b/>of<b/>Rural<b/>Sports<s n="np"/><s n="al"/><s n="sg"/></l><r>Erriko<b/>Kirolak<b/>Eguna<s n="np"/><s n="al"/></r></p></e>
 <e>       <p><l>abominable<s n="adj"/></l>             <r>abominable<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>aboriginal<s n="adj"/></l>             <r>aborigen<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>abortive<s n="adj"/></l>               <r>malmès<s n="adj"/></r></p></e>
