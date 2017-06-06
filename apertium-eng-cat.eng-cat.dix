@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 3
-	Entries: 37561
+	Entries: 37621
 	Sdefs: 91
 	Paradigms: 15
 	Last processed by: apertium-dixtools fix apertium-eng-cat.eng-cat.dix apertium-eng-cat.eng-cat.dix
@@ -36051,7 +36051,7 @@
 <e>       <p><l>quite<b/>long<b/>enough<s n="adv"/></l><r>més<b/>que<b/>suficient<s n="adv"/></r></p></e>
 <e r="LR"><p><l>quite<b/>well<s n="adv"/></l>          <r>força<b/>bé<s n="adv"/></r></p></e>
 <e>       <p><l>radically<s n="adv"/></l>              <r>radicalment<s n="adv"/></r></p></e>
-<e r="LR"><p><l>randomly<s n="adv"/></l>               <r>a<b/>l'atzar<s n="adv"/></r></p></e>
+<e>       <p><l>randomly<s n="adv"/></l>               <r>a<b/>l'atzar<s n="adv"/></r></p></e>
 <e r="RL"><p><l>randomly<s n="adv"/></l>               <r>aleatòriament<s n="adv"/></r></p></e>
 <e r="LR"><p><l>rapidly<s n="adv"/></l>                <r>ràpidament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>rapidly<s n="adv"/></l>                <r>acceleradament<s n="adv"/></r></p></e>
@@ -36786,6 +36786,67 @@
 <e>       <p><l>yesterday<b/>morning<s n="adv"/></l>   <r>ahir<b/>al<b/>matí<s n="adv"/></r></p></e>
 <e>       <p><l>yesterday<b/>noon<s n="adv"/></l>      <r>ahir<b/>al<b/>migdia<s n="adv"/></r></p></e>
 <e>       <p><l>yet<b/>still<s n="adv"/></l>           <r>i<b/>tanmateix<s n="adv"/></r></p></e>
+
+<e>       <p><l>fairly<s n="adv"/></l>                 <r>equitativament<s n="adv"/></r></p></e>
+<e>       <p><l>poorly<s n="adv"/></l>                 <r>pobrement<s n="adv"/></r></p></e>
+<e>       <p><l>famously<s n="adv"/></l>               <r>com<b/>tothom<b/>sap<s n="adv"/></r></p></e>
+<e>       <p><l>loosely<s n="adv"/></l>                <r>lliurement<s n="adv"/></r></p></e>
+<e>       <p><l>critically<s n="adv"/></l>             <r>críticament<s n="adv"/></r></p></e>
+<e>       <p><l>mutually<s n="adv"/></l>               <r>mútuament<s n="adv"/></r></p></e>
+<e>       <p><l>prominently<s n="adv"/></l>            <r>prominentment<s n="adv"/></r></p></e>
+<e>       <p><l>arguably<s n="adv"/></l>               <r>possiblement<s n="adv"/></r></p></e>
+<e>       <p><l>posthumously<s n="adv"/></l>           <r>pòstumament<s n="adv"/></r></p></e>
+<e>       <p><l>variously<s n="adv"/></l>              <r>diversament<s n="adv"/></r></p></e>
+<e>       <p><l>popularly<s n="adv"/></l>              <r>popularment<s n="adv"/></r></p></e>
+<e>       <p><l>routinely<s n="adv"/></l>              <r>rutinàriament<s n="adv"/></r></p></e>
+<e>       <p><l>unsuccessfully<s n="adv"/></l>         <r>sense<b/>èxit<s n="adv"/></r></p></e>
+<e>       <p><l>culturally<s n="adv"/></l>             <r>culturalment<s n="adv"/></r></p></e>
+<e>       <p><l>importantly<s n="adv"/></l>            <r>importantment<s n="adv"/></r></p></e>
+<e>       <p><l>inherently<s n="adv"/></l>             <r>inherentment<s n="adv"/></r></p></e>
+<e>       <p><l>nominally<s n="adv"/></l>              <r>nominalment<s n="adv"/></r></p></e>
+<e>       <p><l>evenly<s n="adv"/></l>                 <r>uniformement<s n="adv"/></r></p></e>
+<e>       <p><l>promptly<s n="adv"/></l>               <r>ràpidament<s n="adv"/></r></p></e>
+<e>       <p><l>forcibly<s n="adv"/></l>               <r>forçadament<s n="adv"/></r></p></e>
+<e>       <p><l>exceptionally<s n="adv"/></l>          <r>excepcionalment<s n="adv"/></r></p></e>
+<e>       <p><l>colloquially<s n="adv"/></l>           <r>col·loquialment<s n="adv"/></r></p></e>
+<e>       <p><l>overwhelmingly<s n="adv"/></l>         <r>de<b/>manera<b/>aclaparadora<s n="adv"/></r></p></e>
+<e>       <p><l>vastly<s n="adv"/></l>                 <r>vastament<s n="adv"/></r></p></e>
+<e>       <p><l>arbitrarily<s n="adv"/></l>            <r>arbitràriament<s n="adv"/></r></p></e>
+<e>       <p><l>visually<s n="adv"/></l>               <r>visualment<s n="adv"/></r></p></e>
+<e>       <p><l>ostensibly<s n="adv"/></l>             <r>aparentment<s n="adv"/></r></p></e>
+<e>       <p><l>markedly<s n="adv"/></l>               <r>notablement<s n="adv"/></r></p></e>
+<e>       <p><l>interchangeably<s n="adv"/></l>        <r>de<b/>manera<b/>intercambiable<s n="adv"/></r></p></e>
+<e>       <p><l>mistakenly<s n="adv"/></l>             <r>erròniament<s n="adv"/></r></p></e>
+<e>       <p><l>statistically<s n="adv"/></l>          <r>estadísticament<s n="adv"/></r></p></e>
+<e>       <p><l>implicitly<s n="adv"/></l>             <r>implícitament<s n="adv"/></r></p></e>
+<e>       <p><l>violently<s n="adv"/></l>              <r>violentament<s n="adv"/></r></p></e>
+<e>       <p><l>reliably<s n="adv"/></l>               <r>de<b/>manera<b/>fiable<s n="adv"/></r></p></e>
+<e>       <p><l>overly<s n="adv"/></l>                 <r>excessivament<s n="adv"/></r></p></e>
+<e>       <p><l>sparsely<s n="adv"/></l>               <r>amb<b/>prou<b/>feines<s n="adv"/></r></p></e>
+<e>       <p><l>linearly<s n="adv"/></l>               <r>linearment<s n="adv"/></r></p></e>
+<e>       <p><l>intensely<s n="adv"/></l>              <r>intensament<s n="adv"/></r></p></e>
+<e>       <p><l>mechanically<s n="adv"/></l>           <r>mecànicament<s n="adv"/></r></p></e>
+<e>       <p><l>weakly<s n="adv"/></l>                 <r>dèbilment<s n="adv"/></r></p></e>
+<e>       <p><l>equivalently<s n="adv"/></l>           <r>equivalently<s n="adv"/></r></p></e>
+<e>       <p><l>concurrently<s n="adv"/></l>           <r>alhora<s n="adv"/></r></p></e>
+<e>       <p><l>alternately<s n="adv"/></l>            <r>alternativament<s n="adv"/></r></p></e>
+<e>       <p><l>aggressively<s n="adv"/></l>           <r>agressivament<s n="adv"/></r></p></e>
+<e>       <p><l>centrally<s n="adv"/></l>              <r>centralment<s n="adv"/></r></p></e>
+<e>       <p><l>remotely<s n="adv"/></l>               <r>remotament<s n="adv"/></r></p></e>
+<e>       <p><l>orally<s n="adv"/></l>                 <r>oralment<s n="adv"/></r></p></e>
+<e>       <p><l>religiously<s n="adv"/></l>            <r>religiosament<s n="adv"/></r></p></e>
+<e>       <p><l>selectively<s n="adv"/></l>            <r>selectivament<s n="adv"/></r></p></e>
+<e>       <p><l>immensely<s n="adv"/></l>              <r>immensament<s n="adv"/></r></p></e>
+<e>       <p><l>externally<s n="adv"/></l>             <r>externament<s n="adv"/></r></p></e>
+<e>       <p><l>racially<s n="adv"/></l>               <r>racialment<s n="adv"/></r></p></e>
+<e>       <p><l>erroneously<s n="adv"/></l>            <r>erròniament<s n="adv"/></r></p></e>
+<e>       <p><l>expressly<s n="adv"/></l>              <r>expressament<s n="adv"/></r></p></e>
+<e>       <p><l>structurally<s n="adv"/></l>           <r>estructuralment<s n="adv"/></r></p></e>
+<e>       <p><l>finely<s n="adv"/></l>                 <r>finament<s n="adv"/></r></p></e>
+<e>       <p><l>exponentially<s n="adv"/></l>          <r>exponencialment<s n="adv"/></r></p></e>
+<e>       <p><l>smoothly<s n="adv"/></l>               <r>suaument<s n="adv"/></r></p></e>
+<e>       <p><l>inadvertently<s n="adv"/></l>          <r>sense<b/>voler<s n="adv"/></r></p></e>
+<e>       <p><l>domestically<s n="adv"/></l>           <r>nacionalment<s n="adv"/></r></p></e>
 <!--Fi PREADV -->
 <!--CNJ -->
     <!-- ******************************
