@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 3
-	Entries: 37521
+	Entries: 37561
 	Sdefs: 91
 	Paradigms: 15
 	Last processed by: apertium-dixtools fix apertium-eng-cat.eng-cat.dix apertium-eng-cat.eng-cat.dix
@@ -19753,7 +19753,7 @@
 <e>       <p><l>unilineal<s n="adj"/></l>              <r>unilineal<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>unimodular<s n="adj"/></l>             <r>unimodular<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>unimportant<s n="adj"/></l>            <r>sense<b/>importància<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>uninhabited<s n="adj"/></l>            <r>inhabitat<s n="adj"/></r></p></e>
+<e>       <p><l>uninhabited<s n="adj"/></l>            <r>deshabitat<s n="adj"/></r></p></e>
 <e>       <p><l>uninsurable<s n="adj"/></l>            <r>inassegurable<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>unintelligent<s n="adj"/></l>          <r>inintel·ligent<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>unintelligible<s n="adj"/></l>         <r>inintel·ligible<s n="adj"/><s n="mf"/></r></p></e>
@@ -19976,6 +19976,47 @@
 <e>       <p><l>zoological<s n="adj"/></l>             <r>zoològic<s n="adj"/></r></p></e>
 <e>       <p><l>zoophilous<s n="adj"/></l>             <r>zoòfil<s n="adj"/></r></p></e>
 <e>       <p><l>zygomatic<s n="adj"/></l>              <r>zigomàtic<s n="adj"/></r></p></e>
+
+<e>       <p><l>renowned<s n="adj"/></l>               <r>reconegut<s n="adj"/></r></p></e>
+<e>       <p><l>unrelated<s n="adj"/></l>              <r>no<b/>relacionat<s n="adj"/></r></p></e>
+<e>       <p><l>unprecedented<s n="adj"/></l>          <r>sense<b/>precedents<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>armoured<s n="adj"/></l>               <r>blindat<s n="adj"/></r></p></e>
+<e>       <p><l>manned<s n="adj"/></l>                 <r>tripulat<s n="adj"/></r></p></e>
+<e>       <p><l>unmanned<s n="adj"/></l>               <r>no<b/>tripulat<s n="adj"/></r></p></e>
+<e>       <p><l>unlimited<s n="adj"/></l>              <r>il·limitat<s n="adj"/></r></p></e>
+<e>       <p><l>unwanted<s n="adj"/></l>               <r>no<b/>desitjat<s n="adj"/></r></p></e>
+<e>       <p><l>unnamed<s n="adj"/></l>                <r>anònim<s n="adj"/></r></p></e>
+<e>       <p><l>unpublished<s n="adj"/></l>            <r>no<b/>publicat<s n="adj"/></r></p></e>
+<e>       <p><l>famed<s n="adj"/></l>                  <r>famós<s n="adj"/></r></p></e>
+<e>       <p><l>talented<s n="adj"/></l>               <r>prodigiós<s n="adj"/></r></p></e>
+<e>       <p><l>flawed<s n="adj"/></l>                 <r>amb<b/>defectes<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>impaired<s n="adj"/></l>               <r>discapacitat<s n="adj"/></r></p></e>
+<e>       <p><l>unmarried<s n="adj"/></l>              <r>sense<b/>casar<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>unused<s n="adj"/></l>                 <r>sense<b/>utilitzar<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>outdated<s n="adj"/></l>               <r>antiquat<s n="adj"/></r></p></e>
+<e>       <p><l>waged<s n="adj"/></l>                  <r>assalariat<s n="adj"/></r></p></e>
+<e>       <p><l>landlocked<s n="adj"/></l>             <r>enclavat<s n="adj"/></r></p></e>
+<e>       <p><l>wired<s n="adj"/></l>                  <r>per<b/>cable<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>unaffected<s n="adj"/></l>             <r>no<b/>afectat<s n="adj"/></r></p></e>
+<e>       <p><l>unreleased<s n="adj"/></l>             <r>no<b/>publicat<s n="adj"/></r></p></e>
+<e>       <p><l>unspecified<s n="adj"/></l>            <r>no<b/>especificat<s n="adj"/></r></p></e>
+<e>       <p><l>one-wheeled<s n="adj"/></l>            <r>d'una<b/>roda<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>two-wheeled<s n="adj"/></l>            <r>de<b/>dues<b/>rodes<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>three-wheeled<s n="adj"/></l>          <r>de<b/>tres<b/>rodes<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>four-wheeled<s n="adj"/></l>           <r>de<b/>quatre<b/>rodes<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>twin-engined<s n="adj"/></l>           <r>bimotor<s n="adj"/></r></p></e>
+<e>       <p><l>four-engined<s n="adj"/></l>           <r>quadrimotor<s n="adj"/></r></p></e>
+<e>       <p><l>able-bodied<s n="adj"/></l>            <r>sense<b/>discapacitats<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>well-bodied<s n="adj"/></l>            <r>amb<b/>cos<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>reputed<s n="adj"/></l>                <r>de<b/>renom<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>wicked<s n="adj"/></l>                 <r>malvat<s n="adj"/></r></p></e>
+<e>       <p><l>unauthorized<s n="adj"/></l>           <r>no<b/>autoritzat<s n="adj"/></r></p></e>
+<e>       <p><l>unpaved<s n="adj"/></l>                <r>sense<b/>asfaltar<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>unarmed<s n="adj"/></l>                <r>desarmat<s n="adj"/></r></p></e>
+<e>       <p><l>themed<s n="adj"/></l>                 <r>temàtic<s n="adj"/></r></p></e>
+<e>       <p><l>beloved<s n="adj"/></l>                <r>estimat<s n="adj"/></r></p></e>
+<e>       <p><l>unresolved<s n="adj"/></l>             <r>no<b/>resolt<s n="adj"/></r></p></e>
+<e>       <p><l>aforementioned<s n="adj"/></l>         <r>ja<b/>esmentat<s n="adj"/></r></p></e>
     <!-- ******************************
           group vblex_symbol
       ****************************** -->
