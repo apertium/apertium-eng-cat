@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 3
-	Entries: 37621
+	Entries: 37904
 	Sdefs: 91
 	Paradigms: 15
 	Last processed by: apertium-dixtools fix apertium-eng-cat.eng-cat.dix apertium-eng-cat.eng-cat.dix
@@ -3658,7 +3658,7 @@
 <e slr="envàs"><p><l>container<s n="n"/></l>           <r>envàs<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>containment<s n="n"/></l>              <r>contenció<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" a="mariola"><p><l>contaminant<s n="n"/></l>  <r>contaminant<s n="n"/><s n="m"/></r></p></e>
-<e r="LR" a="mariola"><p><l>contamination<s n="n"/></l><r>contaminació<s n="n"/><s n="f"/></r></p></e>
+<e a="mariola"><p><l>contamination<s n="n"/></l>       <r>contaminació<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>contemplation<s n="n"/></l>            <r>contemplació<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>contemporaneity<s n="n"/></l>          <r>contemporaneïtat<s n="n"/><s n="f"/></r></p></e>
 <e slr="desacatament"><p><l>contempt<s n="n"/></l>     <r>desacatament<s n="n"/><s n="m"/></r></p></e>
@@ -5113,7 +5113,7 @@
 <e a="carmentano"><p><l>effectiveness<s n="n"/></l>    <r>efectivitat<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>effector<s n="n"/></l>                 <r>efector<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>effervescence<s n="n"/></l>            <r>efervescència<s n="n"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>efficacy<s n="n"/></l>                 <r>eficàcia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>efficacy<s n="n"/></l>                 <r>eficàcia<s n="n"/><s n="f"/></r></p></e>
 <e a="carmentano"><p><l>efficiency<s n="n"/></l>       <r>eficàcia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>efflorescence<s n="n"/></l>            <r>eflorescència<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>effluent<s n="n"/></l>                 <r>efluent<s n="n"/><s n="m"/></r></p></e>
@@ -5243,7 +5243,7 @@
 <e r="RL"><p><l>embryologist<s n="n"/></l>             <r>embriòleg<s n="n"/></r></p></e>
 <e>       <p><l>embryology<s n="n"/></l>               <r>embriologia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>emerald<s n="n"/></l>                  <r>maragda<s n="n"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>emergence<s n="n"/></l>                <r>aparició<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>emergence<s n="n"/></l>                <r>aparició<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>emergency<s n="n"/></l>                <r>emergència<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>emery<s n="n"/></l>                    <r>esmeril<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>emigrant<s n="n"/></l>                 <r>emigrant<s n="n"/><s n="mf"/></r></p></e>
@@ -11546,7 +11546,7 @@
 <e>       <p><l>precipitate<s n="n"/></l>              <r>precipitat<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>precipitation<s n="n"/></l>            <r>precipitació<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>precipitator<s n="n"/></l>             <r>precipitador<s n="n"/><s n="m"/></r></p></e>
-<e r="LR"><p><l>precision<s n="n"/></l>                <r>precisió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>precision<s n="n"/></l>                <r>precisió<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>precocity<s n="n"/></l>                <r>precocitat<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>precursor<s n="n"/></l>                <r>precursor<s n="n"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>precursor<s n="n"/></l>                <r>precursor<s n="n"/></r></p></e>
@@ -15869,6 +15869,258 @@
 <e>       <p><l>ČSSD<s n="n"/><s n="acr"/></l>         <r>ČSSD<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 <e>       <p><l>ČTK<s n="n"/><s n="acr"/></l>          <r>ČTK<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 
+<e>       <p><l>accessory<s n="n"/></l>                <r>accessori<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>accomplishment<s n="n"/></l>           <r>fita<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>accusation<s n="n"/></l>               <r>acusació<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>acquaintance<s n="n"/></l>             <r>conegut<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>acquaintance<s n="n"/></l>             <r>conegut<s n="n"/></r></p></e>
+<e>       <p><l>adherence<s n="n"/></l>                <r>adherència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>admission<s n="n"/></l>                <r>admissió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>advocacy<s n="n"/></l>                 <r>advocacia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>aether<s n="n"/></l>                   <r>èter<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>affiliation<s n="n"/></l>              <r>afiliació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>afterlife<s n="n"/></l>                <r>més<b/>enllà<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>aftermath<s n="n"/></l>                <r>conseqüència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>aggression<s n="n"/></l>               <r>agressió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>airflow<s n="n"/></l>                  <r>corrent<g><b/>d'aire</g><s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>airspace<s n="n"/></l>                 <r>espai<b/>aeri<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>alignment<s n="n"/></l>                <r>alineació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>alkali<s n="n"/></l>                   <r>àlcali<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ambient<s n="n"/></l>                  <r>ambient<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ambush<s n="n"/></l>                   <r>emboscada<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ammunition<s n="n"/></l>               <r>munició<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>analogy<s n="n"/></l>                  <r>analogia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ancestry<s n="n"/></l>                 <r>llinatge<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>announcer<s n="n"/></l>                <r>presentador<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>announcer<s n="n"/></l>                <r>presentador<s n="n"/></r></p></e>
+<e>       <p><l>anthem<s n="n"/></l>                   <r>himne<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>anthrax<s n="n"/></l>                  <r>àntrax<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>antidepressant<s n="n"/></l>           <r>antidepressiu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>apparatus<s n="n"/></l>                <r>aparell<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>archive<s n="n"/></l>                  <r>arxiu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>armor<s n="n"/></l>                    <r>armadura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>arthritis<s n="n"/></l>                <r>artritis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e>       <p><l>artefact<s n="n"/></l>                 <r>estri<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ascension<s n="n"/></l>                <r>ascensió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>aspiration<s n="n"/></l>               <r>aspiració<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>assassination<s n="n"/></l>            <r>assassinat<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>assignment<s n="n"/></l>               <r>encàrrec<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>attachment<s n="n"/></l>               <r>adjunt<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>attendance<s n="n"/></l>               <r>assistència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>attenuation<s n="n"/></l>              <r>atenuació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>audition<s n="n"/></l>                 <r>càsting<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>auditory<s n="n"/></l>                 <r>auditori<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>authentication<s n="n"/></l>           <r>autenticació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>authenticity<s n="n"/></l>             <r>autenticitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>authorization<s n="n"/></l>            <r>autorització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>authorship<s n="n"/></l>               <r>autoria<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>automobile<s n="n"/></l>               <r>automòbil<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>backbone<s n="n"/></l>                 <r>columna<b/>vertebral<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>backlash<s n="n"/></l>                 <r>contracop<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>bacteria<s n="n"/></l>                 <r>bacteri<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ballad<s n="n"/></l>                   <r>balada<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ballot<s n="n"/></l>                   <r>votació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>banjo<s n="n"/></l>                    <r>banjo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>banknote<s n="n"/></l>                 <r>bitllet<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>basement<s n="n"/></l>                 <r>soterrani<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>basin<s n="n"/></l>                    <r>pica<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>bassist<s n="n"/></l>                  <r>baixista<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>bassist<s n="n"/></l>                  <r>baixista<s n="n"/></r></p></e>
+<e>       <p><l>battalion<s n="n"/></l>                <r>batalló<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>batter<s n="n"/></l>                   <r>massa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>battlefield<s n="n"/></l>              <r>camp de batalla<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>behavior<s n="n"/></l>                 <r>comportament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>beverage<s n="n"/></l>                 <r>beguda<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>biodiversity<s n="n"/></l>             <r>biodiversitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>birthplace<s n="n"/></l>               <r>lloc<g><b/>de<b/>naixement</g><s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>bombing<s n="n"/></l>                  <r>bombardeig<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>bracket<s n="n"/></l>                  <r>parèntesi<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>breakup<s n="n"/></l>                  <r>ruptura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>brightness<s n="n"/></l>               <r>brillantor<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>buffalo<s n="n"/></l>                  <r>búfal<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>buffer<s n="n"/></l>                   <r>paraxocs<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>bug<s n="n"/></l>                      <r>insecte<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>bulk<s n="n"/></l>                     <r>volum<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>caesium<s n="n"/></l>                  <r>cesi<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>calf<s n="n"/></l>                     <r>vedell<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>caliber<s n="n"/></l>                  <r>calibre<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>calibration<s n="n"/></l>              <r>calibratge<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cameo<s n="n"/></l>                    <r>cameo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>canal<s n="n"/></l>                    <r>canal<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>candidacy<s n="n"/></l>                <r>candidatura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cannabis<s n="n"/></l>                 <r>cànnabis<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>canopy<s n="n"/></l>                   <r>tendal<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>capacitor<s n="n"/></l>                <r>condensador<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cargo<s n="n"/></l>                    <r>mercaderia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cartoon<s n="n"/></l>                  <r>dibuix<b/>animat<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>casualty<s n="n"/></l>                 <r>víctima<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cavalry<s n="n"/></l>                  <r>cavalleria<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ceasefire<s n="n"/></l>                <r>alto<g><b/>el<b/>foc</g><s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cello<s n="n"/></l>                    <r>violoncel<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>chant<s n="n"/></l>                    <r>cant<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>characterization<s n="n"/></l>         <r>caracterització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>charcoal<s n="n"/></l>                 <r>carbó<b/>vegetal<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>chariot<s n="n"/></l>                  <r>carro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cheetah<s n="n"/></l>                  <r>guepard<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>citation<s n="n"/></l>                 <r>citació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>civilization<s n="n"/></l>             <r>civilització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>claw<s n="n"/></l>                     <r>urpa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>coastline<s n="n"/></l>                <r>litoral<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cockpit<s n="n"/></l>                  <r>cabina<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cocoa<s n="n"/></l>                    <r>cacau<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>collagen<s n="n"/></l>                 <r>col·lagen<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>collar<s n="n"/></l>                   <r>collar<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>collegiate<s n="n"/></l>               <r>col·legiat<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>collegiate<s n="n"/></l>               <r>col·legiat<s n="n"/></r></p></e>
+<e r="LR"><p><l>colonist<s n="n"/></l>                 <r>colonitzador<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>colonist<s n="n"/></l>                 <r>colonitzador<s n="n"/></r></p></e>
+<e>       <p><l>colonization<s n="n"/></l>             <r>colonització<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>combatant<s n="n"/></l>                <r>combatent<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>combatant<s n="n"/></l>                <r>combatent<s n="n"/></r></p></e>
+<e>       <p><l>commencement<s n="n"/></l>             <r>començament<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>commentary<s n="n"/></l>               <r>comentari<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>commissioner<s n="n"/></l>             <r>inspector<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>commune<s n="n"/></l>                  <r>comuna<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>communion<s n="n"/></l>                <r>comunió<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>commuter<s n="n"/></l>                 <r>treballador<s n="n"/><s n="GD"/></r></p></e>
+<e>       <p><l>competence<s n="n"/></l>               <r>competència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>comprehension<s n="n"/></l>            <r>comprensió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>concession<s n="n"/></l>               <r>concessió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>condemnation<s n="n"/></l>             <r>condemna<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>confluence<s n="n"/></l>               <r>confluència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>confrontation<s n="n"/></l>            <r>enfrontament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>conscience<s n="n"/></l>               <r>consciència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>conscription<s n="n"/></l>             <r>allistament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>constituency<s n="n"/></l>             <r>circumscripció<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>constraint<s n="n"/></l>               <r>restricció<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>contestant<s n="n"/></l>               <r>concursant<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>cord<s n="n"/></l>                     <r>cable<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>correctness<s n="n"/></l>              <r>correcció<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cortex<s n="n"/></l>                   <r>còrtex<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>counterpart<s n="n"/></l>              <r>homòleg<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>counterpart<s n="n"/></l>              <r>homòleg<s n="n"/></r></p></e>
+<e>       <p><l>credential<s n="n"/></l>               <r>credencial<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>crucifixion<s n="n"/></l>              <r>crucifixió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cruiser<s n="n"/></l>                  <r>creuer<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>crust<s n="n"/></l>                    <r>escorça<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cuisine<s n="n"/></l>                  <r>cuina<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cyclone<s n="n"/></l>                  <r>cicló<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>dam<s n="n"/></l>                      <r>presa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>dawn<s n="n"/></l>                     <r>alba<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>daylight<s n="n"/></l>                 <r>llum<b/>solar<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>daytime<s n="n"/></l>                  <r>dia<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>deadline<s n="n"/></l>                 <r>termini<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>debris<s n="n"/></l>                   <r>resta<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>deck<s n="n"/></l>                     <r>coberta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>declaration<s n="n"/></l>              <r>declaració<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>declension<s n="n"/></l>               <r>declinació<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>defendant<s n="n"/></l>                <r>acusat<s n="n"/></r></p></e>
+<e r="LR"><p><l>defender<s n="n"/></l>                 <r>defensor<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>defender<s n="n"/></l>                 <r>defensor<s n="n"/></r></p></e>
+<e r="LR"><p><l>defense<s n="n"/></l>                  <r>defensa<s n="n"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>defense<s n="n"/></l>                  <r>defensa<s n="n"/></r></p></e>
+<e>       <p><l>deficiency<s n="n"/></l>               <r>deficiència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>deforestation<s n="n"/></l>            <r>desforestació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>deity<s n="n"/></l>                    <r>deïtat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>dementia<s n="n"/></l>                 <r>demència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>depiction<s n="n"/></l>                <r>representació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>depletion<s n="n"/></l>                <r>esgotament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>deposition<s n="n"/></l>               <r>destitució<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>derivation<s n="n"/></l>               <r>derivació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>desktop<s n="n"/></l>                  <r>escriptori<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>destiny<s n="n"/></l>                  <r>destí<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>developer<s n="n"/></l>                <r>desenvolupador<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>devout<s n="n"/></l>                   <r>devot<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>devout<s n="n"/></l>                   <r>devot<s n="n"/></r></p></e>
+<e>       <p><l>diabetes<s n="n"/></l>                 <r>diabetis<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e>       <p><l>diacritic<s n="n"/></l>                <r>diacrític<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>diaphragm<s n="n"/></l>                <r>diafragma<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>disambiguation<s n="n"/></l>           <r>desambiguació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>displacement<s n="n"/></l>             <r>desplaçament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>disruption<s n="n"/></l>               <r>interrupció<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>dominance<s n="n"/></l>                <r>dominació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>dominion<s n="n"/></l>                 <r>domini<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>donor<s n="n"/></l>                    <r>donant<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>dough<s n="n"/></l>                    <r>massa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ego<s n="n"/></l>                      <r>ego<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>elector<s n="n"/></l>                  <r>votant<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>emitter<s n="n"/></l>                  <r>emissor<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>enactment<s n="n"/></l>                <r>promulgació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>encyclopedia<s n="n"/></l>             <r>enciclopèdia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>endurance<s n="n"/></l>                <r>resistència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>enforcement<s n="n"/></l>              <r>aplicació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>enlightenment<s n="n"/></l>            <r>il·luminació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>enrollment<s n="n"/></l>               <r>matrícula<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>entrepreneur<s n="n"/></l>             <r>emprenedor<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>entrepreneur<s n="n"/></l>             <r>emprenedor<s n="n"/></r></p></e>
+<e>       <p><l>epistemology<s n="n"/></l>             <r>epistemologia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>epoch<s n="n"/></l>                    <r>època<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>estimation<s n="n"/></l>               <r>estimació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>estrogen<s n="n"/></l>                 <r>estrogen<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>coup<b/>d'état<s n="n"/></l>           <r>cop<g><b/>d'estat</g><s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>excommunication<s n="n"/></l>          <r>excomunió<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>explorer<s n="n"/></l>                 <r>explorador<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>explorer<s n="n"/></l>                 <r>explorador<s n="n"/></r></p></e>
+<e>       <p><l>exposition<s n="n"/></l>               <r>exposició<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>fabrication<s n="n"/></l>              <r>fabricació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>factorization<s n="n"/></l>            <r>factorització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>fertilization<s n="n"/></l>            <r>fertilització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>fortification<s n="n"/></l>            <r>fortificació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>generalization<s n="n"/></l>           <r>generalització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>habitation<s n="n"/></l>               <r>vivenda<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ignition<s n="n"/></l>                 <r>ignició<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>importation<s n="n"/></l>              <r>importació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>imposition<s n="n"/></l>               <r>imposició<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>incarnation<s n="n"/></l>              <r>encarnació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>inception<s n="n"/></l>                <r>inici<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>injunction<s n="n"/></l>               <r>requeriment<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>inscription<s n="n"/></l>              <r>inscripció<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>insulation<s n="n"/></l>               <r>aïllament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>inversion<s n="n"/></l>                <r>inversió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ionization<s n="n"/></l>               <r>ionització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>iteration<s n="n"/></l>                <r>repetició<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>lesion<s n="n"/></l>                   <r>lesió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>liberalization<s n="n"/></l>           <r>liberalització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>liberation<s n="n"/></l>               <r>alliberament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>litigation<s n="n"/></l>               <r>litigi<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>manifestation<s n="n"/></l>            <r>manifestació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>modernization<s n="n"/></l>            <r>modernització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>narration<s n="n"/></l>                <r>narració<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>oppression<s n="n"/></l>               <r>opressió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>optimization<s n="n"/></l>             <r>optimització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ordination<s n="n"/></l>               <r>ordenació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>organization<s n="n"/></l>             <r>organització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>polarization<s n="n"/></l>             <r>polarització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>precession<s n="n"/></l>               <r>precedència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>predation<s n="n"/></l>                <r>depredació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>privatization<s n="n"/></l>            <r>privatització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>proclamation<s n="n"/></l>             <r>proclamació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>prosecution<s n="n"/></l>              <r>persecució<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>quantization<s n="n"/></l>             <r>quantificació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ratification<s n="n"/></l>             <r>ratificació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>realization<s n="n"/></l>              <r>comprensió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>recursion<s n="n"/></l>                <r>recurrència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>redemption<s n="n"/></l>               <r>redempció<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>relocation<s n="n"/></l>               <r>trasllat<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>reparation<s n="n"/></l>               <r>reparació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>reorganization<s n="n"/></l>           <r>reorganització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>rendition<s n="n"/></l>                <r>intepretació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>retaliation<s n="n"/></l>              <r>represàlia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>retention<s n="n"/></l>                <r>retenció<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>reunification<s n="n"/></l>            <r>reunificació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>revelation<s n="n"/></l>               <r>revelació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sanitation<s n="n"/></l>               <r>recollida<b/>d'escombraries<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>sensation<s n="n"/></l>                <r>sensació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>stabilization<s n="n"/></l>            <r>estabilització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>standardization<s n="n"/></l>          <r>estandardització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>suppression<s n="n"/></l>              <r>supressió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>synchronization<s n="n"/></l>          <r>sincronització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>syndication<s n="n"/></l>              <r>redifusió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>termination<s n="n"/></l>              <r>venciment<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>veneration<s n="n"/></l>               <r>veneració<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>verification<s n="n"/></l>             <r>verificació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>violation<s n="n"/></l>                <r>violació<s n="n"/><s n="f"/></r></p></e>
+
     <!-- Acronyms -->
 
 <e a="eleka"><p><l>ARC<s n="n"/><s n="acr"/></l>       <r>ARC<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
@@ -16806,7 +17058,7 @@
 <e>       <p><l>deficient<s n="adj"/></l>              <r>deficient<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>definable<s n="adj"/></l>              <r>definible<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>definite<s n="adj"/></l>               <r>definitiu<s n="adj"/></r></p></e>
-<e r="LR"><p><l>definitive<s n="adj"/></l>             <r>definitiu<s n="adj"/></r></p></e>
+<e>       <p><l>definitive<s n="adj"/></l>             <r>definitiu<s n="adj"/></r></p></e>
 <e>       <p><l>degenerate<s n="adj"/></l>             <r>degenerat<s n="adj"/></r></p></e>
 <e>       <p><l>deliberate<s n="adj"/></l>             <r>deliberat<s n="adj"/></r></p></e>
 <e>       <p><l>delicate<s n="adj"/></l>               <r>delicat<s n="adj"/></r></p></e>
@@ -20017,6 +20269,38 @@
 <e>       <p><l>beloved<s n="adj"/></l>                <r>estimat<s n="adj"/></r></p></e>
 <e>       <p><l>unresolved<s n="adj"/></l>             <r>no<b/>resolt<s n="adj"/></r></p></e>
 <e>       <p><l>aforementioned<s n="adj"/></l>         <r>ja<b/>esmentat<s n="adj"/></r></p></e>
+<e>       <p><l>adaptive<s n="adj"/></l>               <r>adaptatiu<s n="adj"/></r></p></e>
+<e>       <p><l>associative<s n="adj"/></l>            <r>associatiu<s n="adj"/></r></p></e>
+<e>       <p><l>authoritative<s n="adj"/></l>          <r>autoritari<s n="adj"/></r></p></e>
+<e>       <p><l>automotive<s n="adj"/></l>             <r>automotriu<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>collaborative<s n="adj"/></l>          <r>col·laboratiu<s n="adj"/></r></p></e>
+<e>       <p><l>commemorative<s n="adj"/></l>          <r>commemoratiu<s n="adj"/></r></p></e>
+<e>       <p><l>commutative<s n="adj"/></l>            <r>commutatiu<s n="adj"/></r></p></e>
+<e>       <p><l>cursive<s n="adj"/></l>                <r>cursiu<s n="adj"/></r></p></e>
+<e>       <p><l>dative<s n="adj"/></l>                 <r>datiu<s n="adj"/></r></p></e>
+<e>       <p><l>accusative<s n="adj"/></l>             <r>accusatiu<s n="adj"/></r></p></e>
+<e>       <p><l>depressive<s n="adj"/></l>             <r>depressiu<s n="adj"/></r></p></e>
+<e>       <p><l>expansive<s n="adj"/></l>              <r>expansiu<s n="adj"/></r></p></e>
+<e>       <p><l>inactive<s n="adj"/></l>               <r>inactiu<s n="adj"/></r></p></e>
+<e>       <p><l>inclusive<s n="adj"/></l>              <r>inclusiu<s n="adj"/></r></p></e>
+<e>       <p><l>inconclusive<s n="adj"/></l>           <r>inconclusiu<s n="adj"/></r></p></e>
+<e>       <p><l>indicative<s n="adj"/></l>             <r>indicatiu<s n="adj"/></r></p></e>
+<e>       <p><l>inductive<s n="adj"/></l>              <r>inductiu<s n="adj"/></r></p></e>
+<e>       <p><l>investigative<s n="adj"/></l>          <r>investigatiu<s n="adj"/></r></p></e>
+<e>       <p><l>lucrative<s n="adj"/></l>              <r>lucratiu<s n="adj"/></r></p></e>
+<e>       <p><l>multiplicative<s n="adj"/></l>         <r>multiplicatiu<s n="adj"/></r></p></e>
+<e>       <p><l>nominative<s n="adj"/></l>             <r>nominatiu<s n="adj"/></r></p></e>
+<e>       <p><l>oppressive<s n="adj"/></l>             <r>oppressor<s n="adj"/></r></p></e>
+<e>       <p><l>pervasive<s n="adj"/></l>              <r>penetrant<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>projective<s n="adj"/></l>             <r>projectiu<s n="adj"/></r></p></e>
+<e>       <p><l>punitive<s n="adj"/></l>               <r>punitiu<s n="adj"/></r></p></e>
+<e>       <p><l>reactive<s n="adj"/></l>               <r>reactiu<s n="adj"/></r></p></e>
+<e>       <p><l>reflective<s n="adj"/></l>             <r>reflectiu<s n="adj"/></r></p></e>
+<e>       <p><l>refractive<s n="adj"/></l>             <r>refractiu<s n="adj"/></r></p></e>
+<e>       <p><l>reproductive<s n="adj"/></l>           <r>reproductor<s n="adj"/></r></p></e>
+<e>       <p><l>restrictive<s n="adj"/></l>            <r>restrictiu<s n="adj"/></r></p></e>
+<e>       <p><l>supportive<s n="adj"/></l>             <r>comprensiu<s n="adj"/></r></p></e>
+<e>       <p><l>transitive<s n="adj"/></l>             <r>transitiu<s n="adj"/></r></p></e>
     <!-- ******************************
           group vblex_symbol
       ****************************** -->
