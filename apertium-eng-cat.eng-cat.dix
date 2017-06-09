@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 3
-	Entries: 38447
+	Entries: 38829
 	Sdefs: 91
 	Paradigms: 15
 	Last processed by: apertium-dixtools fix apertium-eng-cat.eng-cat.dix apertium-eng-cat.eng-cat.dix
@@ -702,7 +702,7 @@
 <e>       <p><l>activity<s n="n"/></l>                 <r>activitat<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>actomyosin<s n="n"/></l>               <r>actomiosina<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>actor<s n="n"/></l>                    <r>actor<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>actress<s n="n"/></l>                  <r>actriu<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>actress<s n="n"/></l>                  <r>actor<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>actualism<s n="n"/></l>                <r>actualisme<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>actuality<s n="n"/></l>                <r>actualitat<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>actuary<s n="n"/></l>                  <r>actuari<s n="n"/><s n="m"/></r></p></e>
@@ -20728,7 +20728,7 @@
 <e r="RL"><p><l>cancel<s n="vblex"/></l>               <r>anul·lar<s n="vblex"/></r></p></e>
 <e>       <p><l>cancel<s n="vblex"/></l>               <r>cancel·lar<s n="vblex"/></r></p></e>
 <e>       <p><l>capitalise<s n="vblex"/></l>           <r>capitalitzar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>capitalize<s n="vblex"/></l>           <r>capitalitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>capitalize<s n="vblex"/></l>           <r>capitalitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>capitulate<s n="vblex"/></l>           <r>capitular<s n="vblex"/></r></p></e>
 <e>       <p><l>capsize<s n="vblex"/></l>              <r>capgirar<s n="vblex"/></r></p></e>
 <e>       <p><l>captivate<s n="vblex"/></l>            <r>captivar<s n="vblex"/></r></p></e>
@@ -20750,7 +20750,7 @@
 <e r="LR"><p><l>cast<s n="vblex"/></l>                 <r>llançar<s n="vblex"/></r></p></e>
 <e>       <p><l>catalog<s n="vblex"/></l>              <r>catalogar<s n="vblex"/></r></p></e>
 <e>       <p><l>catalyse<s n="vblex"/></l>             <r>catalitzar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>catalyze<s n="vblex"/></l>             <r>catalitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>catalyze<s n="vblex"/></l>             <r>catalitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>catapult<s n="vblex"/></l>             <r>catapultar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>catch<s n="vblex"/></l>                <r>agafar<s n="vblex"/></r></p></e>
 <e>       <p><l>categorise<s n="vblex"/></l>           <r>classificar<s n="vblex"/></r></p></e>
@@ -20798,7 +20798,7 @@
 <e>       <p><l>circumscribe<s n="vblex"/></l>         <r>circumscriure<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>cite<s n="vblex"/></l>                 <r>citar<s n="vblex"/></r></p></e>
 <e>       <p><l>civilise<s n="vblex"/></l>             <r>civilitzar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>civilize<s n="vblex"/></l>             <r>civilitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>civilize<s n="vblex"/></l>             <r>civilitzar<s n="vblex"/></r></p></e>
 <e r="LR" slr="afirmar"><p><l>claim<s n="vblex"/></l>  <r>afirmar<s n="vblex"/></r></p></e>
 <e r="LR" slr="reclamar D"><p><l>claim<s n="vblex"/></l><r>reclamar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>clarify<s n="vblex"/></l>              <r>aclarir<s n="vblex"/></r></p></e>
@@ -21925,7 +21925,7 @@
 <e slr="deixar D" srl="leave D"><p><l>leave<s n="vblex"/></l><r>deixar<s n="vblex"/></r></p></e>
 <e slr="marxar"><p><l>leave<s n="vblex"/></l>          <r>marxar<s n="vblex"/></r></p></e>
 <e>       <p><l>legalise<s n="vblex"/></l>             <r>legalitzar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>legalize<s n="vblex"/></l>             <r>legalitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>legalize<s n="vblex"/></l>             <r>legalitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>legislate<s n="vblex"/></l>            <r>legislar<s n="vblex"/></r></p></e>
 <e>       <p><l>legitimate<s n="vblex"/></l>           <r>legitimar<s n="vblex"/></r></p></e>
 <e srl="lend"><p><l>lend<s n="vblex"/></l>             <r>deixar<s n="vblex"/></r></p></e>
@@ -22073,7 +22073,7 @@
 <e>       <p><l>mortise<s n="vblex"/></l>              <r>mortasar<s n="vblex"/></r></p></e>
 <e>       <p><l>motivate<s n="vblex"/></l>             <r>motivar<s n="vblex"/></r></p></e>
 <e>       <p><l>motorise<s n="vblex"/></l>             <r>motoritzar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>motorize<s n="vblex"/></l>             <r>motoritzar<s n="vblex"/></r></p></e>
+<e>       <p><l>motorize<s n="vblex"/></l>             <r>motoritzar<s n="vblex"/></r></p></e>
 <e vl="en_GB" vr="val"><p><l>mould<s n="vblex"/></l>   <r>emmotlar<s n="vblex"/></r></p></e>
 <e vl="en_GB" vr="cat"><p><l>mould<s n="vblex"/></l>   <r>emmotllar<s n="vblex"/></r></p></e>
 <e>       <p><l>mount<s n="vblex"/></l>                <r>muntar<s n="vblex"/></r></p></e>
@@ -22090,9 +22090,9 @@
 <e>       <p><l>nasalise<s n="vblex"/></l>             <r>nasalitzar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>nasalize<s n="vblex"/></l>             <r>nasalitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>nationalise<s n="vblex"/></l>          <r>nacionalitzar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>nationalize<s n="vblex"/></l>          <r>nacionalitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>nationalize<s n="vblex"/></l>          <r>nacionalitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>naturalise<s n="vblex"/></l>           <r>naturalitzar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>naturalize<s n="vblex"/></l>           <r>naturalitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>naturalize<s n="vblex"/></l>           <r>naturalitzar<s n="vblex"/></r></p></e>
 <e r="LR" vr="val"><p><l>near<s n="vblex"/></l>        <r>acostar-se<s n="vblex"/><s n="pron"/></r></p></e>
 <e r="LR" vr="cat"><p><l>near<s n="vblex"/></l>        <r>apropar-se<s n="vblex"/><s n="pron"/></r></p></e>
 <e>       <p><l>need<s n="vblex"/></l>                 <r>necessitar<s n="vblex"/></r></p></e>
@@ -22179,7 +22179,7 @@
 <e>       <p><l>pair<s n="vblex"/></l>                 <r>aparellar<s n="vblex"/></r></p></e>
 <e>       <p><l>parade<s n="vblex"/></l>               <r>desfilar<s n="vblex"/></r></p></e>
 <e>       <p><l>paralyse<s n="vblex"/></l>             <r>paralitzar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>paralyze<s n="vblex"/></l>             <r>paralitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>paralyze<s n="vblex"/></l>             <r>paralitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>park<s n="vblex"/></l>                 <r>aparcar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>participate<s n="vblex"/></l>          <r>participar<s n="vblex"/></r></p></e>
 <e>       <p><l>partner<s n="vblex"/></l>              <r>unir<s n="vblex"/><s n="pron"/></r></p></e>
@@ -22307,7 +22307,7 @@
 <e>       <p><l>press<s n="vblex"/></l>                <r>prémer<s n="vblex"/></r></p></e>
 <e>       <p><l>pressure<s n="vblex"/></l>             <r>pressionar<s n="vblex"/></r></p></e>
 <e>       <p><l>pressurise<s n="vblex"/></l>           <r>pressuritzar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>pressurize<s n="vblex"/></l>           <r>pressuritzar<s n="vblex"/></r></p></e>
+<e>       <p><l>pressurize<s n="vblex"/></l>           <r>pressuritzar<s n="vblex"/></r></p></e>
 <e>       <p><l>prestress<s n="vblex"/></l>            <r>pretesar<s n="vblex"/></r></p></e>
 <e>       <p><l>presume<s n="vblex"/></l>              <r>suposar<s n="vblex"/></r></p></e>
 <e>       <p><l>presuppose<s n="vblex"/></l>           <r>pressuposar<s n="vblex"/></r></p></e>
@@ -22322,7 +22322,7 @@
 <e>       <p><l>prioritise<s n="vblex"/></l>           <r>prioritzar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>prioritize<s n="vblex"/></l>           <r>prioritzar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>privatise<s n="vblex"/></l>            <r>privatitzar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>privatize<s n="vblex"/></l>            <r>privatitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>privatize<s n="vblex"/></l>            <r>privatitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>prize<s n="vblex"/></l>                <r>valorar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>prize-winning<s n="adj"/></l>          <r>premiar<s n="vblex"/><s n="pp"/></r></p></e>
 <e r="LR" slr="anar"><p><l>proceed<s n="vblex"/></l>   <r>anar<s n="vblex"/></r></p></e>
@@ -22598,7 +22598,7 @@
 <e>       <p><l>revoke<s n="vblex"/></l>               <r>revocar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>revolt<s n="vblex"/></l>               <r>repugnar<s n="vblex"/></r></p></e>
 <e>       <p><l>revolutionise<s n="vblex"/></l>        <r>revolucionar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>revolutionize<s n="vblex"/></l>        <r>revolucionar<s n="vblex"/></r></p></e>
+<e>       <p><l>revolutionize<s n="vblex"/></l>        <r>revolucionar<s n="vblex"/></r></p></e>
 <e>       <p><l>reward<s n="vblex"/></l>               <r>premiar<s n="vblex"/></r></p></e>
 <e>       <p><l>rewrite<s n="vblex"/></l>              <r>reescriure<s n="vblex"/></r></p></e>
 <e>       <p><l>rhyme<s n="vblex"/></l>                <r>rimar<s n="vblex"/></r></p></e>
@@ -22611,7 +22611,7 @@
 <e>       <p><l>rive<s n="vblex"/></l>                 <r>esberlar<s n="vblex"/></r></p></e>
 <e>       <p><l>roar<s n="vblex"/></l>                 <r>rugir<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>rob<s n="vblex"/></l>                  <r>atracar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>rob<s n="vblex"/></l>                  <r>robar<s n="vblex"/></r></p></e>
+<e>       <p><l>rob<s n="vblex"/></l>                  <r>robar<s n="vblex"/></r></p></e>
 <e slr="engrunsar" vr="val"><p><l>rock<s n="vblex"/></l><r>engrunsar<s n="vblex"/></r></p></e>
 <e slr="gronxar" vr="cat"><p><l>rock<s n="vblex"/></l> <r>gronxar<s n="vblex"/></r></p></e>
 <e r="LR" slr="sacsejar D"><p><l>rock<s n="vblex"/></l><r>sacsejar<s n="vblex"/></r></p></e>
@@ -22916,7 +22916,7 @@
 <e r="LR" slr="sotmetre"><p><l>submit<s n="vblex"/></l><r>sotmetre<s n="vblex"/></r></p></e>
 <e>       <p><l>subordinate<s n="vblex"/></l>          <r>subordinar<s n="vblex"/></r></p></e>
 <e>       <p><l>subsidise<s n="vblex"/></l>            <r>subvencionar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>subsidize<s n="vblex"/></l>            <r>subvencionar<s n="vblex"/></r></p></e>
+<e>       <p><l>subsidize<s n="vblex"/></l>            <r>subvencionar<s n="vblex"/></r></p></e>
 <e>       <p><l>substitute<s n="vblex"/></l>           <r>substituir<s n="vblex"/></r></p></e>
 <e srl="subtract D"><p><l>subtract<s n="vblex"/></l>   <r>restar<s n="vblex"/></r></p></e>
 <e>       <p><l>succeed<s n="vblex"/></l>              <r>tenir<g><b/>èxit</g><s n="vblex"/></r></p></e>
@@ -22969,7 +22969,7 @@
 <e>       <p><l>swing<s n="vblex"/></l>                <r>balancejar<s n="vblex"/></r></p></e>
 <e>       <p><l>switch<s n="vblex"/></l>               <r>canviar<g><b/>de</g><s n="vblex"/></r></p></e>
 <e>       <p><l>symbolise<s n="vblex"/></l>            <r>simbolitzar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>symbolize<s n="vblex"/></l>            <r>simbolitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>symbolize<s n="vblex"/></l>            <r>simbolitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>synchronise<s n="vblex"/></l>          <r>sincronitzar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>synchronize<s n="vblex"/></l>          <r>sincronitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>syndicate<s n="vblex"/></l>            <r>sindicar<s n="vblex"/></r></p></e>
@@ -23175,7 +23175,7 @@
 <e>       <p><l>violate<s n="vblex"/></l>              <r>violar<s n="vblex"/></r></p></e>
 <e>       <p><l>visit<s n="vblex"/></l>                <r>visitar<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl"><p><l>visualise<s n="vblex"/></l>  <r>visualitzar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>visualize<s n="vblex"/></l>            <r>visualitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>visualize<s n="vblex"/></l>            <r>visualitzar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>voice<s n="vblex"/></l>                <r>expressar<s n="vblex"/></r></p></e>
 <e>       <p><l>volunteer<s n="vblex"/></l>            <r>oferir<g><b/>com<b/>a<b/>voluntari</g><s n="vblex"/><s n="pron"/></r></p></e>
 <e>       <p><l>vomit<s n="vblex"/></l>                <r>vomitar<s n="vblex"/></r></p></e>
@@ -23240,6 +23240,293 @@
 <e>       <p><l>yawn<s n="vblex"/></l>                 <r>badallar<s n="vblex"/></r></p></e>
 <e a="prompsit2cdl"><p><l>yield<s n="vblex"/></l>      <r>cedir<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>zone<s n="vblex"/></l>                 <r>qualificar<s n="vblex"/></r></p></e>
+<e>       <p><l>comply<s n="vblex"/></l>               <r>obeir<s n="vblex"/></r></p></e>
+<e>       <p><l>abduct<s n="vblex"/></l>               <r>raptar<s n="vblex"/></r></p></e>
+<e>       <p><l>abridge<s n="vblex"/></l>              <r>resumir<s n="vblex"/></r></p></e>
+<e>       <p><l>accede<s n="vblex"/></l>               <r>consentir<s n="vblex"/></r></p></e>
+<e>       <p><l>allot<s n="vblex"/></l>                <r>assignar<s n="vblex"/></r></p></e>
+<e>       <p><l>amalgamate<s n="vblex"/></l>           <r>amalgamar<s n="vblex"/></r></p></e>
+<e>       <p><l>amass<s n="vblex"/></l>                <r>acumular<s n="vblex"/></r></p></e>
+<e>       <p><l>ambush<s n="vblex"/></l>               <r>emboscar<s n="vblex"/></r></p></e>
+<e>       <p><l>angle<s n="vblex"/></l>                <r>doblegar<s n="vblex"/></r></p></e>
+<e>       <p><l>annotate<s n="vblex"/></l>             <r>anotar<s n="vblex"/></r></p></e>
+<e>       <p><l>annul<s n="vblex"/></l>                <r>anul·lar<s n="vblex"/></r></p></e>
+<e>       <p><l>anoint<s n="vblex"/></l>               <r>consagrar<s n="vblex"/></r></p></e>
+<e>       <p><l>apologize<s n="vblex"/></l>            <r>disculpar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>append<s n="vblex"/></l>               <r>afegir<s n="vblex"/></r></p></e>
+<e>       <p><l>appropriate<s n="vblex"/></l>          <r>apropiar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>attenuate<s n="vblex"/></l>            <r>atenuar<s n="vblex"/></r></p></e>
+<e>       <p><l>audition<s n="vblex"/></l>             <r>fer<g><b/>un<b/>càsting</g><s n="vblex"/></r></p></e>
+<e>       <p><l>band<s n="vblex"/></l>                 <r>lligar<s n="vblex"/></r></p></e>
+<e>       <p><l>bat<s n="vblex"/></l>                  <r>colpejar<s n="vblex"/></r></p></e>
+<e>       <p><l>battle<s n="vblex"/></l>               <r>lluitar<s n="vblex"/></r></p></e>
+<e>       <p><l>behead<s n="vblex"/></l>               <r>decapitar<s n="vblex"/></r></p></e>
+<e>       <p><l>betroth<s n="vblex"/></l>              <r>prometre<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>blood<s n="vblex"/></l>                <r>fer<g><b/>olorar<b/>la<b/>sang</g><s n="vblex"/></r></p></e>
+<e>       <p><l>bolster<s n="vblex"/></l>              <r>apuntalar<s n="vblex"/></r></p></e>
+<e>       <p><l>bombard<s n="vblex"/></l>              <r>bombardar<s n="vblex"/></r></p></e>
+<e>       <p><l>branch<s n="vblex"/></l>               <r>bifurcar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>brew<s n="vblex"/></l>                 <r>destil·lar<s n="vblex"/></r></p></e>
+<e>       <p><l>broker<s n="vblex"/></l>               <r>negociar<s n="vblex"/></r></p></e>
+<e>       <p><l>bypass<s n="vblex"/></l>               <r>circumval·lar<s n="vblex"/></r></p></e>
+<e>       <p><l>can<s n="vblex"/></l>                  <r>enllaunar<s n="vblex"/></r></p></e>
+<e>       <p><l>canonize<s n="vblex"/></l>             <r>canonitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>cap<s n="vblex"/></l>                  <r>limitar<s n="vblex"/></r></p></e>
+<e>       <p><l>catalogue<s n="vblex"/></l>            <r>catalogar<s n="vblex"/></r></p></e>
+<e>       <p><l>caution<s n="vblex"/></l>              <r>advertir<s n="vblex"/></r></p></e>
+<e>       <p><l>cement<s n="vblex"/></l>               <r>consolidar<s n="vblex"/></r></p></e>
+<e>       <p><l>chop<s n="vblex"/></l>                 <r>tallar<s n="vblex"/></r></p></e>
+<e>       <p><l>choreograph<s n="vblex"/></l>          <r>coreografiar<s n="vblex"/></r></p></e>
+<e>       <p><l>clinch<s n="vblex"/></l>               <r>estrènyer<s n="vblex"/></r></p></e>
+<e>       <p><l>cluster<s n="vblex"/></l>              <r>agrupar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>coach<s n="vblex"/></l>                <r>entrenar<s n="vblex"/></r></p></e>
+<e>       <p><l>codename<s n="vblex"/></l>             <r>assignar<g><b/>el<b/>nom<b/>en<b/>clau</g><s n="vblex"/></r></p></e>
+<e>       <p><l>coil<s n="vblex"/></l>                 <r>enrotllar<s n="vblex"/></r></p></e>
+<e>       <p><l>collide<s n="vblex"/></l>              <r>xocar<s n="vblex"/></r></p></e>
+<e>       <p><l>commend<s n="vblex"/></l>              <r>elogiar<s n="vblex"/></r></p></e>
+<e>       <p><l>computerize<s n="vblex"/></l>          <r>computeritzar<s n="vblex"/></r></p></e>
+<e>       <p><l>conflict<s n="vblex"/></l>             <r>discrepar<s n="vblex"/></r></p></e>
+<e>       <p><l>conjecture<s n="vblex"/></l>           <r>especular<s n="vblex"/></r></p></e>
+<e>       <p><l>conjugate<s n="vblex"/></l>            <r>conjugar<s n="vblex"/></r></p></e>
+<e>       <p><l>conscript<s n="vblex"/></l>            <r>reclutar<s n="vblex"/></r></p></e>
+<e>       <p><l>construe<s n="vblex"/></l>             <r>analitzar<g><b/>sintàcticament</g><s n="vblex"/></r></p></e>
+<e>       <p><l>copyright<s n="vblex"/></l>            <r>registrar<g><b/>els<b/>drets<b/>d'autor</g><s n="vblex"/></r></p></e>
+<e>       <p><l>court<s n="vblex"/></l>                <r>cortejar<s n="vblex"/></r></p></e>
+<e>       <p><l>covet<s n="vblex"/></l>                <r>cobejar<s n="vblex"/></r></p></e>
+<e>       <p><l>cripple<s n="vblex"/></l>              <r>paralitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>crucify<s n="vblex"/></l>              <r>crucificar<s n="vblex"/></r></p></e>
+<e>       <p><l>curtail<s n="vblex"/></l>              <r>escurçar<s n="vblex"/></r></p></e>
+<e>       <p><l>customize<s n="vblex"/></l>            <r>personalitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>decay<s n="vblex"/></l>                <r>descompondre<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>decommission<s n="vblex"/></l>         <r>desmantellar<s n="vblex"/></r></p></e>
+<e>       <p><l>defect<s n="vblex"/></l>               <r>desertar<s n="vblex"/></r></p></e>
+<e>       <p><l>defer<s n="vblex"/></l>                <r>ajornar<s n="vblex"/></r></p></e>
+<e>       <p><l>deflect<s n="vblex"/></l>              <r>desviar<s n="vblex"/></r></p></e>
+<e>       <p><l>delight<s n="vblex"/></l>              <r>encantar<s n="vblex"/></r></p></e>
+<e>       <p><l>delineate<s n="vblex"/></l>            <r>definir<s n="vblex"/></r></p></e>
+<e>       <p><l>deprecate<s n="vblex"/></l>            <r>desaprovar<s n="vblex"/></r></p></e>
+<e>       <p><l>deride<s n="vblex"/></l>               <r>ridiculitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>devolve<s n="vblex"/></l>              <r>delegar<s n="vblex"/></r></p></e>
+<e>       <p><l>dip<s n="vblex"/></l>                  <r>sucar<s n="vblex"/></r></p></e>
+<e>       <p><l>disadvantage<s n="vblex"/></l>         <r>desfavorir<s n="vblex"/></r></p></e>
+<e>       <p><l>disconnect<s n="vblex"/></l>           <r>desconnectar<s n="vblex"/></r></p></e>
+<e>       <p><l>discredit<s n="vblex"/></l>            <r>desacreditar<s n="vblex"/></r></p></e>
+<e>       <p><l>disqualify<s n="vblex"/></l>           <r>desqualificar<s n="vblex"/></r></p></e>
+<e>       <p><l>distance<s n="vblex"/></l>             <r>distanciar<s n="vblex"/></r></p></e>
+<e>       <p><l>dock<s n="vblex"/></l>                 <r>atracar<s n="vblex"/></r></p></e>
+<e>       <p><l>doom<s n="vblex"/></l>                 <r>condemnar<s n="vblex"/></r></p></e>
+<e>       <p><l>drill<s n="vblex"/></l>                <r>perforar<s n="vblex"/></r></p></e>
+<e>       <p><l>dwindle<s n="vblex"/></l>              <r>minvar<s n="vblex"/></r></p></e>
+<e>       <p><l>eclipse<s n="vblex"/></l>              <r>eclipsar<s n="vblex"/></r></p></e>
+<e>       <p><l>edge<s n="vblex"/></l>                 <r>afilar<s n="vblex"/></r></p></e>
+<e>       <p><l>elapse<s n="vblex"/></l>               <r>transcórrer<s n="vblex"/></r></p></e>
+<e>       <p><l>electrify<s n="vblex"/></l>            <r>electrificar<s n="vblex"/></r></p></e>
+<e>       <p><l>embroil<s n="vblex"/></l>              <r>embolicar<s n="vblex"/></r></p></e>
+<e>       <p><l>encircle<s n="vblex"/></l>             <r>encerclar<s n="vblex"/></r></p></e>
+<e>       <p><l>enlighten<s n="vblex"/></l>            <r>il·luminar<s n="vblex"/></r></p></e>
+<e>       <p><l>enrage<s n="vblex"/></l>               <r>enutjar<s n="vblex"/></r></p></e>
+<e>       <p><l>enshrine<s n="vblex"/></l>             <r>enclaustrar<s n="vblex"/></r></p></e>
+<e>       <p><l>entail<s n="vblex"/></l>               <r>implicar<s n="vblex"/></r></p></e>
+<e>       <p><l>entangle<s n="vblex"/></l>             <r>enredar<s n="vblex"/></r></p></e>
+<e>       <p><l>entrench<s n="vblex"/></l>             <r>atrinxerar<s n="vblex"/></r></p></e>
+<e>       <p><l>envisage<s n="vblex"/></l>             <r>concebre<s n="vblex"/></r></p></e>
+<e>       <p><l>escort<s n="vblex"/></l>               <r>escortar<s n="vblex"/></r></p></e>
+<e>       <p><l>esteem<s n="vblex"/></l>               <r>considerar<s n="vblex"/></r></p></e>
+<e>       <p><l>estrange<s n="vblex"/></l>             <r>allunyar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>evict<s n="vblex"/></l>                <r>desnonar<s n="vblex"/></r></p></e>
+<e>       <p><l>excel<s n="vblex"/></l>                <r>destacar<s n="vblex"/></r></p></e>
+<e>       <p><l>excrete<s n="vblex"/></l>              <r>excretar<s n="vblex"/></r></p></e>
+<e>       <p><l>exempt<s n="vblex"/></l>               <r>eximir<s n="vblex"/></r></p></e>
+<e>       <p><l>expound<s n="vblex"/></l>              <r>exposar<s n="vblex"/></r></p></e>
+<e>       <p><l>fare<s n="vblex"/></l>                 <r>anar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>fate<s n="vblex"/></l>                 <r>destinar<s n="vblex"/></r></p></e>
+<e>       <p><l>father<s n="vblex"/></l>               <r>concebre<s n="vblex"/></r></p></e>
+<e>       <p><l>fictionalize<s n="vblex"/></l>         <r>novel·litzar<s n="vblex"/></r></p></e>
+<e>       <p><l>field<s n="vblex"/></l>                <r>desplegar<s n="vblex"/></r></p></e>
+<e>       <p><l>flank<s n="vblex"/></l>                <r>flanquejar<s n="vblex"/></r></p></e>
+<e>       <p><l>flavor<s n="vblex"/></l>               <r>assaonar<s n="vblex"/></r></p></e>
+<e>       <p><l>format<s n="vblex"/></l>               <r>formatar<s n="vblex"/></r></p></e>
+<e>       <p><l>fracture<s n="vblex"/></l>             <r>fracturar<s n="vblex"/></r></p></e>
+<e>       <p><l>frequent<s n="vblex"/></l>             <r>freqüentar<s n="vblex"/></r></p></e>
+<e>       <p><l>front<s n="vblex"/></l>                <r>liderar<s n="vblex"/></r></p></e>
+<e>       <p><l>further<s n="vblex"/></l>              <r>impulsar<s n="vblex"/></r></p></e>
+<e>       <p><l>gear<s n="vblex"/></l>                 <r>engranar<s n="vblex"/></r></p></e>
+<e>       <p><l>glue<s n="vblex"/></l>                 <r>enganxar<s n="vblex"/></r></p></e>
+<e>       <p><l>grade<s n="vblex"/></l>                <r>posar nota<s n="vblex"/></r></p></e>
+<e>       <p><l>grain<s n="vblex"/></l>                <r>granular<s n="vblex"/></r></p></e>
+<e>       <p><l>grill<s n="vblex"/></l>                <r>fer<g><b/>a<b/>la<b/>brasa</g><s n="vblex"/></r></p></e>
+<e>       <p><l>hasten<s n="vblex"/></l>               <r>afanyar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>haul<s n="vblex"/></l>                 <r>arrossegar<s n="vblex"/></r></p></e>
+<e>       <p><l>haunt<s n="vblex"/></l>                <r>encantar<s n="vblex"/></r></p></e>
+<e>       <p><l>headline<s n="vblex"/></l>             <r>encapçalar<s n="vblex"/></r></p></e>
+<e>       <p><l>herald<s n="vblex"/></l>               <r>pregonar<s n="vblex"/></r></p></e>
+<e>       <p><l>hijack<s n="vblex"/></l>               <r>segrestar<s n="vblex"/></r></p></e>
+<e>       <p><l>hinge<s n="vblex"/></l>                <r>dependre<s n="vblex"/></r></p></e>
+<e>       <p><l>hint<s n="vblex"/></l>                 <r>donar<g><b/>a<b/>entendre</g><s n="vblex"/></r></p></e>
+<e>       <p><l>hospitalize<s n="vblex"/></l>          <r>hospitalitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>immerse<s n="vblex"/></l>              <r>immergir<s n="vblex"/></r></p></e>
+<e>       <p><l>impeach<s n="vblex"/></l>              <r>impugnar<s n="vblex"/></r></p></e>
+<e>       <p><l>impede<s n="vblex"/></l>               <r>impedir<s n="vblex"/></r></p></e>
+<e>       <p><l>incarcerate<s n="vblex"/></l>          <r>empresonar<s n="vblex"/></r></p></e>
+<e>       <p><l>indebt<s n="vblex"/></l>               <r>endeutar<s n="vblex"/></r></p></e>
+<e>       <p><l>indenture<s n="vblex"/></l>            <r>contractar<s n="vblex"/></r></p></e>
+<e>       <p><l>infiltrate<s n="vblex"/></l>           <r>infiltrar<s n="vblex"/></r></p></e>
+<e>       <p><l>inflect<s n="vblex"/></l>              <r>declinar<s n="vblex"/></r></p></e>
+<e>       <p><l>infuriate<s n="vblex"/></l>            <r>exasperar<s n="vblex"/></r></p></e>
+<e>       <p><l>infuse<s n="vblex"/></l>               <r>infondre<s n="vblex"/></r></p></e>
+<e>       <p><l>ingest<s n="vblex"/></l>               <r>ingerir<s n="vblex"/></r></p></e>
+<e>       <p><l>instigate<s n="vblex"/></l>            <r>instigar<s n="vblex"/></r></p></e>
+<e>       <p><l>institutionalize<s n="vblex"/></l>     <r>internar<s n="vblex"/></r></p></e>
+<e>       <p><l>insulate<s n="vblex"/></l>             <r>aïllar<s n="vblex"/></r></p></e>
+<e>       <p><l>interact<s n="vblex"/></l>             <r>interactuar<s n="vblex"/></r></p></e>
+<e>       <p><l>intern<s n="vblex"/></l>               <r>detenir<s n="vblex"/></r></p></e>
+<e>       <p><l>intertwine<s n="vblex"/></l>           <r>encreuar<s n="vblex"/></r></p></e>
+<e>       <p><l>intrigue<s n="vblex"/></l>             <r>intrigar<s n="vblex"/></r></p></e>
+<e>       <p><l>irradiate<s n="vblex"/></l>            <r>irradiar<s n="vblex"/></r></p></e>
+<e>       <p><l>joke<s n="vblex"/></l>                 <r>fer<g><b/>broma</g><s n="vblex"/></r></p></e>
+<e>       <p><l>knight<s n="vblex"/></l>               <r>ordenar<g><b/>cavaller</g><s n="vblex"/></r></p></e>
+<e>       <p><l>lament<s n="vblex"/></l>               <r>lamentar<s n="vblex"/></r></p></e>
+<e>       <p><l>laud<s n="vblex"/></l>                 <r>lloar<s n="vblex"/></r></p></e>
+<e>       <p><l>lecture<s n="vblex"/></l>              <r>ensenyar<s n="vblex"/></r></p></e>
+<e>       <p><l>lengthen<s n="vblex"/></l>             <r>allargar<s n="vblex"/></r></p></e>
+<e>       <p><l>lessen<s n="vblex"/></l>               <r>minvar<s n="vblex"/></r></p></e>
+<e>       <p><l>loot<s n="vblex"/></l>                 <r>arrencar<s n="vblex"/></r></p></e>
+<e>       <p><l>lure<s n="vblex"/></l>                 <r>atraure<s n="vblex"/></r></p></e>
+<e>       <p><l>marginalize<s n="vblex"/></l>          <r>marginar<s n="vblex"/></r></p></e>
+<e>       <p><l>mar<s n="vblex"/></l>                  <r>arruïnar<s n="vblex"/></r></p></e>
+<e>       <p><l>martyr<s n="vblex"/></l>               <r>martiritzar<s n="vblex"/></r></p></e>
+<e>       <p><l>master<s n="vblex"/></l>               <r>dominar<s n="vblex"/></r></p></e>
+<e>       <p><l>metabolize<s n="vblex"/></l>           <r>metabolitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>minimize<s n="vblex"/></l>             <r>minimitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>mirror<s n="vblex"/></l>               <r>reproduir<s n="vblex"/></r></p></e>
+<e>       <p><l>misinterpret<s n="vblex"/></l>         <r>malinterpretar<s n="vblex"/></r></p></e>
+<e>       <p><l>mobilize<s n="vblex"/></l>             <r>mobilitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>mock<s n="vblex"/></l>                 <r>ridiculitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>narrow<s n="vblex"/></l>               <r>reduir<s n="vblex"/></r></p></e>
+<e>       <p><l>necessitate<s n="vblex"/></l>          <r>necessitar<s n="vblex"/></r></p></e>
+<e>       <p><l>nest<s n="vblex"/></l>                 <r>niar<s n="vblex"/></r></p></e>
+<e>       <p><l>network<s n="vblex"/></l>              <r>contactar<s n="vblex"/></r></p></e>
+<e>       <p><l>notate<s n="vblex"/></l>               <r>apuntar<s n="vblex"/></r></p></e>
+<e>       <p><l>obligate<s n="vblex"/></l>             <r>obligar<s n="vblex"/></r></p></e>
+<e>       <p><l>obsess<s n="vblex"/></l>               <r>obsessionar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>opine<s n="vblex"/></l>                <r>opinar<s n="vblex"/></r></p></e>
+<e>       <p><l>oppress<s n="vblex"/></l>              <r>oprimir<s n="vblex"/></r></p></e>
+<e>       <p><l>overrule<s n="vblex"/></l>             <r>desautoritzar<s n="vblex"/></r></p></e>
+<e>       <p><l>pace<s n="vblex"/></l>                 <r>passejar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>pan<s n="vblex"/></l>                  <r>enquadrar<s n="vblex"/></r></p></e>
+<e>       <p><l>pardon<s n="vblex"/></l>               <r>perdonar<s n="vblex"/></r></p></e>
+<e>       <p><l>parody<s n="vblex"/></l>               <r>parodiar<s n="vblex"/></r></p></e>
+<e>       <p><l>partition<s n="vblex"/></l>            <r>dividir<s n="vblex"/></r></p></e>
+<e>       <p><l>perpetrate<s n="vblex"/></l>           <r>perpetrar<s n="vblex"/></r></p></e>
+<e>       <p><l>personify<s n="vblex"/></l>            <r>personificar<s n="vblex"/></r></p></e>
+<e>       <p><l>picture<s n="vblex"/></l>              <r>fotografiar<s n="vblex"/></r></p></e>
+<e>       <p><l>pit<s n="vblex"/></l>                  <r>desossar<s n="vblex"/></r></p></e>
+<e>       <p><l>pluck<s n="vblex"/></l>                <r>desplomar<s n="vblex"/></r></p></e>
+<e>       <p><l>plug<s n="vblex"/></l>                 <r>endollar<s n="vblex"/></r></p></e>
+<e>       <p><l>plunge<s n="vblex"/></l>               <r>caure<s n="vblex"/></r></p></e>
+<e>       <p><l>predate<s n="vblex"/></l>              <r>ser<g><b/>anterior</g><s n="vblex"/></r></p></e>
+<e>       <p><l>preoccupy<s n="vblex"/></l>            <r>preocupar<s n="vblex"/></r></p></e>
+<e>       <p><l>procure<s n="vblex"/></l>              <r>aconseguir<s n="vblex"/></r></p></e>
+<e>       <p><l>prosper<s n="vblex"/></l>              <r>prosperar<s n="vblex"/></r></p></e>
+<e>       <p><l>publicise<s n="vblex"/></l>            <r>publicitar<s n="vblex"/></r></p></e>
+<e>       <p><l>punctuate<s n="vblex"/></l>            <r>puntuar<s n="vblex"/></r></p></e>
+<e>       <p><l>purge<s n="vblex"/></l>                <r>purgar<s n="vblex"/></r></p></e>
+<e>       <p><l>quantize<s n="vblex"/></l>             <r>quantificar<s n="vblex"/></r></p></e>
+<e>       <p><l>radiate<s n="vblex"/></l>              <r>irradiar<s n="vblex"/></r></p></e>
+<e>       <p><l>rage<s n="vblex"/></l>                 <r>arrasar<s n="vblex"/></r></p></e>
+<e>       <p><l>randomize<s n="vblex"/></l>            <r>distribuir<g><b/>a<b/>l'atzar</g><s n="vblex"/></r></p></e>
+<e>       <p><l>rape<s n="vblex"/></l>                 <r>violar<s n="vblex"/></r></p></e>
+<e>       <p><l>raze<s n="vblex"/></l>                 <r>arrasar<s n="vblex"/></r></p></e>
+<e>       <p><l>rearrange<s n="vblex"/></l>            <r>reorganitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>reassign<s n="vblex"/></l>             <r>reassignar<s n="vblex"/></r></p></e>
+<e>       <p><l>rebrand<s n="vblex"/></l>              <r>renombrar<s n="vblex"/></r></p></e>
+<e>       <p><l>reclassify<s n="vblex"/></l>           <r>reclassificar<s n="vblex"/></r></p></e>
+<e>       <p><l>reconstitute<s n="vblex"/></l>         <r>reconstituir<s n="vblex"/></r></p></e>
+<e>       <p><l>redeem<s n="vblex"/></l>               <r>bescanviar<s n="vblex"/></r></p></e>
+<e>       <p><l>redesignate<s n="vblex"/></l>          <r>redesignar<s n="vblex"/></r></p></e>
+<e>       <p><l>redevelop<s n="vblex"/></l>            <r>reurbanitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>reestablish<s n="vblex"/></l>          <r>reestablir<s n="vblex"/></r></p></e>
+<e>       <p><l>refrain<s n="vblex"/></l>              <r>abstenir<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>refurbish<s n="vblex"/></l>            <r>renovar<s n="vblex"/></r></p></e>
+<e>       <p><l>refute<s n="vblex"/></l>               <r>rebatre<s n="vblex"/></r></p></e>
+<e>       <p><l>relay<s n="vblex"/></l>                <r>transmetre<s n="vblex"/></r></p></e>
+<e>       <p><l>relent<s n="vblex"/></l>               <r>rendir<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>relinquish<s n="vblex"/></l>           <r>renunciar<s n="vblex"/></r></p></e>
+<e>       <p><l>remarry<s n="vblex"/></l>              <r>tornar<g><b/>a<b/>casar</g><s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>remaster<s n="vblex"/></l>             <r>remasteritzar<s n="vblex"/></r></p></e>
+<e>       <p><l>remix<s n="vblex"/></l>                <r>remesclar<s n="vblex"/></r></p></e>
+<e>       <p><l>repress<s n="vblex"/></l>              <r>reprimir<s n="vblex"/></r></p></e>
+<e>       <p><l>reprise<s n="vblex"/></l>              <r>repetir<s n="vblex"/></r></p></e>
+<e>       <p><l>republish<s n="vblex"/></l>            <r>reeditar<s n="vblex"/></r></p></e>
+<e>       <p><l>repudiate<s n="vblex"/></l>            <r>repudiar<s n="vblex"/></r></p></e>
+<e>       <p><l>rescind<s n="vblex"/></l>              <r>rescindir<s n="vblex"/></r></p></e>
+<e>       <p><l>resettle<s n="vblex"/></l>             <r>reubicar<s n="vblex"/></r></p></e>
+<e>       <p><l>restrain<s n="vblex"/></l>             <r>contenir<s n="vblex"/></r></p></e>
+<e>       <p><l>retitle<s n="vblex"/></l>              <r>retitular<s n="vblex"/></r></p></e>
+<e>       <p><l>retract<s n="vblex"/></l>              <r>retreure<s n="vblex"/></r></p></e>
+<e>       <p><l>revamp<s n="vblex"/></l>               <r>modernitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>revisit<s n="vblex"/></l>              <r>revisitar<s n="vblex"/></r></p></e>
+<e>       <p><l>revolve<s n="vblex"/></l>              <r>girar<s n="vblex"/></r></p></e>
+<e>       <p><l>rework<s n="vblex"/></l>               <r>revisar<s n="vblex"/></r></p></e>
+<e>       <p><l>rig<s n="vblex"/></l>                  <r>equipar<s n="vblex"/></r></p></e>
+<e>       <p><l>roast<s n="vblex"/></l>                <r>rostir<s n="vblex"/></r></p></e>
+<e>       <p><l>rumor<s n="vblex"/></l>                <r>rumorejar<s n="vblex"/></r></p></e>
+<e>       <p><l>rumour<s n="vblex"/></l>               <r>rumorejar<s n="vblex"/></r></p></e>
+<e>       <p><l>salt<s n="vblex"/></l>                 <r>salar<s n="vblex"/></r></p></e>
+<e>       <p><l>script<s n="vblex"/></l>               <r>dictar<s n="vblex"/></r></p></e>
+<e>       <p><l>sculpt<s n="vblex"/></l>               <r>esculpir<s n="vblex"/></r></p></e>
+<e>       <p><l>secede<s n="vblex"/></l>               <r>separar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>sequence<s n="vblex"/></l>             <r>ordenar<s n="vblex"/></r></p></e>
+<e>       <p><l>serialize<s n="vblex"/></l>            <r>serialitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>service<s n="vblex"/></l>              <r>mantenir<s n="vblex"/></r></p></e>
+<e>       <p><l>shelve<s n="vblex"/></l>               <r>abandonar<s n="vblex"/></r></p></e>
+<e>       <p><l>shield<s n="vblex"/></l>               <r>protegir<s n="vblex"/></r></p></e>
+<e>       <p><l>showcase<s n="vblex"/></l>             <r>exhibir<s n="vblex"/></r></p></e>
+<e>       <p><l>signal<s n="vblex"/></l>               <r>senyalitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>signify<s n="vblex"/></l>              <r>indicar<s n="vblex"/></r></p></e>
+<e>       <p><l>site<s n="vblex"/></l>                 <r>ubicar<s n="vblex"/></r></p></e>
+<e>       <p><l>sketch<s n="vblex"/></l>               <r>esbossar<s n="vblex"/></r></p></e>
+<e>       <p><l>skin<s n="vblex"/></l>                 <r>escorxar<s n="vblex"/></r></p></e>
+<e>       <p><l>slaughter<s n="vblex"/></l>            <r>matar<s n="vblex"/></r></p></e>
+<e>       <p><l>slice<s n="vblex"/></l>                <r>llescar<s n="vblex"/></r></p></e>
+<e>       <p><l>smuggle<s n="vblex"/></l>              <r>fer<g><b/>contraban</g><s n="vblex"/></r></p></e>
+<e>       <p><l>soar<s n="vblex"/></l>                 <r>disparar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>spearhead<s n="vblex"/></l>            <r>encapçalar<s n="vblex"/></r></p></e>
+<e>       <p><l>spray<s n="vblex"/></l>                <r>ruixar<s n="vblex"/></r></p></e>
+<e>       <p><l>stab<s n="vblex"/></l>                 <r>apunyalar<s n="vblex"/></r></p></e>
+<e>       <p><l>stack<s n="vblex"/></l>                <r>amuntegar<s n="vblex"/></r></p></e>
+<e>       <p><l>starve<s n="vblex"/></l>               <r>passar<g><b/>gana</g><s n="vblex"/></r></p></e>
+<e>       <p><l>steam<s n="vblex"/></l>                <r>cuinar<g><b/>al<b/>vapor</g><s n="vblex"/></r></p></e>
+<e>       <p><l>storm<s n="vblex"/></l>                <r>atacar<s n="vblex"/></r></p></e>
+<e>       <p><l>streamline<s n="vblex"/></l>           <r>modernitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>subjugate<s n="vblex"/></l>            <r>subjugar<s n="vblex"/></r></p></e>
+<e>       <p><l>subsume<s n="vblex"/></l>              <r>subsumir<s n="vblex"/></r></p></e>
+<e>       <p><l>subtitle<s n="vblex"/></l>             <r>subtitular<s n="vblex"/></r></p></e>
+<e>       <p><l>succumb<s n="vblex"/></l>              <r>sucumbir<s n="vblex"/></r></p></e>
+<e>       <p><l>swap<s n="vblex"/></l>                 <r>intercanviar<s n="vblex"/></r></p></e>
+<e>       <p><l>tag<s n="vblex"/></l>                  <r>etiquetar<s n="vblex"/></r></p></e>
+<e>       <p><l>tailor<s n="vblex"/></l>               <r>confeccionar<s n="vblex"/></r></p></e>
+<e>       <p><l>tape<s n="vblex"/></l>                 <r>enregistrar<s n="vblex"/></r></p></e>
+<e>       <p><l>thrive<s n="vblex"/></l>               <r>prosperar<s n="vblex"/></r></p></e>
+<e>       <p><l>thwart<s n="vblex"/></l>               <r>frustrar<s n="vblex"/></r></p></e>
+<e>       <p><l>tilt<s n="vblex"/></l>                 <r>inclinar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>topple<s n="vblex"/></l>               <r>esfondrar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>transition<s n="vblex"/></l>           <r>convertir<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>traverse<s n="vblex"/></l>             <r>creuar<s n="vblex"/></r></p></e>
+<e>       <p><l>trim<s n="vblex"/></l>                 <r>retallar<s n="vblex"/></r></p></e>
+<e>       <p><l>triple<s n="vblex"/></l>               <r>triplicar<s n="vblex"/></r></p></e>
+<e>       <p><l>typify<s n="vblex"/></l>               <r>tipificar<s n="vblex"/></r></p></e>
+<e>       <p><l>unearth<s n="vblex"/></l>              <r>desenterrar<s n="vblex"/></r></p></e>
+<e>       <p><l>urbanize<s n="vblex"/></l>             <r>urbanitzar<s n="vblex"/></r></p></e>
+<e>       <p><l>usher<s n="vblex"/></l>                <r>acompanyar<s n="vblex"/></r></p></e>
+<e>       <p><l>utter<s n="vblex"/></l>                <r>pronunciar<s n="vblex"/></r></p></e>
+<e>       <p><l>vacate<s n="vblex"/></l>               <r>desallotjar<s n="vblex"/></r></p></e>
+<e>       <p><l>vanish<s n="vblex"/></l>               <r>desaparèixer<s n="vblex"/></r></p></e>
+<e>       <p><l>veil<s n="vblex"/></l>                 <r>amagar<s n="vblex"/></r></p></e>
+<e>       <p><l>venture<s n="vblex"/></l>              <r>arriscar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>wed<s n="vblex"/></l>                  <r>casar<s n="vblex"/><s n="pron"/></r></p></e>
+<e>       <p><l>wield<s n="vblex"/></l>                <r>brandar<s n="vblex"/></r></p></e>
+<e>       <p><l>wreck<s n="vblex"/></l>                <r>destrossar<s n="vblex"/></r></p></e>
 
     <!-- ******************************
           group adjant_symbol
@@ -27226,6 +27513,81 @@
 <e>       <p><l>Zion<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Zion<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Zoilo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Zoilo<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Zósimo<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Zósimo<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Adalbert<s n="np"/><s n="ant"/></l>    <r>Adalbert<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Adolph<s n="np"/><s n="ant"/></l>      <r>Adolph<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Æthelwulf<s n="np"/><s n="ant"/></l>   <r>Ethelwulf<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Alexios<s n="np"/><s n="ant"/></l>     <r>Alexios<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Alhazen<s n="np"/><s n="ant"/></l>     <r>Alhazen<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Ambrosius<s n="np"/><s n="ant"/></l>   <r>Ambrosius<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Andrei<s n="np"/><s n="ant"/></l>      <r>Andrei<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Andronikos<s n="np"/><s n="ant"/></l>  <r>Andrònic<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Ares<s n="np"/><s n="ant"/></l>        <r>Ares<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Argos<s n="np"/><s n="ant"/></l>       <r>Argos<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Aristophanes<s n="np"/><s n="ant"/></l><r>Aristòfanes<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Arnulf<s n="np"/><s n="ant"/></l>      <r>Arnulf<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Bartholomew<s n="np"/><s n="ant"/></l> <r>Bartholomew<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Béla<s n="np"/><s n="ant"/></l>        <r>Béla<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Cain<s n="np"/><s n="ant"/></l>        <r>Caín<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Caracalla<s n="np"/><s n="ant"/></l>   <r>Caracal·la<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Cary<s n="np"/><s n="ant"/></l>        <r>Cary<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Daedalus<s n="np"/><s n="ant"/></l>    <r>Dèdal<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Davros<s n="np"/><s n="ant"/></l>      <r>Davros<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Dionysus<s n="np"/><s n="ant"/></l>    <r>Dionís<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Diodorus<s n="np"/><s n="ant"/></l>    <r>Diodor<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Dirk<s n="np"/><s n="ant"/></l>        <r>Dirk<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Dmitri<s n="np"/><s n="ant"/></l>      <r>Dmitri<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Draco<s n="np"/><s n="ant"/></l>       <r>Draco<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Emile<s n="np"/><s n="ant"/></l>       <r>Emile<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Epicurus<s n="np"/><s n="ant"/></l>    <r>Epicur<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Ernie<s n="np"/><s n="ant"/></l>       <r>Ernie<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Euripides<s n="np"/><s n="ant"/></l>   <r>Eurípides<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Fenrir<s n="np"/><s n="ant"/></l>      <r>Fenrir<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Flavius<s n="np"/><s n="ant"/></l>     <r>Flavi<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Frederic<s n="np"/><s n="ant"/></l>    <r>Frederic<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Genghis<s n="np"/><s n="ant"/></l>     <r>Genghis<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Godfrey<s n="np"/><s n="ant"/></l>     <r>Godfrey<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Goliath<s n="np"/><s n="ant"/></l>     <r>Goliat<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Gregor<s n="np"/><s n="ant"/></l>      <r>Gregor<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Gulliver<s n="np"/><s n="ant"/></l>    <r>Gulliver<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Hephaestus<s n="np"/><s n="ant"/></l>  <r>Hefest<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Heraclitus<s n="np"/><s n="ant"/></l>  <r>Heràclit<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Heraclius<s n="np"/><s n="ant"/></l>   <r>Heracli<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Herod<s n="np"/><s n="ant"/></l>       <r>Herodes<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Hippocrates<s n="np"/><s n="ant"/></l> <r>Hipòcrates<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Horatio<s n="np"/><s n="ant"/></l>     <r>Horatio<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Isidore<s n="np"/><s n="ant"/></l>     <r>Isidor<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>João<s n="np"/><s n="ant"/></l>        <r>João<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Kazimierz<s n="np"/><s n="ant"/></l>   <r>Kazimierz<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Lucifer<s n="np"/><s n="ant"/></l>     <r>Llucifer<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Mies<s n="np"/><s n="ant"/></l>        <r>Mies<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Minos<s n="np"/><s n="ant"/></l>       <r>Minos<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Moctezuma<s n="np"/><s n="ant"/></l>   <r>Moctezuma<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Nestorius<s n="np"/><s n="ant"/></l>   <r>Nestori<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Niels<s n="np"/><s n="ant"/></l>       <r>Niels<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Oedipus<s n="np"/><s n="ant"/></l>     <r>Èdip<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Osama<s n="np"/><s n="ant"/></l>       <r>Osama<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Osman<s n="np"/><s n="ant"/></l>       <r>Osman<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Parmenides<s n="np"/><s n="ant"/></l>  <r>Parmènides<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Pegasus<s n="np"/><s n="ant"/></l>     <r>Pegàs<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Perseus<s n="np"/><s n="ant"/></l>     <r>Perseu<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Philipp<s n="np"/><s n="ant"/></l>     <r>Philipp<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Plotinus<s n="np"/><s n="ant"/></l>    <r>Plotí<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Procopius<s n="np"/><s n="ant"/></l>   <r>Procopi<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Publius<s n="np"/><s n="ant"/></l>     <r>Publi<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Pytheas<s n="np"/><s n="ant"/></l>     <r>Pitees<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Rufus<s n="np"/><s n="ant"/></l>       <r>Rufus<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Sergius<s n="np"/><s n="ant"/></l>     <r>Sergi<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Sextus<s n="np"/><s n="ant"/></l>      <r>Sext<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Sherlock<s n="np"/><s n="ant"/></l>    <r>Sherlock<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Snoopy<s n="np"/><s n="ant"/></l>      <r>Snoopy<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Stanisław<s n="np"/><s n="ant"/></l>   <r>Stanisław<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Terence<s n="np"/><s n="ant"/></l>     <r>Terence<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Themistocles<s n="np"/><s n="ant"/></l><r>Temístocles<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Vangelis<s n="np"/><s n="ant"/></l>    <r>Vangelis<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Wally<s n="np"/><s n="ant"/></l>       <r>Wally<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Zoroaster<s n="np"/><s n="ant"/></l>   <r>Zoroastre<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Franz<s n="np"/><s n="ant"/></l>       <r>Franz<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Aslan<s n="np"/><s n="ant"/></l>       <r>Àslan<s n="np"/><s n="ant"/></r></p></e>
 
     <!-- Female first names -->
 
@@ -30476,6 +30838,26 @@
 <e>       <p><l>Zulmara<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Zulmara<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Zulma<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Zulma<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Zunilda<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Zunilda<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Bertha<s n="np"/><s n="top"/><s n="sg"/></l><r>Bertha<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Beth<s n="np"/><s n="top"/><s n="sg"/></l><r>Beth<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Bonnie<s n="np"/><s n="top"/><s n="sg"/></l><r>Bonnie<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Cinderella<s n="np"/><s n="top"/><s n="sg"/></l><r>Ventafocs<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Clair<s n="np"/><s n="top"/><s n="sg"/></l><r>Clair<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Cordelia<s n="np"/><s n="top"/><s n="sg"/></l><r>Cordèlia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Doris<s n="np"/><s n="top"/><s n="sg"/></l><r>Doris<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Enya<s n="np"/><s n="top"/><s n="sg"/></l><r>Enya<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Gertrude<s n="np"/><s n="top"/><s n="sg"/></l><r>Gertrude<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Hermione<s n="np"/><s n="top"/><s n="sg"/></l><r>Hermione<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Hilary<s n="np"/><s n="top"/><s n="sg"/></l><r>Hilary<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Hypatia<s n="np"/><s n="top"/><s n="sg"/></l><r>Hipàtia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Isolde<s n="np"/><s n="top"/><s n="sg"/></l><r>Isolda<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Louisa<s n="np"/><s n="top"/><s n="sg"/></l><r>Louisa<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Marge<s n="np"/><s n="top"/><s n="sg"/></l><r>Marge<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Medea<s n="np"/><s n="top"/><s n="sg"/></l><r>Medea<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Peggy<s n="np"/><s n="top"/><s n="sg"/></l><r>Peggy<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Persephone<s n="np"/><s n="top"/><s n="sg"/></l><r>Persèfone<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Susanna<s n="np"/><s n="top"/><s n="sg"/></l><r>Susanna<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Thetis<s n="np"/><s n="top"/><s n="sg"/></l><r>Tetis<s n="np"/><s n="loc"/></r></p></e>
 
     <!-- Family names -->
 
