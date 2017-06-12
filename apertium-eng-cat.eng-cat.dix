@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 3
-	Entries: 38829
+	Entries: 39270
 	Sdefs: 91
 	Paradigms: 15
 	Last processed by: apertium-dixtools fix apertium-eng-cat.eng-cat.dix apertium-eng-cat.eng-cat.dix
@@ -10295,7 +10295,7 @@
 <e r="RL"><p><l>originator<s n="n"/></l>               <r>originador<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>orle<s n="n"/></l>                     <r>orla<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ornament<s n="n"/></l>                 <r>adornament<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>ornament<s n="n"/></l>                 <r>ornament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ornament<s n="n"/></l>                 <r>ornament<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>ornithologist<s n="n"/></l>            <r>ornitòleg<s n="n"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>ornithologist<s n="n"/></l>            <r>ornitòleg<s n="n"/></r></p></e>
 <e>       <p><l>ornithology<s n="n"/></l>              <r>ornitologia<s n="n"/><s n="f"/></r></p></e>
@@ -10928,7 +10928,7 @@
 <e>       <p><l>petrography<s n="n"/></l>              <r>petrografia<s n="n"/><s n="f"/></r></p></e>
 <e vl="en_GB"><p><l>petrol<s n="n"/></l>               <r>gasolina<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>petrol<b/>station<s n="n"/></l>        <r>gasolinera<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" a="mariola"><p><l>petroleum<s n="n"/></l>    <r>petroli<s n="n"/><s n="m"/></r></p></e>
+<e a="mariola"><p><l>petroleum<s n="n"/></l>           <r>petroli<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>petrology<s n="n"/></l>                <r>petrologia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>phacolysis<s n="n"/></l>               <r>facòlisi<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>phacomatosis<s n="n"/></l>             <r>facomatosi<s n="n"/><s n="f"/></r></p></e>
@@ -16120,6 +16120,396 @@
 <e>       <p><l>veneration<s n="n"/></l>               <r>veneració<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>verification<s n="n"/></l>             <r>verificació<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>violation<s n="n"/></l>                <r>violació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>infrared<s n="n"/></l>                 <r>infraroig<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>watershed<s n="n"/></l>                <r>punt<g><b/>d'inflexió</g><s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>reed<s n="n"/></l>                     <r>canya<s n="f"/><s n="m"/></r></p></e>
+<e>       <p><l>deed<s n="n"/></l>                     <r>fet<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>deathbed<s n="n"/></l>                 <r>llit<g><b/>de<b/>mort</g><s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>seabed<s n="n"/></l>                   <r>fons<b/>marí<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>weed<s n="n"/></l>                     <r>marihuana<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>whipped<b/>cream<s n="n"/></l>         <r>nata<b/>muntada<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>advent<s n="n"/></l>                   <r>arribada<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>advisor<s n="n"/></l>                  <r>assessor<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>advisor<s n="n"/></l>                  <r>assessor<s n="n"/></r></p></e>
+<e>       <p><l>airframe<s n="n"/></l>                 <r>carcassa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>allegiance<s n="n"/></l>               <r>lleialtat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>aperture<s n="n"/></l>                 <r>obertura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>apoptosis<s n="n"/></l>                <r>apoptosi<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>arbitration<s n="n"/></l>              <r>arbitratge<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>arc<s n="n"/></l>                      <r>arc<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>artwork<s n="n"/></l>                  <r>obra<g><b/>d'art</g><s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ascent<s n="n"/></l>                   <r>ascensió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>avoidance<s n="n"/></l>                <r>abstinència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>bachelor<s n="n"/></l>                 <r>solter<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>benzodiazepine<s n="n"/></l>           <r>benzodiazepina<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>bloc<s n="n"/></l>                     <r>bloc<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>bolt<s n="n"/></l>                     <r>caragol<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>bypass<s n="n"/></l>                   <r>bypass<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cache<s n="n"/></l>                    <r>memòria<g><b/>cau</g><s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>catcher<s n="n"/></l>                  <r>receptor<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>catcher<s n="n"/></l>                  <r>receptor<s n="n"/></r></p></e>
+<e>       <p><l>causation<s n="n"/></l>                <r>causalitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ceramic<s n="n"/></l>                  <r>ceràmica<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cipher<s n="n"/></l>                   <r>codi<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>circuitry<s n="n"/></l>                <r>circuit<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>clade<s n="n"/></l>                    <r>clade<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>clearance<s n="n"/></l>                <r>gàlib<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>clef<s n="n"/></l>                     <r>clau<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>bass<b/>clef<s n="n"/></l>             <r>clau<g><b/>de<b/>fa</g><s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>treble<b/>clef<s n="n"/></l>           <r>clau<g><b/>de<b/>sol</g><s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cleric<s n="n"/></l>                   <r>clergue<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>coercion<s n="n"/></l>                 <r>coacció<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>coinage<s n="n"/></l>                  <r>encuny<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>comeback<s n="n"/></l>                 <r>retorn<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>conservative<s n="n"/></l>             <r>conservador<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>conservative<s n="n"/></l>             <r>conservador<s n="n"/></r></p></e>
+<e>       <p><l>consort<s n="n"/></l>                  <r>consort<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>conspirator<s n="n"/></l>              <r>conspirador<s n="n"/><s n="GD"/></r></p></e>
+<e>       <p><l>continuum<s n="n"/></l>                <r>tot<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>corpus<s n="n"/></l>                   <r>corpus<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>covenant<s n="n"/></l>                 <r>acord<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>craftsman<s n="n"/></l>                <r>artesà<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>critique<s n="n"/></l>                 <r>crítica<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>crossover<s n="n"/></l>                <r>creuament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cub<s n="n"/></l>                      <r>cadell<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cue<s n="n"/></l>                      <r>pista<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cursive<s n="n"/></l>                  <r>cursiva<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>curb<s n="n"/></l>                     <r>cuneta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cutoff<s n="n"/></l>                   <r>límit<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>dealing<s n="n"/></l>                  <r>tràfic<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>defamation<s n="n"/></l>               <r>difamació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>demo<s n="n"/></l>                     <r>versió<g><b/>de<b/>prova</g><s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>dice<s n="n"/></l>                     <r>dau<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>digest<s n="n"/></l>                   <r>resum<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>diver<s n="n"/></l>                    <r>bus<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>diver<s n="n"/></l>                    <r>bus<s n="n"/></r></p></e>
+<e>       <p><l>downturn<s n="n"/></l>                 <r>recessió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>drill<s n="n"/></l>                    <r>trepant<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>drummer<s n="n"/></l>                  <r>tamboriner<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>drummer<s n="n"/></l>                  <r>tamboriner<s n="n"/></r></p></e>
+<e>       <p><l>duchy<s n="n"/></l>                    <r>ducat<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>duo<s n="n"/></l>                      <r>duo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>dwelling<s n="n"/></l>                 <r>vivenda<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>economics<s n="n"/><s n="sg"/></l>     <r>economia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ensemble<s n="n"/></l>                 <r>conjunt<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>escort<s n="n"/></l>                   <r>escort<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>ethylene<s n="n"/></l>                 <r>etilè<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>eukaryote<s n="n"/></l>                <r>eucariota<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>excerpt<s n="n"/></l>                  <r>fragment<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>exhaustion<s n="n"/></l>               <r>cansament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>facade<s n="n"/></l>                   <r>façana<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>fallout<s n="n"/></l>                  <r>efecte<b/>col·lateral<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>famine<s n="n"/></l>                   <r>fam<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>fandom<s n="n"/></l>                   <r>grup<g><b/>de<b/>fans</g><s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>farewell<s n="n"/></l>                 <r>comiat<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>farmland<s n="n"/></l>                 <r>terra<g><b/>de<b/>cultiu</g><s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>fatality<s n="n"/></l>                 <r>mort<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>fetus<s n="n"/></l>                    <r>fetus<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>feud<s n="n"/></l>                     <r>enemistat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>filmmaker<s n="n"/></l>                <r>cineasta<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>finale<s n="n"/></l>                   <r>final<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>fin<s n="n"/></l>                      <r>aleta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>fishery<s n="n"/></l>                  <r>peixateria<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>fitness<s n="n"/></l>                  <r>salut<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>flavor<s n="n"/></l>                   <r>gust<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>flaw<s n="n"/></l>                     <r>defecte<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>fluid<s n="n"/></l>                    <r>fluid<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>flux<s n="n"/></l>                     <r>flux<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>footage<s n="n"/></l>                  <r>gravació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>foothill<s n="n"/><s n="pl"/></l>      <r>falda<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>forerunner<s n="n"/></l>               <r>predecessor<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>forerunner<s n="n"/></l>               <r>predecessor<s n="n"/></r></p></e>
+<e>       <p><l>forestry<s n="n"/></l>                 <r>silvicultura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>forgiveness<s n="n"/></l>              <r>perdó<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>franc<s n="n"/></l>                    <r>franc<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>fraternity<s n="n"/></l>               <r>fraternitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>gameplay<s n="n"/></l>                 <r>jugabilitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>gamma<s n="n"/></l>                    <r>gamma<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>garment<s n="n"/></l>                  <r>roba<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>garrison<s n="n"/></l>                 <r>guarnició<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>gathering<s n="n"/></l>                <r>reunió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>gel<s n="n"/></l>                      <r>gel<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>gentry<s n="n"/></l>                   <r>aristocràcia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>genus<s n="n"/></l>                    <r>gènere<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>gin<s n="n"/></l>                      <r>ginebra<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>globalization<s n="n"/></l>            <r>globalització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>golf<s n="n"/></l>                     <r>golf<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>gospel<s n="n"/></l>                   <r>gòspel<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>gradient<s n="n"/></l>                 <r>pendent<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>graffiti<s n="n"/></l>                 <r>grafit<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>graph<s n="n"/></l>                    <r>gràfica<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>gravel<s n="n"/></l>                   <r>grava<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>greenhouse<s n="n"/></l>               <r>hivernacle<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>grief<s n="n"/></l>                    <r>pena<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>groundwater<s n="n"/><s n="sg"/></l>   <r>aigua<b/>freàtica<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>groundwater<s n="n"/><s n="sg"/></l>   <r>aigua<b/>freàtica<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>guilt<s n="n"/></l>                    <r>culpa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>gum<s n="n"/></l>                      <r>geniva<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>gut<s n="n"/></l>                      <r>budell<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>harassment<s n="n"/></l>               <r>assetjament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>harbor<s n="n"/></l>                   <r>port<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>hazard<s n="n"/></l>                   <r>perill<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>healthcare<s n="n"/></l>               <r>salut<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>helix<s n="n"/></l>                    <r>hèlix<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>herb<s n="n"/></l>                     <r>espècia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>hijacker<s n="n"/></l>                 <r>segrestador<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>hijacker<s n="n"/></l>                 <r>segrestador<s n="n"/></r></p></e>
+<e>       <p><l>hippie<s n="n"/></l>                   <r>hippy<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>hoax<s n="n"/></l>                     <r>broma<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>hometown<s n="n"/></l>                 <r>ciutat<b/>natal<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>hub<s n="n"/></l>                      <r>hub<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>hull<s n="n"/></l>                     <r>casc<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>humanity<s n="n"/></l>                 <r>humanitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>humankind<s n="n"/></l>                <r>humanitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>hunger<s n="n"/></l>                   <r>fam<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>iconography<s n="n"/></l>              <r>iconografia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>impeachment<s n="n"/></l>              <r>destitució<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>indicator<s n="n"/></l>                <r>indicador<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>indicator<s n="n"/></l>                <r>indicador<s n="n"/></r></p></e>
+<e>       <p><l>industrialization<s n="n"/></l>        <r>industrialització<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>inhibitor<s n="n"/></l>                <r>inhibidor<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>inhibitor<s n="n"/></l>                <r>inhibidor<s n="n"/></r></p></e>
+<e r="LR"><p><l>inmate<s n="n"/></l>                   <r>pres<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>inmate<s n="n"/></l>                   <r>pres<s n="n"/></r></p></e>
+<e>       <p><l>inning<s n="n"/></l>                   <r>oportunitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>insanity<s n="n"/></l>                 <r>bogeria<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>instability<s n="n"/></l>              <r>inestabilitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>insurgency<s n="n"/></l>               <r>alçament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>intake<s n="n"/></l>                   <r>ingesta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>intent<s n="n"/></l>                   <r>intenció<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>intercourse<s n="n"/></l>              <r>coit<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>intestine<s n="n"/></l>                <r>intestí<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>jack<s n="n"/></l>                     <r>jack<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>judiciary<s n="n"/></l>                <r>judicatura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>kanji<s n="n"/></l>                    <r>kanji<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>karma<s n="n"/></l>                    <r>karma<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>kernel<s n="n"/></l>                   <r>nucli<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>killer<s n="n"/></l>                   <r>assassí<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>killer<s n="n"/></l>                   <r>assassí<s n="n"/></r></p></e>
+<e>       <p><l>kilometer<s n="n"/></l>                <r>quilòmetre<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>kingship<s n="n"/></l>                 <r>regnat<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>laborer<s n="n"/></l>                  <r>peó<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>laborer<s n="n"/></l>                  <r>peó<s n="n"/></r></p></e>
+<e>       <p><l>ladder<s n="n"/></l>                   <r>escala<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>lagoon<s n="n"/></l>                   <r>llacuna<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>landmark<s n="n"/></l>                 <r>punt<g><b/>de<b/>referència</g><s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>landowner<s n="n"/></l>                <r>terratinent<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>lap<s n="n"/></l>                      <r>volta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>latex<s n="n"/></l>                    <r>làtex<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>launcher<s n="n"/></l>                 <r>llançadora<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>lawsuit<s n="n"/></l>                  <r>demanda<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>layout<s n="n"/></l>                   <r>plànol<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>leakage<s n="n"/></l>                  <r>fuita<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>legacy<s n="n"/></l>                   <r>llegat<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>legate<s n="n"/></l>                   <r>llegat<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>leverage<s n="n"/></l>                 <r>avantatge<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>liaison<s n="n"/></l>                  <r>contacte<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>liberty<s n="n"/></l>                  <r>llibertat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>libretto<s n="n"/></l>                 <r>llibret<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>lifespan<s n="n"/></l>                 <r>esperança<b/>de<b/>vida<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>likelihood<s n="n"/></l>               <r>probabilitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>limb<s n="n"/></l>                     <r>extremitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>loanword<s n="n"/></l>                 <r>manlleu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>lobe<s n="n"/></l>                     <r>lòbul<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>locality<s n="n"/></l>                 <r>localitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>logarithm<s n="n"/></l>                <r>logaritme<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>logo<s n="n"/></l>                     <r>logotip<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>log<s n="n"/></l>                      <r>registre<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>longitude<s n="n"/></l>                <r>longitud<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>luminosity<s n="n"/></l>               <r>lluminositat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>macro<s n="n"/></l>                    <r>macro<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>maiden<s n="n"/></l>                   <r>senyoret<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>maiden<b/>voyage<s n="n"/></l>         <r>viatge<b/>inaugural<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>mainframe<s n="n"/></l>                <r>ordinador<b/>central<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>mandolin<s n="n"/></l>                 <r>mandolina<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>manga<s n="n"/></l>                    <r>manga<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>manifesto<s n="n"/></l>                <r>manifest<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>manpower<s n="n"/></l>                 <r>personal<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>marker<s n="n"/></l>                   <r>marcador<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>marketplace<s n="n"/></l>              <r>mercat<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>marking<s n="n"/></l>                  <r>marca<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>mascot<s n="n"/></l>                   <r>mascota<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>mast<s n="n"/></l>                     <r>pal<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>mastery<s n="n"/></l>                  <r>domini<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>median<s n="n"/></l>                   <r>mediana<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>mediation<s n="n"/></l>                <r>mediació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>memoir<s n="n"/></l>                   <r>memòria<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>merchandise<s n="n"/></l>              <r>mercaderia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>merchant<s n="n"/></l>                 <r>mercant<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>mesh<s n="n"/></l>                     <r>xarxa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>metadata<s n="n"/></l>                 <r>metadada<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>meter<s n="n"/></l>                    <r>metre<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>metro<s n="n"/></l>                    <r>metro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>miniseries<s n="n"/></l>               <r>minisèrie<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>misconduct<s n="n"/></l>               <r>mala<b/>conducta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>mistress<s n="n"/></l>                 <r>senyor<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>moisture<s n="n"/></l>                 <r>humitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>moose<s n="n"/></l>                    <r>ant<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>morale<s n="n"/></l>                   <r>moral<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>motherboard<s n="n"/></l>              <r>placa<g><b/>base</g><s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>motif<s n="n"/></l>                    <r>tema<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>motive<s n="n"/></l>                   <r>motiu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>motorway<s n="n"/></l>                 <r>autopista<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>motto<s n="n"/></l>                    <r>eslògan<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>mural<s n="n"/></l>                    <r>mural<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>musical<s n="n"/></l>                  <r>musical<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>namesake<s n="n"/></l>                 <r>homònim<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>namesake<s n="n"/></l>                 <r>homònim<s n="n"/></r></p></e>
+<e r="LR"><p><l>neighbor<s n="n"/></l>                 <r>veí<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>neighbor<s n="n"/></l>                 <r>veí<s n="n"/></r></p></e>
+<e>       <p><l>neighborhood<s n="n"/></l>             <r>veïnat<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>neutrino<s n="n"/></l>                 <r>neutrino<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>nobleman<s n="n"/></l>                 <r>noble<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>notation<s n="n"/></l>                 <r>anotació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>novella<s n="n"/></l>                  <r>novel·la<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>nozzle<s n="n"/></l>                   <r>bec<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>oath<s n="n"/></l>                     <r>jurament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>offense<s n="n"/></l>                  <r>atac<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>offering<s n="n"/></l>                 <r>oferta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>orthography<s n="n"/></l>              <r>ortografia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>oscillation<s n="n"/></l>              <r>oscil·lació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>outlet<s n="n"/></l>                   <r>outlet<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>overview<s n="n"/></l>                 <r>resum<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>pad<s n="n"/></l>                      <r>bloc<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>paganism<s n="n"/></l>                 <r>paganisme<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>panda<s n="n"/></l>                    <r>panda<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>papacy<s n="n"/></l>                   <r>papat<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>paradox<s n="n"/></l>                  <r>paradoxa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>parser<s n="n"/></l>                   <r>processador<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>pasta<s n="n"/></l>                    <r>pasta<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>pastor<s n="n"/></l>                   <r>pastor<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>patch<s n="n"/></l>                    <r>pedaç<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>pathway<s n="n"/></l>                  <r>camí<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>patron<s n="n"/></l>                   <r>patrocinador<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>patron<s n="n"/></l>                   <r>patrocinador<s n="n"/></r></p></e>
+<e>       <p><l>payload<s n="n"/></l>                  <r>càrrega<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>pearl<s n="n"/></l>                    <r>perla<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>people<s n="n"/></l>                   <r>poble<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>pH<s n="n"/></l>                       <r>pH<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>physician<s n="n"/></l>                <r>metge<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>physician<s n="n"/></l>                <r>metge<s n="n"/></r></p></e>
+<e>       <p><l>piety<s n="n"/></l>                    <r>pietat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>pistol<s n="n"/></l>                   <r>pistola<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>piston<s n="n"/></l>                   <r>pistó<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>placement<s n="n"/></l>                <r>ubicació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>plaintiff<s n="n"/></l>                <r>demandant<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>plaque<s n="n"/></l>                   <r>placa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>playback<s n="n"/></l>                 <r>playback<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>playwright<s n="n"/></l>               <r>dramaturg<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>playwright<s n="n"/></l>               <r>dramaturg<s n="n"/></r></p></e>
+<e>       <p><l>polio<s n="n"/></l>                    <r>pòlio<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>populace<s n="n"/></l>                 <r>població<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>portrayal<s n="n"/></l>                <r>representació<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>pottery<s n="n"/></l>                  <r>ceràmica<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>poultry<s n="n"/></l>                  <r>au<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>prairie<s n="n"/></l>                  <r>prat<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>preacher<s n="n"/></l>                 <r>pastor<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>preface<s n="n"/></l>                  <r>prefaci<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>prefect<s n="n"/></l>                  <r>monitor<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>prefect<s n="n"/></l>                  <r>monitor<s n="n"/></r></p></e>
+<e>       <p><l>prevalence<s n="n"/></l>               <r>predomini<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>proceeding<s n="n"/><s n="pl"/></l>    <r>plet<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>prophecy<s n="n"/></l>                 <r>profecia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>proponent<s n="n"/></l>                <r>defensor<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>proponent<s n="n"/></l>                <r>defensor<s n="n"/></r></p></e>
+<e r="LR"><p><l>prosecutor<s n="n"/></l>               <r>fiscal<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>prosecutor<s n="n"/></l>               <r>fiscal<s n="n"/></r></p></e>
+<e>       <p><l>protester<s n="n"/></l>                <r>manifestant<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>proximity<s n="n"/></l>                <r>proximitat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>proxy<s n="n"/></l>                    <r>proxy<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>psychiatry<s n="n"/></l>               <r>psiquiatria<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>psychoanalysis<s n="n"/></l>           <r>psicoanàlisi<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>psychosis<s n="n"/></l>                <r>psicosi<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>psychotherapy<s n="n"/></l>            <r>psicoteràpia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>quarterback<s n="n"/></l>              <r>quarterback<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>queue<s n="n"/></l>                    <r>cua<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>quest<s n="n"/></l>                    <r>aventura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>rainforest<s n="n"/></l>               <r>selva<b/>pluvial<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ramp<s n="n"/></l>                     <r>rampa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>rap<s n="n"/></l>                      <r>rap<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>rapper<s n="n"/></l>                   <r>raper<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>rapper<s n="n"/></l>                   <r>raper<s n="n"/></r></p></e>
+<e>       <p><l>reconnaissance<s n="n"/></l>           <r>reconeixement<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>recorder<s n="n"/></l>                 <r>gravadora<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>redevelopment<s n="n"/></l>            <r>reurbanització<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>redshift<s n="n"/></l>                 <r>desplaçament<g><b/>cap<b/>al<b/>roig</g><s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>reel<s n="n"/></l>                     <r>carret<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>refuge<s n="n"/></l>                   <r>refugi<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>reggae<s n="n"/></l>                   <r>reggae<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>regulator<s n="n"/></l>                <r>regulador<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>regulator<s n="n"/></l>                <r>regulador<s n="n"/></r></p></e>
+<e>       <p><l>relay<s n="n"/></l>                    <r>relé<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>reliance<s n="n"/></l>                 <r>dependència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>relic<s n="n"/></l>                    <r>relíquia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>reluctance<s n="n"/></l>               <r>reticència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>remake<s n="n"/></l>                   <r>nova versió<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>replica<s n="n"/></l>                  <r>rèplica<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>reservoir<s n="n"/></l>                <r>embassament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>residency<s n="n"/></l>                <r>residència<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>reviewer<s n="n"/></l>                 <r>crític<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>reviewer<s n="n"/></l>                 <r>crític<s n="n"/></r></p></e>
+<e>       <p><l>ribbon<s n="n"/></l>                   <r>llaç<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ridge<s n="n"/></l>                    <r>cresta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>robbery<s n="n"/></l>                  <r>robatori<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>router<s n="n"/></l>                   <r>enrutador<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ruby<s n="n"/></l>                     <r>robí<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>rugby<s n="n"/></l>                    <r>rugbi<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>runway<s n="n"/></l>                   <r>pista<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sake<s n="n"/></l>                     <r>bé<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>samurai<s n="n"/></l>                  <r>samurai<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>savanna<s n="n"/></l>                  <r>sabana<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>scarcity<s n="n"/></l>                 <r>escassetat<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>schema<s n="n"/></l>                   <r>diagrama<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>schism<s n="n"/></l>                   <r>cisma<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>schizophrenia<s n="n"/></l>            <r>esquizofrènia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>screenplay<s n="n"/></l>               <r>guió<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>screenwriter<s n="n"/></l>             <r>guionista<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>scripture<s n="n"/></l>                <r>escriptura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>scrutiny<s n="n"/></l>                 <r>escrutini<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>seafood<s n="n"/></l>                  <r>marisc<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>seawater<s n="n"/></l>                 <r>aigua<b/>marina<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>seizure<s n="n"/></l>                  <r>captura<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>semantic<s n="n"/><s n="pl"/></l>      <r>semàntica<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>semantic<s n="n"/><s n="pl"/></l>      <r>semàntica<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sender<s n="n"/></l>                   <r>remitent<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>sentiment<s n="n"/></l>                <r>sentiment<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>sequel<s n="n"/></l>                   <r>seqüela<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sewage<s n="n"/></l>                   <r>aigua<b/>residual<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>shaft<s n="n"/></l>                    <r>pou<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>sharia<s n="n"/></l>                   <r>xaria<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>shipment<s n="n"/></l>                 <r>enviament<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>shoreline<s n="n"/></l>                <r>costa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>shorts<s n="n"/></l>                   <r>pantalons<b/>curts<s n="n"/></r></p></e>
+<e>       <p><l>shrine<s n="n"/></l>                   <r>santuari<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>shuttle<s n="n"/></l>                  <r>llançadora<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sitcom<s n="n"/></l>                   <r>comèdia<g><b/>de<b/>situació</g><s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>skepticism<s n="n"/></l>               <r>escepticisme<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>slot<s n="n"/></l>                     <r>ranura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>smallpox<s n="n"/></l>                 <r>verola<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>soccer<s n="n"/></l>                   <r>futbol<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>sonar<s n="n"/></l>                    <r>sònar<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>songwriter<s n="n"/></l>               <r>compositor<s n="n"/></r></p></e>
+<e>       <p><l>soprano<s n="n"/></l>                  <r>soprano<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>spam<s n="n"/></l>                     <r>correu<b/>brossa<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>spear<s n="n"/></l>                    <r>llança<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>spectator<s n="n"/></l>                <r>espectador<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>spectator<s n="n"/></l>                <r>espectador<s n="n"/></r></p></e>
+<e>       <p><l>spike<s n="n"/></l>                    <r>punxa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>spiral<s n="n"/></l>                   <r>espiral<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>squad<s n="n"/></l>                    <r>equip<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>squadron<s n="n"/></l>                 <r>esquadró<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>stack<s n="n"/></l>                    <r>pila<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>standpoint<s n="n"/></l>               <r>punt<g><b/>de<b/>vista</g><s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>staple<s n="n"/></l>                   <r>grapa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>statehood<s n="n"/></l>                <r>sobirania<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>stitch<s n="n"/></l>                   <r>punt<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>storyline<s n="n"/></l>                <r>trama<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>strait<s n="n"/></l>                   <r>estret<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>subcontinent<s n="n"/></l>             <r>subcontinent<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>subgenre<s n="n"/></l>                 <r>subgènere<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>subsistence<s n="n"/></l>              <r>subsistència<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>subspace<s n="n"/></l>                 <r>subespai<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>superhero<s n="n"/></l>                <r>superheroi<s n="n"/><s n="m"/></r></p></e>
 
     <!-- Acronyms -->
 
@@ -34536,6 +34926,57 @@
 <e>       <p><l>Oxfordshire<s n="np"/><s n="top"/><s n="sg"/></l><r>Oxfordshire<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Padua<s n="np"/><s n="top"/><s n="sg"/></l><r>Pàdua<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Palmyra<s n="np"/><s n="top"/><s n="sg"/></l><r>Palmira<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Zaragoza<s n="np"/><s n="top"/><s n="sg"/></l><r>Saragossa<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Zagreb<s n="np"/><s n="top"/><s n="sg"/></l><r>Zagreb<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Yucatán<s n="np"/><s n="top"/><s n="sg"/></l><r>Yucatán<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Yosemite<s n="np"/><s n="top"/><s n="sg"/></l><r>Yosemite<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Worcestershire<s n="np"/><s n="top"/><s n="sg"/></l><r>Worcestershire<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Wiltshire<s n="np"/><s n="top"/><s n="sg"/></l><r>Wiltshire<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Wiesbaden<s n="np"/><s n="top"/><s n="sg"/></l><r>Wiesbaden<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Warwickshire<s n="np"/><s n="top"/><s n="sg"/></l><r>Warwickshire<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Wallonia<s n="np"/><s n="top"/><s n="sg"/></l><r>Valònia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Veneto<s n="np"/><s n="top"/><s n="sg"/></l><r>Vèneto<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Tyrol<s n="np"/><s n="top"/><s n="sg"/></l><r>Tirol<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Tuscan<s n="np"/><s n="top"/><s n="sg"/></l><r>Toscana<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Tübingen<s n="np"/><s n="top"/><s n="sg"/></l><r>Tübingen<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Trondheim<s n="np"/><s n="top"/><s n="sg"/></l><r>Trondheim<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Trieste<s n="np"/><s n="top"/><s n="sg"/></l><r>Trieste<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Treblinka<s n="np"/><s n="top"/><s n="sg"/></l><r>Treblinka<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Tottenham<s n="np"/><s n="top"/><s n="sg"/></l><r>Tottenham<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Tokelau<s n="np"/><s n="top"/><s n="sg"/></l><r>Tokelau<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Tigris<s n="np"/><s n="top"/><s n="sg"/></l><r>Tigris<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Tiber<s n="np"/><s n="top"/><s n="sg"/></l><r>Tíber<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Tanganyika<s n="np"/><s n="top"/><s n="sg"/></l><r>Tanganyika<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Tahiti<s n="np"/><s n="top"/><s n="sg"/></l><r>Tahití<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Swabia<s n="np"/><s n="top"/><s n="sg"/></l><r>Suàbia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Svalbard<s n="np"/><s n="top"/><s n="sg"/></l><r>Svalbard<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Sudetenland<s n="np"/><s n="top"/><s n="sg"/></l><r>Sudetenland<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Stratford<s n="np"/><s n="top"/><s n="sg"/></l><r>Stratford<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Stonehenge<s n="np"/><s n="top"/><s n="sg"/></l><r>Stonehenge<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Stamford<s n="np"/><s n="top"/><s n="sg"/></l><r>Stamford<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Somaliland<s n="np"/><s n="top"/><s n="sg"/></l><r>Somalilàndia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Soho<s n="np"/><s n="top"/><s n="sg"/></l><r>Soho<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Siena<s n="np"/><s n="top"/><s n="sg"/></l><r>Siena<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Sichuan<s n="np"/><s n="top"/><s n="sg"/></l><r>Sichuan<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Shrewsbury<s n="np"/><s n="top"/><s n="sg"/></l><r>Shrewsbury<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Sherwood<s n="np"/><s n="top"/><s n="sg"/></l><r>Sherwood<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Severn<s n="np"/><s n="top"/><s n="sg"/></l><r>Severn<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Seine<s n="np"/><s n="top"/><s n="sg"/></l><r>Sena<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Ruhr<s n="np"/><s n="top"/><s n="sg"/></l><r>Ruhr<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Rhône<s n="np"/><s n="top"/><s n="sg"/></l><r>Roine<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Reykjavík<s n="np"/><s n="top"/><s n="sg"/></l><r>Reykjavík<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Réunion<s n="np"/><s n="top"/><s n="sg"/></l><r>Reunió<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Rennes<s n="np"/><s n="top"/><s n="sg"/></l><r>Rennes<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Reims<s n="np"/><s n="top"/><s n="sg"/></l><r>Reims<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Pompeii<s n="np"/><s n="top"/><s n="sg"/></l><r>Pompeia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Poitiers<s n="np"/><s n="top"/><s n="sg"/></l><r>Poitiers<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Petrograd<s n="np"/><s n="top"/><s n="sg"/></l><r>Petrograd<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Peloponnese<s n="np"/><s n="top"/><s n="sg"/></l><r>Peloponès<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Pangaea<s n="np"/><s n="top"/><s n="sg"/></l><r>Pangea<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Novgorod<s n="np"/><s n="top"/><s n="sg"/></l><r>Novgorod<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Mycenae<s n="np"/><s n="top"/><s n="sg"/></l><r>Micenes<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Miletus<s n="np"/><s n="top"/><s n="sg"/></l><r>Milet<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Mekong<s n="np"/><s n="top"/><s n="sg"/></l><r>Mekong<s n="np"/><s n="loc"/></r></p></e>
 
     <!-- Other -->
 
