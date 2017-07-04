@@ -136,17 +136,15 @@
     </match>
   </rule>
 
-<!--
   <rule weight="1.0">
     <match lemma="great" tags="adj.*">
-      <select lemma="sumo" tags="adj" />
+      <select lemma="summe" tags="adj" />
     </match>
     <or>
       <match lemma="pope" tags="n.*"/>
       <match lemma="priest" tags="n.*"/>      
     </or>
   </rule>
--->
 
   <rule weight="1.0">
     <or>
@@ -1217,6 +1215,53 @@
       <match lemma="right" tags="n.*"/>
       <match lemma="left" tags="n.*"/>      
     </or>
+  </rule>
+
+
+  <rule weight="0.8">
+    <match lemma="cry" tags="vblex.*">
+      <select lemma="plorar" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="build" tags="vblex.*">
+      <select lemma="construir" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="know" tags="vblex.pp">
+      <select lemma="conèixer" tags="vblex.pp" />
+    </match>
+    <match lemma="as" tags="pr"/>  
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="water" tags="n.*"/>  
+    <match lemma="spring" tags="n.*">
+      <select lemma="font" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="floor" tags="n.*">
+      <select lemma="terra" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="adj.ord"/>  
+    <match lemma="floor" tags="n.*">
+      <select lemma="pis" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="take" tags="vblex.*">
+      <select lemma="prendre" tags="vblex.*" />
+    </match>
+    <match lemma="possession" tags="n.*"/>
   </rule>
 
   </rules> 
