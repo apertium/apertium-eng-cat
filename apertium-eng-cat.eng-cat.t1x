@@ -441,25 +441,25 @@
     </def-cat>
 
     <def-cat n="auxtemps">
-      <cat-item lemma="will" tags="vaux.*"/>
-      <cat-item lemma="would" tags="vaux.*"/>
-      <cat-item lemma="shall" tags="vaux.*"/>
+      <cat-item lemma="will" tags="vbmod.*"/>
+      <cat-item lemma="shall" tags="vbmod.inf"/>
+      <cat-item lemma="shall" tags="vbmod.pres"/>
     </def-cat>
 
     <def-cat n="auxmod"><!-- Falten: ought to, shall -->
       <cat-item lemma="can" tags="vaux.*"/>
       <cat-item lemma="must" tags="vaux.*"/>
-      <cat-item lemma="should" tags="vaux.*"/>
-      <cat-item lemma="may" tags="vaux.*"/>
-      <cat-item lemma="might" tags="vaux.*"/>
+      <cat-item lemma="shall" tags="vbmod.past"/>
+      <cat-item lemma="may" tags="vbmod.*"/>
+      <cat-item lemma="might" tags="vbmod.*"/>
     </def-cat>
 
     <def-cat n="auxnocan"><!-- Falten: (must?, should?, ought to) -->
-      <cat-item lemma="will" tags="vaux.*"/>
-      <cat-item lemma="would" tags="vaux.*"/>
-      <cat-item lemma="shall" tags="vaux.*"/>
-      <cat-item lemma="may" tags="vaux.*"/>
-      <cat-item lemma="might" tags="vaux.*"/>
+      <cat-item lemma="will" tags="vbmod.*"/>
+      <cat-item lemma="shall" tags="vbmod.inf"/>
+      <cat-item lemma="shall" tags="vbmod.pres"/>
+      <cat-item lemma="may" tags="vbmod.*"/>
+      <cat-item lemma="might" tags="vbmod.*"/>
       <cat-item lemma="do" tags="vbdo.*"/>
       <cat-item lemma="do" tags="vblex.*"/><!-- ATENCIÓ, només per ara perquè el tagger s'equivoca. -->
     </def-cat>
