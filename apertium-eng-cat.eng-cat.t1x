@@ -4606,19 +4606,27 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </choose>
 	  </when>
 	  <otherwise>
-	    <choose>		
+	    <choose>
 	  <when>
 	    <test>
-	      <or>
-		<equal caseless="yes">
-		  <clip pos="1" side="sl" part="lem"/>
-		  <lit v="will"/>
-		</equal>
-		<equal caseless="yes">
-		  <clip pos="1" side="sl" part="lem"/>
-		  <lit v="shall"/>
-		</equal>
-	      </or>
+	      <and>
+		<or>
+	          <equal caseless="yes">
+		    <clip pos="1" side="sl" part="lem"/>
+		    <lit v="will"/>
+	          </equal>
+		  <equal caseless="yes">
+		    <clip pos="1" side="sl" part="lem"/>
+		    <lit v="shall"/>
+	          </equal>
+		</or>
+		<not>
+		  <equal>
+		    <clip pos="1" side="sl" part="temps"/>
+		    <lit-tag v="past"/><!-- en seria would/should i no ens interessa -->
+		  </equal> 
+		</not>
+	      </and>
 	    </test>
 	    <let>
 	      <var n="temps_chunk"/>
@@ -4627,10 +4635,16 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	  </when>
 	  <when>
 	    <test>
-	      <equal caseless="yes">
-		<clip pos="1" side="sl" part="lem"/>
-		<lit v="would"/>
-	      </equal>
+	      <and>
+	        <equal caseless="yes">
+		  <clip pos="1" side="sl" part="lem"/>
+		  <lit v="will"/>
+	        </equal>
+		<equal>
+		  <clip pos="1" side="sl" part="temps"/>
+		  <lit-tag v="past"/>
+		</equal> 
+	      </and>
 	    </test>
 	    <let>
 	      <var n="temps_chunk"/>
