@@ -449,7 +449,7 @@
 
     <def-cat n="auxmod"><!-- Falten: ought to, shall -->
       <cat-item lemma="can" tags="vbmod.*"/>
-      <cat-item lemma="must" tags="vaux.*"/>
+      <cat-item lemma="must" tags="vbmod.*"/>
       <cat-item lemma="shall" tags="vbmod.past"/>
       <cat-item lemma="may" tags="vbmod.*"/>
       <cat-item lemma="might" tags="vbmod.*"/>
