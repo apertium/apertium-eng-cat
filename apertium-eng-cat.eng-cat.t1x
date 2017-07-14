@@ -171,7 +171,7 @@
       <cat-item tags="vbhaver.pres"/><!--afegit 29/08, per quan es cola per aquesta regla un vbhaver mal desambiguat -->
       <cat-item tags="vbhaver.past"/>
       <cat-item tags="vbhaver.pri.*"/>
-      <cat-item lemma="can" tags="vaux.*"/><!--perquè quan vagi sol entri per aquesta regla (I can, workers can) -->
+      <cat-item lemma="can" tags="vbmod.*"/><!--perquè quan vagi sol entri per aquesta regla (I can, workers can) -->
       <!-- <cat-item tags="vbhaver.*"/> -->
       
     </def-cat>
@@ -426,7 +426,8 @@
     </def-cat>
 
     <def-cat n="mod"><!--Verbs modals (have to, want to, be able to), que van seguits d'infinitiu (com els auxiliars) i es conjuguen (will have to, will be able to). A diferència, els auxiliars no poden portar altres aux davant (*I will can, I do not can). Per això els poso en categories diferents, perquè funcionen diferent amb negacions, adverbis intercalats, preguntes, etc. -->
-      <cat-item tags="vbmod.*"/>
+      <cat-item lemma="have# to" tags="vbmod.*"/>
+      <cat-item lemma="want# to" tags="vbmod.*"/>
     </def-cat>
 
     <def-cat n="ger">
@@ -447,7 +448,7 @@
     </def-cat>
 
     <def-cat n="auxmod"><!-- Falten: ought to, shall -->
-      <cat-item lemma="can" tags="vaux.*"/>
+      <cat-item lemma="can" tags="vbmod.*"/>
       <cat-item lemma="must" tags="vaux.*"/>
       <cat-item lemma="shall" tags="vbmod.past"/>
       <cat-item lemma="may" tags="vbmod.*"/>
@@ -947,7 +948,7 @@
 
    <list-item v="can"/>
    <list-item v="must"/>
-   <list-item v="should"/>
+   <list-item v="shall"/>
    <list-item v="may"/>
    <list-item v="might"/>
 
@@ -4191,10 +4192,16 @@ No es crea mlu, per a poder fer canvis de posició en el t3x. En el t3x es crea 
 	    <when>
 	      <test>
 		<or>
-		  <equal caseless="yes">
-		    <clip pos="1" side="sl" part="lem"/>
-		    <lit v="should"/>
-		  </equal>
+		  <and>
+		    <equal caseless="yes">
+		      <clip pos="1" side="sl" part="lem"/>
+		      <lit v="shall"/>
+		    </equal>
+		    <equal>
+		      <clip pos="1" side="sl" part="temps"/>
+		      <lit-tag v="past"/>
+		    </equal>
+		  </and>
 		  <equal caseless="yes">
 		    <clip pos="1" side="sl" part="lem"/>
 		    <lit v="might"/>
@@ -4623,7 +4630,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		<not>
 		  <equal>
 		    <clip pos="1" side="sl" part="temps"/>
-		    <lit-tag v="past"/><!-- en seria would/should i no ens interessa -->
+		    <lit-tag v="past"/><!-- en passat seria would/should i no ens interessa -->
 		  </equal> 
 		</not>
 	      </and>
