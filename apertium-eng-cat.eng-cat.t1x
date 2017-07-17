@@ -152,23 +152,23 @@
 
     <def-cat n="verbcj">
       <!--	  <cat-item tags="vblex.inf"/>-->
-      <cat-item tags="vblex.pres"/>
+      <cat-item tags="vblex.pres.*"/>
       <cat-item tags="vblex.past"/>
       <cat-item tags="vblex.past.*"/><!--Per a la forma 'was' en el verb lèxic -->
       <cat-item tags="vblex.pri.*"/>
 
-      <cat-item tags="vblex.sep.pres"/>
+      <cat-item tags="vblex.sep.pres.*"/>
       <cat-item tags="vblex.sep.past"/>
       <cat-item tags="vblex.sep.past.*"/>
       <cat-item tags="vblex.sep.pri.*"/>
 
       <!--	  <cat-item tags="vbser.inf"/> -->
-      <cat-item tags="vbser.pres"/>
+      <cat-item tags="vbser.pres.*"/>
       <cat-item tags="vbser.past"/>
       <cat-item tags="vbser.past.*"/>
       <cat-item tags="vbser.pri.*"/>
       <!--	  <cat-item tags="vbhaver.inf"/> -->
-      <cat-item tags="vbhaver.pres"/><!--afegit 29/08, per quan es cola per aquesta regla un vbhaver mal desambiguat -->
+      <cat-item tags="vbhaver.pres.*"/><!--afegit 29/08, per quan es cola per aquesta regla un vbhaver mal desambiguat -->
       <cat-item tags="vbhaver.past"/>
       <cat-item tags="vbhaver.pri.*"/>
       <cat-item lemma="can" tags="vbmod.*"/><!--perquè quan vagi sol entri per aquesta regla (I can, workers can) -->
