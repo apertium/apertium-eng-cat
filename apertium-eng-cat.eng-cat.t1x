@@ -3852,6 +3852,10 @@
 	    <var n="tipus_verb"/>
 	    <lit-tag v="pron"/>
 	  </let>
+	  <let>
+	    <clip pos="1" side="tl" part="a_verb"/>
+            <lit-tag v="vblex"/>
+	  </let>
 	</when>
 	<when>
 	  <test>
@@ -3927,6 +3931,10 @@
 	  <let>
 	    <var n="tipus_verb_imp"/>
 	    <lit-tag v="pron"/>
+	  </let>
+	  <let>
+	    <clip pos="1" side="tl" part="a_verb"/>
+            <lit-tag v="vblex"/>
 	  </let>
 	</when>
 	<when>
