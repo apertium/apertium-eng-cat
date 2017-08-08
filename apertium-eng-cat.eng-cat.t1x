@@ -702,7 +702,7 @@
       <attr-item tags="det.qnt"/>
       <attr-item tags="det.itg"/>	  	 
       <attr-item tags="det.ord"/>
-      <attr-item tags="adj.pos"/>
+      <attr-item tags="det.pos"/>
       <attr-item tags="num"/>
       <attr-item tags="predet"/>
     </def-attr>
@@ -13969,8 +13969,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule> 
 
 
-
-
     <rule comment="REGLA: NOM ( per a col·locar la cua en les multiparaules amb g )">
       <pattern>
 	<pattern-item n="nom"/>
@@ -13997,7 +13995,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	</out>
       </action>
     </rule>
-
 
 
 
