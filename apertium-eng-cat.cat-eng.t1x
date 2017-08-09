@@ -2170,8 +2170,12 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
 	      </and>
 	    </test>
 	    <let>
-	      <var n="temps_chunk"/>
 	      <clip pos="1" side="tl" part="temps"/>
+	      <lit-tag v="pres"/>
+	    </let>
+	    <let>
+	      <var n="temps_chunk"/>
+	      <lit-tag v="pres"/>
 	    </let>
 	    <let>
 	      <var n="lema_SV"/>
@@ -2214,14 +2218,17 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
 		</not>
 	      </and>
 	    </test>
-
 	    <let>
 	      <var n="lema_SV"/>
 	      <lit v="verbcj"/>
 	    </let>
 	    <let>
-	      <var n="temps_chunk"/>
 	      <clip pos="1" side="tl" part="temps"/>
+	      <lit-tag v="pres"/>
+	    </let>
+	    <let>
+	      <var n="temps_chunk"/>
+	      <lit-tag v="pres"/>
 	    </let>
 	    <let>
 	      <var n="verbfinal"/>
@@ -2509,7 +2516,7 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
        </test>
        <let>
 	 <clip pos="1" side="tl" part="temps"/>
-	 <lit-tag v="pri"/>
+	 <lit-tag v="pres"/>
        </let>
        <let>
 	 <var n="temps_chunk"/>
@@ -2691,7 +2698,7 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
        </test>
        <let>
 	 <clip pos="1" side="tl" part="temps"/>
-	 <lit-tag v="pri"/>
+	 <lit-tag v="pres"/>
        </let>
        <let>
 	 <var n="temps_chunk"/>
