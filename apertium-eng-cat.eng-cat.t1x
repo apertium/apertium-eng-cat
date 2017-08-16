@@ -184,11 +184,11 @@
     <def-cat n="verbcjnoser"> <!-- BCN -->
       <cat-item tags="vblex.pres"/>
       <cat-item tags="vblex.past"/>
-      <cat-item tags="vblex.pri.*"/>
+      <cat-item tags="vblex.pres.*"/>
 
       <cat-item tags="vblex.sep.pres"/>
       <cat-item tags="vblex.sep.past"/>
-      <cat-item tags="vblex.sep.pri.*"/>
+      <cat-item tags="vblex.sep.pres.*"/>
     </def-cat>
 
     <def-cat n="controlverb">
@@ -275,30 +275,30 @@
       <cat-item lemma="vow" tags="vblex.past"/>
 
 
-      <cat-item lemma="desire" tags="vblex.pri.*"/>
-      <cat-item lemma="need" tags="vblex.pri.*"/>
-      <cat-item lemma="wish" tags="vblex.pri.*"/>
-      <cat-item lemma="hope" tags="vblex.pri.*"/>
-      <cat-item lemma="choose" tags="vblex.pri.*"/>
-      <cat-item lemma="expect" tags="vblex.pri.*"/>
-      <cat-item lemma="pretend" tags="vblex.pri.*"/>
-      <cat-item lemma="prefer" tags="vblex.pri.*"/>
-      <cat-item lemma="promise" tags="vblex.pri.*"/>
-      <cat-item lemma="recommend" tags="vblex.pri.*"/>
-      <cat-item lemma="decide" tags="vblex.pri.*"/>
-      <cat-item lemma="manage" tags="vblex.pri.*"/>
-      <cat-item lemma="refuse" tags="vblex.pri.*"/>
-      <cat-item lemma="agree" tags="vblex.pri.*"/>
-      <cat-item lemma="avoid" tags="vblex.pri.*"/>
-      <cat-item lemma="enjoy" tags="vblex.pri.*"/>
-      <cat-item lemma="hate" tags="vblex.pri.*"/>
-      <cat-item lemma="intend" tags="vblex.pri.*"/>
-      <cat-item lemma="plan" tags="vblex.pri.*"/>
-      <cat-item lemma="continue" tags="vblex.pri.*"/>
-      <cat-item lemma="resolve" tags="vblex.pri.*"/>
-      <cat-item lemma="try" tags="vblex.pri.*"/>
-      <cat-item lemma="like" tags="vblex.pri.*"/>
-      <cat-item lemma="vow" tags="vblex.pri.*"/>
+      <cat-item lemma="desire" tags="vblex.pres.*"/>
+      <cat-item lemma="need" tags="vblex.pres.*"/>
+      <cat-item lemma="wish" tags="vblex.pres.*"/>
+      <cat-item lemma="hope" tags="vblex.pres.*"/>
+      <cat-item lemma="choose" tags="vblex.pres.*"/>
+      <cat-item lemma="expect" tags="vblex.pres.*"/>
+      <cat-item lemma="pretend" tags="vblex.pres.*"/>
+      <cat-item lemma="prefer" tags="vblex.pres.*"/>
+      <cat-item lemma="promise" tags="vblex.pres.*"/>
+      <cat-item lemma="recommend" tags="vblex.pres.*"/>
+      <cat-item lemma="decide" tags="vblex.pres.*"/>
+      <cat-item lemma="manage" tags="vblex.pres.*"/>
+      <cat-item lemma="refuse" tags="vblex.pres.*"/>
+      <cat-item lemma="agree" tags="vblex.pres.*"/>
+      <cat-item lemma="avoid" tags="vblex.pres.*"/>
+      <cat-item lemma="enjoy" tags="vblex.pres.*"/>
+      <cat-item lemma="hate" tags="vblex.pres.*"/>
+      <cat-item lemma="intend" tags="vblex.pres.*"/>
+      <cat-item lemma="plan" tags="vblex.pres.*"/>
+      <cat-item lemma="continue" tags="vblex.pres.*"/>
+      <cat-item lemma="resolve" tags="vblex.pres.*"/>
+      <cat-item lemma="try" tags="vblex.pres.*"/>
+      <cat-item lemma="like" tags="vblex.pres.*"/>
+      <cat-item lemma="vow" tags="vblex.pres.*"/>
 
 
       <cat-item lemma="desire" tags="vblex.ger"/>
@@ -387,22 +387,22 @@
       <cat-item tags="vbser.pres"/>
       <cat-item tags="vbser.past"/>
       <cat-item tags="vbser.past.*"/>
-      <cat-item tags="vbser.pri.*"/>
+      <cat-item tags="vbser.pres.*"/>
       <cat-item lemma="look" tags="vblex.pres"/>
       <cat-item lemma="look" tags="vblex.past"/>
-      <cat-item lemma="look" tags="vblex.pri.*"/>
+      <cat-item lemma="look" tags="vblex.pres.*"/>
       <cat-item lemma="seem" tags="vblex.pres"/>
       <cat-item lemma="seem" tags="vblex.past"/>
-      <cat-item lemma="seem" tags="vblex.pri.*"/>
+      <cat-item lemma="seem" tags="vblex.pres.*"/>
       <cat-item lemma="become" tags="vblex.pres"/>
       <cat-item lemma="become" tags="vblex.past"/>
-      <cat-item lemma="become" tags="vblex.pri.*"/>
+      <cat-item lemma="become" tags="vblex.pres.*"/>
       <cat-item lemma="feel" tags="vblex.pres"/>
       <cat-item lemma="feel" tags="vblex.past"/>
-      <cat-item lemma="feel" tags="vblex.pri.*"/>
+      <cat-item lemma="feel" tags="vblex.pres.*"/>
       <cat-item lemma="get" tags="vblex.pres"/>
       <cat-item lemma="get" tags="vblex.past"/>
-      <cat-item lemma="get" tags="vblex.pri.*"/>
+      <cat-item lemma="get" tags="vblex.pres.*"/>
     </def-cat>
 
 
@@ -472,7 +472,7 @@
 
     <def-cat n="do">
       <cat-item lemma="do" tags="vbdo.*"/>
-      <cat-item lemma="do" tags="vblex.pri.*"/><!--ATENCIÓ, només per ara perquè el tagger s'equivoca. -->
+      <cat-item lemma="do" tags="vblex.pres.*"/><!--ATENCIÓ, només per ara perquè el tagger s'equivoca. -->
       <cat-item lemma="do" tags="vblex.pres"/>
       <cat-item lemma="do" tags="vblex.past"/>
       <cat-item lemma="do" tags="vblex.inf"/>
@@ -626,7 +626,7 @@
       <cat-item lemma="be" tags="vbser.past"/>
       <cat-item lemma="be" tags="vbser.past.*"/>
       <cat-item lemma="be" tags="vbser.pres"/>
-      <cat-item lemma="be" tags="vbser.pri.*"/>
+      <cat-item lemma="be" tags="vbser.pres.*"/>
     </def-cat>
 
     <def-cat n="relnom">
