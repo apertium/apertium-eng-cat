@@ -336,7 +336,7 @@
 
   <section-def-macros>
 
-    <def-macro n="f_bcond" npar="2">
+    <def-macro n="f_bcond" npar="2" comment="Passes the format of a blank if it is detected.">
       <choose>
 	<when>
 	  <test>
@@ -354,7 +354,7 @@
       </choose>
     </def-macro>
 
-    <def-macro n="gen_nbr_determinante" npar="1">
+    <def-macro n="gen_nbr_determinante" npar="1" comment="Changes 'mf' to 'm' and 'sp' to 'sg'.">
       <choose>
 	<when>
 	  <test>
