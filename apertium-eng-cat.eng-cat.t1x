@@ -1005,7 +1005,7 @@
 
   <section-def-macros>
 
-    <def-macro n="elimina_GDND" npar="1">
+    <def-macro n="elimina_GDND" npar="1" comment="Changes 'GD' to 'm' and 'ND' to 'sg'">
       <choose>
 	<when>
 	  <test>
@@ -1037,7 +1037,7 @@
 </def-macro>
 
 
-<def-macro n="posa_GDND" npar="1"><!--per a posar valors de GD i ND en adjectius i determinants, que venen del bilingüe sense cap valor i per tant és impossible fer-hi cap operació ni canvi -->
+<def-macro n="posa_GDND" npar="1" comment="Adds 'GD' and 'ND' tags (used for adjectives and determiners)"><!--per a posar valors de GD i ND en adjectius i determinants, que venen del bilingüe sense cap valor i per tant és impossible fer-hi cap operació ni canvi -->
 
  <choose>
        <when><!--si la paraula no té valor per a gènere (i en aquest cas, tampoc per a nombre) -->
@@ -1087,7 +1087,7 @@
 </def-macro>
 	      
 
-<def-macro n="genere_nombre" npar="1">
+<def-macro n="genere_nombre" npar="1" comment="Passes the gender and number to the 'genere' and 'nombre' variables">
   <choose>
 	<when> 
 	  <test>
@@ -1122,7 +1122,7 @@
 
 
 
-    <def-macro n="f_concord2" npar="2"><!--1 = main parameter (typically noun); 2 = secondary parameter (typically adj or det) -->
+    <def-macro n="f_concord2" npar="2" comment="Matches the gender and the number of two lemmas"><!--1 = main parameter (typically noun); 2 = secondary parameter (typically adj or det) -->
       <let>
 	<var n="gen_chunk"/>
 	<lit v=""/>
@@ -1435,7 +1435,7 @@
 
 
 
-   <def-macro n="f_concord3" npar="3"><!--1 = main parameter (typically noun); 2  = secondary parameter (typically adj or det). 3 = other secondary param. (typically det) -->
+   <def-macro n="f_concord3" npar="3" comment="Matches the gender and the number of three lemmas"><!--1 = main parameter (typically noun); 2  = secondary parameter (typically adj or det). 3 = other secondary param. (typically det) -->
      <let>
        <var n="gen_chunk"/>
        <lit v=""/>
@@ -1919,7 +1919,7 @@
 
 
 
-  <def-macro n="f_concord4" npar="4"><!--1 = main parameter (typically noun); 2 = secondary parameter (typically adj); 3 and 4 = other secondary param. (typically det) -->
+  <def-macro n="f_concord4" npar="4" comment="Matches the gender and the number of four lemmas"><!--1 = main parameter (typically noun); 2 = secondary parameter (typically adj); 3 and 4 = other secondary param. (typically det) -->
     <let>
       <var n="gen_chunk"/>
       <lit v=""/>
@@ -2574,7 +2574,7 @@
 
 
 
- <def-macro n="f_concord5" npar="5"><!--1 = main parameter (typically noun); 2 = secondary parameter (typically adj); 3 , 4 and 5 = other secondary param. (typically det) -->
+ <def-macro n="f_concord5" npar="5" comment="Matches the gender and the number of five lemmas"><!--1 = main parameter (typically noun); 2 = secondary parameter (typically adj); 3 , 4 and 5 = other secondary param. (typically det) -->
      <let>
        <var n="gen_chunk"/>
        <lit v=""/>
@@ -3409,7 +3409,7 @@
 
 
 
-    <def-macro n="f_bcond" npar="2"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
+    <def-macro n="f_bcond" npar="2" comment="Passes the format of a blank if it is detected"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
       <choose>
 	<when>
 	  <test>
@@ -3428,7 +3428,7 @@
     </def-macro>
 
 
-    <def-macro n="million" npar="1">
+    <def-macro n="million" npar="1" comment="Changes 'milió' to 'milió de' and 'bilió' to 'bilió de'">
       <choose>
 	<when> 
 	  <test>
@@ -3532,7 +3532,7 @@
     </def-macro>
 
 
-    <def-macro n="det_no" npar="2"><!--No cars -> cap cotxe (canvia nombre del nom de pl a sg) -->
+    <def-macro n="det_no" npar="2" comment="Changes the number of a noun to singular if it is preceded by 'no' (no cars → cap cotxe)"><!--No cars -> cap cotxe (canvia nombre del nom de pl a sg) -->
       
       <choose>
 	<when> 
@@ -3587,7 +3587,7 @@
 
     </def-macro>
 
-    <def-macro n="determiner" npar="1"><!-- to put in rules beginning with a determiner -->
+    <def-macro n="determiner" npar="1" comment="Sets the 'tipus_det' variable to 'DET', 'UNDET' or UNDEF' in determiners"><!-- to put in rules beginning with a determiner -->
       <choose>
 	<when>
 	  <test>
@@ -3623,7 +3623,7 @@
     </def-macro>
 	  
 
-    <def-macro n="comparatiu_adj1" npar="1"><!--per a afegir adverbi 'més' en adjs comparatius. -->
+    <def-macro n="comparatiu_adj1" npar="1" comment="Adds 'més' before an adjective in comparative or superlative form"><!--per a afegir adverbi 'més' en adjs comparatius. -->
       <let>
 	<var n="adjectiu1"/>
 	<lit v=""/>
@@ -3675,7 +3675,7 @@
     </def-macro>
 
 
-    <def-macro n="comparatiu_adj2" npar="1"><!--per a afegir adverbi 'més' en adjs comparatius. Per a regles amb 2 adjectius. -->
+    <def-macro n="comparatiu_adj2" npar="1" comment="Adds 'més' before an adjective in comparative or superlative form (for rules with two adjectives)"><!--per a afegir adverbi 'més' en adjs comparatius. Per a regles amb 2 adjectius. -->
       <let>
 	<var n="adjectiu2"/>
 	<lit v=""/>
@@ -3776,7 +3776,7 @@
 -->
 
 
-    <def-macro n="firstWord" npar="1">
+    <def-macro n="firstWord" npar="1" comment="Changes the first letter of a lemma to uppercase">
       <choose>
 	<when>
 	  <test>
@@ -3843,7 +3843,7 @@
 
 
 
-    <def-macro n="tipus_verbs" npar="1">
+    <def-macro n="tipus_verbs" npar="1" comment="Adds a special tag to some verbs ('pron', 'like', 'sorry' or 'reporting')">
       <choose>
 	<when>
 	  <test>
@@ -3923,7 +3923,7 @@
     </def-macro>
 
 
-<def-macro n="tipus_verbs_imp" npar="1"><!--per quan hi ha un verb en forma impersonal en una regla (el pronom no serà proclític sinó enclític: dir-se, convertint-se/me... etc -->
+<def-macro n="tipus_verbs_imp" npar="1" comment="Adds a special tag to some verbs when they are in a non-personal form ('pron', 'like' or 'reporting') "><!--per quan hi ha un verb en forma impersonal en una regla (el pronom no serà proclític sinó enclític: dir-se, convertint-se/me... etc -->
       <choose>
 	<when>
 	  <test>
@@ -3984,7 +3984,7 @@
       </choose>
     </def-macro>
 
-    <def-macro n="split_verb" npar="1">
+    <def-macro n="split_verb" npar="1" comment="Splits the verb 'make public' '''This rule should be ditched in favour of apertium-separable'''">
       <choose> <!-- Remember to also change output_adj, below -->
 	<when> 
 	  <test>
@@ -4000,6 +4000,7 @@
 	</when>
       </choose> 
     </def-macro>
+
     <def-macro n="output_adj" npar="1">
       <choose>
 	<when> 
@@ -4026,6 +4027,7 @@
 	</when>
       </choose> 
     </def-macro>
+
     <def-macro n="output_adj2" npar="2">
       <choose>
         <when>
@@ -4134,7 +4136,7 @@ No es crea mlu, per a poder fer canvis de posició en el t3x. En el t3x es crea 
 
 
 
-    <def-macro n="conj_verb1" npar="1"><!--conjuga un verb -->
+    <def-macro n="conj_verb1" npar="1" comment="Conjugates a verb."><!--conjuga un verb -->
 
       <!--Primera part: si aquest verb és un verb modal -->
 
@@ -4495,7 +4497,7 @@ No es crea mlu, per a poder fer canvis de posició en el t3x. En el t3x es crea 
 
 
 
-<def-macro n="conj_verb_compost" npar="2"><!--conjuga un verb format per un auxiliar i una forma no personal (will come). 
+<def-macro n="conj_verb_compost" npar="2" comment="Conjugates a verb with an auxiliar before it."><!--conjuga un verb format per un auxiliar i una forma no personal (will come). 
 pos 1= do, will, shall o would.
 pos 2= verb no conjugat
 El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come' - 'vaig venir', que es fa en forma perifràstica) -->
@@ -4700,7 +4702,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-<def-macro n="conj_be_ger" npar="2">
+<def-macro n="conj_be_ger" npar="2" comment="Conjugates a verb made of 'to be' + gerund.">
  	
 	
   <let><!--aquest valor ha d'estar en blanc al principi, perquè no s'envii res excepte si és pp -->
@@ -4956,7 +4958,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-<def-macro n="conj_going_to_inf" npar="3">
+<def-macro n="conj_going_to_inf" npar="3" comment="Conjugates a verb made of 'going to' + infinitive.">
  
   <choose>
     <when>	
@@ -5108,7 +5110,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-<def-macro n="passa_inf_a_pres" npar="1">
+<def-macro n="passa_inf_a_pres" npar="1" comment="Changes the tense of a verb from infinitive to present.">
 	<choose>
 	  <when>
 	    <test>
@@ -5148,7 +5150,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	</choose>
 </def-macro>
 
-<def-macro n="passa_pp_a_ifip" npar="1">
+<def-macro n="passa_pp_a_ifip" npar="1" comment="Changes the tense of a verb from past participle to past.">
   <choose>
 	 <when><!--si entra com a 'pp', ho tractarem com si fos 'past', per tant quedarà en forma perifràstica (ifip)-->
 	    <test>
@@ -5200,7 +5202,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <!--********************************* REGLES DE SN ***************************************************** -->
 
 <!-- primer les regles lèxiques-->
-    <rule comment="REGLA: MONTH NUM, NUM (July 23, 2010 → 23 de juliol de 2010)">
+    <rule comment="July 23, 2010 → 23 de juliol de 2010">
       <pattern>
 	<pattern-item n="months"/>    
 	<pattern-item n="num"/>
@@ -5280,7 +5282,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: ON NUM MONTH  (On 8 July → el 8 de juliol)">
+    <rule comment="On 8 July → el 8 de juliol">
       <pattern>
 	<pattern-item n="on"/>
 	<pattern-item n="num"/>
@@ -5441,7 +5443,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGLA: ALL NOUNplural (BCN: per afegir l'article definit en català 'all students' :: 'tots els estudiants'"> 
+    <rule comment="all students → tots els estudiants"> 
 
       <pattern>
 	<pattern-item n="all"/>
@@ -5501,7 +5503,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: ALL ADJ NOUNplural (BCN: per afegir l'article definit en català 'all legal states' :: 'tots els estats legals'.">
+    <rule comment="all legal states → tots els estats legals">
 
       <pattern>
 	<pattern-item n="all"/>
@@ -5581,7 +5583,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule> 
 
 
- <rule comment="REGLA: DET NOM"> 
+ <rule comment="the house → la casa"> 
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -5635,7 +5637,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGLA: NUM NOM">
+    <rule comment="two houses → dues cases">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="nom"/>
@@ -6090,7 +6092,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
     <!-- SINTAGNES NOMINALS AMB UN ADJ -->
 
-    <rule comment="REGLA: such a ADJ NOM (afegir tb una regla such a ADJ ADJ NOM?. Aquí no he posat funció 'envia_adj' i per tant desapareix el comparatiu/superlatiu: such a bigger field = un camp tan gran. Pensar-hi">  
+    <rule comment="such a beautiful girl → una noia tan bonica">  
       <pattern>
 	<pattern-item n="such_a"/>
 	<pattern-item n="adj"/>
@@ -6178,7 +6180,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
     
-    <rule comment="REGLA: ADJ NOM">
+    <rule comment="red house → casa vermella">
       <pattern>
 	<pattern-item n="adj"/>
 	<pattern-item n="nom"/>
@@ -6227,7 +6229,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: DET ADJ NOM">
+    <rule comment="the red house → la casa vermella">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -6295,7 +6297,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: NUM ADJ NOM">
+    <rule comment="two red houses → dues cases vermelles">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="adj"/>
@@ -6367,7 +6369,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGLA: DET DET ADJ NOM (your many beautiful cats)">
+    <rule comment="your many beautiful cats → els teus diversos gats bonics">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="det"/>
@@ -6440,7 +6442,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: DET NUM ADJ NOM (your three beautiful cats)">
+    <rule comment="your three beautiful cats → els teus tres gats bonics">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="num"/>
@@ -6597,7 +6599,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: DET ADV (incl preadv) ADJ NOM">
+    <rule comment="the badly damaged house → la casa avariada malament">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adv_preadv"/>
@@ -6669,7 +6671,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: NUM ADV (incl preadv) ADJ NOM">
+    <rule comment="two badly damaged houses → dues cases avariades malament">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="adv_preadv"/>
@@ -6965,7 +6967,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGLA: PREADV ADJ NOM (és com la regla anterior, però inclou tb adverbis junt amb pp: 'locally produced materials'. No hi ha cap regla per ADV ADJ(pp) NOM perquè l'adverbi no sempre modifica l'adjectiu o pp (....'always green articles'). He pensat que quan és 'pp' és més probable que l'adverbi modifiqui el pp, tot i que tampoc sempre és així.">
+    <rule comment="locally produced materials → materials produïts localment">
       <pattern>
 	<pattern-item n="adv_preadv"/>
 	<pattern-item n="pp"/>
@@ -20495,6 +20497,14 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <lit-tag v="pii"/>
 	    </let>
 	    <let>
+	      <var n="pers_chunk"/>
+	      <lit-tag v="PD"/>
+	    </let>
+	    <let>
+	      <var n="nbr_chunk"/>
+	      <lit-tag v="ND"/>
+	    </let>
+	    <let>
 	      <var n="verbfinal"/>
 		<concat>
 		  <clip pos="1" side="tl" part="lemh"/>
@@ -20565,6 +20575,14 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    <let>
 	      <var n="temps_chunk"/>
 	      <lit-tag v="pii"/>
+	    </let>
+	    <let>
+	      <var n="pers_chunk"/>
+	      <lit-tag v="PD"/>
+	    </let>
+	    <let>
+	      <var n="nbr_chunk"/>
+	      <lit-tag v="ND"/>
 	    </let>
 	    <let>
 	      <var n="verbfinal"/>
@@ -20667,6 +20685,14 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    <let>
 	      <var n="temps_chunk"/>
 	      <lit-tag v="pii"/>
+	    </let>
+	    <let>
+	      <var n="pers_chunk"/>
+	      <lit-tag v="PD"/>
+	    </let>
+	    <let>
+	      <var n="nbr_chunk"/>
+	      <lit-tag v="ND"/>
 	    </let>
 	    <let>
 	      <var n="verbfinal"/>
