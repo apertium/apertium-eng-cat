@@ -7018,7 +7018,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
     <!-- SINTAGMES NOMINALS AMB DOS ADJS (ADJ ADJ)--> 
 
-    <rule comment="REGLA: DET ADJ ADJ NOM">
+    <rule comment="the big blue house → la casa blava gran">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -7100,7 +7100,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: DET DET ADJ ADJ NOM (BCN)">
+    <rule comment="your many beautiful red cats → els teus diversos gats vermells bonics">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="det"/>
@@ -7193,7 +7193,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: DET ADV ADJ ADJ NOM (BCN a currently valid legislative delegation ->  una delegació legislativa actualment vàlida)">
+    <rule comment="a currently valid legislative delegation → una delegació legislativa actualment vàlida">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adv_preadv"/>
@@ -7280,7 +7280,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: NUM ADV ADJ ADJ NOM (BCN two currently valid legislative delegations)">
+    <rule comment="two currently valid legislative delegations → dues delegacions legislatives actualment vàlides">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="adv_preadv"/>
@@ -7358,7 +7358,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: NUM ADJ ADJ NOM">
+    <rule comment="two big red houses → dues cases vermelles grans">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="adj"/>
@@ -7439,7 +7439,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: DET NUM ADJ ADJ NOM (BCN)">
+    <rule comment="your three beautiful red cats → els teus tres gats vermells bonics">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="num"/>
@@ -7534,7 +7534,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: ADJ ADJ NOM">
+    <rule comment="big red house → casa vermella gran">
       <pattern>
 	<pattern-item n="adj"/>
 	<pattern-item n="adj"/>
@@ -7807,7 +7807,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <!-- SINTAGMES NOMINALS AMB DOS ADJS COORDINATS-->
 
 
-    <rule comment="REGLA: ADJ AND ADJ NOM (BCN)">
+    <rule comment="big and beautiful house → casa gran i bonica">
       <pattern>
 	<pattern-item n="adj"/>
 	<pattern-item n="cnjcoo"/>
@@ -8664,7 +8664,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <!-- SINTAGMES NOMINALS AMB MES D'UN NOM-->
 
 
-    <rule comment="REGLA: NOM1 NOM2 -> NOM2 de NOM1">
+    <rule comment="train station → estació de tren *Does not apply to 'np.ant', 'np.cog', 'tractaments' and 'days'*">
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="nom"/>
@@ -8775,7 +8775,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: DET NOM1 NOM2 -> DET NOM2 de NOM1">
+    <rule comment="the train station → l'estació de tren *Does not apply to 'np.ant', 'np.cog', 'tractaments' and 'days'*">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -8922,7 +8922,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: NUM NOM1 NOM2 -> NUM NOM2 de NOM1 (Three street chairs) ">
+    <rule comment="two train stations → dues estacions de tren *Does not apply to 'np.ant', 'np.cog', 'tractaments' and 'days'*">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="nom"/>
@@ -9071,7 +9071,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: NUM-NOM1 NOM2 -> NOM2 de NUM NOM1(pl) (Three-month extension - extensió de tres mesos)">
+    <rule comment="three-month extension → extensió de tres mesos">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="guio"/>
@@ -9165,8 +9165,121 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
+    <rule comment="a three-month extension → una extensió de tres mesos">
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="num"/>
+	<pattern-item n="guio"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+	<call-macro n="million">
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="determiner">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="flexio_numerals">
+	  <with-param pos="2"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="f_concord2">
+	  <with-param pos="5"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
 
-    <rule comment="REGLA: ADJ-NOM1 NOM2 -> NOM2 de NOM1 ADJ (BCN open-source software)">
+<!--aquí no poso funció f_concord entre 4 i 2 perquè els valors no van enllaçats al chunk i per tant no es poden deixar GDs--> 
+	<call-macro n="elimina_GDND">
+	  <with-param pos="4"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="2" side="tl" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <not>
+		    <equal>
+		      <clip pos="4" side="tl" part="gen"/>
+		      <lit-tag v="mf"/>
+		    </equal>
+		  </not>
+		</test>
+		<let>
+		  <clip pos="2" side="tl" part="gen"/>
+		  <clip pos="4" side="tl" part="gen"/>
+		</let>
+	      </when>
+	      <otherwise>
+		<let>
+		  <clip pos="2" side="tl" part="gen"/>
+		  <lit-tag v="m"/>
+		</let>
+	      </otherwise>
+	    </choose>
+	  </when>
+	</choose>
+	<out> 
+	  <chunk name="det_nom_pr_num_nom" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+		  <tag><var n="tipus_det"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
+	    </tags>
+	    <lu>   
+	      <clip pos="1" side="tl" part="lem"/> 
+	      <clip pos="1" side="tl" part="a_det"/>
+	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="1" side="tl" part="gen_mf"/>
+	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="1" side="tl" part="nbr_sp"/>
+	    </lu> 
+	    <b pos="1"/>
+	    <lu> 
+	      <clip pos="5" side="tl" part="lemh"/> 
+	      <clip pos="5" side="tl" part="a_nom"/>
+	      <clip pos="5" side="tl" part="gen_sense_mf" link-to="3"/>
+	      <clip pos="5" side="tl" part="gen_mf"/>
+	      <clip pos="5" side="tl" part="nbr_sense_sp" link-to="4"/>
+	      <clip pos="5" side="tl" part="nbr_sp"/>
+	      <clip pos="5" side="tl" part="lemq"/>  
+	    </lu> 
+	    <b/>
+	    <lu>
+	      <lit v="de"/>
+	      <lit-tag v="pr"/>
+	    </lu>
+	    <b/>
+	    <lu> 
+	      <clip pos="2" side="tl" part="lem"/> 
+	      <clip pos="2" side="tl" part="a_num"/>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <clip pos="2" side="tl" part="nbr"/>
+	    </lu> 
+	    <b pos="4"/>
+	    <lu>   
+	      <clip pos="4" side="tl" part="lemh"/> 
+	      <clip pos="4" side="tl" part="a_nom"/>
+	      <clip pos="4" side="tl" part="gen"/>
+	      <lit-tag v="pl"/>
+	      <clip pos="4" side="tl" part="lemq"/>
+	    </lu> 
+	  </chunk>
+	</out>
+      </action>
+    </rule>
+
+    <rule comment="open-source software → programari de font oberta">
       <pattern>
 	<pattern-item n="adj"/>
 	<pattern-item n="guio"/>
@@ -9294,7 +9407,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: DET ADJ-NOM1 NOM2 -> DET NOM2 de NOM1 ADJ (BCN the open-source software)">
+    <rule comment="the open-source software → el programari de font oberta">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -9445,7 +9558,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGLA: NUM ADJ-NOM1 NOM2 -> NOM NOM2 de NOM1 ADJ (BCN three open-source softwares)">
+    <rule comment="two open-source softwares → dos programaris de font oberta">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="adj"/>
@@ -9595,7 +9708,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: ADJ-NOM1 NOM2 NOM3-> NOM3 de NOM1 NOM ADJ (BCN open-source software systems) MG falta comprovar np i days">
+    <rule comment="open-source software systems → sistemes de programari de font oberta">
       <pattern>
 	<pattern-item n="adj"/>
 	<pattern-item n="guio"/>
@@ -9737,7 +9850,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: DET ADJ-NOM1 NOM2 NOM3-> NOM3 de NOM1 NOM ADJ (BCN the open-source software systems)">
+    <rule comment="the open-source software systems → els sistemes de programari de font oberta">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -9904,7 +10017,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: NUM ADJ-NOM1 NOM2 NOM3-> NOM3 de NOM1 NOM ADJ (BCN three open-source software systems)">
+    <rule comment="two open-source software systems → dos sistemes de programari de font oberta">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="adj"/>
@@ -10073,7 +10186,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGLA: ADV-ADJ NOM2 -> NOM NOM2 de ADV NOM1 (BCN non-free software)">
+    <rule comment="non-free software → programari no gratuït">
       <pattern>
 	<pattern-item n="adv"/>
 	<pattern-item n="guio"/>
@@ -10123,7 +10236,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: NUM ADV-ADJ NOM2 (BCN non-free software)">
+    <rule comment="two non-free softwares → dos programaris no gratuïts">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="adv"/>
@@ -10192,7 +10305,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: DET ADV-ADJ NOM2 (BCN the non-free software)">
+    <rule comment="the non-free softwares → els programaris no gratuïts">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adv"/>
@@ -10603,120 +10716,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </out>
 	  </otherwise>
 	</choose>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: DET NUM-NOM1 NOM2 ->DET NOM2 de NUM NOM1(pl) (A three-month extension - una extensió de tres mesos">
-      <pattern>
-	<pattern-item n="det"/>
-	<pattern-item n="num"/>
-	<pattern-item n="guio"/>
-	<pattern-item n="nom"/>
-	<pattern-item n="nom"/>
-      </pattern>
-      <action>
-	<call-macro n="million">
-	  <with-param pos="2"/>
-	</call-macro>
-	<call-macro n="determiner">
-	  <with-param pos="1"/>
-	</call-macro>
-	<call-macro n="flexio_numerals">
-	  <with-param pos="2"/>
-	  <with-param pos="4"/>
-	</call-macro>
-	<call-macro n="f_concord2">
-	  <with-param pos="5"/>
-	  <with-param pos="1"/>
-	</call-macro>
-	<call-macro n="firstWord">
-	  <with-param pos="1"/>
-	</call-macro>
-
-<!--aquí no poso funció f_concord entre 4 i 2 perquè els valors no van enllaçats al chunk i per tant no es poden deixar GDs--> 
-	<call-macro n="elimina_GDND">
-	  <with-param pos="4"/>
-	</call-macro>
-	<choose>
-	  <when>
-	    <test>
-	      <equal>
-		<clip pos="2" side="tl" part="gen"/>
-		<lit-tag v="GD"/>
-	      </equal>
-	    </test>
-	    <choose>
-	      <when>
-		<test>
-		  <not>
-		    <equal>
-		      <clip pos="4" side="tl" part="gen"/>
-		      <lit-tag v="mf"/>
-		    </equal>
-		  </not>
-		</test>
-		<let>
-		  <clip pos="2" side="tl" part="gen"/>
-		  <clip pos="4" side="tl" part="gen"/>
-		</let>
-	      </when>
-	      <otherwise>
-		<let>
-		  <clip pos="2" side="tl" part="gen"/>
-		  <lit-tag v="m"/>
-		</let>
-	      </otherwise>
-	    </choose>
-	  </when>
-	</choose>
-	<out> 
-	  <chunk name="det_nom_pr_num_nom" case="caseFirstWord">
-	    <tags>
-	      <tag><lit-tag v="SN"/></tag>
-		  <tag><var n="tipus_det"/></tag>
-	      <tag><var n="gen_chunk"/></tag>
-	      <tag><var n="nbr_chunk"/></tag>
-	    </tags>
-	    <lu>   
-	      <clip pos="1" side="tl" part="lem"/> 
-	      <clip pos="1" side="tl" part="a_det"/>
-	      <clip pos="1" side="tl" part="gen_sense_mf" link-to="3"/>
-	      <clip pos="1" side="tl" part="gen_mf"/>
-	      <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
-	      <clip pos="1" side="tl" part="nbr_sp"/>
-	    </lu> 
-	    <b pos="1"/>
-	    <lu> 
-	      <clip pos="5" side="tl" part="lemh"/> 
-	      <clip pos="5" side="tl" part="a_nom"/>
-	      <clip pos="5" side="tl" part="gen_sense_mf" link-to="3"/>
-	      <clip pos="5" side="tl" part="gen_mf"/>
-	      <clip pos="5" side="tl" part="nbr_sense_sp" link-to="4"/>
-	      <clip pos="5" side="tl" part="nbr_sp"/>
-	      <clip pos="5" side="tl" part="lemq"/>  
-	    </lu> 
-	    <b/>
-	    <lu>
-	      <lit v="de"/>
-	      <lit-tag v="pr"/>
-	    </lu>
-	    <b/>
-	    <lu> 
-	      <clip pos="2" side="tl" part="lem"/> 
-	      <clip pos="2" side="tl" part="a_num"/>
-	      <clip pos="2" side="tl" part="gen"/>
-	      <clip pos="2" side="tl" part="nbr"/>
-	    </lu> 
-	    <b pos="4"/>
-	    <lu>   
-	      <clip pos="4" side="tl" part="lemh"/> 
-	      <clip pos="4" side="tl" part="a_nom"/>
-	      <clip pos="4" side="tl" part="gen"/>
-	      <lit-tag v="pl"/>
-	      <clip pos="4" side="tl" part="lemq"/>
-	    </lu> 
-	  </chunk>
-	</out>
       </action>
     </rule>
 
@@ -12490,7 +12489,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: NOM1 and NOM2 -> NOM1 i NOM2">
+    <rule comment="cat and dog → gat i gos">
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="cnjcoo"/>
