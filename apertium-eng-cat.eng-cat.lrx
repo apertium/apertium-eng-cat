@@ -1264,6 +1264,12 @@
     <match lemma="possession" tags="n.*"/>
   </rule>
 
+  <rule weight="0.8">
+    <match lemma="small" tags="adj.sint">
+      <select lemma="petit" tags="adj" />
+    </match>
+  </rule>
+
   </rules> 
 <!-- 
 Resources: 
