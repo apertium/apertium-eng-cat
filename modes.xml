@@ -13,8 +13,11 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -gx">
         <file name="eng-cat.prob"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="eng-cat.autosep.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -55,8 +58,11 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -gx">
         <file name="eng-cat.prob"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="eng-cat.autosep.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -110,8 +116,27 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -gx">
         <file name="eng-cat.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-cat-separate" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-cat.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="eng-cat.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -gx">
+        <file name="eng-cat.prob"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="eng-cat.autosep.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -126,8 +151,11 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -gx">
         <file name="eng-cat.prob"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="eng-cat.autosep.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
@@ -143,8 +171,11 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -gx">
         <file name="eng-cat.prob"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="eng-cat.autosep.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -163,8 +194,11 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -gx">
         <file name="eng-cat.prob"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="eng-cat.autosep.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -186,8 +220,11 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -gx">
         <file name="eng-cat.prob"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="eng-cat.autosep.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -213,8 +250,11 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -gx">
         <file name="eng-cat.prob"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="eng-cat.autosep.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -244,8 +284,11 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -gx">
         <file name="eng-cat.prob"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="eng-cat.autosep.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
