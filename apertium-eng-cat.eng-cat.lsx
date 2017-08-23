@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <dictionary type="separable">
-  <alphabet/>
+    <alphabet></alphabet>
     <sdefs>
         <sdef n="adj"/>
         <sdef n="adv"/>
         <sdef n="n"/>
         <sdef n="sep"/>
         <sdef n="vblex"/>
+        <sdef n="det"/>
     </sdefs>
     <pardefs>
         <pardef n="adj">
@@ -16,18 +16,28 @@
         <pardef n="n">
             <e><i><w/><s n="n"/><t/><j/></i></e>
         </pardef>
+        <pardef n="det">
+            <e><i><w/><s n="det"/><t/><j/></i></e>
+        </pardef>
         <pardef n="SN">
             <e><par n="n"/></e>
+            <e><par n="det"/><par n="n"/></e>
             <e><par n="adj"/><par n="n"/></e>
             <e><par n="adj"/><par n="adj"/><par n="n"/></e>
         </pardef>
+        <pardef n="freq-adv">
+            <e><i>always<s n="adv"/><j/></i></e>
+            <e><i>anually<s n="adv"/><j/></i></e>
+            <e><i>bianually<s n="adv"/><j/></i></e>
+        </pardef>
     </pardefs>
     <section id="main" type="standard">
-
-    <e lm="take away" c="treure">
-      <p><l>take<s n="vblex"/></l><r>take<g><b/>away</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
-      <par n="SN"/><p><l>away<t/><j/></l><r></r></p>
-    </e>
-
+      <e lm="take away">
+        <p><l>take<s n="vblex"/></l><r>take<g><b/>away</g><s n="vblex"/><s n="sep"/></r></p>
+        <i><t/><j/></i>
+        <par n="SN"/>     
+        <p><l>away<s n="adv"/></l><r></r></p>
+        <i><j/></i>
+      </e>
     </section>
 </dictionary>
