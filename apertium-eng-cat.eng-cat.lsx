@@ -3,6 +3,7 @@
     <sdefs>
         <sdef n="det"/>
         <sdef n="adj"/>
+        <sdef n="predet"/>
         <sdef n="n"/>
         <sdef n="adv"/>
         <sdef n="sep"/>
@@ -15,6 +16,7 @@
         </pardef>
         <pardef n="det">
             <e><i><w/><s n="det"/><t/><j/></i></e>
+            <e><i><w/><s n="predet"/><j/><w/><s n="det"/><t/><j/></i></e>
         </pardef>
         <pardef n="n">
             <e><i><w/><s n="n"/><t/><j/></i></e>
