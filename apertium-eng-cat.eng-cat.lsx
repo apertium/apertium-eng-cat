@@ -36,5 +36,14 @@
         <p><l>away<s n="adv"/></l><r></r></p>
         <i><j/></i>
       </e>
+      <e lm="take out">
+        <p><l>take<s n="vblex"/></l><r>take<g><b/>out</g><s n="vblex"/><s n="sep"/></r></p>
+        <i><t/><j/></i>
+        <par n="SN"/>     
+        <p><l>out<t/></l><r></r></p>
+        <i><j/></i>
+      </e>
+
+
     </section>
 </dictionary>

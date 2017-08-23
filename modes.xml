@@ -221,10 +221,10 @@
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
       <program name="lsx-proc">
         <file name="eng-cat.autosep.bin"/>
       </program>
+      <program name="lt-proc -b">
         <file name="eng-cat.autobil.bin"/>
       </program>
       <program name="lrx-proc">

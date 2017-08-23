@@ -9,6 +9,7 @@
     <def-cat n="interj">
       <cat-item tags="ij"/>
     </def-cat>
+
     <def-cat n="on">
       <cat-item lemma="on" tags="pr"/>
       <cat-item lemma="on" tags="adv"/>
@@ -152,6 +153,11 @@
       <cat-item tags="prn.tn.*"/>
       <cat-item tags="prn.itg.*"/>
       <cat-item tags="prn.pos.*"/>
+    </def-cat>
+
+    <def-cat n="imperatiu">
+      <cat-item tags="vblex.imp.*"/>
+      <cat-item tags="vblex.sep.imp.*"/>
     </def-cat>
 
     <def-cat n="verbcj">
