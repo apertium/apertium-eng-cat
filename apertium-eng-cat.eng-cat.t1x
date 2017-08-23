@@ -17016,6 +17016,86 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
+    <rule comment="Sing -> canta (needs to support verbs with pronouns)">
+      <pattern>
+	<pattern-item n="verbimp"/>
+      </pattern>
+      <action>    
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="tipus_verbs">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="pron">
+	  <with-param pos="1"/>
+	</call-macro>
+	    <out>
+	      <chunk name="SVimp" case="caseFirstWord">
+		<tags>	       
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><lit-tag v="imp"/></tag>
+		  <tag><lit-tag v="p2"/></tag>
+		  <tag><lit-tag v="sg"/></tag>
+		</tags> 		
+		<lu>
+                  <clip pos="1" side="tl" part="lemh"/> 
+	          <clip pos="1" side="tl" part="a_verb"/>
+	          <lit-tag v="2"/>
+	          <lit-tag v="3"/>
+	          <lit-tag v="4"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+		</lu>
+	      </chunk>
+	    </out>
+      </action>
+    </rule>
+
+    <rule comment="Do not sing -> no canteu (needs to support verbs with pronouns)">
+      <pattern>
+	<pattern-item n="verbdoimp"/>
+	<pattern-item n="not"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>    
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="tipus_verbs">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="pron">
+	  <with-param pos="1"/>
+	</call-macro>
+	    <out>
+	      <chunk name="SVimp" case="caseFirstWord">
+		<tags>	       
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><lit-tag v="imp"/></tag>
+		  <tag><lit-tag v="p2"/></tag>
+		  <tag><lit-tag v="pl"/></tag>
+		</tags>
+		<lu>
+                  <clip pos="2" side="tl" part="whole"/>
+		</lu>	
+	        <b pos="1"/>	
+		<lu>
+                  <clip pos="3" side="tl" part="lemh"/> 
+	          <clip pos="3" side="tl" part="a_verb"/>
+	          <lit-tag v="2"/>
+	          <lit-tag v="3"/>
+	          <lit-tag v="4"/>
+	          <clip pos="3" side="tl" part="lemq"/>
+		</lu>
+	      </chunk>
+	    </out>
+	<call-macro n="f_bcond">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro>
+      </action>
+    </rule>       
+
 
     <rule comment="REGLA: VERB copulatiu">
       <pattern>
