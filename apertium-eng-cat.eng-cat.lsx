@@ -1,34 +1,31 @@
 <dictionary type="separable">
-    <alphabet></alphabet>
+    <alphabet/>
     <sdefs>
+        <sdef n="det"/>
         <sdef n="adj"/>
-        <sdef n="adv"/>
         <sdef n="n"/>
+        <sdef n="adv"/>
         <sdef n="sep"/>
         <sdef n="vblex"/>
-        <sdef n="det"/>
     </sdefs>
     <pardefs>
         <pardef n="adj">
             <e><i><w/><s n="adj"/><j/></i></e>
             <e><i><w/><s n="adj"/><t/><j/></i></e>
         </pardef>
-        <pardef n="n">
-            <e><i><w/><s n="n"/><t/><j/></i></e>
-        </pardef>
         <pardef n="det">
             <e><i><w/><s n="det"/><t/><j/></i></e>
+        </pardef>
+        <pardef n="n">
+            <e><i><w/><s n="n"/><t/><j/></i></e>
         </pardef>
         <pardef n="SN">
             <e><par n="n"/></e>
             <e><par n="det"/><par n="n"/></e>
             <e><par n="adj"/><par n="n"/></e>
+            <e><par n="det"/><par n="adj"/><par n="n"/></e>
             <e><par n="adj"/><par n="adj"/><par n="n"/></e>
-        </pardef>
-        <pardef n="freq-adv">
-            <e><i>always<s n="adv"/><j/></i></e>
-            <e><i>anually<s n="adv"/><j/></i></e>
-            <e><i>bianually<s n="adv"/><j/></i></e>
+            <e><par n="det"/><par n="adj"/><par n="adj"/><par n="n"/></e>
         </pardef>
     </pardefs>
     <section id="main" type="standard">
