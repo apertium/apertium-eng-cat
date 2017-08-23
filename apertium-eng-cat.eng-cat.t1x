@@ -161,7 +161,7 @@
     </def-cat>
 
     <def-cat n="verbdoimp">
-      <cat-item tags="vbdo.imp"/>
+      <cat-item lemma="do" tags="vblex.imp"/>
     </def-cat>
 
     <def-cat n="verbcj">
