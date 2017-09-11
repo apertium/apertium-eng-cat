@@ -91,6 +91,7 @@
     <def-cat n="adj2pos">
       <cat-item tags="adj.pos"/>
       <cat-item tags="adj"/>
+      <cat-item tags="adj.*"/>
       <cat-item tags="adj.sint"/>
       <cat-item tags="adj.sint.*"/>
       <cat-item tags="adj.comp"/>
