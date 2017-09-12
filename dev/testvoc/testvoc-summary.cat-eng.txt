@@ -1,4 +1,4 @@
-dt set 12 15:09:59 CEST 2017
+dt set 12 18:08:05 CEST 2017
 ===============================================
 POS	Total	Clean	With @	With #	Clean %
 vblex	256016	 250523	0	5493	97.85
@@ -15,9 +15,9 @@ prn	105	 57	0	48	54.29
 vbhaver	80	 80	0	0	100
 cnjadv	30	 24	0	6	80
 ij	8	 5	0	3	62.5
+cnjcoo	7	 7	0	0	100
 predet	5	 0	0	5	0
 preadv	5	 5	0	0	100
-cnjcoo	5	 5	0	0	100
 cnjsub	4	 4	0	0	100
 rel	2	 2	0	0	100
 guio	1	 1	0	0	100

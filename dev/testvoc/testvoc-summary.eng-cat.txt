@@ -1,4 +1,4 @@
-dt set 12 15:09:14 CEST 2017
+dt set 12 18:07:16 CEST 2017
 ===============================================
 POS	Total	Clean	With @	With #	Clean %
 np	30360	 22774	0	7586	75.02
@@ -14,11 +14,11 @@ det	61	 29	0	32	47.55
 vbmod	58	 47	0	11	81.04
 vbhaver	40	 34	0	6	85
 vbser	39	 36	0	3	92.30
-cnjadv	25	 20	0	5	80
+cnjadv	26	 20	0	6	76.93
 ij	14	 11	0	3	78.58
 preadv	10	 5	0	5	50
-cnjcoo	9	 6	0	3	66.67
-cnjsub	4	 2	0	2	50
+cnjcoo	8	 8	0	0	100
+cnjsub	2	 2	0	0	100
 predet	1	 0	0	1	0
 guio	1	 1	0	0	100
 cm	1	 1	0	0	100
