@@ -3675,7 +3675,7 @@
 	      </test>
 	      <append n="adjectiu1">
 		<lit v="més"/>
-		<lit-tag v="preadv"/>
+		<lit-tag v="adv"/>
 		<lit v="$ ^"/>
 	      </append>	  
 	    </when>
@@ -3727,7 +3727,7 @@
 	      </test>
 	      <append n="adjectiu2">
 		<lit v="més"/>
-		<lit-tag v="preadv"/>
+		<lit-tag v="adv"/>
 		<lit v="$ ^"/>
 	      </append>	  
 	    </when>
