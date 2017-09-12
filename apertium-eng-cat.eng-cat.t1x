@@ -16197,13 +16197,33 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <lit-tag v="GD"/>
 	    </let>
 	  </otherwise>
+	</choose> 
+	<choose>
+	  <when>
+	    <test>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	    </test>
+	    <let>
+	      <var n="nbr_chunk"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="nbr_chunk"/>
+	      <lit-tag v="ND"/>
+	    </let>
+	  </otherwise>
 	</choose>   
 	<out>   
 	  <chunk name="adv_adj" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SA"/></tag>
 	      <tag><var n="gen_chunk"/></tag>
-	      <tag><lit-tag v="ND"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
 	    </tags>    	
 	    <lu>
 	      <clip pos="2" side="tl" part="whole"/>
@@ -16252,13 +16272,33 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <lit-tag v="GD"/>
 	    </let>
 	  </otherwise>
-	</choose>    	      
+	</choose>    	
+	<choose>
+	  <when>
+	    <test>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	    </test>
+	    <let>
+	      <var n="nbr_chunk"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="nbr_chunk"/>
+	      <lit-tag v="ND"/>
+	    </let>
+	  </otherwise>
+	</choose>  
 	<out>   
 	  <chunk name="adj" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SA"/></tag>
 	      <tag><var n="gen_chunk"/></tag>
-	      <tag><lit-tag v="ND"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
 	    </tags>    	
 	    <lu> 
 	      <var n="adjectiu1"/>   
@@ -16306,13 +16346,33 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <lit-tag v="GD"/>
 	    </let>
 	  </otherwise>
-	</choose>    
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	    </test>
+	    <let>
+	      <var n="nbr_chunk"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="nbr_chunk"/>
+	      <lit-tag v="ND"/>
+	    </let>
+	  </otherwise>
+	</choose> 
 	<out>   
 	  <chunk name="preadv_adj" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SA"/></tag>
 	      <tag><var n="gen_chunk"/></tag>
-	      <tag><lit-tag v="ND"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
 	    </tags>
 	    <lu>
 	      <clip pos="1" side="tl" part="whole"/> 
@@ -16363,12 +16423,32 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </let>
 	  </otherwise>
 	</choose>    
+	<choose>
+	  <when>
+	    <test>
+		<equal>
+		  <clip pos="1" side="tl" part="nbr"/>
+		  <lit-tag v="sp"/>
+		</equal>
+	    </test>
+	    <let>
+	      <var n="nbr_chunk"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	    </let>
+	  </when>
+	  <otherwise>
+	    <let>
+	      <var n="nbr_chunk"/>
+	      <lit-tag v="ND"/>
+	    </let>
+	  </otherwise>
+	</choose> 
 	<out>   
 	  <chunk name="adjsup" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SA"/></tag>
 	      <tag><var n="gen_chunk"/></tag>
-	      <tag><lit-tag v="ND"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
 	    </tags>
 	    <lu> 
 	      <var n="adjectiu1"/>   
@@ -19466,6 +19546,20 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+	        <clip pos="1" side="tl" part="a_pp"/>
+	        <lit-tag v="vblex.pron.pp"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="1" side="tl" part="a_pp"/>
+              <lit-tag v="vblex.pp"/>
+	    </let>
+	  </when>
+	</choose>
 	<choose>
 	  <when><!--si és verb 'ser' o 'estar' només pot ser m sg -->
 	    <test>
