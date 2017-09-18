@@ -5281,7 +5281,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: ON NUM MONTH YEAR  (On 8 July 2010 → el 8 de juliol de 2010)">
+    <rule comment="On 8 July 2010 → el 8 de juliol de 2010">
       <pattern>
 	<pattern-item n="on"/>
 	<pattern-item n="num"/>
@@ -10300,7 +10300,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGLA: DET DET NOM1 NOM2 -> DET DET NOM2 de NOM1">
+    <rule comment="the many train stations → les diverses estacions de tren *Does not apply to 'np.ant', 'np.cog', 'tractaments' and 'days'*">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="det"/>
@@ -10468,7 +10468,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: DET NUM NOM1 NOM2 -> DET NUM NOM2 de NOM1">
+    <rule comment="the two train stations → les dues estacions de tren *Does not apply to 'np.ant', 'np.cog', 'tractaments' and 'days'*">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="num"/>
@@ -10643,7 +10643,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: ADJ NOM1 NOM2 -> NOM2 de NOM1 ADJ">
+    <rule comment="beautiful train station → estació de tren bonica *Does not apply to 'np.ant', 'np.cog', 'tractaments' and 'days'*">
       <pattern>
 	<pattern-item n="adj"/>
 	<pattern-item n="nom"/>
@@ -10851,7 +10851,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: DET ADJ NOM1 NOM2 -> DET NOM2 de NOM1 ADJ">
+    <rule comment="the beautiful train station → l'estació de tren bonica *Does not apply to 'np.ant', 'np.cog', 'tractaments' and 'days'*">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -11027,7 +11027,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
- <rule comment="REGLA: ADJ1 ADJ2 NOM1 NOM2 -> NOM2 de NOM1 ADJ2 ADJ1">
+ <rule comment="big blue train station → estació de tren blava gran *Does not apply to 'np.ant', 'np.cog', 'tractaments' and 'days'*">
       <pattern>
 	<pattern-item n="adj"/>
 	<pattern-item n="adj"/>
@@ -11204,7 +11204,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
- <rule comment="REGLA: DET ADJ1 ADJ2 NOM1 NOM2 -> DET NOM2 de NOM1 ADJ2 ADJ1">
+ <rule comment="the big blue train station → l'estació de tren blava gran *Does not apply to 'np.ant', 'np.cog', 'tractaments' and 'days'*">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -11407,7 +11407,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: NOM1 NOM2 NOM3 -> NOM3 de NOM2 del NOM1 (noms comuns: una altra manera de solucionar reordenaments no volguts de noms propis, que en les regles anteriors es fa mitjançant operacions dins la regla">
+    <rule comment="city train station → estació de tren de la ciutat *Does not apply to 'tractaments' and 'days', the third noun may not be a np*">
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="nom"/>
@@ -11554,7 +11554,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-  <rule comment="REGLA: NOMpropi1 NOMpropi2 NOMpropi3 -> NOMpropi1 NOMpropi2 NOMpropi3">
+  <rule comment="Marcus Tullius Cicero → Marcus Tullius Cicero">
       <pattern>
 	<pattern-item n="nompropi"/>
 	<pattern-item n="nompropi"/>
@@ -11603,7 +11603,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: DET NOM1 NOM2 NOM3 -> DET NOM3 de NOM2 del NOM1">
+    <rule comment="the city train station → l'estació de tren de la ciutat *Does not apply to 'tractaments' and 'days', the third noun may not be a np*">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -11790,7 +11790,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: ADJ NOM1 NOM2 NOM3 -> NOM3 de NOM2 de NOM1 ADJ (professional video game design -> disseny de joc de vídeo professional (?)">
+    <rule comment="beautiful city train station → estació de tren de la ciutat maca *Does not apply to 'tractaments' and 'days', the third noun may not be a np*">
       <pattern>
 	<pattern-item n="adj"/>
 	<pattern-item n="nom"/>
@@ -11953,7 +11953,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: DET ADJ NOM1 NOM2 NOM3 -> DET NOM3 de NOM2 de NOM1 ADJ">
+    <rule comment="the beautiful city train station → l'estació de tren de la ciutat maca *Does not apply to 'tractaments' and 'days', the third noun may not be a np*">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="adj"/>
@@ -12141,7 +12141,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: NOM1 NOM2 NOM3 NOM4-> NOM4 de NOM3 de NOM2 de NOM1 (video game design industry -> indústria de disseny de joc de vídeo (?)">
+    <rule comment="video game design industry → indústria de disseny de joc de vídeo *Revise restrictions (none applied), the fourth noun may not be a np*">
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="nom"/>
@@ -12219,7 +12219,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: DET NOM1 NOM2 NOM3 NOM4-> DET NOM4 de NOM3 de NOM2 de NOM1 (the video game design industry -> la indústria de disseny de joc de vídeo (?)">
+    <rule comment="the video game design industry → la indústria de disseny de joc de vídeo *Does not apply to 'tractaments' and 'days', the fourth noun may not be a np*">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -12481,7 +12481,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-    <rule comment="REGLA: NOM1 and NOM2 NOM3 (BCN  safety and security issues)">
+    <rule comment="safety and security issues → seguretat i problemes de seguretat *Fourth noun may not be a np* '''Revise rule, big source of errors'''">
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="cnjcoo"/>
@@ -12566,7 +12566,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: ADJ NOM1 and NOM2 -> NOM1 i NOM2 ADJ ('native plants and animals')">
+    <rule comment="native plants and animals → animals i plantes salvatges">
       <pattern>
 	<pattern-item n="adj"/>
 	<pattern-item n="nom"/>
@@ -12655,7 +12655,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <!-- SINTAGMES NOMINALS ALTRES-->
 
 
-    <rule comment="REGLA: NUM NOM1 OLD -> NUM NOM1 (300 years old - 300 anys)">
+    <rule comment="300 years old → 300 anys">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="yearmonth"/>
@@ -12698,7 +12698,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGLA: NUM-NOM1-OLD NOM3 -> NOM3 de NUM NOM1(pl) (48-year-old man - home de 48 anys)">
+    <rule comment="48-year-old man → home de 48 anys">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="guio"/>
@@ -12780,7 +12780,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-   <rule comment="REGLA: NUM NOM1 OLD NOM3 -> NOM3 de NUM NOM1(pl) (48 year old man - home de 48 anys)">
+   <rule comment="48 year old man → home de 48 anys">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="yearmonth"/>
@@ -12860,7 +12860,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: DET NUM-NOM1-OLD NOM3 -> DET NOM3 de NUM NOM1(pl) (the 48-year-old man - l'home de 48 anys)">
+    <rule comment="the 48-year-old man → l’home de 48 anys">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="num"/>
@@ -12963,7 +12963,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-  <rule comment="REGLA: DET NUM NOM1 OLD NOM3 -> DET NOM3 de NUM NOM1(pl) (the 48 year old man - l'home de 48 anys)">
+  <rule comment="the 48 year old man → l’home de 48 anys">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="num"/>
@@ -13065,7 +13065,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGLA: NUM-NOM1-OLD NOM3 -> NOM3 de NUM NOM1(pl) (9-year-old - (nen) de 9 anys)">
+    <rule comment="20-year-old → nen/persona de 20 anys">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="guio"/>
@@ -13186,7 +13186,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
-    <rule comment="REGLA: NUM-NOM1-OLD NOM3 unknown -> NOM3 de NUM NOM1(pl) unknown (9-year-old xxxxxx - de 9 anys xxxxxx) - quan va abans d'una desconeguda no s'afegeix el nom (nen/persona)">
+    <rule comment="20-year-old ? → de 20 anys ?">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="guio"/>
@@ -13267,7 +13267,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
-    <rule comment="REGLA: DET NUM-NOM1-OLD NOM3 -> DET NOM3 de NUM NOM1(pl) (the 9-year-old - el nen de 9 anys)">
+    <rule comment="the 20-year-old → el nen/persona de 20 anys">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="num"/>
@@ -13401,7 +13401,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
-  <rule comment="REGLA: DET NUM-NOM1-OLD NOM3 unknown-> DET NOM3 de NUM NOM1(pl) unknown (the 9-year-old xxxxxx - de 9 anys xxxxx)">
+  <rule comment="the 20-year-old ? → de 20 anys ?">
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="num"/>
@@ -13491,7 +13491,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
- <rule comment="REGLA: DET NOM ago (a week ago)"> 
+ <rule comment="a week ago → fa una setmana"> 
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -13550,7 +13550,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule> 
 
- <rule comment="REGLA: NUM NOM ago (two weeks ago)">
+ <rule comment="two weeks ago → fa dues setmanes">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="nom"/>
@@ -13609,7 +13609,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 
- <rule comment="REGLA: NOM ago (years ago)"> 
+ <rule comment="years ago → fa anys"> 
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="ago"/>
@@ -13645,7 +13645,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule>
 
 
- <rule comment="REGLA: DET NOM hence (several years hence)"> 
+ <rule comment="several years hence → d’aquí a diversos anys"> 
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="periode"/>
@@ -13701,7 +13701,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule> 
 
- <rule comment="REGLA: NUM NOM hence (two weeks hence)">
+ <rule comment="two years hence → d’aquí a dos anys">
       <pattern>
 	<pattern-item n="num"/>
 	<pattern-item n="periode"/>
