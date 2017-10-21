@@ -186,8 +186,23 @@
       <cat-item tags="vbhaver.pres"/><!--afegit 29/08, per quan es cola per aquesta regla un vbhaver mal desambiguat -->
       <cat-item tags="vbhaver.pres.*"/>
       <cat-item tags="vbhaver.past"/>
-      <cat-item lemma="can" tags="vbmod.*"/><!--perquè quan vagi sol entri per aquesta regla (I can, workers can) -->
+      <cat-item tags="vbhaver.past.*"/>
       <!-- <cat-item tags="vbhaver.*"/> -->
+
+      <cat-item lemma="can" tags="vbmod.pres"/><!--perquè quan vagi sol entri per aquesta regla (I can, workers can) -->
+      <cat-item lemma="can" tags="vbmod.past"/>
+
+      <cat-item lemma="may" tags="vbmod.pres"/>
+      <cat-item lemma="may" tags="vbmod.pres.*"/>
+      <cat-item lemma="may" tags="vbmod.past"/>
+      <cat-item lemma="may" tags="vbmod.past.*"/>
+
+      <cat-item lemma="might" tags="vbmod.pres"/>
+
+      <cat-item lemma="must" tags="vbmod.pres"/>
+      <cat-item lemma="must" tags="vbmod.pres.*"/>
+      <cat-item lemma="must" tags="vbmod.past"/>
+      <cat-item lemma="must" tags="vbmod.past.*"/>
       
     </def-cat>
 
