@@ -495,6 +495,10 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
       <attr-item tags="tn"/>
       <attr-item tags="itg"/>
       <attr-item tags="pos"/>
+      <attr-item tags="dem"/>
+      <attr-item tags="ind"/>
+      <attr-item tags="ref"/>
+      <attr-item tags="qnt"/>
     </def-attr>
     <def-attr n="pers">
       <attr-item tags="p1"/>
