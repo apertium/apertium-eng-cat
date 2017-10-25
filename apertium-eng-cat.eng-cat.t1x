@@ -60,7 +60,7 @@
       <cat-item tags="np.*"/>
     </def-cat>
     <def-cat n="nploc">
-      <cat-item tags="np.loc.*"/>
+      <cat-item tags="np.top.*"/>
     </def-cat>
     <def-cat n="npant">
       <cat-item tags="np.ant.m.sg"/>
@@ -693,7 +693,7 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
-      <attr-item tags="np.loc"/>
+      <attr-item tags="np.top"/>
       <attr-item tags="np.ant"/>
       <attr-item tags="np.cog"/>
       <attr-item tags="np.al"/>	
