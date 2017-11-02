@@ -1,0 +1,46 @@
+<dictionary type="separable">
+  <alphabet>
+    ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyziǎšěřčžǔůýệướễăạảðÐđ
+  </alphabet>
+  <sdefs>
+    <sdef n="adj"/>
+    <sdef n="adv"/>
+    <sdef n="det"/>
+    <sdef n="n"/>
+    <sdef n="np"/>
+    <sdef n="vblex"/>
+  </sdefs>
+  <pardefs>
+    <pardef n="adj">
+      <e><i><w/><s n="adj"/><j/></i></e>
+    </pardef>
+    <pardef n="adv">
+      <e><i><w/><s n="adv"/><j/></i></e>
+    </pardef>
+    <pardef n="det">
+      <e><i><w/><s n="det"/><t/><j/></i></e>
+    </pardef>
+    <pardef n="n">
+      <e><i><w/><s n="n"/><t/><j/></i></e>
+    </pardef>
+    <pardef n="np">
+      <e><i><w/><s n="np"/><t/><j/></i></e>
+    </pardef>
+  </pardefs>
+  <section id="main" type="standard">
+    
+  </section>
+</dictionary>
+
+<!--
+<b/> = blank
+<w/> = ANY_CHAR (loop)
+<t/> = ANY_TAG (loop)
+<j/> = <$>
+
+Available:
+<c/> <d/> <f/> <h/> <k/> <m/> <n/> <o/> <q/> <t/> <u/> <v/> <w/> <x/> <y/> <z/>
+
+Taken:
+<a/> <b/> <e/> <g/> <i/> <j/> <l/> <p/> <r/> <s/>
+ -->

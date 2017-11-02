@@ -54,7 +54,8 @@ TARGETS_COMMON =		\
 	$(PREFIX2).autopgen.bin	\
 	$(PREFIX2).t1x.bin	\
 	$(PREFIX2).t2x.bin	\
-	$(PREFIX2).t3x.bin
+	$(PREFIX2).t3x.bin	\
+	$(PREFIX2).autosep.bin
 
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
@@ -188,6 +189,9 @@ $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
 ###############################################################################
 
 $(PREFIX1).autosep.bin: $(BASENAME).$(PREFIX1).lsx
+	lsx-comp $< $@
+
+$(PREFIX2).autosep.bin: $(BASENAME).$(PREFIX2).lsx
 	lsx-comp $< $@
 
 ###############################################################################
