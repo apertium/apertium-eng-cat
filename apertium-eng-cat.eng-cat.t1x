@@ -17174,10 +17174,10 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	  <with-param pos="1"/>
 	</call-macro>
 	<call-macro n="tipus_verbs">
-	  <with-param pos="1"/>
+	  <with-param pos="3"/>
 	</call-macro>
 	<call-macro n="pron">
-	  <with-param pos="1"/>
+	  <with-param pos="3"/>
 	</call-macro>
 	    <out>
 	      <chunk name="SVimp" case="caseFirstWord">
