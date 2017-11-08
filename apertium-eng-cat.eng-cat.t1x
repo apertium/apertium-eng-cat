@@ -3887,11 +3887,12 @@
 	  </test>
 	  <let>
 	    <var n="tipus_verb"/>
-	    <lit-tag v="pron"/>
+	    <lit-tag v="vblex"/>
+	    <!--<lit-tag v="pron"/>-->
 	  </let>
 	  <let>
 	    <clip pos="1" side="tl" part="a_verb"/>
-            <lit-tag v="vblex"/>
+	    <lit-tag v="vblex"/>
 	  </let>
 	</when>
 	<when>
@@ -13546,7 +13547,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <tag><var n="negative"/></tag> <!-- BCN per recollir si es negacio-->
 	    </tags>
 	    <lu>	      
-	      <clip pos="3" side="tl" part="whole"/>
+	      <lit v="fer"/>
+	      <lit-tag v="vblex"/>
+	      <lit-tag v="pri"/>
+	      <lit-tag v="p3"/>
+	      <lit-tag v="sg"/>
 	    </lu>
 	    <b pos="1"/>	    
 	    <lu>
@@ -13603,7 +13608,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <tag><var n="nbr_chunk"/></tag>
 	    </tags>
 	    <lu>	      
-	      <clip pos="3" side="tl" part="whole"/>
+	      <lit v="fer"/>
+	      <lit-tag v="vblex"/>
+	      <lit-tag v="pri"/>
+	      <lit-tag v="p3"/>
+	      <lit-tag v="sg"/>
 	    </lu>
 	    <b pos="1"/>
 	    <lu>   
@@ -13647,7 +13656,11 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
 	    </tags>
 	    <lu>	      
-	      <clip pos="2" side="tl" part="whole"/>
+	      <lit v="fer"/>
+	      <lit-tag v="vblex"/>
+	      <lit-tag v="pri"/>
+	      <lit-tag v="p3"/>
+	      <lit-tag v="sg"/>
 	    </lu>
 	    <b pos="1"/>
 	    <lu> 
@@ -17138,12 +17151,12 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		  <tag><lit-tag v="sg"/></tag>
 		</tags> 		
 		<lu>
-                  <clip pos="1" side="tl" part="lemh"/> 
-	          <clip pos="1" side="tl" part="a_verb"/>
-	          <lit-tag v="2"/>
-	          <lit-tag v="3"/>
-	          <lit-tag v="4"/>
-	          <clip pos="1" side="tl" part="lemq"/>
+                 	  <clip pos="1" side="tl" part="lemh"/> 
+	         	  <clip pos="1" side="tl" part="a_verb"/>
+	        	  <lit-tag v="2"/>
+	        	  <lit-tag v="3"/>
+	        	  <lit-tag v="4"/>
+	        	  <clip pos="1" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
@@ -17175,16 +17188,16 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		  <tag><lit-tag v="pl"/></tag>
 		</tags>
 		<lu>
-                  <clip pos="2" side="tl" part="whole"/>
+                 	  <clip pos="2" side="tl" part="whole"/>
 		</lu>	
-	        <b pos="1"/>	
+	              <b pos="1"/>	
 		<lu>
-                  <clip pos="3" side="tl" part="lemh"/> 
-	          <clip pos="3" side="tl" part="a_verb"/>
-	          <lit-tag v="2"/>
-	          <lit-tag v="3"/>
-	          <lit-tag v="4"/>
-	          <clip pos="3" side="tl" part="lemq"/>
+                 	  <clip pos="3" side="tl" part="lemh"/> 
+	       	    <clip pos="3" side="tl" part="a_verb"/>
+	       	    <lit-tag v="2"/>
+	       	    <lit-tag v="3"/>
+	       	    <lit-tag v="4"/>
+	       	    <clip pos="3" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
 	    </out>
