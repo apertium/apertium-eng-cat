@@ -1034,6 +1034,10 @@
 
  </def-list>
 
+    <def-list n="meteoverb"> <!-- Verbs meteorològics -->
+      <list-item v="ploure"/>
+    </def-list>
+
   </section-def-lists>
 
   <section-def-macros>
@@ -3947,6 +3951,18 @@
 	    <lit-tag v="reporting"/>
 	  </let>
 	</when>
+	<when>
+	  <test>
+	    <in caseless="yes">
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <list n="meteoverb"/>
+	    </in>
+	  </test>
+	  <let>
+	    <var n="tipus_verb"/>
+	    <lit-tag v="meteo"/>
+	  </let>
+	</when>
 	<otherwise>
 	  <let>
 	    <var n="tipus_verb"/>
@@ -4007,6 +4023,18 @@
 	  <let>
 	    <var n="tipus_verb_imp"/>
 	    <lit-tag v="reporting"/>
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <in caseless="yes">
+	      <clip pos="1" side="sl" part="lemh"/>
+	      <list n="meteoverb"/>
+	    </in>
+	  </test>
+	  <let>
+	    <var n="tipus_verb"/>
+	    <lit-tag v="meteo"/>
 	  </let>
 	</when>
 	<otherwise>
@@ -17132,7 +17160,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       <pattern>
 	<pattern-item n="verbimp"/>
       </pattern>
-      <action>    
+      <action>  
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
@@ -17142,6 +17170,39 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<call-macro n="pron">
 	  <with-param pos="1"/>
 	</call-macro>
+	<choose>
+	  <when> <!--Per als verbs meteorològics, l'imperatiu el traduïm per 'que + subjuntiu'  -->
+	    <test>
+	      <equal>
+		<var n="tipus_verb"/>
+		<lit-tag v="meteo"/>
+	      </equal>
+	    </test>
+	    <out>
+	      <chunk name="SVimp" case="caseFirstWord">
+		<tags>	       
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><lit-tag v="prs"/></tag>
+		  <tag><lit-tag v="p3"/></tag>
+		  <tag><lit-tag v="sg"/></tag>
+		</tags>
+                        <lu>
+	              <lit v="que"/>
+	              <lit-tag v="cnjsub"/>
+	            </lu>
+	            <b/>		
+		<lu>
+                 	  <clip pos="1" side="tl" part="lemh"/> 
+	         	  <clip pos="1" side="tl" part="a_verb"/>
+	        	  <lit-tag v="2"/>
+	        	  <lit-tag v="3"/>
+	        	  <lit-tag v="4"/>
+	        	  <clip pos="1" side="tl" part="lemq"/>
+		</lu>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise>
 	    <out>
 	      <chunk name="SVimp" case="caseFirstWord">
 		<tags>	       
@@ -17159,7 +17220,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	        	  <clip pos="1" side="tl" part="lemq"/>
 		</lu>
 	      </chunk>
-	    </out>
+	    </out>	      
+	  </otherwise>
+	</choose>
       </action>
     </rule>
 
@@ -17179,6 +17242,43 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<call-macro n="pron">
 	  <with-param pos="3"/>
 	</call-macro>
+            <choose>
+	  <when> <!--Per als verbs meteorològics, l'imperatiu el traduïm per 'que + subjuntiu'  -->
+	    <test>
+	      <equal>
+		<var n="tipus_verb"/>
+		<lit-tag v="meteo"/>
+	      </equal>
+	    </test>
+	    <out>
+	      <chunk name="SVimp" case="caseFirstWord">
+		<tags>	       
+		  <tag><lit-tag v="SV"/></tag>
+		  <tag><lit-tag v="prs"/></tag>
+		  <tag><lit-tag v="p3"/></tag>
+		  <tag><lit-tag v="sg"/></tag>
+		</tags>
+                        <lu>
+	              <lit v="que"/>
+	              <lit-tag v="cnjsub"/>
+	            </lu>
+	            <b/>
+		<lu>
+                 	  <clip pos="2" side="tl" part="whole"/>
+		</lu>	
+	              <b pos="1"/>		
+		<lu>
+                 	  <clip pos="3" side="tl" part="lemh"/> 
+	         	  <clip pos="3" side="tl" part="a_verb"/>
+	        	  <lit-tag v="2"/>
+	        	  <lit-tag v="3"/>
+	        	  <lit-tag v="4"/>
+	        	  <clip pos="3" side="tl" part="lemq"/>
+		</lu>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise>
 	    <out>
 	      <chunk name="SVimp" case="caseFirstWord">
 		<tags>	       
@@ -17201,6 +17301,8 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 		</lu>
 	      </chunk>
 	    </out>
+	  </otherwise>
+	</choose>
 	<call-macro n="f_bcond">
 	  <with-param pos="2"/>
 	  <with-param pos="3"/>
