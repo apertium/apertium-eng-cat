@@ -115,16 +115,16 @@
       <cat-item tags="det.dem.*"/>
       <cat-item tags="det.ind.*"/>
       <cat-item tags="det.def.*"/>
-      <cat-item tags="det.pos.*"/>
+      <cat-item tags="det.pos.sp"/>
       <cat-item tags="det.qnt.*"/>
       <cat-item tags="det.itg.*"/>
-      <cat-item tags="det.ord.*"/>
+      <cat-item tags="adj.ord"/>
       <cat-item tags="predet.*"/>
     </def-cat>
 
     <def-cat n="det2"><!--Poden anar precedits d'un altre determinant i anar després d'un genitiu saxó -->
       <cat-item tags="det.qnt.*"/>
-      <cat-item tags="det.ord.*"/>
+      <cat-item tags="adj.ord"/>
     </def-cat>
 
     
@@ -671,7 +671,8 @@
     </def-cat>
 
     <def-cat n="relaa">
-      <cat-item tags="rel.aa.*"/>	  
+      <!--<cat-item tags="rel.aa.*"/>-->	 
+      <cat-item lemma="whose" tags="det.pos.*"/>	 
     </def-cat>
     <def-cat n="which">
       <cat-item lemma="which" tags="prn.itg.*"/><!-- BCN-->
@@ -734,7 +735,8 @@
       <attr-item tags="det.pos"/>
       <attr-item tags="det.qnt"/>
       <attr-item tags="det.itg"/>	  	 
-      <attr-item tags="det.ord"/>
+      <attr-item tags="adj.itg"/>	  	 
+      <attr-item tags="adj"/><!-- TODO: canviar a 'adj.ord' quan s'hagin canviat les etiquetes en català -->
       <attr-item tags="det.pos"/>
       <attr-item tags="num"/>
       <attr-item tags="predet"/>
@@ -3630,7 +3632,7 @@
 	  <test>
 	      <equal>
 		<clip pos="1" side="tl" part="a_det"/>
-		<lit-tag v="det.ord"/>
+		<lit-tag v="adj"/><!-- TODO: canviar a 'adj.ord' quan s'hagin canviat les etiquetes en català -->
 	      </equal>
 	  </test>
 	  <let>
@@ -15184,6 +15186,13 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<pattern-item n="nom"/>
       </pattern>
       <action>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -15240,13 +15249,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </let>
 	  </otherwise>	    
 	</choose>
-	<call-macro n="f_concord2">
-	  <with-param pos="2"/>
-	  <with-param pos="1"/>
-	</call-macro>
-	<call-macro n="firstWord">
-	  <with-param pos="1"/>
-	</call-macro>
 	<out>
 	  <chunk name="det_nom_qual" case="caseFirstWord">
 	    <tags>
@@ -15291,6 +15293,14 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<pattern-item n="nom"/>
       </pattern>
       <action>
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -15347,14 +15357,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </let>
 	  </otherwise>	    
 	</choose>
-	<call-macro n="f_concord3">
-	  <with-param pos="3"/>
-	  <with-param pos="2"/>
-	  <with-param pos="1"/>
-	</call-macro>
-	<call-macro n="firstWord">
-	  <with-param pos="1"/>
-	</call-macro>
 	<out> 
 	  <chunk name="det_det_nom_qual" case="caseFirstWord">
 	    <tags>
@@ -15408,7 +15410,22 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<pattern-item n="num"/>
 	<pattern-item n="nom"/>
       </pattern>
-      <action>	
+      <action>
+	<call-macro n="million">
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="flexio_numerals">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	</call-macro> 
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>	
 	<choose>
 	  <when>
 	    <test>
@@ -15465,21 +15482,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </let>
 	  </otherwise>	    
 	</choose>
-	<call-macro n="million">
-	  <with-param pos="2"/>
-	</call-macro>
-	<call-macro n="flexio_numerals">
-	  <with-param pos="2"/>
-	  <with-param pos="3"/>
-	</call-macro> 
-	<call-macro n="f_concord3">
-	  <with-param pos="3"/>
-	  <with-param pos="2"/>
-	  <with-param pos="1"/>
-	</call-macro>
-	<call-macro n="firstWord">
-	  <with-param pos="1"/>
-	</call-macro>
 	<out> 
 	  <chunk name="det_num_nom_qual" case="caseFirstWord">
 	    <tags>
@@ -15537,6 +15539,19 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<call-macro n="million">
 	  <with-param pos="3"/>
 	</call-macro>
+	<call-macro n="flexio_numerals">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	</call-macro> 
+	<call-macro n="f_concord4">
+	  <with-param pos="4"/>
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
 		<choose>
 	  <when>
 	    <test>
@@ -15593,19 +15608,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </let>
 	  </otherwise>	    
 	</choose>
-	<call-macro n="flexio_numerals">
-	  <with-param pos="3"/>
-	  <with-param pos="4"/>
-	</call-macro> 
-	<call-macro n="f_concord4">
-	  <with-param pos="4"/>
-	  <with-param pos="3"/>
-	  <with-param pos="2"/>
-	  <with-param pos="1"/>
-	</call-macro>
-	<call-macro n="firstWord">
-	  <with-param pos="1"/>
-	</call-macro>
 	<out> 
 	  <chunk name="det_det_num_nom_qual" case="caseFirstWord">
 	    <tags>
@@ -15707,6 +15709,15 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<call-macro n="flexio_numerals">
 	  <with-param pos="3"/>
 	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="f_concord4">
+	  <with-param pos="4"/>
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
 	</call-macro><choose>
 	  <when>
 	    <test>
@@ -15763,15 +15774,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </let>
 	  </otherwise>	    
 	</choose>
-	<call-macro n="f_concord4">
-	  <with-param pos="4"/>
-	  <with-param pos="3"/>
-	  <with-param pos="2"/>
-	  <with-param pos="1"/>
-	</call-macro>
-	<call-macro n="firstWord">
-	  <with-param pos="1"/>
-	</call-macro>
 	<out> 
 	  <chunk name="det_num_num_nom_qual" case="caseFirstWord">
 	    <tags>
@@ -15837,6 +15839,14 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="comparatiu_adj1">
+	  <with-param pos="2"/>
+	</call-macro>  
 	<choose>
 	  <when>
 	    <test>
@@ -15893,14 +15903,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </let>
 	  </otherwise>	    
 	</choose>
-	<call-macro n="f_concord3">
-	  <with-param pos="3"/>
-	  <with-param pos="2"/>
-	  <with-param pos="1"/>
-	</call-macro>
-	<call-macro n="comparatiu_adj1">
-	  <with-param pos="2"/>
-	</call-macro>  
 	<out> 
 	  <chunk name="det_nom_adj_qual" case="caseFirstWord">
 	    <tags>
@@ -15957,7 +15959,18 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<pattern-item n="nom"/>
       </pattern>
       <action>
-	
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="f_concord4">
+	  <with-param pos="4"/>
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="comparatiu_adj1">
+	  <with-param pos="3"/>
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -16014,18 +16027,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </let>
 	  </otherwise>	    
 	</choose>
-	<call-macro n="firstWord">
-	  <with-param pos="1"/>
-	</call-macro>
-	<call-macro n="f_concord4">
-	  <with-param pos="4"/>
-	  <with-param pos="3"/>
-	  <with-param pos="2"/>
-	  <with-param pos="1"/>
-	</call-macro>
-	<call-macro n="comparatiu_adj1">
-	  <with-param pos="3"/>
-	</call-macro>
 	<out> 
 	  <chunk name="det_det_nom_adj_qual" case="caseFirstWord">
 	    <tags>
@@ -16090,6 +16091,25 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<pattern-item n="nom"/>
       </pattern>
       <action>
+	<call-macro n="million">
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="flexio_numerals">
+	  <with-param pos="2"/>
+	  <with-param pos="4"/>
+	</call-macro>
+	<call-macro n="f_concord4">
+	  <with-param pos="4"/>
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="comparatiu_adj1">
+	  <with-param pos="3"/>
+	</call-macro>
 	<choose>
 	  <when>
 	    <test>
@@ -16146,25 +16166,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    </let>
 	  </otherwise>	    
 	</choose>
-	<call-macro n="million">
-	  <with-param pos="2"/>
-	</call-macro>
-	<call-macro n="flexio_numerals">
-	  <with-param pos="2"/>
-	  <with-param pos="4"/>
-	</call-macro>
-	<call-macro n="f_concord4">
-	  <with-param pos="4"/>
-	  <with-param pos="3"/>
-	  <with-param pos="2"/>
-	  <with-param pos="1"/>
-	</call-macro>
-	<call-macro n="firstWord">
-	  <with-param pos="1"/>
-	</call-macro>
-	<call-macro n="comparatiu_adj1">
-	  <with-param pos="3"/>
-	</call-macro>
 	<out> 
 	  <chunk name="det_num_nom_adj_qual" case="caseFirstWord">
 	    <tags>
