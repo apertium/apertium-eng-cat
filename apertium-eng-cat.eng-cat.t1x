@@ -443,6 +443,15 @@
       <cat-item tags="vaux.inf"/>
     </def-cat>
 
+    <def-cat n="infshould">
+      <cat-item tags="vblex.inf"/>
+      <cat-item tags="vblex.sep.inf"/>
+      <cat-item tags="vbser.inf"/>
+      <cat-item tags="vbmod.inf"/>
+      <cat-item tags="vaux.inf"/>
+      <cat-item lemma="shall" tags="vbmod.past"/><!--Afegit provisionalment per no evitar trencar 'should' quan apareix sol -->
+    </def-cat>
+
     <def-cat n="infpres">
       <cat-item tags="vblex.inf"/>
       <cat-item tags="vblex.pres"/><!--De moment detectem tb aquest a l'espera de veure si el tagger els distingeix. Canviar-ho més endavant si de cas. -->
@@ -17709,7 +17718,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
     <rule comment="REGLA: INF (per a col·locar la cua en les multiparaules)">
       <pattern>
-	<pattern-item n="inf"/>
+	<pattern-item n="infshould"/>
       </pattern>
       <action>
 	<call-macro n="firstWord">
