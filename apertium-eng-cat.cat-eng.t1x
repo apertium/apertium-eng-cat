@@ -146,6 +146,7 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
       <cat-item tags="prn.tn.m.*"/>
       <cat-item tags="prn.tn.f.*"/>
       <cat-item tags="prn.tn.mf.*"/>
+      <cat-item tags="prn.tn.nt"/>
       <cat-item tags="prn.itg.*"/>
       <cat-item tags="prn.pos.*"/>
     </def-cat>
@@ -415,8 +416,10 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
       <attr-item tags="adj.sint.comp"/>
       <attr-item tags="adj.sint.sup"/>
       <attr-item tags="adj.pos"/>
+      <attr-item tags="adj.pos.pred"/>
       <attr-item tags="vblex.pp"/>   
       <attr-item tags="adjant"/>
+      <attr-item tags="det.qnt"/>
     </def-attr>  
 
     <def-attr n="grau">      

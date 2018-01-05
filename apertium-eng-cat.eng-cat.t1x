@@ -24583,13 +24583,55 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	  <let>
+	    <var n="gen_chunk"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	  </let>
+	  <let>
+	    <var n="nbr_chunk"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	  </let>
+	<choose><!-- Solució provisional per a this/that, que no tenen nombre i segurament haurien de ser sp -->
+	  <when>
+	    <test>
+	      <and>
+	      <equal>
+	        <var n="gen_chunk"/>
+	        <lit-tag v="nt"/>
+	      </equal>
+	      <not>
+	      <equal>
+	        <var n="nbr_chunk"/>
+	        <lit-tag v="sg"/>
+	      </equal>
+	      </not>
+	      <not>
+	      <equal>
+	        <var n="nbr_chunk"/>
+	        <lit-tag v="pl"/>
+	      </equal>
+	      </not>
+	      <not>
+	      <equal>
+	        <var n="nbr_chunk"/>
+	        <lit-tag v="ND"/>
+	      </equal>
+	      </not>
+	      </and>
+	    </test>
+	    <let>
+	      <var n="nbr_chunk"/>
+	      <lit-tag v="sp"/>
+	    </let>
+	  </when>
+	</choose>
 	<out>
 	  <chunk name="prn" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="SN"/></tag>
 	      <tag><clip pos="1" side="tl" part="tipus_prn"/></tag>
-	      <tag><clip pos="1" side="tl" part="gen"/></tag>
-	      <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	      <tag><var n="gen_chunk"/></tag>
+	      <tag><var n="nbr_chunk"/></tag>
 	    </tags>
 	    <lu>
 	      <clip pos="1" side="tl" part="lem"/> 
