@@ -189,10 +189,10 @@ $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
 ###############################################################################
 
 $(PREFIX1).autosep.bin: $(BASENAME).$(PREFIX1).lsx
-	lsx-comp $< $@
+	lsx-comp lr $< $@
 
 $(PREFIX2).autosep.bin: $(BASENAME).$(PREFIX2).lsx
-	lsx-comp $< $@
+	lsx-comp lr $< $@
 
 ###############################################################################
 ## Structural transfer rules
