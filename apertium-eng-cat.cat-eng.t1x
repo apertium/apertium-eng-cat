@@ -384,6 +384,16 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
       <cat-item lemma="dècada" tags="n.*"/>
       <cat-item lemma="segle" tags="n.*"/>
     </def-cat>
+    
+    <def-cat n="qui">
+      <cat-item lemma="qui" tags="rel.nn.mf.sp"/>
+    </def-cat>
+    <def-cat n="sigui">
+      <cat-item lemma="ser" tags="vbser.prs.p3.sg"/>
+    </def-cat>
+    <def-cat n="que">
+      <cat-item lemma="que" tags="rel.an.mf.sp"/>
+    </def-cat>
 
     <def-cat n="sent">
       <cat-item tags="sent"/>
@@ -424,6 +434,9 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
       <attr-item tags="det.qnt.sp"/><!-- "a lot of" / "more" -->
       <attr-item tags="det.ind.sp"/><!-- "such" -->
       <attr-item tags="det.itg.sp"/><!-- "which" -->
+      <attr-item tags="det.itg.sg"/><!-- "how much" -->
+      <attr-item tags="det.itg.pl"/><!-- "How many" -->
+      <attr-item tags="det.ind.pl"/><!-- "both" -->
 
     </def-attr>  
 
@@ -12952,6 +12965,32 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
 
 
     <!--************************************ ALTRES ************************************************ -->
+
+    <rule comment="qui sigui que > whoever">
+      <pattern>
+	<pattern-item n="qui"/>
+	<pattern-item n="sigui"/>
+	<pattern-item n="que"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	  <chunk name="whoever" case="caseFirstWord">
+	    <tags>
+	      <tag><lit-tag v="SN"/></tag>
+	      <tag><lit-tag v="mf"/></tag>
+	      <tag><lit-tag v="sg"/></tag>
+	    </tags>
+	    <lu>   
+	      <lit v="whoever"/>
+	      <lit-tag v="prn.ind.mf.sg"/>
+	    </lu>
+	  </chunk>
+	</out>
+      </action>
+    </rule>
 
     <rule comment="fins el DIGITS de MESO (fins el 30 d'agost → until August 30th (en_US))">
       <pattern>

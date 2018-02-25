@@ -119,6 +119,7 @@
       <cat-item tags="det.qnt.*"/>
       <cat-item tags="det.itg.*"/>
       <cat-item tags="adj.ord"/>
+      <cat-item lemma="same" tags="adj"/>
       <cat-item tags="predet.*"/>
     </def-cat>
 
@@ -688,6 +689,9 @@
       <cat-item lemma="which" tags="rel.an.*"/>
     </def-cat>
 
+    <def-cat n="whoever">
+      <cat-item lemma="whoever" tags="prn.ind.mf.sg"/>
+    </def-cat>
 
     <def-cat n="sent">
       <cat-item tags="sent"/>
@@ -24489,6 +24493,41 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 
 <!--*********************************************************************************************** -->
+
+    <rule comment="whoever > qui sigui que"> 
+      <pattern>
+	<pattern-item n="whoever"/>
+      </pattern>
+      <action>
+	<call-macro n="firstWord">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>
+	      <chunk name="whoever" case="caseFirstWord">
+		<tags>
+		  <tag><lit-tag v="SN"/></tag>
+		  <tag><lit-tag v="DET"/></tag>
+		  <tag><lit-tag v="mf"/></tag>
+		  <tag><lit-tag v="sg"/></tag>
+		</tags>
+		<lu>
+		  <lit v="qui"/>
+		  <lit-tag v="rel.nn.mf.sp"/>
+		</lu>
+		<b/>
+		<lu>
+		  <lit v="ser"/>
+		  <lit-tag v="vbser.prs.p3.sg"/>
+		</lu>
+		<b/>
+		<lu>
+		  <lit v="que"/>
+		  <lit-tag v="rel.an.mf.sp"/>
+		</lu>
+	      </chunk>
+	</out>
+      </action>
+    </rule>
 
     <rule comment="REL (funció de nom)"> 
       <pattern>
