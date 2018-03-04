@@ -4301,10 +4301,16 @@ No es crea mlu, per a poder fer canvis de posició en el t3x. En el t3x es crea 
 		    <clip pos="1" side="sl" part="temps"/>
 		    <lit-tag v="past"/>
 		  </equal>
+		  <or>
 		  <equal>
 		    <clip pos="1" side="sl" part="nbr"/>
 		    <lit-tag v="sg"/>
 		  </equal>
+		  <equal>
+		    <clip pos="1" side="sl" part="nbr"/>
+		    <lit-tag v="pl"/>
+		  </equal>
+		  </or>
 		</and>
 	      </test>
 	      <let>
@@ -13865,7 +13871,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    <lu>
 	      <lit v="el qual"/> 
 	      <lit-tag v="rel"/>
-	      <lit-tag v="nn"/>
+	      <lit-tag v="an"/>
 	      <lit-tag v="3"/>
 	      <lit-tag v="4"/>
 	    </lu> 
@@ -13904,7 +13910,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	    <lu>
 	      <lit v="el qual"/> 
 	      <lit-tag v="rel"/>
-	      <lit-tag v="nn"/>
+	      <lit-tag v="an"/>
 	      <lit-tag v="3"/>
 	      <lit-tag v="4"/>
 	    </lu> 
@@ -24749,6 +24755,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	  <with-param pos="1"/>
 	</call-macro>
 	<out>
+          <b/> <!-- Separa el genitiu del chunk anterior -->
 	  <chunk name="pr" case="caseFirstWord">
 	    <tags>
 	      <tag><lit-tag v="GEN"/></tag>

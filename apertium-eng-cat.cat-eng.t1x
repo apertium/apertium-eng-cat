@@ -271,7 +271,7 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
       <cat-item tags="vblex.pron.inf"/>
       <cat-item tags="vbser.inf"/>
       <cat-item tags="vbhaver.inf"/>
-<!--      <cat-item tags="vbmod.inf"/>-->
+      <cat-item tags="vbmod.inf"/>
     </def-cat>
     <def-cat n="mod_inf">
       <cat-item tags="vbmod.inf"/>

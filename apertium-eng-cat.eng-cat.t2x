@@ -4087,7 +4087,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	    <test>
 	      <equal>		
 		<clip pos="2" part="temps"/>
-		<lit-tag v="inf"/>
+		<lit-tag v="pres"/>
 	      </equal>
 	    </test>
 	    <let>
@@ -4257,7 +4257,6 @@ Your mother and you will come - La vostra mare i tu vindran
 	  </when>
 	</choose>
 	<out>
- <b pos="1"/>
 	  <chunk>
 	    	<get-case-from pos="1">
 		  <clip pos="3" part="lem"/>
@@ -4265,7 +4264,7 @@ Your mother and you will come - La vostra mare i tu vindran
 		  <clip pos="3" part="tags"/>
 		  <clip pos="3" part="chcontent"/>
 	  </chunk>
-<b/>	 
+	  <b pos="1"/>
 	  <chunk>
 	       <get-case-from pos="2">
 		 <lit v="pr"/>
@@ -4277,7 +4276,7 @@ Your mother and you will come - La vostra mare i tu vindran
 		<lit v="$}"/>
 
 	      </chunk>
-	<b />
+	  <b pos="3"/>
 	  <chunk>
 	    <get-case-from pos="3">
 	      <clip pos="1" part="lem"/>
@@ -4289,7 +4288,6 @@ Your mother and you will come - La vostra mare i tu vindran
 	  <chunk>
 	    <clip pos="4" part="whole"/>
 	  </chunk>
-<b pos="3"/>
 	</out>
 	<call-macro n="determina_nbr_gen_SN">
 	  <with-param pos="3"/>

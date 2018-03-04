@@ -449,6 +449,12 @@
   </rule>	
 
   <rule weight="1.0">
+    <match lemma="play" tags="vblex.*">
+      <select lemma="jugar" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
     <or>
       <match lemma="basketball" tags="n.*"/>
       <match lemma="football" tags="n.*"/>            

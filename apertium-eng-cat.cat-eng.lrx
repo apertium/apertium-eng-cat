@@ -4,12 +4,55 @@
     Add your own rules within <rule> here, using the resources below as a guide 
   -->
 
-  <rule>
-    <match lemma="wind"/>
-    <match lemma="power" tags="n.*">
-      <select lemma="energía" tags="n.*"/>
+  <rule weight="1.0">
+    <or>    
+      <match lemma="persona" tags="n.*"/>
+    </or>
+    <match lemma="gran" tags="adj.*">
+      <select lemma="elder" tags="adj.*" />
     </match>
   </rule>
+  
+  <rule weight="1.0">
+    <match lemma="gran" tags="adj.*">
+      <select lemma="big" tags="adj.*" />
+    </match>
+  </rule>
+  
+  <rule weight="1.0">
+    <or>    
+      <match lemma="volum" tags="n.*"/>
+      <match lemma="so" tags="n.*"/>
+      <match lemma="soroll" tags="n.*"/>
+    </or>
+    <match lemma="alt" tags="adj.*">
+      <select lemma="loud" tags="adj.*" />
+    </match>
+  </rule>
+  
+  <rule weight="1.0">
+    <match lemma="alt" tags="adj.*">
+      <select lemma="tall" tags="adj.*" />
+    </match>
+  </rule>
+  
+  <rule weight="1.0">
+    <or>    
+      <match lemma="volum" tags="n.*"/>
+      <match lemma="so" tags="n.*"/>
+      <match lemma="soroll" tags="n.*"/>
+    </or>
+    <match lemma="fort" tags="adj.*">
+      <select lemma="loud" tags="adj.*" />
+    </match>
+  </rule>
+  
+  <rule weight="1.0">
+    <match lemma="fort" tags="adj.*">
+      <select lemma="strong" tags="adj.*" />
+    </match>
+  </rule>
+  
 </rules>
 
 <!-- 
