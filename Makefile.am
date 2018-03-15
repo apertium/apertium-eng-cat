@@ -2,7 +2,7 @@
 ## Makefile for English--Catalan
 ###############################################################################
 
-VERSION=0.1.0
+VERSION=1.0.0
 LANG1=eng
 LANG2=cat
 
@@ -37,7 +37,6 @@ TARGETS_COMMON =		\
 	$(PREFIX1C).autogen.bin	 \
 	$(PREFIX1V).autogen.bin	 \
 	$(PREFIX1U).autogen.bin	 \
-	$(PREFIX1).autogen.bin	\
 	$(PREFIX1C).autopgen.bin	\
 	$(PREFIX1V).autopgen.bin	\
 	$(PREFIX1U).autopgen.bin	\
@@ -277,11 +276,11 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "house" | apertium -d . eng-cat | tee .test-mt
-	@echo "house" > .test-ref
+	echo "The house" | apertium -d . eng-cat | tee .test-mt
+	@echo "La casa" > .test-ref
 	@diff .test-ref .test-mt
-	echo "house" | apertium -d . cat-eng | tee .test-mt
-	@echo "house" > .test-ref
+	echo "La casa" | apertium -d . cat-eng | tee .test-mt
+	@echo "The house" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 

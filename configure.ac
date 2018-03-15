@@ -1,13 +1,13 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium English-Catalan], [0.2.0], [apertium-stuff@lists.sourceforge.net], [apertium-eng-cat], [http://wiki.apertium.org/wiki/Apertium-eng-cat])
+AC_INIT([Apertium English-Catalan], [1.0.0], [apertium-stuff@lists.sourceforge.net], [apertium-eng-cat], [http://wiki.apertium.org/wiki/Apertium-eng-cat])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
 AC_PROG_AWK
 
-m4_define([required_apertium_version], [3.4.0])
-PKG_CHECK_MODULES(APERTIUM, apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM, apertium-3.2 >= required_apertium_version)])
+m4_define([required_apertium_version], [3.5.0])
+PKG_CHECK_MODULES(APERTIUM, apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM, apertium-3.5 >= required_apertium_version)])
 
 
 
@@ -25,6 +25,9 @@ AS_IF([test x$LRXPROC = xfalse], [AC_MSG_ERROR([You don't have lrx-proc installe
 
 AC_PATH_PROG([LSXCOMP], [lsx-comp], [false], [$PATH$PATH_SEPARATOR$with_lsx_comp/bin])
 AS_IF([test x$LSXCOMP = xfalse], [AC_MSG_ERROR([You don't have lsx-comp installed])])
+
+AC_PATH_PROG([LSXPROC], [lsx-proc], [false], [$PATH$PATH_SEPARATOR$with_lsx_proc/bin])
+AS_IF([test x$LSXPROC = xfalse], [AC_MSG_ERROR([You don't have lsx-proc installed])])
 
 AC_PATH_PROGS(ZCAT, [gzcat zcat], [false])
 AS_IF([test x$ZCAT = xfalse], [AC_MSG_ERROR([You don't have zcat nor gzcat installed])])
