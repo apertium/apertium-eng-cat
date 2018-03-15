@@ -1,0 +1,32 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-eng-cat.cat-eng.lrx -text
+/apertium-eng-cat.cat-eng.lsx -text
+/apertium-eng-cat.cat-eng.t1x -text
+/apertium-eng-cat.cat-eng.t2x -text
+/apertium-eng-cat.cat-eng.t3x -text
+/apertium-eng-cat.eng-cat.dix -text
+/apertium-eng-cat.eng-cat.lrx -text
+/apertium-eng-cat.eng-cat.lsx -text
+/apertium-eng-cat.eng-cat.t1x -text
+/apertium-eng-cat.eng-cat.t2x -text
+/apertium-eng-cat.eng-cat.t3x -text
+/autogen.sh -text
+/configure.ac -text
+dev/testvoc/inconsistency-summary.sh -text
+dev/testvoc/inconsistency.sh -text
+dev/testvoc/testvoc-summary.cat-eng.txt -text
+dev/testvoc/testvoc-summary.eng-cat.txt -text
+dev/testvoc/testvoc.sh -text
+/genvrdix.py -text
+/modes.xml -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
