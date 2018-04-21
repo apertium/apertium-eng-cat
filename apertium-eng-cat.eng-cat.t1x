@@ -3908,8 +3908,7 @@
 	  </test>
 	  <let>
 	    <var n="tipus_verb"/>
-	    <lit-tag v="vblex"/>
-	    <!--<lit-tag v="pron"/>-->
+	    <lit-tag v="pron"/>
 	  </let>
 	  <let>
 	    <clip pos="1" side="tl" part="a_verb"/>
