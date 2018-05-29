@@ -733,6 +733,7 @@
       <attr-item tags="vbmod.pp"/> 
       <attr-item tags="vblex.pron.pp"/> 
       <attr-item tags="adjant"/>
+      <attr-item tags="adj.ord"/>
     </def-attr>  
 
 
@@ -750,8 +751,8 @@
       <attr-item tags="det.itg"/>	  	 
       <attr-item tags="adj.itg"/>	
       <attr-item tags="adj.ind"/>	  	   	 
-      <attr-item tags="adj"/><!-- TODO: canviar a 'adj.ord' quan s'hagin canviat les etiquetes en català -->
-      <attr-item tags="det.pos"/>
+      <attr-item tags="adj.ord"/>
+      <attr-item tags="adj"/>
       <attr-item tags="num"/>
       <attr-item tags="predet"/>
     </def-attr>
@@ -3647,7 +3648,7 @@
 	  <test>
 	      <equal>
 		<clip pos="1" side="tl" part="a_det"/>
-		<lit-tag v="adj"/><!-- TODO: canviar a 'adj.ord' quan s'hagin canviat les etiquetes en català -->
+		<lit-tag v="adj.ord"/>
 	      </equal>
 	  </test>
 	  <let>
@@ -13919,7 +13920,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </rule> 
 
 
-    <rule comment="REGLA: NUMERAL. Si pot ser 'm' o 'f', sortirà com a GD. Caldrà tractar-ho en interchunk o postchunk.">
+    <rule comment="REGLA: NUMERAL">
       <pattern>
 	<pattern-item n="num"/>
       </pattern>
@@ -13927,6 +13928,10 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 	<call-macro n="firstWord">
 	  <with-param pos="1"/>
 	</call-macro>
+	<let>   
+	  <clip pos="1" side="tl" part="gen"/>
+          <lit-tag v="mf"/>
+	</let> 
 	<out>
 	  <chunk name="num" case="caseFirstWord">
 	    <tags>
