@@ -3,6 +3,16 @@ echo "==English->Catalan==========================";
 
 bash inconsistency.sh eng-cat ../../../apertium-eng/apertium-eng.eng.dix > /tmp/eng-cat.testvoc; bash inconsistency-summary.sh /tmp/eng-cat.testvoc eng-cat; grep ' #' /tmp/eng-cat.testvoc > ./testvoc-errors.eng-cat.txt; grep '@' /tmp/eng-cat.testvoc >> ./testvoc-errors.eng-cat.txt
 
+echo ""
+echo "==English->Catalan (val_gva)================";
+
+bash inconsistency.sh eng-cat_valencia_gva ../../../apertium-eng/apertium-eng.eng.dix > /tmp/eng-cat_valencia_gva.testvoc; bash inconsistency-summary.sh /tmp/eng-cat_valencia_gva.testvoc eng-cat_valencia_gva; grep ' #' /tmp/eng-cat_valencia_gva.testvoc > ./testvoc-errors.eng-cat_valencia_gva.txt; grep '@' /tmp/eng-cat_valencia_gva.testvoc >> ./testvoc-errors.eng-cat_valencia_gva.txt
+
+echo ""
+echo "==English->Catalan (val_uni)================";
+
+bash inconsistency.sh eng-cat_valencia_uni ../../../apertium-eng/apertium-eng.eng.dix > /tmp/eng-cat_valencia_uni.testvoc; bash inconsistency-summary.sh /tmp/eng-cat_valencia_uni.testvoc eng-cat_valencia_uni; grep ' #' /tmp/eng-cat_valencia_uni.testvoc > ./testvoc-errors.eng-cat_valencia_uni.txt; grep '@' /tmp/eng-cat_valencia_uni.testvoc >> ./testvoc-errors.eng-cat_valencia_uni.txt
+
 if [[ $1 = "-u" ]];
 then
   echo "Looking for bidix entries missing from English monodix …";
