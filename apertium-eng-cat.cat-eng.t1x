@@ -420,6 +420,7 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
     <def-attr n="a_np_acr">
       <attr-item tags="np"/>
       <attr-item tags="acr"/>
+      <attr-item tags="adj"/><!-- Provisionalment, per evitar errors de generació en adjectius en majúscula -->
     </def-attr>
 
     <def-attr n="a_adj">
@@ -1963,17 +1964,17 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
        <let>
 	 <var n="superlatiu1"/>
 	 <concat>
-	   <get-case-from pos="1">
-	     <lit v="very"/>
-	   </get-case-from>
+	   <lit v="very"/>
 	   <lit-tag v="preadv"/>
 	   <lit v="$ ^"/>
 	 </concat>
        </let>
+       <!-- Dóna problemes amb els adjectius en majúscula, cal buscar una alternativa
        <modify-case>
 	 <clip pos="1" side="tl" part="lem"/>
 	 <lit v="aa"/>
        </modify-case>
+       -->
        <choose>
 	 <when>
 	   <test>
@@ -2012,17 +2013,17 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
        <let>
 	 <var n="superlatiu2"/>
 	 <concat>
-	   <get-case-from pos="1">
-	     <lit v="very"/>
-	   </get-case-from>
+	   <lit v="very"/>
 	   <lit-tag v="preadv"/>
 	   <lit v="$ ^"/>
 	 </concat>
        </let>
+       <!-- Dóna problemes amb els adjectius en majúscula, cal buscar una alternativa
        <modify-case>
 	 <clip pos="1" side="tl" part="lem"/>
 	 <lit v="aa"/>
        </modify-case>
+       -->
        <choose>
 	 <when>
 	   <test>
@@ -5009,6 +5010,10 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
 		</equal>
 	      </and>
 	    </test>
+	    <let>
+	      <clip pos="1" side="tl" part="temps"/>
+	      <lit-tag v="pres"/>
+	    </let>
 	    <out>
 	      <chunk name="verbcj" case="caseFirstWord">
 		<tags>
