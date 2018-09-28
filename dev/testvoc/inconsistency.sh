@@ -2,7 +2,7 @@ TMPDIR=/tmp
 
 if [[ $1 = "cat-eng" ]]; then
 
-lt-expand $2 | grep -v REGEX | grep -v ':<:' | sed 's/:>:/\'$'\t/g' | sed 's/:/\'$'\t/g' | cut -f2 -d$'\t' | sed 's/^/^/g' | sed 's/$/$/g' | tee $TMPDIR/tmp_testvoc1-$1.txt |\
+lt-expand $2 | grep -v REGEX | grep -v '<prn><enc>' | grep -v ':<:' | sed 's/:>:/\'$'\t/g' | sed 's/:/\'$'\t/g' | cut -f2 -d$'\t' | sed 's/^/^/g' | sed 's/$/$/g' | tee $TMPDIR/tmp_testvoc1-$1.txt |\
         apertium-pretransfer|\
         lt-proc -b ../../cat-eng.autobil.bin | sed 's/$ ^/$\n ~^/g' | awk -F '>/' '{lemma=">$ "$1">/"; OFS=lemma; $1=""; print;}' | sed "s|^>$ ||" | sed 's/>\$ \^/>\$ \^.<sent>\/.<sent>\$ \^/g' | awk 'BEGIN{ RS="\n ~"; ORS=" " }{print }' | sed 's/>\$$/>\$ \^.<sent>\/.<sent>\$/g' |\
         apertium-transfer -b ../../apertium-eng-cat.cat-eng.t1x  ../../cat-eng.t1x.bin | apertium-interchunk ../../apertium-eng-cat.cat-eng.t2x  ../../cat-eng.t2x.bin | apertium-postchunk ../../apertium-eng-cat.cat-eng.t3x  ../../cat-eng.t3x.bin | tee $TMPDIR/tmp_testvoc2-$1.txt |\
