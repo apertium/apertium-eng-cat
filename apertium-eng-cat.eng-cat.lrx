@@ -1276,6 +1276,82 @@
     </match>
   </rule>
 
+  <rule weight="0.8">
+    <match lemma="device" tags="n.*">
+      <select lemma="dispositiu" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="key" tags="n.*">
+      <select lemma="clau" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="film" tags="n.*"/>
+    <match lemma="preview" tags="n.*">
+      <select lemma="preestrena" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="preview" tags="n.*">
+      <select lemma="previsualització" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="mark" tags="vblex.*">
+      <select lemma="marcar" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="think" tags="vblex.*">
+      <select lemma="pensar" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="add" tags="vblex.*">
+      <select lemma="afegir" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="start" tags="vblex.*">
+      <select lemma="començar" tags="vblex.*" />
+    </match>
+    <or>
+      <match lemma="to" tags="pr"/>
+      <match tags="vblex.ger"/>
+      <match tags="vblex.subs"/>          
+    </or> 
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="begin" tags="vblex.*">
+      <select lemma="començar" tags="vblex.*" />
+    </match>
+    <or>
+      <match lemma="to" tags="pr"/>
+      <match tags="vblex.ger"/>
+      <match tags="vblex.subs"/>          
+    </or> 
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="end" tags="vblex.*">
+      <select lemma="acabar" tags="vblex.*" />
+    </match>
+    <or>
+      <match tags="vblex.ger"/>
+      <match tags="vblex.subs"/>          
+    </or>
+    
+  </rule>
+
   </rules> 
 <!-- 
 Resources: 
