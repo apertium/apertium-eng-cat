@@ -704,7 +704,7 @@
 	      <and>
 		<equal>
 		  <clip pos="0" part="temps"/>
-		  <lit-tag v="pri"/>
+		  <lit-tag v="pres"/>
 		</equal>
 		<equal>
 		  <clip pos="0" part="nbr"/>
@@ -818,7 +818,7 @@
 		</equal>
 		<equal>
 		  <clip pos="0" part="temps"/>
-		  <lit-tag v="pri"/>
+		  <lit-tag v="pres"/>
 		</equal>
 	      </and>		
 	    </test>
@@ -932,7 +932,7 @@
 	      <and>
 		<equal>
 		  <clip pos="0" part="temps"/>
-		  <lit-tag v="pri"/>
+		  <lit-tag v="pres"/>
 		</equal>
 		<equal>
 		  <clip pos="0" part="nbr"/>
