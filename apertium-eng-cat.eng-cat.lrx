@@ -1283,6 +1283,12 @@
   </rule>
 
   <rule weight="0.8">
+    <match lemma="crash" tags="n.*">
+      <select lemma="xoc" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
     <match lemma="key" tags="n.*">
       <select lemma="clau" tags="n.*" />
     </match>
