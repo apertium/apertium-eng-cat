@@ -1231,6 +1231,12 @@
   </rule>
 
   <rule weight="0.8">
+    <match lemma="break" tags="vblex.*">
+      <select lemma="trencar" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
     <match lemma="build" tags="vblex.*">
       <select lemma="construir" tags="vblex.*" />
     </match>
