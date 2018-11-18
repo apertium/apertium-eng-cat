@@ -1300,6 +1300,12 @@
     </match>
   </rule>
 
+  <rule weight="0.8">
+    <match lemma="file" tags="n.*">
+      <select lemma="fitxer" tags="n.*" />
+    </match>
+  </rule>
+
   <rule weight="1.0">
     <match lemma="film" tags="n.*"/>
     <match lemma="preview" tags="n.*">
