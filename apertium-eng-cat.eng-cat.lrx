@@ -1332,14 +1332,20 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="prpers" tags="prn.subj.p3.nt.sg"/>
+    <or>
+      <match lemma="prpers" tags="prn.subj.p3.nt.sg"/>
+      <match tags="prn.dem.*"/>        
+    </or>
     <match lemma="work" tags="vblex.*">
       <select lemma="funcionar" tags="vblex.*" />
     </match>
   </rule>
 
   <rule weight="1.0">
-    <match lemma="prpers" tags="prn.subj.p3.nt.sg"/>
+    <or>
+      <match lemma="prpers" tags="prn.subj.p3.nt.sg"/>
+      <match tags="prn.dem.*"/>        
+    </or>
     <or>
       <match tags="vbdo.*"/>
       <match tags="vbmod.*"/>         
@@ -1350,7 +1356,10 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="prpers" tags="prn.subj.p3.nt.sg"/>
+    <or>
+      <match lemma="prpers" tags="prn.subj.p3.nt.sg"/>
+      <match tags="prn.dem.*"/>        
+    </or>
     <or>
       <match tags="vbdo.*"/>
       <match tags="vbmod.*"/>         
