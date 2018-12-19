@@ -1331,6 +1331,42 @@
     </match>
   </rule>
 
+  <rule weight="1.0">
+    <match lemma="prpers" tags="prn.subj.p3.nt.sg"/>
+    <match lemma="work" tags="vblex.*">
+      <select lemma="funcionar" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="prpers" tags="prn.subj.p3.nt.sg"/>
+    <or>
+      <match tags="vbdo.*"/>
+      <match tags="vbmod.*"/>         
+    </or>
+    <match lemma="work" tags="vblex.*">
+      <select lemma="funcionar" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="prpers" tags="prn.subj.p3.nt.sg"/>
+    <or>
+      <match tags="vbdo.*"/>
+      <match tags="vbmod.*"/>         
+    </or>
+    <match tags="adv"/>
+    <match lemma="work" tags="vblex.*">
+      <select lemma="funcionar" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="work" tags="vblex.*">
+      <select lemma="treballar" tags="vblex.*" />
+    </match>
+  </rule>
+
   <rule weight="0.8">
     <match lemma="add" tags="vblex.*">
       <select lemma="afegir" tags="vblex.*" />
