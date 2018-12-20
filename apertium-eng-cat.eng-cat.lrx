@@ -1412,7 +1412,19 @@
       <match tags="vblex.ger"/>
       <match tags="vblex.subs"/>          
     </or>
-    
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="Ferdinand" tags="np.ant.m.sg">
+      <select lemma="Fernão" tags="np.ant.m.sg" />
+    </match>
+    <match lemma="Magellan" tags="np.cog.sg"/>  
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="Ferdinand" tags="np.ant.m.sg">
+      <select lemma="Ferdinand" tags="np.ant.m.sg" />
+    </match>
   </rule>
 
   </rules> 

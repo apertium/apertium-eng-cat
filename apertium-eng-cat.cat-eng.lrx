@@ -52,6 +52,19 @@
       <select lemma="strong" tags="adj.*" />
     </match>
   </rule>
+
+  <rule weight="1.0">
+    <match lemma="Fernão" tags="np.ant.m.sg">
+      <select lemma="Ferdinand" tags="np.ant.m.sg" />
+    </match>
+    <match lemma="de Magalhães" tags="np.cog.mf.sp"/>  
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="Fernão" tags="np.ant.m.sg">
+      <select lemma="Fernão" tags="np.ant.m.sg" />
+    </match>
+  </rule>
   
 </rules>
 
