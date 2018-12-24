@@ -1,34 +1,40 @@
 #!/bin/bash
-echo "==English->Catalan==========================";
 
-bash inconsistency.sh eng-cat ../../../apertium-eng/apertium-eng.eng.dix > /tmp/eng-cat.testvoc; bash inconsistency-summary.sh /tmp/eng-cat.testvoc eng-cat; grep ' #' /tmp/eng-cat.testvoc > ./testvoc-errors.eng-cat.txt; grep '@' /tmp/eng-cat.testvoc >> ./testvoc-errors.eng-cat.txt; rm /tmp/eng-cat.testvoc
-
-echo ""
-echo "==English->Catalan (val_gva)================";
-
-bash inconsistency.sh eng-cat_valencia_gva ../../../apertium-eng/apertium-eng.eng.dix > /tmp/eng-cat_valencia_gva.testvoc; bash inconsistency-summary.sh /tmp/eng-cat_valencia_gva.testvoc eng-cat_valencia_gva; grep ' #' /tmp/eng-cat_valencia_gva.testvoc > ./testvoc-errors.eng-cat_valencia_gva.txt; grep '@' /tmp/eng-cat_valencia_gva.testvoc >> ./testvoc-errors.eng-cat_valencia_gva.txt; rm /tmp/eng-cat_valencia_gva.testvoc
-
-echo ""
-echo "==English->Catalan (val_uni)================";
-
-bash inconsistency.sh eng-cat_valencia_uni ../../../apertium-eng/apertium-eng.eng.dix > /tmp/eng-cat_valencia_uni.testvoc; bash inconsistency-summary.sh /tmp/eng-cat_valencia_uni.testvoc eng-cat_valencia_uni; grep ' #' /tmp/eng-cat_valencia_uni.testvoc > ./testvoc-errors.eng-cat_valencia_uni.txt; grep '@' /tmp/eng-cat_valencia_uni.testvoc >> ./testvoc-errors.eng-cat_valencia_uni.txt; rm /tmp/eng-cat_valencia_uni.testvoc
-
-if [[ $1 = "-u" ]];
-then
-  echo "Looking for bidix entries missing from English monodix …";
-  pushd ../../ > /dev/null; bash dev/testvoc/bidix-unknowns.sh eng | grep -v ":<:" | grep -v "REGEX" | grep -v "<prn><enc>" > dev/testvoc/testvoc-missing.eng.txt; popd > /dev/null;
-  echo "Entries missing from monodix: "$(wc -l < testvoc-missing.eng.txt) | tee -a testvoc-summary.eng-cat.txt;
+if ! [[ -e testvoc.conf ]]; then
+    echo "Testvoc configuration file (testvoc.conf) not found."
+    exit 1
 fi
-echo ""
 
+while getopts "eq" opt; do
+  case $opt in
+    e)
+      ENCLITICS=true  # If the -e flag is used, enclitics are skipped for faster processing
+      ;;
+    q)
+      QUIET=true  # If the -q flag is used, no summary is generated
+      ;;
+  esac
+done
 
-echo "==Catalan->English==========================";
+IFS=","
+modes=($(grep -m 1 "^PairModes=" testvoc.conf | cut -d = -f 2))
+names=($(grep -m 1 "^PairNames=" testvoc.conf | cut -d = -f 2))
+unset IFS
 
-bash inconsistency.sh cat-eng ../../../apertium-cat/apertium-cat.cat.dix > /tmp/cat-eng.testvoc; bash inconsistency-summary.sh /tmp/cat-eng.testvoc cat-eng; grep ' #' /tmp/cat-eng.testvoc > ./testvoc-errors.cat-eng.txt; grep '@' /tmp/cat-eng.testvoc >> ./testvoc-errors.cat-eng.txt; rm /tmp/cat-eng.testvoc
+for i in "${!modes[@]}";
+do
+    echo ""
+    printf "== %.45s\n" "${names[$i]} ============================================"
+    if [[ $ENCLITICS ]]; then
+        bash inconsistency.sh -e ${modes[$i]} auto > .testvoc
+    else
+        bash inconsistency.sh ${modes[$i]} auto > .testvoc
+    fi
+    grep ' #' .testvoc > testvoc-errors.${modes[$i]}.txt
+    if ! [[ $QUIET ]]; then
+        bash inconsistency-summary.sh .testvoc ${modes[$i]}
+    fi
+    rm .testvoc
+done
 
-if [[ $1 = "-u" ]];
-then
-  echo "Looking for bidix entries missing from Catalan monodix …";
-  pushd ../../ > /dev/null; bash dev/testvoc/bidix-unknowns.sh cat | grep -v ":<:" | grep -v "REGEX" | grep -v "<prn><enc>" > dev/testvoc/testvoc-missing.cat.txt; popd > /dev/null;
-  echo "Entries missing from monodix: "$(wc -l < testvoc-missing.cat.txt) | tee -a testvoc-summary.cat-eng.txt;
-fi
+exit 0
