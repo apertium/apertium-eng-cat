@@ -221,6 +221,12 @@
     </or>
   </rule>
 
+  <rule weight="0.8">
+    <match lemma="ask" tags="vblex.*">
+      <select lemma="preguntar" tags="vblex.*" />
+    </match>
+  </rule>
+
   <rule weight="1.0">
     <or>
       <match lemma="constitutional" tags="adj"/>

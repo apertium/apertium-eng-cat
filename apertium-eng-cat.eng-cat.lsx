@@ -273,8 +273,12 @@
       <par n="person"/><p><l>responsible<t/><j/></l><r></r></p>
     </e>
     <e lm="knock down" c="tirar abajo">
-      <p><l>knock<s n="vblex"/></l><r>down<g><b/>down</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
+      <p><l>knock<s n="vblex"/></l><r>knock<g><b/>down</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
       <par n="SN"/><p><l>down<t/><j/></l><r></r></p>
+    </e>
+    <e lm="let know" c="fer saber">
+      <p><l>let<s n="vblex"/></l><r>let<g><b/>know</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
+      <par n="SN"/><p><l>know<t/><j/></l><r></r></p>
     </e>
     <e lm="line up" c="poner en fila">
       <p><l>line<s n="vblex"/></l><r>line<g><b/>up</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
