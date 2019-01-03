@@ -137,7 +137,7 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="great" tags="adj.*">
+    <match lemma="great" tags="adj.sint">
       <select lemma="summe" tags="adj" />
     </match>
     <or>
@@ -1336,6 +1336,13 @@
       <select lemma="pensar" tags="vblex.*" />
     </match>
   </rule>
+
+  <rule weight="0.8">
+    <match lemma="beautiful" tags="adj">
+      <select lemma="bonic" tags="adj" />
+    </match>
+  </rule>
+
 
   <rule weight="1.0">
     <or>
