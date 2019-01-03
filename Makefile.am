@@ -40,6 +40,8 @@ TARGETS_COMMON =		\
 	$(PREFIX1C).autopgen.bin	\
 	$(PREFIX1V).autopgen.bin	\
 	$(PREFIX1U).autopgen.bin	\
+	$(PREFIX1).autopgen-diacritics-vells.bin 	\
+	$(PREFIX1).autopgen-diacritics-nous.bin	\
 	$(PREFIX1).t1x.bin	\
 	$(PREFIX1).t2x.bin	\
 	$(PREFIX1).t3x.bin	\
@@ -84,9 +86,6 @@ $(PREFIX1U).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1V).autobil.b
 $(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
 	cp $< $@
 
-$(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
-	cp $< $@
-
 # -------------------
 # Catalan analysis:
 # -------------------
@@ -108,15 +107,6 @@ $(PREFIX1V).autogen.bin: $(AP_SRC2)/$(LANG2V).autogen.bin
 	cp $< $@
 
 $(PREFIX1U).autogen.bin: $(AP_SRC2)/$(LANG2U).autogen.bin
-	cp $< $@
-
-$(PREFIX1C).autopgen.bin: $(AP_SRC2)/$(LANG2C).autopgen.bin
-	cp $< $@
-
-$(PREFIX1V).autopgen.bin: $(AP_SRC2)/$(LANG2V).autopgen.bin
-	cp $< $@
-
-$(PREFIX1U).autopgen.bin: $(AP_SRC2)/$(LANG2U).autopgen.bin
 	cp $< $@
 
 
@@ -225,6 +215,24 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 ###############################################################################
 ## Postgeneration dictionaries
 ###############################################################################
+
+$(PREFIX1C).autopgen.bin: $(AP_SRC2)/$(LANG2C).autopgen.bin
+	cp $< $@
+
+$(PREFIX1V).autopgen.bin: $(AP_SRC2)/$(LANG2V).autopgen.bin
+	cp $< $@
+
+$(PREFIX1U).autopgen.bin: $(AP_SRC2)/$(LANG2U).autopgen.bin
+	cp $< $@
+
+$(PREFIX1).autopgen-diacritics-vells.bin: $(AP_SRC2)/$(LANG2).autopgen-diacritics-vells.bin
+	cp $< $@
+
+$(PREFIX1).autopgen-diacritics-nous.bin: $(AP_SRC2)/$(LANG2).autopgen-diacritics-nous.bin
+	cp $< $@
+
+$(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
+	cp $< $@
 
 ###############################################################################
 ## Distribution

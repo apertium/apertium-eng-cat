@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="eng-cat" install="yes" gendebug="yes">
+  <mode name="eng-cat" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="eng-cat.automorf.bin"/>
@@ -37,13 +37,61 @@
       <program name="lt-proc $1">
         <file name="eng-cat.autogen.bin"/>
       </program>
+      <program name="lt-proc -x">
+        <file name="eng-cat.autopgen-diacritics-vells.bin"/>
+      </program>
       <program name="lt-proc -p">
         <file name="eng-cat.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="eng-cat_valencia" install="yes" gendebug="yes">
+  <mode name="eng-cat_iec2017" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-cat.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="eng-cat.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -gx">
+        <file name="eng-cat.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc" debug-suff="separ">
+        <file name="eng-cat.autosep.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="eng-cat.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="eng-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b" debug-suff="transfer">
+        <file name="apertium-eng-cat.eng-cat.t1x"/>
+        <file name="eng-cat.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-cat.eng-cat.t2x"/>
+        <file name="eng-cat.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-cat.eng-cat.t3x"/>
+        <file name="eng-cat.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="eng-cat.autogen.bin"/>
+      </program>
+      <program name="lt-proc -x">
+        <file name="eng-cat.autopgen-diacritics-nous.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="eng-cat.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-cat_valencia" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="eng-cat.automorf.bin"/>
@@ -79,13 +127,61 @@
       <program name="lt-proc $1">
         <file name="eng-cat_valencia_gva.autogen.bin"/>
       </program>
+      <program name="lt-proc -x">
+        <file name="eng-cat.autopgen-diacritics-vells.bin"/>
+      </program>
       <program name="lt-proc -p">
         <file name="eng-cat_valencia_gva.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="eng-cat_valencia_uni" install="yes" gendebug="yes">
+  <mode name="eng-cat_valencia_iec2017" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-cat.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="eng-cat.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -gx">
+        <file name="eng-cat.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc" debug-suff="separ">
+        <file name="eng-cat.autosep.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="eng-cat_valencia_gva.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="eng-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b" debug-suff="transfer">
+        <file name="apertium-eng-cat.eng-cat.t1x"/>
+        <file name="eng-cat.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-cat.eng-cat.t2x"/>
+        <file name="eng-cat.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-cat.eng-cat.t3x"/>
+        <file name="eng-cat.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="eng-cat_valencia_gva.autogen.bin"/>
+      </program>
+      <program name="lt-proc -x">
+        <file name="eng-cat.autopgen-diacritics-nous.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="eng-cat_valencia_gva.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="eng-cat_valencia_uni" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="eng-cat.automorf.bin"/>
@@ -121,13 +217,61 @@
       <program name="lt-proc $1">
         <file name="eng-cat_valencia_uni.autogen.bin"/>
       </program>
+      <program name="lt-proc -x">
+        <file name="eng-cat.autopgen-diacritics-vells.bin"/>
+      </program>
       <program name="lt-proc -p">
         <file name="eng-cat_valencia_uni.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="cat-eng" install="yes" gendebug="yes">
+  <mode name="eng-cat_valencia_uni_iec2017" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="eng-cat.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="eng-cat.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -gx">
+        <file name="eng-cat.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc" debug-suff="separ">
+        <file name="eng-cat.autosep.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="eng-cat_valencia_uni.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="eng-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b" debug-suff="transfer">
+        <file name="apertium-eng-cat.eng-cat.t1x"/>
+        <file name="eng-cat.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-cat.eng-cat.t2x"/>
+        <file name="eng-cat.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-cat.eng-cat.t3x"/>
+        <file name="eng-cat.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="eng-cat_valencia_uni.autogen.bin"/>
+      </program>
+      <program name="lt-proc -x">
+        <file name="eng-cat.autopgen-diacritics-nous.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="eng-cat_valencia_uni.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="cat-eng" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="cat-eng.automorf.bin"/>
