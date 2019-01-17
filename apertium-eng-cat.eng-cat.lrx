@@ -3,10 +3,10 @@
     This rule chooses "energía" as the translation of "power" when it is preceded by "wind". 
     Add your own rules within <rule> here, using the resources below as a guide 
   -->
-<rule>
+  <rule>
     <match lemma="bat" tags="n.*"><select lemma="ratpenat" tags="n.*"/></match>
   </rule>
-<rule> 
+  <rule> 
     <match lemma="baseball"  tags="n.*"/> 
     <match lemma="bat" tags="n.*"><select lemma="bat"  tags="n.*"/></match> 
   </rule> 
@@ -14,7 +14,7 @@
     <match lemma="bird"  tags="n.*"/> 
     <match lemma="crane" tags="n.*"><select lemma="gruid" tags="n.*"/></match> 
   </rule> 
-<rule>
+  <rule>
     <match lemma="chip" tags="n.*"><select lemma="tros" tags="n.*"/></match>
   </rule>
  <rule> 
@@ -1389,12 +1389,6 @@
     </match>
   </rule>
 
-  <rule weight="0.8">
-    <match lemma="add" tags="vblex.*">
-      <select lemma="afegir" tags="vblex.*" />
-    </match>
-  </rule>
-
   <rule weight="1.0">
     <match lemma="start" tags="vblex.*">
       <select lemma="començar" tags="vblex.*" />
@@ -1440,7 +1434,272 @@
     </match>
   </rule>
 
-  </rules> 
+
+
+<!-- Traduccions per defecte -->
+
+  <rule weight="0.8">
+    <match lemma="abduct" tags="vblex.*">
+      <select lemma="segrestar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="abridge" tags="vblex.*">
+      <select lemma="resumir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="abuse" tags="vblex.*">
+      <select lemma="abusar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="accomplish" tags="vblex.*">
+      <select lemma="acomplir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="accumulate" tags="vblex.*">
+      <select lemma="acumular" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="achieve" tags="vblex.*">
+      <select lemma="aconseguir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="acquaint" tags="vblex.*">
+      <select lemma="familiaritzar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="act" tags="vblex.*">
+      <select lemma="actuar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="adapt" tags="vblex.*">
+      <select lemma="adaptar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="address" tags="vblex.*">
+      <select lemma="adreçar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="add" tags="vblex.*">
+      <select lemma="afegir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="adhere" tags="vblex.*">
+      <select lemma="adherir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="advance" tags="vblex.*">
+      <select lemma="avançar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="advise" tags="vblex.*">
+      <select lemma="aconsellar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="advocate" tags="vblex.*">
+      <select lemma="defensar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="affix" tags="vblex.*">
+      <select lemma="fixar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="afford" tags="vblex.*">
+      <select lemma="permetre" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="agree" tags="vblex.*">
+      <select lemma="acordar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="aim" tags="vblex.*">
+      <select lemma="apuntar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="air" tags="vblex.*">
+      <select lemma="airejar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="alienate" tags="vblex.*">
+      <select lemma="alienar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="allow" tags="vblex.*">
+      <select lemma="permetre" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="amass" tags="vblex.*">
+      <select lemma="acumular" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="amend" tags="vblex.*">
+      <select lemma="esmenar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="anger" tags="vblex.*">
+      <select lemma="enfurismar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="animate" tags="vblex.*">
+      <select lemma="animar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="announce" tags="vblex.*">
+      <select lemma="anunciar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="annoy" tags="vblex.*">
+      <select lemma="molestar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="answer" tags="vblex.*">
+      <select lemma="respondre" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="antedate" tags="vblex.*">
+      <select lemma="antedatar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="anticipate" tags="vblex.*">
+      <select lemma="anticipar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="appear" tags="vblex.*">
+      <select lemma="aparèixer" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="append" tags="vblex.*">
+      <select lemma="afegir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="appoint" tags="vblex.*">
+      <select lemma="nomenar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="appreciate" tags="vblex.*">
+      <select lemma="agrair" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="approach" tags="vblex.*">
+      <select lemma="acostar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="argue" tags="vblex.*">
+      <select lemma="discutir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arouse" tags="vblex.*">
+      <select lemma="excitar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="arrange" tags="vblex.*">
+      <select lemma="arranjar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ascribe" tags="vblex.*">
+      <select lemma="adscriure" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="ask" tags="vblex.*">
+      <select lemma="demanar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="assault" tags="vblex.*">
+      <select lemma="agredir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="assess" tags="vblex.*">
+      <select lemma="valorar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="assume" tags="vblex.*">
+      <select lemma="suposar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="attach" tags="vblex.*">
+      <select lemma="adjuntar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="attack" tags="vblex.*">
+      <select lemma="atacar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="attain" tags="vblex.*">
+      <select lemma="aconseguir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="attend" tags="vblex.*">
+      <select lemma="assistir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="attract" tags="vblex.*">
+      <select lemma="atreure" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="avert" tags="vblex.*">
+      <select lemma="evitar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="avoid" tags="vblex.*">
+      <select lemma="evitar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="award" tags="vblex.*">
+      <select lemma="atorgar" tags="vblex.*" />
+    </match>
+  </rule>
+
+</rules> 
 <!-- 
 Resources: 
     http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
