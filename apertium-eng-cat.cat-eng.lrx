@@ -65,6 +65,23 @@
       <select lemma="Fernão" tags="np.ant.m.sg" />
     </match>
   </rule>
+
+  <rule weight="1.0">  
+    <match tags="vblex.pp.*"/>
+    <match lemma="a" tags="pr">
+      <select lemma="to" tags="pr" />
+    </match>
+    <match tags="adv"/>
+    <match tags="vblex.inf"/>
+  </rule>
+
+  <rule weight="1.0">  
+    <match tags="vblex.pp.*"/>
+    <match lemma="a" tags="pr">
+      <select lemma="to" tags="pr" />
+    </match>
+    <match tags="vblex.inf"/>
+  </rule>
   
 </rules>
 
