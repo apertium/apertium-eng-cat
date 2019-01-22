@@ -77,6 +77,21 @@
    </rule>
 
   <rule weight="1.0">
+    <match lemma="give" tags="vblex.*">
+      <select lemma="impartir" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or>    
+      <match lemma="lecture" tags="n.*"/>
+      <match lemma="lesson" tags="n.*"/>
+    </or>
+   </rule>
+
+  <rule weight="1.0">
     <or>
       <match lemma="music" tags="n.*"/>
       <match lemma="numeric" tags="adj"/>
@@ -92,6 +107,23 @@
       <match lemma="ask" tags="vblex.*" />
       <match lemma="formulate" tags="vblex.*" />
       <match lemma="pose" tags="vblex.*" />      
+    </or>
+    <match lemma="question" tags="n.*">
+      <select lemma="pregunta" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>    
+      <match lemma="make" tags="vblex.*" />
+      <match lemma="ask" tags="vblex.*" />
+      <match lemma="formulate" tags="vblex.*" />
+      <match lemma="pose" tags="vblex.*" />      
+    </or>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
     </or>
     <match lemma="question" tags="n.*">
       <select lemma="pregunta" tags="n.*" />
@@ -177,6 +209,21 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="know" tags="vblex.*">
+      <select lemma="conèixer" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or>
+      <match lemma="people" tags="n.*"/>
+      <match lemma="person" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
     <match lemma="suit" tags="n.*"/>
     <match lemma="case" tags="n.*">
       <select lemma="maleta" tags="n.*" />
@@ -219,6 +266,25 @@
       <match lemma="opinion" tags="n.*"/>
       <match lemma="much" tags="adv"/>
     </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="ask" tags="vblex.*">
+      <select lemma="demanar" tags="vblex.*" />
+    </match>
+    <match lemma="for" tags="pr"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="ask" tags="vblex.*">
+      <select lemma="demanar" tags="vblex.*" />
+    </match>
+    <or>
+      <match tags="prn.obj.*"/>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+    </or>
+    <match lemma="for" tags="pr"/>
   </rule>
 
   <rule weight="0.8">
@@ -317,12 +383,44 @@
     </or>
   </rule>
 
+  <rule weight="1.0">
+    <match lemma="state" tags="vblex.*">
+      <select lemma="plantejar" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or>
+      <match lemma="objection" tags="n.*"/>
+      <match lemma="problem" tags="n.*"/>      
+    </or>
+  </rule>
+
   <!-- raise>‌criar, levantar, aumentar -->
 
   <rule weight="1.0">
     <match lemma="raise" tags="vblex.*">
       <select lemma="criar" tags="vblex.*" />
     </match>
+    <or>
+      <match lemma="child" tags="n.*"/>
+      <match lemma="family" tags="n.*"/>
+      <match lemma="baby" tags="n.*"/>
+      <match lemma="dog" tags="n.*"/>            
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="raise" tags="vblex.*">
+      <select lemma="criar" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
     <or>
       <match lemma="child" tags="n.*"/>
       <match lemma="family" tags="n.*"/>
@@ -354,15 +452,28 @@
     <match lemma="meet" tags="vblex.*">
       <select lemma="complir" tags="vblex.*" />
     </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
     <or>
-      <match lemma="demands" tags="n.*"/>
-      <match lemma="wishes" tags="n.*"/>
+      <match lemma="demand" tags="n.*"/>
+      <match lemma="wish" tags="n.*"/>
       <match lemma="deadline" tags="n.*"/>
       <match lemma="quota" tags="n.*"/>
       <match lemma="debt" tags="n.*"/>
       <match lemma="obligation" tags="n.*"/>
-      <match lemma="reequirements" tags="n.*"/>      
+      <match lemma="requirement" tags="n.*"/>
+      <match lemma="expectation" tags="n.*"/>
     </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="meet" tags="vblex.*">
+      <select lemma="trobar" tags="vblex.pron.*" />
+    </match>
+    <match lemma="with" tags="pr"/>
   </rule>
 
   <rule weight="1.0">
@@ -432,8 +543,44 @@
 
   <rule weight="1.0">
     <match lemma="play" tags="vblex.*">
+      <select lemma="reproduir" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or>
+      <match lemma="tape" tags="n.*"/>
+      <match lemma="recorder" tags="n.*"/>      
+      <match lemma="song" tags="n.*"/>      
+      <match lemma="track" tags="n.*"/>      
+      <match lemma="disc" tags="n.*"/>      
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="play" tags="vblex.*">
       <select lemma="tocar" tags="vblex.*" />
     </match>
+    <or>
+      <match lemma="instrument" tags="n.*"/>
+      <match lemma="violin" tags="n.*"/>      
+      <match lemma="flute" tags="n.*"/>      
+      <match lemma="piano" tags="n.*"/>      
+      <match lemma="guitar" tags="n.*"/>      
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="play" tags="vblex.*">
+      <select lemma="tocar" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
     <or>
       <match lemma="instrument" tags="n.*"/>
       <match lemma="violin" tags="n.*"/>      
@@ -452,7 +599,23 @@
       <match lemma="character" tags="n.*"/>      
       <match lemma="scene" tags="n.*"/>      
     </or>
-  </rule>	
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="play" tags="vblex.*">
+      <select lemma="interpretar" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or>
+      <match lemma="role" tags="n.*"/>
+      <match lemma="character" tags="n.*"/>      
+      <match lemma="scene" tags="n.*"/>      
+    </or>
+  </rule>
 
   <rule weight="1.0">
     <match lemma="play" tags="vblex.*">
@@ -487,7 +650,7 @@
       <match lemma="muscle" tags="n.*"/>
       <match lemma="bone" tags="n.*"/>
       <match lemma="strain" tags="vblex.*"/>
-      <match lemma="body" tags="vblex.*"/>            
+      <match lemma="body" tags="n.*"/>            
     </or>
     <match lemma="joint" tags="n.*">
       <select lemma="articulació" tags="n.*" />
@@ -499,6 +662,22 @@
       <match lemma="carry" tags="vblex.*"/>
       <match lemma="pass" tags="vblex.*"/>
       <match lemma="vote" tags="vblex.*"/>            
+    </or>
+    <match lemma="motion" tags="n.*">
+      <select lemma="moció" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="carry" tags="vblex.*"/>
+      <match lemma="pass" tags="vblex.*"/>
+      <match lemma="vote" tags="vblex.*"/>            
+    </or>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
     </or>
     <match lemma="motion" tags="n.*">
       <select lemma="moció" tags="n.*" />
@@ -529,7 +708,21 @@
     <or>
       <match lemma="loud" tags="adj"/>
       <match lemma="hi-fi" tags="adj"/>
-      <match lemma="turn on" tags="vblex.*"/>            
+    </or>
+    <match lemma="speaker" tags="n.*">
+      <select lemma="altaveu" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="turn# on" tags="vblex.*"/>    
+      <match lemma="turn# off" tags="vblex.*"/>          
+    </or>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
     </or>
     <match lemma="speaker" tags="n.*">
       <select lemma="altaveu" tags="n.*" />
@@ -596,7 +789,26 @@
     <match lemma="spend" tags="vblex.*">
       <select lemma="passar" tags="vblex.*" />
     </match>
-    <match/>
+    <or>
+      <match lemma="time" tags="n.*"/>
+      <match lemma="month" tags="n.*"/>
+      <match lemma="year" tags="n.*"/>
+      <match lemma="day" tags="n.*"/>
+      <match lemma="minute" tags="n.*"/>
+      <match lemma="second" tags="n.*"/>            
+      <match lemma="hour" tags="n.*"/>            
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="spend" tags="vblex.*">
+      <select lemma="passar" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
     <or>
       <match lemma="time" tags="n.*"/>
       <match lemma="month" tags="n.*"/>
@@ -612,6 +824,11 @@
     <match lemma="focus" tags="vblex.*">
       <select lemma="enfocar" tags="vblex.*" />
     </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
     <or>
       <match lemma="binoculars" tags="n.*"/>
       <match lemma="camera" tags="n.*"/>
@@ -621,10 +838,15 @@
 
   <rule weight="1.0">
     <or>
-       <match lemma="shoot" tags="vblex.*"/>
-       <match lemma="play" tags="vblex.*"/>
-       <match lemma="keep" tags="vblex.*"/>              
-     </or>
+      <match lemma="shoot" tags="vblex.*"/>
+      <match lemma="play" tags="vblex.*"/>
+      <match lemma="keep" tags="vblex.*"/>              
+    </or>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
     <match lemma="goal" tags="n.*">
       <select lemma="gol" tags="n.*" />
     </match>
@@ -663,9 +885,43 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="note" tags="vblex.*">
+      <select lemma="anotar" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or>
+      <match lemma="information" tags="n.*"/>
+      <match lemma="details" tags="n.*"/>
+      <match lemma="down"/>            
+    </or>
+  </rule>
+
+  <rule weight="1.0">
     <match lemma="monitor" tags="vblex.*">
       <select lemma="monitoritzar" tags="vblex.*" />
     </match>
+    <or>
+      <match lemma="project" tags="n.*"/>
+      <match lemma="progress" tags="n.*"/>
+      <match lemma="development" tags="n.*"/>
+      <match lemma="improvement" tags="n.*"/>
+      <match lemma="process" tags="n.*"/>                        
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="monitor" tags="vblex.*">
+      <select lemma="monitoritzar" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
     <or>
       <match lemma="project" tags="n.*"/>
       <match lemma="progress" tags="n.*"/>
@@ -689,8 +945,40 @@
 
   <rule weight="1.0">
     <match lemma="set# up" tags="vblex.*">
+      <select lemma="muntar" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or>
+      <match lemma="shop" tags="n.*"/>
+      <match lemma="company" tags="n.*"/>
+      <match lemma="firm" tags="n.*"/>
+      <match lemma="enterprise" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="set# up" tags="vblex.*">
       <select lemma="convocar" tags="vblex.*" />
     </match>
+    <or>
+      <match lemma="conference" tags="n.*"/>
+      <match lemma="meeting" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="set# up" tags="vblex.*">
+      <select lemma="convocar" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
     <or>
       <match lemma="conference" tags="n.*"/>
       <match lemma="meeting" tags="n.*"/>
@@ -701,6 +989,23 @@
     <match lemma="grow" tags="vblex.*">
       <select lemma="cultivar" tags="vblex.*" />
     </match>
+    <or>
+      <match lemma="flower" tags="n.*"/>
+      <match lemma="plant" tags="n.*"/>
+      <match lemma="crop" tags="n.*"/>
+      <match lemma="vegetable" tags="n.*"/>                  
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="grow" tags="vblex.*">
+      <select lemma="cultivar" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
     <or>
       <match lemma="flower" tags="n.*"/>
       <match lemma="plant" tags="n.*"/>
@@ -722,11 +1027,47 @@
 
   <rule weight="1.0">
     <match lemma="issue" tags="vblex.*">
+      <select lemma="publicar" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or>
+      <match lemma="statement" tags="n*"/>
+      <match lemma="report" tags="n*"/>
+      <match lemma="declaration" tags="n*"/>            
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="issue" tags="vblex.*">
       <select lemma="expedir" tags="vblex.*" />
     </match>
     <or>
       <match lemma="ticket" tags="n*"/>
       <match lemma="visa" tags="n*"/>
+      <match lemma="passport" tags="n*"/>
+      <match lemma="authorisation" tags="n*"/>
+      <match lemma="permission" tags="n*"/>
+      <match lemma="allowance" tags="n*"/>                        
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="issue" tags="vblex.*">
+      <select lemma="expedir" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or>
+      <match lemma="ticket" tags="n*"/>
+      <match lemma="visa" tags="n*"/>
+      <match lemma="passport" tags="n*"/>
       <match lemma="authorisation" tags="n*"/>
       <match lemma="permission" tags="n*"/>
       <match lemma="allowance" tags="n*"/>                        
@@ -757,6 +1098,23 @@
     <match lemma="stand" tags="vblex.*">
       <select lemma="aguantar" tags="vblex.*" />
     </match>
+    <or>
+      <match lemma="situation" tags="n.*"/>
+      <match lemma="pain" tags="n.*"/>
+      <match lemma="noise" tags="n.*"/>
+      <match lemma="suffering" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="stand" tags="vblex.*">
+      <select lemma="aguantar" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
     <or>
       <match lemma="situation" tags="n.*"/>
       <match lemma="pain" tags="n.*"/>
@@ -1639,11 +1997,6 @@
     </match>
   </rule>
   <rule weight="0.8">
-    <match lemma="ask" tags="vblex.*">
-      <select lemma="demanar" tags="vblex.*" />
-    </match>
-  </rule>
-  <rule weight="0.8">
     <match lemma="assault" tags="vblex.*">
       <select lemma="agredir" tags="vblex.*" />
     </match>
@@ -1696,6 +2049,12 @@
   <rule weight="0.8">
     <match lemma="award" tags="vblex.*">
       <select lemma="atorgar" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="meet" tags="vblex.*">
+      <select lemma="conèixer" tags="vblex.*" />
     </match>
   </rule>
 
