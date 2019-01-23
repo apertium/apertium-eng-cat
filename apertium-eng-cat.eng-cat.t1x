@@ -14602,6 +14602,10 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
           </and>
         </test>
         <let>
+          <clip pos="2" side="tl" part="lem"/>
+          <lit v="prpers"/>
+        </let>
+        <let>
           <clip pos="2" side="tl" part="gen"/>
           <lit-tag v="m"/><!--with them : amb ells (i no elles)-->
         </let>
@@ -14626,6 +14630,10 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
           </and>
         </test>
         <let>
+          <clip pos="2" side="tl" part="lem"/>
+          <lit v="prpers"/>
+        </let>
+        <let>
           <clip pos="2" side="tl" part="gen"/>
           <clip pos="2" side="sl" part="gen"/>
         </let><!--with her/him : pq la traducció del pron obj 3a sg és 'mf' en català (li), cal canviar a 'm' o 'f' per al pronom tònic (ell/ella) -->
@@ -14648,6 +14656,12 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
           <lit v="mi"/>
         </let>
       </when>
+      <otherwise>
+        <let>
+          <clip pos="2" side="tl" part="lem"/>
+          <lit v="prpers"/>
+        </let>
+      </otherwise>
     </choose>
     <out>
       <chunk name="pr" case="caseFirstWord">
@@ -14668,7 +14682,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
           <tag><clip pos="2" side="tl" part="nbr"/></tag>
         </tags>
         <lu>
-          <lit v="prpers"/>
+          <clip pos="2" side="tl" part="lem"/>
           <lit-tag v="prn"/>
           <lit-tag v="2"/>
           <clip pos="2" side="tl" part="pers"/>

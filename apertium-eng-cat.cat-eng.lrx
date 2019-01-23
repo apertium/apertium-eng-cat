@@ -82,6 +82,32 @@
     </match>
     <match tags="vblex.inf"/>
   </rule>
+
+  <rule weight="1.0">
+    <match lemma="fer" tags="vblex.*">
+      <select lemma="ask" tags="vblex.*" />
+    </match>
+    <or>    
+      <match tags="det.*"/>
+      <match tags="adj.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <match lemma="pregunta" tags="n.*"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="fer" tags="vblex.*">
+      <select lemma="ask" tags="vblex.*" />
+    </match>
+    <match lemma="pregunta" tags="n.*"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="fer" tags="vblex.*">
+      <select lemma="make" tags="vblex.*" />
+    </match>
+  </rule>
   
 </rules>
 
