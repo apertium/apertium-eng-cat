@@ -528,6 +528,13 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="hide" tags="vblex.*">
+      <select lemma="amagar" tags="vblex.pron.*" />
+    </match>
+    <match lemma="from" tags="pr"/>
+  </rule>
+
+  <rule weight="1.0">
     <or>
       <match lemma="picture" tags="n.*"/>
       <match lemma="image" tags="n.*"/>
