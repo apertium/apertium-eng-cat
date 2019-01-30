@@ -934,6 +934,8 @@
     <def-var n="negative"/> <!-- BCN-->
     <def-var n="tipus_det"/>
 
+    <def-var n="pr_perifrasi"/>
+
   </section-def-vars>
 
   <section-def-lists>
@@ -1061,13 +1063,73 @@
 
  </def-list>
 
-    <def-list n="meteoverb"> <!-- Verbs meteorològics -->
+
+    <def-list n="verbs_perifrasi_de"><!-- Verbs que formen una perífrasi i duen la preposició "de" en català -->
+      <list-item v="acabar"/>
+    </def-list>
+
+    <def-list n="verbs_meteo"><!-- Verbs meteorològics en català (defectius) -->
       <list-item v="ploure"/>
     </def-list>
 
   </section-def-lists>
 
   <section-def-macros>
+
+
+    <def-macro n="gen_pr" npar="1" comment="Genera una preposició per a un verb que forma perífrasi">
+      <choose>
+        <when>
+          <test>
+            <in caseless="yes">
+              <clip pos="1" side="tl" part="lem"/>
+              <list n="verbs_perifrasi_de"/>
+            </in>
+          </test>
+          <let>
+            <var n="pr_perifrasi"/>
+            <lit v="de"/>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <var n="pr_perifrasi"/>
+            <lit v=""/>
+          </let>
+        </otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="gen_prnenc" npar="1" comment="Genera un pronom enclític per a un verb pronominal impersonal">
+      <let>
+        <var n="pronomenc"/>
+        <lit v=""/>
+      </let>
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <var n="tipus_verb"/>
+              <lit-tag v="pron"/>
+            </equal>
+          </test>
+          <let>
+            <var n="pronomenc"/>
+            <lit v="$^prpers"/>
+          </let>
+          <append n="pronomenc">
+            <lit-tag v="prn.enc"/>
+            <lit-tag v="4"/>
+            <lit-tag v="mf"/>
+            <lit-tag v="5"/>
+          </append>
+        </when>
+      </choose>
+    </def-macro>
+
+
+
+<!-- Macros antigues -->
 
     <def-macro n="firstWord" npar="1" comment="Sets the case of the chunk from an element">
       <choose>
@@ -4100,7 +4162,7 @@
       <test>
         <in caseless="yes">
           <clip pos="1" side="tl" part="lemh"/>
-          <list n="meteoverb"/>
+          <list n="verbs_meteo"/>
         </in>
       </test>
       <let>
@@ -4174,11 +4236,11 @@
       <test>
         <in caseless="yes">
           <clip pos="1" side="sl" part="lemh"/>
-          <list n="meteoverb"/>
+          <list n="verbs_meteo"/>
         </in>
       </test>
       <let>
-        <var n="tipus_verb"/>
+        <var n="tipus_verb_imp"/>
         <lit-tag v="meteo"/>
       </let>
     </when>
@@ -5316,7 +5378,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 </def-macro>
 
 
-
   </section-def-macros>
 
   <section-rules>
@@ -5675,6 +5736,106 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
                 </lu>
               </chunk>
             </out>
+      </action>
+    </rule>
+
+
+<!-- Regles de SV -->
+
+  <!-- Perífrasis verbals -->
+
+    <rule comment="VERBCNJ (excepte ser) + SUBS (-ing): avoid doing → evitar fer, finish playing → acabar de jugar">
+      <pattern>
+        <pattern-item n="verbcjnoser"/>
+        <pattern-item n="ger"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="tipus_verbs">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="pron">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="tipus_verbs_imp">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="pronenc">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="gen_pr">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conj_verb1">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <not>
+                <equal>
+                  <var n="pr_perifrasi"/>
+                  <lit v=""/>
+                </equal>
+              </not>
+            </test>
+            <out>
+              <chunk name="verbcj_pr_inf" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><var n="tipus_verb"/></tag>
+                  <tag><var n="temps_chunk"/></tag>
+                  <tag><var n="pers_chunk"/></tag>
+                  <tag><var n="nbr_chunk"/></tag>
+                </tags>
+                <lu>
+                  <var n="pronom"/>
+                  <var n="verbfinal"/>
+                </lu>
+                <b/>
+                <lu>
+                  <var n="pr_perifrasi"/>
+                  <lit-tag v="pr"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_verb"/>
+                  <lit-tag v="inf"/>
+                  <var n="pronomenc"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="verbcj_inf" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="SV"/></tag>
+                  <tag><var n="tipus_verb"/></tag>
+                  <tag><var n="temps_chunk"/></tag>
+                  <tag><var n="pers_chunk"/></tag>
+                  <tag><var n="nbr_chunk"/></tag>
+                </tags>
+                <lu>
+                  <var n="pronom"/>
+                  <var n="verbfinal"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh"/>
+                  <clip pos="2" side="tl" part="a_verb"/>
+                  <lit-tag v="inf"/>
+                  <var n="pronomenc"/>
+                  <clip pos="2" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 
@@ -21894,10 +22055,7 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="pron"><!-- amb això fem el proclític -->
       <with-param pos="2"/>
     </call-macro>
-    <call-macro n="tipus_verbs_imp"><!--aquest serveix per fer un enclític -->
-      <with-param pos="2"/>
-    </call-macro>
-    <call-macro n="pronenc"><!--amb això fem l'enclític -->
+    <call-macro n="gen_prnenc"><!--amb això fem l'enclític -->
       <with-param pos="2"/>
     </call-macro>
     <call-macro n="conj_be_ger">
@@ -22761,59 +22919,6 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
 
 <!--***************************************** altres *************** -->
 
-
-
-
-
-    <rule comment="REGLA: VERB + ING (BCN 'avoid doing -> evitar fer'">
-      <pattern>
-    <pattern-item n="verbcjnoser"/>
-    <pattern-item n="ger"/>
-      </pattern>
-      <action>
-    <call-macro n="firstWord">
-      <with-param pos="1"/>
-    </call-macro>
-    <call-macro n="tipus_verbs">
-      <with-param pos="1"/>
-    </call-macro>
-    <call-macro n="pron">
-      <with-param pos="1"/>
-    </call-macro>
-    <call-macro n="tipus_verbs_imp">
-      <with-param pos="2"/>
-    </call-macro>
-    <call-macro n="pronenc">
-      <with-param pos="2"/>
-    </call-macro>
-    <call-macro n="conj_verb1">
-      <with-param pos="1"/>
-    </call-macro>
-    <out>
-      <chunk name="verbcj_inf" case="caseFirstWord">
-        <tags>
-          <tag><lit-tag v="SV"/></tag>
-          <tag><var n="tipus_verb"/></tag>
-          <tag><var n="temps_chunk"/></tag>
-          <tag><var n="pers_chunk"/></tag>
-          <tag><var n="nbr_chunk"/></tag>
-        </tags>
-        <lu>
-          <var n="pronom"/>
-          <var n="verbfinal"/>
-        </lu>
-        <b pos="1"/>
-        <lu>
-          <clip pos="2" side="tl" part="lemh"/>
-          <clip pos="2" side="tl" part="a_verb"/>
-          <lit-tag v="inf"/>
-          <var n="pronomenc"/>
-          <clip pos="2" side="tl" part="lemq"/>
-        </lu>
-      </chunk>
-    </out>
-      </action>
-    </rule>
 
 
     <rule comment="REGLA: AUX + VERB + ING (BCN 'can avoid doing -> pot evitar fer'">

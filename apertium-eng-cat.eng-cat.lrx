@@ -1921,7 +1921,34 @@
 
 
 
-<!-- Traduccions per defecte -->
+
+<!-- Traduccions de substantius -->
+
+  <rule weight="0.8">
+    <match lemma="question" tags="n.*">
+      <select lemma="pregunta" tags="n.*" />
+    </match>
+  </rule>
+
+
+<!-- Traduccions de preposicions -->
+
+  <rule weight="1">
+    <or>
+      <match lemma="speak" tags="vblex.*"/>
+      <match lemma="talk" tags="vblex.*"/>
+    </or>
+    <match lemma="to" tags="pr">
+      <select lemma="amb" tags="pr" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="to" tags="pr">
+      <select lemma="a" tags="pr" />
+    </match>
+  </rule>
+
+<!-- Traduccions de verbs -->
 
   <rule weight="0.8">
     <match lemma="abduct" tags="vblex.*">
@@ -2515,7 +2542,137 @@
   </rule>
   <rule weight="0.8">
     <match lemma="confine" tags="vblex.*">
-      <select lemma="confinar" tags="vblex.*" />
+      <select lemma="limitar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="conflict" tags="vblex.*">
+      <select lemma="discrepar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="conform" tags="vblex.*">
+      <select lemma="conformar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="confront" tags="vblex.*">
+      <select lemma="enfrontar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="congratulate" tags="vblex.*">
+      <select lemma="felicitar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="conquer" tags="vblex.*">
+      <select lemma="conquerir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="consider" tags="vblex.*">
+      <select lemma="considerar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="contend" tags="vblex.*">
+      <select lemma="competir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="continue" tags="vblex.*">
+      <select lemma="continuar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="contribute" tags="vblex.*">
+      <select lemma="contribuir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="converse" tags="vblex.*">
+      <select lemma="enraonar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="convey" tags="vblex.*">
+      <select lemma="transportar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="convince" tags="vblex.*">
+      <select lemma="convèncer" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cook" tags="vblex.*">
+      <select lemma="cuinar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="correspond" tags="vblex.*">
+      <select lemma="correspondre" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cost" tags="vblex.*">
+      <select lemma="costar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="counter" tags="vblex.*">
+      <select lemma="contrarestar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="count" tags="vblex.*">
+      <select lemma="comptar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cover" tags="vblex.*">
+      <select lemma="cobrir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="crash" tags="vblex.*">
+      <select lemma="xocar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cross" tags="vblex.*">
+      <select lemma="creuar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cry" tags="vblex.*">
+      <select lemma="plorar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cultivate" tags="vblex.*">
+      <select lemma="cultivar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cure" tags="vblex.*">
+      <select lemma="curar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="curtail" tags="vblex.*">
+      <select lemma="escurçar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="cushion" tags="vblex.*">
+      <select lemma="esmorteir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="damage" tags="vblex.*">
+      <select lemma="danyar" tags="vblex.*" />
     </match>
   </rule>
 
