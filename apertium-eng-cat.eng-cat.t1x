@@ -40,7 +40,6 @@
       <cat-item lemma="january" tags="n.*"/>
       <cat-item lemma="february" tags="n.*"/>
       <cat-item lemma="march" tags="n.*"/>
-      <cat-item lemma="march" tags="np.cog.*"/>
       <cat-item lemma="april" tags="n.*"/>
       <cat-item lemma="may" tags="n.*"/>
       <cat-item lemma="june" tags="n.*"/>
@@ -451,6 +450,7 @@
       <cat-item tags="vbmod.inf"/>
       <cat-item tags="vaux.inf"/>
       <cat-item lemma="shall" tags="vbmod.past"/><!--Afegit provisionalment per no evitar trencar 'should' quan apareix sol -->
+      <cat-item lemma="shall" tags="vbmod.past.itg"/>
     </def-cat>
 
     <def-cat n="infpres">
@@ -488,12 +488,14 @@
       <cat-item lemma="will" tags="vbmod.*"/>
       <cat-item lemma="shall" tags="vbmod.inf"/>
       <cat-item lemma="shall" tags="vbmod.pres"/>
+      <cat-item lemma="shall" tags="vbmod.pres.itg"/>
     </def-cat>
 
     <def-cat n="auxmod"><!-- Falten: ought to, shall -->
       <cat-item lemma="can" tags="vbmod.*"/>
       <cat-item lemma="must" tags="vbmod.*"/>
       <cat-item lemma="shall" tags="vbmod.past"/>
+      <cat-item lemma="shall" tags="vbmod.past.itg"/>
       <cat-item lemma="may" tags="vbmod.*"/>
       <cat-item lemma="might" tags="vbmod.*"/>
     </def-cat>
@@ -502,6 +504,7 @@
       <cat-item lemma="will" tags="vbmod.*"/>
       <cat-item lemma="shall" tags="vbmod.inf"/>
       <cat-item lemma="shall" tags="vbmod.pres"/>
+      <cat-item lemma="shall" tags="vbmod.pres.itg"/>
       <cat-item lemma="may" tags="vbmod.*"/>
       <cat-item lemma="might" tags="vbmod.*"/>
       <cat-item lemma="do" tags="vbdo.*"/>
