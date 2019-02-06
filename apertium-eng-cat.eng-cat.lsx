@@ -535,11 +535,6 @@
       <par n="SN"/>
       <p><l>off<t/><j/></l><r></r></p>
     </e>
-    <e lm="turn into" c="transformarse en">
-      <p><l>turn<s n="vblex"/></l><r>turn<g><b/>into</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
-      <par n="SN"/>
-      <p><l>into<t/><j/></l><r></r></p>
-    </e>
     <e lm="wall in" c="vallar, cerrar">
       <p><l>wall<s n="vblex"/></l><r>wall<g><b/>off</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
       <par n="SN"/>
@@ -744,9 +739,25 @@
       <par n="inf"/>
     </e>
     <e lm="will" c="question reordering">
+      <p><l>will<s n="vbmod"/><s n="pres"/><j/></l><r></r></p>
+      <p><l>not<s n="adv"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>will<s n="vbmod"/><s n="pres"/><s n="itg"/><j/></r></p>
+      <p><l></l><r>not<s n="adv"/><j/></r></p>
+      <par n="inf"/>
+    </e>
+    <e lm="will" c="question reordering">
       <p><l>will<s n="vbmod"/><s n="past"/><j/></l><r></r></p>
       <par n="SN-adv"/>
       <p><l></l><r>will<s n="vbmod"/><s n="past"/><s n="itg"/><j/></r></p>
+      <par n="inf"/>
+    </e>
+    <e lm="will" c="question reordering">
+      <p><l>will<s n="vbmod"/><s n="past"/><j/></l><r></r></p>
+      <p><l>not<s n="adv"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>will<s n="vbmod"/><s n="past"/><s n="itg"/><j/></r></p>
+      <p><l></l><r>not<s n="adv"/><j/></r></p>
       <par n="inf"/>
     </e>
 
