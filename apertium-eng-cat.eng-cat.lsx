@@ -31,6 +31,7 @@
     <sdef n="pres"/>
     <sdef n="past"/>
     <sdef n="inf"/>
+    <sdef n="ger"/>
     <sdef n="itg"/>
   </sdefs>
   <pardefs>
@@ -145,6 +146,12 @@
       <e><i><w/><s n="vbser"/><s n="inf"/><j/></i></e>
       <e><i>be<b/>able<b/>to<s n="vbmod"/><s n="inf"/><j/></i></e>
       <e><i>want<g><b/>to</g><s n="vbmod"/><s n="inf"/><j/></i></e>
+    </pardef>
+    <pardef n="ger">
+      <e><i><w/><s n="vblex"/><s n="ger"/><j/></i></e>
+      <e><i><w/><s n="vbser"/><s n="ger"/><j/></i></e>
+      <e><i>be<b/>able<b/>to<s n="vbmod"/><s n="ger"/><j/></i></e>
+      <e><i>want<g><b/>to</g><s n="vbmod"/><s n="ger"/><j/></i></e>
     </pardef>
     <pardef n="pp">
       <e><i><w/><s n="vblex"/><s n="pp"/><j/></i></e>
@@ -587,7 +594,90 @@
     </e>
 
 
-
+    <e lm="be" c="question reordering">
+      <p><l>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/><s n="itg"/><j/></r></p>
+      <par n="ger"/>
+    </e>
+    <e lm="be" c="question reordering">
+      <p><l>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/><s n="itg"/><j/></r></p>
+      <par n="ger"/>
+    </e>
+    <e lm="be" c="question reordering">
+      <p><l>be<s n="vbser"/><s n="pres"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>be<s n="vbser"/><s n="pres"/><s n="itg"/><j/></r></p>
+      <par n="ger"/>
+    </e>
+    <e lm="be" c="question reordering">
+      <p><l>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/><j/></l><r></r></p>
+      <p><l>not<s n="adv"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>be<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/><s n="itg"/><j/></r></p>
+      <p><l></l><r>not<s n="adv"/><j/></r></p>
+      <par n="ger"/>
+    </e>
+    <e lm="be" c="question reordering">
+      <p><l>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/><j/></l><r></r></p>
+      <p><l>not<s n="adv"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>be<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/><s n="itg"/><j/></r></p>
+      <p><l></l><r>not<s n="adv"/><j/></r></p>
+      <par n="ger"/>
+    </e>
+    <e lm="be" c="question reordering">
+      <p><l>be<s n="vbser"/><s n="pres"/><j/></l><r></r></p>
+      <p><l>not<s n="adv"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>be<s n="vbser"/><s n="pres"/><s n="itg"/><j/></r></p>
+      <p><l></l><r>not<s n="adv"/><j/></r></p>
+      <par n="ger"/>
+    </e>
+    <e lm="be" c="question reordering">
+      <p><l>be<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>be<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/><s n="itg"/><j/></r></p>
+      <par n="ger"/>
+    </e>
+    <e lm="be" c="question reordering">
+      <p><l>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/><s n="itg"/><j/></r></p>
+      <par n="ger"/>
+    </e>
+    <e lm="be" c="question reordering">
+      <p><l>be<s n="vbser"/><s n="past"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>be<s n="vbser"/><s n="past"/><s n="itg"/><j/></r></p>
+      <par n="ger"/>
+    </e>
+    <e lm="be" c="question reordering">
+      <p><l>be<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/><j/></l><r></r></p>
+      <p><l>not<s n="adv"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>be<s n="vbser"/><s n="past"/><s n="p1"/><s n="sg"/><s n="itg"/><j/></r></p>
+      <p><l></l><r>not<s n="adv"/><j/></r></p>
+      <par n="ger"/>
+    </e>
+    <e lm="be" c="question reordering">
+      <p><l>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/><j/></l><r></r></p>
+      <p><l>not<s n="adv"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>be<s n="vbser"/><s n="past"/><s n="p3"/><s n="sg"/><s n="itg"/><j/></r></p>
+      <p><l></l><r>not<s n="adv"/><j/></r></p>
+      <par n="ger"/>
+    </e>
+    <e lm="be" c="question reordering">
+      <p><l>be<s n="vbser"/><s n="past"/><j/></l><r></r></p>
+      <p><l>not<s n="adv"/><j/></l><r></r></p>
+      <par n="SN-adv"/>
+      <p><l></l><r>be<s n="vbser"/><s n="past"/><s n="itg"/><j/></r></p>
+      <p><l></l><r>not<s n="adv"/><j/></r></p>
+      <par n="ger"/>
+    </e>
     <e lm="can" c="question reordering">
       <p><l>can<s n="vbmod"/><s n="pres"/><j/></l><r></r></p>
       <par n="SN-adv"/>
