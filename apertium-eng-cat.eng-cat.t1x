@@ -9437,6 +9437,10 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
             <clip pos="3" side="sl" part="lem"/>
             <list n="days"/>
           </in>
+          <equal caseless="yes"><!-- "The word X" > La paraula X -->
+            <clip pos="2" side="sl" part="lem"/>
+            <lit v="word"/>
+          </equal>
         </or>
           </not>
         </test>
