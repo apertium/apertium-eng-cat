@@ -2675,6 +2675,626 @@
       <select lemma="danyar" tags="vblex.*" />
     </match>
   </rule>
+  <rule weight="0.8">
+    <match lemma="dare" tags="vblex.*">
+      <select lemma="gosar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="darken" tags="vblex.*">
+      <select lemma="enfosquir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="deaden" tags="vblex.*">
+      <select lemma="esmorteir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="debit" tags="vblex.*">
+      <select lemma="carregar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="deceive" tags="vblex.*">
+      <select lemma="enganyar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="decelerate" tags="vblex.*">
+      <select lemma="desaccelerar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="deem" tags="vblex.*">
+      <select lemma="considerar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="defend" tags="vblex.*">
+      <select lemma="defensar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="deforest" tags="vblex.*">
+      <select lemma="desforestar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="delineate" tags="vblex.*">
+      <select lemma="delinear" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="deliver" tags="vblex.*">
+      <select lemma="lliurar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="demand" tags="vblex.*">
+      <select lemma="exigir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="demolish" tags="vblex.*">
+      <select lemma="enderrocar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="demonstrate" tags="vblex.*">
+      <select lemma="demostrar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="deny" tags="vblex.*">
+      <select lemma="negar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="deplete" tags="vblex.*">
+      <select lemma="esgotar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="describe" tags="vblex.*">
+      <select lemma="descriure" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="designate" tags="vblex.*">
+      <select lemma="designar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="destroy" tags="vblex.*">
+      <select lemma="destruir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dip" tags="vblex.*">
+      <select lemma="sucar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="direct" tags="vblex.*">
+      <select lemma="adreçar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="disable" tags="vblex.*">
+      <select lemma="inutilitzar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="discharge" tags="vblex.*">
+      <select lemma="alliberar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="discontinue" tags="vblex.*">
+      <select lemma="descatalogar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="disentangle" tags="vblex.*">
+      <select lemma="desembolicar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dismay" tags="vblex.*">
+      <select lemma="desanimar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dismiss" tags="vblex.*">
+      <select lemma="descartar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dispense" tags="vblex.*">
+      <select lemma="dispensar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dissect" tags="vblex.*">
+      <select lemma="disseccionar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="distress" tags="vblex.*">
+      <select lemma="afligir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="disturb" tags="vblex.*">
+      <select lemma="molestar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="divide" tags="vblex.*">
+      <select lemma="dividir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="double" tags="vblex.*">
+      <select lemma="doblar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="draft" tags="vblex.*">
+      <select lemma="redactar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="drag" tags="vblex.*">
+      <select lemma="arrossegar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="drain" tags="vblex.*">
+      <select lemma="desguassar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dream" tags="vblex.*">
+      <select lemma="somniar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dress" tags="vblex.*">
+      <select lemma="vestir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dribble" tags="vblex.*">
+      <select lemma="bavejar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="drive" tags="vblex.*">
+      <select lemma="conduir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="drop" tags="vblex.*">
+      <select lemma="deixar caure" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="drown" tags="vblex.*">
+      <select lemma="ofegar" tags="vblex.pron.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dull" tags="vblex.*">
+      <select lemma="atenuar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dump" tags="vblex.*">
+      <select lemma="abocar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dupe" tags="vblex.*">
+      <select lemma="enganyar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dwell" tags="vblex.*">
+      <select lemma="habitar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dwindle" tags="vblex.*">
+      <select lemma="disminuir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dye" tags="vblex.*">
+      <select lemma="tenyir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="earn" tags="vblex.*">
+      <select lemma="guanyar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="eat" tags="vblex.*">
+      <select lemma="menjar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="echo" tags="vblex.*">
+      <select lemma="ressonar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="elect" tags="vblex.*">
+      <select lemma="elegir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="elevate" tags="vblex.*">
+      <select lemma="elevar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="embezzle" tags="vblex.*">
+      <select lemma="sostreure" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="emerge" tags="vblex.*">
+      <select lemma="aflorar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="emphasise" tags="vblex.*">
+      <select lemma="emfasitzar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="employ" tags="vblex.*">
+      <select lemma="emprar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="encircle" tags="vblex.*">
+      <select lemma="encerclar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enclose" tags="vblex.*">
+      <select lemma="tancar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="encompass" tags="vblex.*">
+      <select lemma="comprendre" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="encourage" tags="vblex.*">
+      <select lemma="animar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="end# up" tags="vblex.*">
+      <select lemma="acabar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="endorse" tags="vblex.*">
+      <select lemma="aprovar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="end" tags="vblex.*">
+      <select lemma="acabar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="endure" tags="vblex.*">
+      <select lemma="suportar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enforce" tags="vblex.*">
+      <select lemma="aplicar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enjoy" tags="vblex.*">
+      <select lemma="gaudir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enlarge" tags="vblex.*">
+      <select lemma="ampliar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="enter" tags="vblex.*">
+      <select lemma="entrar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="entertain" tags="vblex.*">
+      <select lemma="entretenir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="entitle" tags="vblex.*">
+      <select lemma="titular" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="entrust" tags="vblex.*">
+      <select lemma="encomanar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="equalise" tags="vblex.*">
+      <select lemma="equalitzar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="escape" tags="vblex.*">
+      <select lemma="escapar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="establish" tags="vblex.*">
+      <select lemma="establir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="estimate" tags="vblex.*">
+      <select lemma="estimar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="evade" tags="vblex.*">
+      <select lemma="evadir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="exacerbate" tags="vblex.*">
+      <select lemma="exacerbar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="exceed" tags="vblex.*">
+      <select lemma="excedir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="exchange" tags="vblex.*">
+      <select lemma="intercanviar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="exhaust" tags="vblex.*">
+      <select lemma="esgotar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="expand" tags="vblex.*">
+      <select lemma="expandir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="expire" tags="vblex.*">
+      <select lemma="caducar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="explain" tags="vblex.*">
+      <select lemma="comptar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="explain" tags="vblex.*">
+      <select lemma="explicar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="explode" tags="vblex.*">
+      <select lemma="explotar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="expose" tags="vblex.*">
+      <select lemma="exposar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="extend" tags="vblex.*">
+      <select lemma="estendre" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="extort" tags="vblex.*">
+      <select lemma="extorsionar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="extradite" tags="vblex.*">
+      <select lemma="extradir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="face up" tags="vblex.*">
+      <select lemma="fer front" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="face" tags="vblex.*">
+      <select lemma="afrontar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fail" tags="vblex.*">
+      <select lemma="fallar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fake" tags="vblex.*">
+      <select lemma="fingir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fancy" tags="vblex.*">
+      <select lemma="imaginar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="farm" tags="vblex.*">
+      <select lemma="conrear" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="farm" tags="vblex.*">
+      <select lemma="cultivar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="feature" tags="vblex.*">
+      <select lemma="presentar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="figure" tags="vblex.*">
+      <select lemma="representar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fill# in" tags="vblex.*">
+      <select lemma="emplenar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fill# up" tags="vblex.*">
+      <select lemma="emplenar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fill" tags="vblex.*">
+      <select lemma="omplir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="film" tags="vblex.*">
+      <select lemma="filmar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="finalise" tags="vblex.*">
+      <select lemma="finalitzar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="find" tags="vblex.*">
+      <select lemma="trobar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="finish" tags="vblex.*">
+      <select lemma="acabar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fire" tags="vblex.*">
+      <select lemma="acomiadar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fish" tags="vblex.*">
+      <select lemma="pescar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fit" tags="vblex.*">
+      <select lemma="cabre" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fix" tags="vblex.*">
+      <select lemma="fixar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="flash" tags="vblex.*">
+      <select lemma="pampalluguejar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="flirt" tags="vblex.*">
+      <select lemma="flirtejar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="float" tags="vblex.*">
+      <select lemma="surar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="flow" tags="vblex.*">
+      <select lemma="fluir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="focus" tags="vblex.*">
+      <select lemma="enfocar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="force" tags="vblex.*">
+      <select lemma="obligar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="foreshadow" tags="vblex.*">
+      <select lemma="augurar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="forget" tags="vblex.*">
+      <select lemma="oblidar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fork" tags="vblex.*">
+      <select lemma="bifurcar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="foul# up" tags="vblex.*">
+      <select lemma="esguerrar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="free" tags="vblex.*">
+      <select lemma="alliberar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="frighten# off" tags="vblex.*">
+      <select lemma="espantar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fuel" tags="vblex.*">
+      <select lemma="avivar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="fulfill" tags="vblex.*">
+      <select lemma="complir" tags="vblex.*" />
+    </match>
+  </rule>
 
   <rule weight="1.0">
     <match lemma="head" tags="vblex.*">
@@ -2747,6 +3367,32 @@
       <select lemma="girar" tags="vblex.*" />
     </match>
   </rule>
+
+
+<!--
+  <rule weight="1.0">
+    <match lemma="prpers" tags="prn.obj.p3.*">
+      <select lemma="li" tags="prn.pro.p3.*" />
+    </match>
+    <match tags="cnjsub"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="ask" tags="vblex.*"/>
+      <match lemma="call" tags="vblex.*"/>
+      <match lemma="tell" tags="vblex.*"/>
+      <match lemma="give" tags="vblex.*"/>
+    </or>
+    <match lemma="prpers" tags="prn.obj.p3.*">
+      <select lemma="li" tags="prn.pro.p3.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="prpers" tags="prn.obj.p3.*">
+      <select lemma="prpers" tags="prn.pro.p3.*" />
+    </match>
+  </rule>
+-->
 
 </rules>
 <!--
