@@ -108,6 +108,14 @@
       <select lemma="make" tags="vblex.*" />
     </match>
   </rule>
+
+  <rule weight="1.0">  
+    <match tags="vbser.*"/>
+    <match lemma="a" tags="pr">
+      <select lemma="in" tags="pr" />
+    </match>
+    <match tags="np.top"/>
+  </rule>
   
 </rules>
 
