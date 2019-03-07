@@ -1929,6 +1929,11 @@
       <select lemma="pregunta" tags="n.*" />
     </match>
   </rule>
+  <rule weight="0.8">
+    <match lemma="tear" tags="n.*">
+      <select lemma="llàgrima" tags="n.*" />
+    </match>
+  </rule>
 
 
 <!-- Traduccions de preposicions -->
@@ -3349,6 +3354,37 @@
   <rule weight="0.8">
     <match lemma="meet" tags="vblex.*">
       <select lemma="conèixer" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="save" tags="vblex.*">
+      <select lemma="desar" tags="vblex.*" />
+    </match>
+    <or>
+      <match lemma="file" tags="n.*"/>
+      <match lemma="folder" tags="n.*"/>
+      <match lemma="document" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="save" tags="vblex.*">
+      <select lemma="desar" tags="vblex.*" />
+    </match>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or>
+      <match lemma="file" tags="n.*"/>
+      <match lemma="folder" tags="n.*"/>
+      <match lemma="document" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="save" tags="vblex.*">
+      <select lemma="salvar" tags="vblex.*" />
     </match>
   </rule>
 
