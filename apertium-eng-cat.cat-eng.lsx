@@ -9,6 +9,10 @@
     <sdef n="n"/>
     <sdef n="np"/>
     <sdef n="vblex"/>
+    <sdef n="top"/>
+    <sdef n="def"/>
+    <sdef n="m"/>
+    <sdef n="sg"/>
   </sdefs>
   <pardefs>
     <pardef n="adj">
@@ -26,9 +30,28 @@
     <pardef n="np">
       <e><i><w/><s n="np"/><t/><j/></i></e>
     </pardef>
+    <pardef n="toponim-article">
+      <e><p><l>afganistan<s n="np"/><s n="top"/></l><r>Afganistan<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+      <e><p><l>amèrica<b/>central<s n="np"/><s n="top"/></l><r>Amèrica<b/>Central<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+      <e><p><l>amèrica<b/>del<b/>nord<s n="np"/><s n="top"/></l><r>Amèrica<b/>del<b/>Nord<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+      <e><p><l>amèrica<b/>del<b/>sud<s n="np"/><s n="top"/></l><r>Amèrica<b/>del<b/>Sud<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+      <e><p><l>aràbia<b/>saudita<s n="np"/><s n="top"/></l><r>Aràbia<b/>Saudita<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+      <e><p><l>argentina<s n="np"/><s n="top"/></l><r>Argentina<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+      <e><p><l>brasil<s n="np"/><s n="top"/></l><r>Brasil<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+      <e><p><l>caire<s n="np"/><s n="top"/></l><r>Caire<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+      <e><p><l>camerun<s n="np"/><s n="top"/></l><r>Camerun<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+      <e><p><l>canadà<s n="np"/><s n="top"/></l><r>Canadà<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+      <e><p><l>congo<s n="np"/><s n="top"/></l><r>Congo<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+      <e><p><l>japó<s n="np"/><s n="top"/></l><r>Japó<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+    </pardef>
   </pardefs>
   <section id="main" type="standard">
-    
+
+    <e lm="topònims amb article">
+      <p><l>el<s n="det"/><s n="def"/><t/><j/></l><r></r></p>
+      <par n="toponim-article"/>
+    </e>
+
   </section>
 </dictionary>
 
