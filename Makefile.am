@@ -10,6 +10,12 @@ VAR1=#leave empty
 VAR2=_valencia_gva
 VAR3=_valencia_uni
 
+VAR11=#leave empty
+VAR12=_US
+
+LANG1GB=$(LANG1)$(VAR11)
+LANG1US=$(LANG1)$(VAR12)
+
 LANG2C=$(LANG2)$(VAR1)
 LANG2V=$(LANG2)$(VAR2)
 LANG2U=$(LANG2)$(VAR3)
@@ -20,9 +26,8 @@ PREFIX1V=$(LANG1)-$(LANG2V)
 PREFIX1U=$(LANG1)-$(LANG2U)
 
 PREFIX2=$(LANG2)-$(LANG1)
-PREFIX2C=$(LANG2C)-$(LANG1)
-PREFIX2V=$(LANG2V)-$(LANG1)
-PREFIX2U=$(LANG2U)-$(LANG1)
+PREFIX2GB=$(LANG2)-$(LANG1GB)
+PREFIX2US=$(LANG2)-$(LANG1US)
 
 BASENAME=apertium-$(PREFIX1)
 
@@ -49,10 +54,13 @@ TARGETS_COMMON =		\
 	$(PREFIX2).automorf.bin	\
 	$(PREFIX2).prob		\
 	$(PREFIX2).rlx.bin	\
-	$(PREFIX2).autobil.bin	\
+	$(PREFIX2GB).autobil.bin	\
+	$(PREFIX2US).autobil.bin	\
 	$(PREFIX2).autolex.bin	\
-	$(PREFIX2).autogen.bin	\
-	$(PREFIX2).autopgen.bin	\
+	$(PREFIX2GB).autogen.bin	\
+	$(PREFIX2US).autogen.bin	\
+	$(PREFIX2GB).autopgen.bin	\
+	$(PREFIX2US).autopgen.bin	\
 	$(PREFIX2).t1x.bin	\
 	$(PREFIX2).t2x.bin	\
 	$(PREFIX2).t3x.bin	\
@@ -83,17 +91,20 @@ $(PREFIX1U).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1V).autobil.b
 # English generation:
 # ---------------------
 
-$(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
+$(PREFIX2GB).autogen.bin: $(AP_SRC1)/$(LANG1GB).autogen.bin
+	cp $< $@
+
+$(PREFIX2US).autogen.bin: $(AP_SRC1)/$(LANG1US).autogen.bin
 	cp $< $@
 
 # -------------------
 # Catalan analysis:
 # -------------------
 
-.deps/$(LANG2).automorf.bin: $(AP_SRC2)/$(LANG2).automorf.bin .deps/.d
-	cp $< $@
+$(PREFIX2GB).automorf.bin: $(AP_SRC2)/$(LANG2).automorf.bin $(PREFIX2GB).autobil.bin
+	lt-trim $^ $@
 
-$(PREFIX2).automorf.bin: .deps/$(LANG2).automorf.bin $(PREFIX2).autobil.bin
+$(PREFIX2US).automorf.bin: $(AP_SRC2)/$(LANG2).automorf.bin $(PREFIX2US).autobil.bin
 	lt-trim $^ $@
 
 # -------------------
@@ -158,9 +169,19 @@ $(PREFIX1U).autobil.bin: .deps/$(PREFIX1).val_uni.dix
 	apertium-validate-dictionary $<
 	lt-comp --var-right=val_uni lr $< $@
 
-$(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
+.deps/$(PREFIX1).eng.dix: .deps/$(PREFIX1).dix
+	python genvrdix.py eng $< >$@
+
+.deps/$(PREFIX1).eng_US.dix: .deps/$(PREFIX1).dix
+	python genvrdix.py eng_US $< >$@
+
+$(PREFIX2GB).autobil.bin: .deps/$(PREFIX1).eng.dix
 	apertium-validate-dictionary $<
-	lt-comp rl $< $@
+	lt-comp --var-left=eng rl $< $@
+
+$(PREFIX2US).autobil.bin: .deps/$(PREFIX1).eng_US.dix
+	apertium-validate-dictionary $<
+	lt-comp --var-left=eng_US rl $< $@
 
 
 ###############################################################################
@@ -231,7 +252,10 @@ $(PREFIX1).autopgen-diacritics-vells.bin: $(AP_SRC2)/$(LANG2).autopgen-diacritic
 $(PREFIX1).autopgen-diacritics-nous.bin: $(AP_SRC2)/$(LANG2).autopgen-diacritics-nous.bin
 	cp $< $@
 
-$(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
+$(PREFIX2GB).autopgen.bin: $(AP_SRC1)/$(LANG1GB).autopgen.bin
+	cp $< $@
+
+$(PREFIX2US).autopgen.bin: $(AP_SRC1)/$(LANG1US).autopgen.bin
 	cp $< $@
 
 ###############################################################################

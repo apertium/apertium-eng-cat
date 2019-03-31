@@ -313,5 +313,47 @@
     </pipeline>
   </mode>
 
+  <mode name="cat-eng_US" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="cat-eng.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="cat-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="cat-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc" debug-suff="separ">
+        <file name="cat-eng.autosep.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="cat-eng_US.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="cat-eng.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b" debug-suff="transfer">
+        <file name="apertium-eng-cat.cat-eng.t1x"/>
+        <file name="cat-eng.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-eng-cat.cat-eng.t2x"/>
+        <file name="cat-eng.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-cat.cat-eng.t3x"/>
+        <file name="cat-eng.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="cat-eng_US.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="cat-eng_US.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 </modes>
 
