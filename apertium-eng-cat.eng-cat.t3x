@@ -80,6 +80,7 @@
       <cat-item name="nom_pr_num_nom"/>
       <cat-item name="nom_num_yearold"/>
       <cat-item name="non_ger_nom"/>
+      <cat-item name="num_num_pr_nom"/>
     </def-cat>
 
     <def-cat n="nom_i_nom"><!--3 words, 2 articles -->
