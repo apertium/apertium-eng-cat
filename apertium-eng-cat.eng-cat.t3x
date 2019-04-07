@@ -65,13 +65,16 @@
 
 
     <def-cat n="SN_3words"><!--3 words -->
-      <cat-item name="nom_adj_adv"/>
+      <cat-item name="nom_adj_adv"/><!-- 3 words, maybe 4-->
+      <cat-item name="nom_adv_adj"/><!-- 3 words, maybe 4-->
+      <cat-item name="num_nom_adj"/><!-- 3 words, maybe 4-->
+      <cat-item name="nom_adj_nom"/><!-- 3 words, maybe 4-->
+      <cat-item name="nom_adj_adj"/><!-- 3 words, maybe 4 or 5-->
       <cat-item name="nom_nom_nom"/>
       <cat-item name="num_nom_nom"/>
       <cat-item name="num_num_nom"/>
       <cat-item name="nom_pr_nom"/>
       <cat-item name="nom_nom_nom"/>
-      <cat-item name="nom_conj_nom"/>
       <cat-item name="nom_to_inf"/>
     </def-cat>
 
@@ -87,15 +90,6 @@
       <cat-item name="nom_conj_nom"/><!-- ok -->
     </def-cat>
 
-
-
-    <def-cat n="SN_3words5"><!--3 words, maybe 4 or 5 -->
-      <cat-item name="nom_adv_adj"/><!-- 3 words, maybe 4-->
-      <cat-item name="nom_adj_adv"/><!-- 3 words, maybe 4-->
-      <cat-item name="num_nom_adj"/><!-- 3 words, maybe 4-->
-      <cat-item name="nom_adj_nom"/><!-- 3 words, maybe 4-->
-      <cat-item name="nom_adj_adj"/><!-- 3 words, maybe 4 or 5-->
-</def-cat>
 
 
      <def-cat n="SN_4words6"><!--4 words, maybe 5 or 6-->
@@ -685,9 +679,9 @@
 
 
 
-    <rule comment="CHUNK: SN_3words5">
+    <rule comment="CHUNK: SN_3words">
       <pattern>
-	<pattern-item n="SN_3words5"/>
+	<pattern-item n="SN_3words"/>
       </pattern>
       <action>	    
 	<call-macro n="gen_nbr_determinante">
@@ -781,71 +775,6 @@
 	</choose> 
       </action>
     </rule>
-
-
-    <rule comment="CHUNK: SN_3words">
-      <pattern>
-	<pattern-item n="SN_3words"/>
-      </pattern>
-      <action>	    
-	<call-macro n="gen_nbr_determinante">
-	  <with-param pos="0"/>
-	</call-macro>
-	<choose>
-	  <when>
-	    <test>
-	      <and>
-		<equal>
-		  <clip pos="0" part="a_SN"/>
-		  <lit-tag v="PDET"/>
-		</equal>
-		<not>
-		  <equal>
-		    <clip pos="1" part="a_nom"/>
-		    <lit-tag v="np"/>
-		  </equal>
-		</not>
-		<not>
-		  <equal>
-		    <clip pos="1" part="a_nom"/>
-		    <lit-tag v="n.acr"/>
-		  </equal>
-		</not>
-	      </and>
-	    </test>
-	    <out>
-	      <lu>
-		<get-case-from pos="0">
-		  <lit v="el"/>
-		</get-case-from>
-		<lit-tag v="det.def"/>
-		<var n="genero"/>
-		<var n="numero"/>
-	      </lu>
-	      <b/>
-	    </out>	
-	    <modify-case>
-	      <clip pos="1" part="lem"/>
-	      <lit v="aa"/>
-	    </modify-case>  
-	  </when>
-	</choose>	 
-	<out>
-	  <lu>
-	    <clip pos="1" part="whole"/>
-	  </lu>
-	  <b pos="1"/>
-	  <lu>
-	    <clip pos="2" part="whole"/>
-	  </lu>
-	  <b pos="2"/>
-	  <lu>
-	    <clip pos="3" part="whole"/>
-	  </lu>
-	</out>  
-      </action>
-    </rule>
-
 
 
 
