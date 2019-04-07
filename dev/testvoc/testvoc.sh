@@ -33,7 +33,8 @@ for i in "${!modes[@]}"; do
     else
         bash inconsistency.sh ${modes[$i]} auto > .testvoc
     fi
-    grep -e ' #' -e '\\/' .testvoc > testvoc-errors.${modes[$i]}.txt
+    grep -ve '[?!\\]\/[^^#]*\\\/' .testvoc | grep -e ' #' -e '\\\/' > testvoc-errors.${modes[$i]}.txt
+
     if ! [[ $QUIET ]]; then
         bash inconsistency-summary.sh .testvoc ${modes[$i]}
     fi
