@@ -457,6 +457,11 @@
       <par n="SN"/>
       <p><l>off<t/><j/></l><r></r></p>
     </e>
+    <e lm="set free">
+      <p><l>set<s n="vblex"/></l><r>set<g><b/>free</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
+      <par n="SN"/>
+      <p><l>free<t/><j/></l><r></r></p>
+    </e>
     <e lm="set up" c="armar, instalar">
       <p><l>set<s n="vblex"/></l><r>set<g><b/>up</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
       <par n="SN"/>
