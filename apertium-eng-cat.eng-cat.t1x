@@ -1079,62 +1079,7 @@
 
   <section-def-macros>
 
-
-    <def-macro n="gen_pr" npar="1" comment="Genera una preposició per a un verb que forma perífrasi">
-      <choose>
-        <when>
-          <test>
-            <in caseless="yes">
-              <clip pos="1" side="tl" part="lem"/>
-              <list n="verbs_perifrasi_de"/>
-            </in>
-          </test>
-          <let>
-            <var n="pr_perifrasi"/>
-            <lit v="de"/>
-          </let>
-        </when>
-        <otherwise>
-          <let>
-            <var n="pr_perifrasi"/>
-            <lit v=""/>
-          </let>
-        </otherwise>
-      </choose>
-    </def-macro>
-
-    <def-macro n="gen_prnenc" npar="1" comment="Genera un pronom enclític per a un verb pronominal impersonal">
-      <let>
-        <var n="pronomenc"/>
-        <lit v=""/>
-      </let>
-      <choose>
-        <when>
-          <test>
-            <equal>
-              <var n="tipus_verb"/>
-              <lit-tag v="pron"/>
-            </equal>
-          </test>
-          <let>
-            <var n="pronomenc"/>
-            <lit v="$^prpers"/>
-          </let>
-          <append n="pronomenc">
-            <lit-tag v="prn.enc"/>
-            <lit-tag v="4"/>
-            <lit-tag v="mf"/>
-            <lit-tag v="5"/>
-          </append>
-        </when>
-      </choose>
-    </def-macro>
-
-
-
-<!-- Macros antigues -->
-
-    <def-macro n="firstWord" npar="1" comment="Sets the case of the chunk from an element">
+    <def-macro n="firstWord" npar="1" comment="Defineix les majúscules/minúscules del chunk a partir d'un element">
       <choose>
         <when>
           <test>
@@ -1251,6 +1196,60 @@
         <lit v="false"/>
       </let>
     </def-macro>
+
+    <def-macro n="gen_pr" npar="1" comment="Genera una preposició per a un verb que forma perífrasi">
+      <choose>
+        <when>
+          <test>
+            <in caseless="yes">
+              <clip pos="1" side="tl" part="lem"/>
+              <list n="verbs_perifrasi_de"/>
+            </in>
+          </test>
+          <let>
+            <var n="pr_perifrasi"/>
+            <lit v="de"/>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <var n="pr_perifrasi"/>
+            <lit v=""/>
+          </let>
+        </otherwise>
+      </choose>
+    </def-macro>
+
+    <def-macro n="gen_prnenc" npar="1" comment="Genera un pronom enclític per a un verb pronominal impersonal">
+      <let>
+        <var n="pronomenc"/>
+        <lit v=""/>
+      </let>
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <var n="tipus_verb"/>
+              <lit-tag v="pron"/>
+            </equal>
+          </test>
+          <let>
+            <var n="pronomenc"/>
+            <lit v="$^prpers"/>
+          </let>
+          <append n="pronomenc">
+            <lit-tag v="prn.enc"/>
+            <lit-tag v="4"/>
+            <lit-tag v="mf"/>
+            <lit-tag v="5"/>
+          </append>
+        </when>
+      </choose>
+    </def-macro>
+
+
+
+<!-- Macros antigues -->
 
 
     <def-macro n="elimina_GDND" npar="1" comment="Changes 'GD' to 'm' and 'ND' to 'sg'.">

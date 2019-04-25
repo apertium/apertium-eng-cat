@@ -707,6 +707,115 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
 
   <section-def-macros>
 
+    <def-macro n="firstWord" npar="1" comment="Defineix les majúscules/minúscules del chunk a partir d'un element">
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <var n="EOS"/>
+              <lit v="true"/>
+            </equal>
+          </test>
+          <choose>
+            <when>
+              <test>
+                <not>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_np_acr"/>
+                    <lit v=""/>
+                  </equal>
+                </not>
+              </test>
+              <let>
+                <var n="caseFirstWord"/>
+                <lit v="aa"/>
+              </let>
+            </when>
+            <when>
+              <test>
+                <or>
+                  <equal>
+                    <case-of pos="1" side="tl" part="lemh"/>
+                    <lit v="AA"/>
+                  </equal>
+                  <and>
+                    <equal>
+                      <case-of pos="1" side="sl" part="lemh"/>
+                      <lit v="Aa"/>
+                    </equal>
+                    <equal>
+                      <case-of pos="1" side="tl" part="lemh"/>
+                      <lit v="aa"/>
+                    </equal>
+                  </and>
+                  <and>
+                    <equal>
+                      <case-of pos="1" side="tl" part="lemh"/>
+                      <lit v="Aa"/>
+                    </equal>
+                    <not>
+                      <equal>
+                        <clip pos="1" side="tl" part="a_np_acr"/>
+                        <lit v=""/>
+                      </equal>
+                    </not>
+                  </and>
+                  <!-- Elements amb majúscula forçada al bidix -->
+                  <equal>
+                    <clip pos="1" side="tl" part="a_maj"/>
+                    <lit-tag v="maj"/>
+                  </equal>
+                </or>
+              </test>
+              <let>
+                <var n="caseFirstWord"/>
+                <lit v="Aa"/>
+              </let>
+            </when>
+            <otherwise>
+              <let>
+                <var n="caseFirstWord"/>
+                <case-of pos="1" side="tl" part="lemh"/>
+              </let>
+              <modify-case>
+                <clip pos="1" side="tl" part="lemh"/>
+                <lit v="aa"/>
+              </modify-case>
+            </otherwise>
+          </choose>
+        </when>
+        <otherwise>
+          <let>
+            <var n="caseFirstWord"/>
+            <lit v="aa"/>
+          </let>
+          <choose>
+            <!-- Elements amb minúscula forçada al bidix -->
+            <when>
+              <test>
+                <equal>
+                  <clip pos="1" side="tl" part="a_maj"/>
+                  <lit-tag v="min"/>
+                </equal>
+              </test>
+              <modify-case>
+                <clip pos="1" side="tl" part="lemh"/>
+                <lit v="aa"/>
+              </modify-case>
+            </when>
+          </choose>
+        </otherwise>
+      </choose>
+      <let>
+        <var n="EOS"/>
+        <lit v="false"/>
+      </let>
+    </def-macro>
+
+
+
+<!-- Macros antigues -->
+
 
     <def-macro n="f_bcond" npar="2"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
       <choose>
@@ -1519,66 +1628,6 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
   </choose>
 </def-macro>
 
-
-
-
-  <def-macro n="firstWord" npar="1"><!--nova versió 8-febr-08  -->
-
-	  <choose>
-	    <when>
-	      <test>
-		<equal>
-		  <var n="EOS"/>
-		  <lit v="true"/>
-		</equal>
-	      </test>
-	      <choose>
-		<when>
-		  <test>
-		    <and>
-		      <equal>
-			<clip pos="1" side="sl" part="a_np_acr"/>
-			<lit v=""/>
-		      </equal>
-		      <not>
-			<in>
-			  <clip pos="1" side="tl" part="lem"/>
-			  <list n="en_majuscules"/>
-			</in>
-		      </not>
-		    </and>
-		  </test>
-		  <modify-case>
-		    <clip pos="1" side="tl" part="lem"/>
-		    <lit v="aa"/>
-		  </modify-case>
-		</when>
-	      </choose>
-	      <let>
-		<var n="caseFirstWord"/>
-		<lit v="Aa"/>
-	      </let>
-	    </when>
-	    <otherwise>
-	      <let>
-		<var n="caseFirstWord"/>
-		<lit v="aa"/>
-	      </let>
-	    </otherwise>
-	  </choose>
-<!--	</when>
-	<otherwise>
-	  <let>
-	    <var n="caseFirstWord"/>
-	    <lit v="aa"/>
-	  </let>
-	</otherwise>
-      </choose>-->
-      <let>
-	<var n="EOS"/>
-	<lit v="false"/>
-      </let>
-    </def-macro>
 
 
 
