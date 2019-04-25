@@ -117,6 +117,13 @@
     <match tags="np.top"/>
   </rule>
 
+  <rule weight="1.0">  
+    <match lemma="participar" tags="vblex.*"/>
+    <match lemma="en" tags="pr">
+      <select lemma="in" tags="pr" />
+    </match>
+  </rule>
+
   <rule weight="1.0">
     <match lemma="no" tags="adv"/>
     <or>
