@@ -1934,6 +1934,11 @@
       <select lemma="llàgrima" tags="n.*" />
     </match>
   </rule>
+  <rule weight="0.8">
+    <match lemma="request" tags="n.*">
+      <select lemma="sol·licitud" tags="n.*" />
+    </match>
+  </rule>
 
 
 <!-- Traduccions de preposicions -->
@@ -3358,6 +3363,18 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="run" tags="vblex.*">
+      <select lemma="executar" tags="vblex.*" />
+    </match>
+    <match lemma="this" tags="prn.*"/>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="run" tags="vblex.*">
+      <select lemma="córrer" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
     <match lemma="save" tags="vblex.*">
       <select lemma="desar" tags="vblex.*" />
     </match>
@@ -3407,6 +3424,32 @@
   <rule weight="0.8">
     <match lemma="turn" tags="vblex.*">
       <select lemma="girar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="use" tags="vblex.*">
+      <select lemma="utilitzar" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="be" tags="vbser.*">
+      <select lemma="estar" tags="vblex.*" />
+    </match>
+    <match tags="vblex.pp"/>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="be" tags="vbser.*">
+      <select lemma="ser" tags="vbser.*" />
+    </match>
+  </rule>
+
+
+<!-- Regles especials -->
+
+  <rule weight="1"><!-- sharing > compartició -->
+    <match tags="vblex.subs">
+      <select tags="n.*" />
     </match>
   </rule>
 
