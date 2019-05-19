@@ -6346,7 +6346,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	</choose>
 	<let>
 	  <clip pos="3" part="tipus_prn"/>
-	  <lit-tag v="pro"/>
+	  <lit-tag v="tn"/>
 	</let>
 	<choose>
 	  <when>
@@ -6651,7 +6651,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	</choose> 
 	<let>
 	  <clip pos="2" part="tipus_prn"/>
-	  <lit-tag v="pro"/>
+	  <lit-tag v="tn"/>
 	</let>
 	<choose>
 	  <when>

@@ -296,6 +296,7 @@
     </def-attr>
 
     <def-attr n="a_prnpro">
+      <attr-item tags="prn.tn"/>
       <attr-item tags="prn.pro"/>
       <attr-item tags="prn.pro.ref"/>
     </def-attr>
