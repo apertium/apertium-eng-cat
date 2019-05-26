@@ -415,6 +415,7 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
       <attr-item tags="np.al"/>
       <attr-item tags="np.cog"/>
       <attr-item tags="num"/>
+      <attr-item tags="n.file"/>
     </def-attr>
 
     <def-attr n="a_np_acr">

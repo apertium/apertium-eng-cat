@@ -720,6 +720,7 @@
       <attr-item tags="np.cog"/>
       <attr-item tags="np.al"/>
       <attr-item tags="adv"/>
+      <attr-item tags="n.file"/>
     </def-attr>
 
     <def-attr n="a_np">
@@ -9295,37 +9296,72 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <choose>
       <when>
         <test>
+          <equal>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <lit-tag v="n.file"/>
+          </equal>
+        </test>
+        <call-macro n="elimina_GDND">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="nom_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.UNDET"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen" link-to="3"/>
+              <clip pos="2" side="tl" part="nbr" link-to="4"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <when>
+        <test>
           <not>
-        <or>
-          <equal>
-            <clip pos="2" side="tl" part="a_nom"/>
-            <lit-tag v="np.ant"/>
-          </equal>
-          <equal>
-            <clip pos="2" side="tl" part="a_nom"/>
-            <lit-tag v="np.cog"/>
-          </equal>
-          <equal>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <lit-tag v="np.ant"/>
-          </equal>
-          <equal>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <lit-tag v="np.cog"/>
-          </equal>
-          <in caseless="yes">
-            <clip pos="1" side="sl" part="lem"/>
-            <list n="tractaments"/>
-          </in>
-          <in caseless="yes">
-            <clip pos="2" side="sl" part="lem"/>
-            <list n="tractaments"/>
-          </in>
-          <in caseless="yes">
-            <clip pos="2" side="sl" part="lem"/>
-            <list n="days"/>
-          </in>
-        </or>
+            <or>
+              <equal>
+                <clip pos="2" side="tl" part="a_nom"/>
+                <lit-tag v="np.ant"/>
+              </equal>
+              <equal>
+                <clip pos="2" side="tl" part="a_nom"/>
+                <lit-tag v="np.cog"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="tl" part="a_nom"/>
+                <lit-tag v="np.ant"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="tl" part="a_nom"/>
+                <lit-tag v="np.cog"/>
+              </equal>
+              <in caseless="yes">
+                <clip pos="1" side="sl" part="lem"/>
+                <list n="tractaments"/>
+              </in>
+              <in caseless="yes">
+                <clip pos="2" side="sl" part="lem"/>
+                <list n="tractaments"/>
+              </in>
+              <in caseless="yes">
+                <clip pos="2" side="sl" part="lem"/>
+                <list n="days"/>
+              </in>
+            </or>
           </not>
         </test>
         <call-macro n="elimina_GDND">
@@ -9408,6 +9444,57 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       <with-param pos="1"/>
     </call-macro>
     <choose>
+      <when>
+        <test>
+          <equal>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <lit-tag v="n.file"/>
+          </equal>
+        </test>
+        <call-macro n="f_concord2">
+          <with-param pos="3"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="elimina_GDND">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="det_nom_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="tipus_det"/></tag>
+              <tag><var n="gen_chunk"/></tag>
+              <tag><var n="nbr_chunk"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="3"/>
+              <clip pos="1" side="tl" part="gen_mf"/>
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen_sense_mf" link-to="3"/>
+              <clip pos="3" side="tl" part="gen_mf"/>
+              <clip pos="3" side="tl" part="nbr_sense_sp" link-to="4"/>
+              <clip pos="3" side="tl" part="nbr_sp"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
       <when>
         <test>
           <not>
@@ -9563,6 +9650,56 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       <with-param pos="1"/>
     </call-macro>
     <choose>
+      <when>
+        <test>
+          <equal>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <lit-tag v="n.file"/>
+          </equal>
+        </test>
+        <call-macro n="f_concord2">
+          <with-param pos="3"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="elimina_GDND">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="num_nom_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.NUM"/></tag>
+              <tag><var n="gen_chunk"/></tag>
+              <tag><var n="nbr_chunk"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_num"/>
+              <clip pos="1" side="tl" part="gen_sense_mf" link-to="3"/>
+              <clip pos="1" side="tl" part="gen_mf"/>
+              <clip pos="1" side="tl" part="nbr_sense_sp" link-to="4"/>
+              <clip pos="1" side="tl" part="nbr_sp"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen_sense_mf" link-to="3"/>
+              <clip pos="3" side="tl" part="gen_mf"/>
+              <clip pos="3" side="tl" part="nbr_sense_sp" link-to="4"/>
+              <clip pos="3" side="tl" part="nbr_sp"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
       <when>
         <test>
           <not>

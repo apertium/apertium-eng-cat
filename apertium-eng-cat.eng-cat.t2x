@@ -128,6 +128,10 @@
       <cat-item lemma="verbcj_perif" tags="SV.vbser.*"/> 
     </def-cat>
 
+    <def-cat n="auxmod_infser">
+      <cat-item lemma="auxmod_inf" tags="SV.vbser.*"/>
+    </def-cat>
+
     <def-cat n="vbcopulatiu">
       <cat-item tags="Vcop.*"/>
       <cat-item tags="SV.vbser.*"/>
@@ -166,6 +170,10 @@
     <def-cat n="pp">
       <cat-item lemma="pp"  tags="SA.*"/>
       <cat-item lemma="adj"  tags="SA.*"/><!-- BCN per que agafi bé resolutions adopted -->
+    </def-cat>
+
+    <def-cat n="pp_noadj">
+      <cat-item lemma="pp"  tags="SA.*"/>
     </def-cat>
 
 
@@ -4810,6 +4818,253 @@ Your mother and you will come - La vostra mare i tu vindran
       </action>
     </rule>
 
+    <rule comment="REGLA: SN auxmod_infser PP">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="auxmod_infser"/>
+	<pattern-item n="pp_noadj"/>
+      </pattern>
+      <action>
+	<call-macro n="concord_SN_SV">
+	  <with-param pos="1"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<call-macro n="posadet_SN">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="determina_nbr_gen_SN">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="3" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>		
+	    <let>
+	      <clip pos="3" part="nbr"/>
+	      <var n="nombre"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="3" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>	
+	    <let>
+	      <clip pos="3" part="gen"/>
+	      <var n="genere"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>		
+		<clip pos="2" part="temps"/>
+		<lit-tag v="pres"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="2" part="temps"/>
+	      <lit-tag v="pri"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnsubj"/>
+		</equal>
+	    </test>
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	      <with-param pos="2"/>
+	    </call-macro>
+	    <out>
+	      <chunk><!--el pronom no l'envio, només el 2n chunk -->
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="3" part="whole"/>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise><!--Quan SN no és pronom subjecte, per tant, quan és qualsevol altre SN-->	    
+	   <modify-case>
+	     <clip pos="2" part="lem"/>
+	     <case-of pos="1" part="lem"/>
+	   </modify-case>
+	   <modify-case>
+	     <clip pos="1" part="lem"/>
+	     <lit v="aa"/>
+	   </modify-case>
+	    <out>
+	      <chunk>
+		<lit v="auxmod_inf_refl"/>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<lit v="inf"/>
+		<lit-tag v="SV.vblex.inf"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="1" part="whole"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>	
+	<call-macro n="determina_nbr_gen_SN">
+	  <with-param pos="1"/>
+	</call-macro>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: SN ADV auxmod_infser PP">
+      <pattern>
+	<pattern-item n="SN"/>
+	<pattern-item n="ADV"/>
+	<pattern-item n="auxmod_infser"/>
+	<pattern-item n="pp_noadj"/>
+      </pattern>
+      <action>
+	<call-macro n="concord_SN_SV">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<call-macro n="posadet_SN">
+	  <with-param pos="1"/>
+	</call-macro>
+	<call-macro n="determina_nbr_gen_SN">
+	  <with-param pos="1"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="4" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	    </test>		
+	    <let>
+	      <clip pos="4" part="nbr"/>
+	      <var n="nombre"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="4" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>	
+	    <let>
+	      <clip pos="4" part="gen"/>
+	      <var n="genere"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>		
+		<clip pos="3" part="temps"/>
+		<lit-tag v="pres"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="3" part="temps"/>
+	      <lit-tag v="pri"/>
+	    </let>
+	  </when>
+	</choose>
+	<choose>
+	  <when>
+	    <test>
+		<equal caseless="yes">
+		  <clip pos="1" part="lem"/>
+		  <lit v="prnsubj"/>
+		</equal>
+	    </test>
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	      <with-param pos="2"/>
+	    </call-macro>
+	    <out>
+	      <chunk><!--el pronom no l'envio, només el 3r chunk -->
+		<get-case-from pos="1">
+		  <clip pos="2" part="lem"/>
+		</get-case-from>
+		<clip pos="2" part="tags"/>
+		<clip pos="2" part="chcontent"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<clip pos="3" part="whole"/>
+	      </chunk>
+	      <b pos="3"/>
+	      <chunk>
+		<clip pos="4" part="whole"/>
+	      </chunk>
+	    </out>
+	  </when>
+	  <otherwise><!--Quan SN no és pronom subjecte, per tant, quan és qualsevol altre SN-->	  
+	   <modify-case>
+	     <clip pos="2" part="lem"/>
+	     <case-of pos="1" part="lem"/>
+	   </modify-case>
+	   <modify-case>
+	     <clip pos="1" part="lem"/>
+	     <lit v="aa"/>
+	   </modify-case>
+	    <out>
+	      <chunk>
+		<clip pos="2" part="whole"/>
+	      </chunk>
+	      <b pos="2"/>
+	      <chunk>
+		<lit v="auxmod_inf_refl"/>
+		<clip pos="3" part="tags"/>
+		<clip pos="3" part="chcontent"/>
+	      </chunk>
+	      <b pos="3"/>
+	      <chunk>
+		<lit v="inf"/>
+		<lit-tag v="SV.vblex.inf"/>
+		<clip pos="4" part="chcontent"/>
+	      </chunk>
+	      <b pos="1"/>
+	      <chunk>
+		<clip pos="1" part="whole"/>
+	      </chunk>
+	    </out>
+	  </otherwise>
+	</choose>	
+	<call-macro n="determina_nbr_gen_SN">
+	  <with-param pos="1"/>
+	</call-macro>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: SN SV SA (they live/are happy - viuen feliços (BCN s'ha modificat)">
       <pattern>
@@ -5183,7 +5438,6 @@ Your mother and you will come - La vostra mare i tu vindran
 	</out> 
       </action>
     </rule>
-
 
    <rule comment="REGLA: SN adv SV SA">
       <pattern>
@@ -8506,6 +8760,7 @@ Your mother and you will come - La vostra mare i tu vindran
 	</call-macro>
       </action>
     </rule>
+
     <rule comment="REGLA: SN (per assignar gènere i nombre si hi ha GD i ND que no s'han pogut determinar, com passa en alguns pronoms: both, etc.)">
       <pattern>
 	<pattern-item n="SN"/>
