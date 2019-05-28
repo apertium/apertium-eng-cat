@@ -1934,6 +1934,48 @@
       <select lemma="llàgrima" tags="n.*" />
     </match>
   </rule>
+  <rule weight="0.8">
+    <match lemma="request" tags="n.*">
+      <select lemma="sol·licitud" tags="n.*" />
+    </match>
+  </rule>
+  <rule weight="1.0">  
+    <or>
+      <match lemma="white" tags="adj.sint"/>
+      <match lemma="black" tags="adj"/>
+      <match lemma="dark" tags="adj.sint"/>
+      <match lemma="light" tags="adj.sint"/>
+    </or>
+    <match lemma="background" tags="n.*">
+      <select lemma="fons" tags="n.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="share" tags="n.*">
+      <select lemma="participació" tags="n.*" />
+    </match>
+  </rule>
+  <rule weight="1.0">  
+    <match lemma="share" tags="n.*">
+      <select lemma="compartició" tags="n.*" />
+    </match>
+    <match lemma="type" tags="n.*"/>
+  </rule>
+
+
+<!-- Traduccions d'adjectius -->
+
+  <rule weight="1">
+    <match lemma="dark" tags="adj.sint">
+      <select lemma="morè" tags="adj" />
+    </match>
+  <match lemma="skin" tags="n.*"/>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="dark" tags="adj.sint">
+      <select lemma="fosc" tags="adj" />
+    </match>
+  </rule>
 
 
 <!-- Traduccions d'adjectius -->
@@ -1977,6 +2019,62 @@
     </match>
     <match tags="np.top"/>
   </rule>
+  <rule weight="1.0">  
+    <match lemma="on" tags="pr">
+      <select lemma="sobre" tags="pr" />
+    </match>
+    <match tags="det.*"/>
+    <match lemma="background" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">  
+    <match lemma="on" tags="pr">
+      <select lemma="sobre" tags="pr" />
+    </match>
+    <or>
+      <match tags="adj.sint"/>
+      <match tags="adj"/>
+    </or>
+    <match lemma="background" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">  
+    <match lemma="on" tags="pr">
+      <select lemma="sobre" tags="pr" />
+    </match>
+    <match tags="det.*"/>
+    <or>
+      <match tags="adj.sint"/>
+      <match tags="adj"/>
+    </or>
+    <match lemma="background" tags="n.*"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="for" tags="pr">
+      <select lemma="per a" tags="pr" />
+    </match>
+    <or>
+      <match tags="prn.obj.*"/>
+      <match tags="n.*"/>
+      <match tags="np.*"/>
+    </or>
+  </rule>
+  <rule weight="1">
+    <match lemma="for" tags="pr">
+      <select lemma="per a" tags="pr" />
+    </match>
+    <or>
+      <match tags="adj.sint"/>
+      <match tags="adj"/>
+      <match tags="det.*"/>
+    </or>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="for" tags="pr">
+      <select lemma="per" tags="pr" />
+    </match>
+  </rule>
+
 
 <!-- Traduccions de verbs -->
 
@@ -3377,6 +3475,18 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="run" tags="vblex.*">
+      <select lemma="executar" tags="vblex.*" />
+    </match>
+    <match lemma="this" tags="prn.*"/>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="run" tags="vblex.*">
+      <select lemma="córrer" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
     <match lemma="save" tags="vblex.*">
       <select lemma="desar" tags="vblex.*" />
     </match>
@@ -3426,6 +3536,35 @@
   <rule weight="0.8">
     <match lemma="turn" tags="vblex.*">
       <select lemma="girar" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="use" tags="vblex.*">
+      <select lemma="utilitzar" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="be" tags="vbser.*">
+      <select lemma="estar" tags="vblex.*" />
+    </match>
+    <or>
+      <match lemma="disable" tags="vblex.pp"/>
+      <match lemma="enable" tags="vblex.pp"/>
+    </or>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="be" tags="vbser.*">
+      <select lemma="ser" tags="vbser.*" />
+    </match>
+  </rule>
+
+
+<!-- Regles especials -->
+
+  <rule weight="1"><!-- sharing > compartició -->
+    <match tags="vblex.subs">
+      <select tags="n.*" />
     </match>
   </rule>
 

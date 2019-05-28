@@ -151,6 +151,10 @@
       <cat-item name="pro_going_to_inf"/>
     </def-cat>   
 
+    <def-cat n="auxmod_inf_refl">
+      <cat-item name="auxmod_inf_refl"/>
+    </def-cat>
+
 <!--<def-cat n="pottenirenclitic">
       <cat-item name="verbcj_inf_perif"/>
       <cat-item name="verbcj_inf"/>
@@ -296,6 +300,7 @@
     </def-attr>
 
     <def-attr n="a_prnpro">
+      <attr-item tags="prn.tn"/>
       <attr-item tags="prn.pro"/>
       <attr-item tags="prn.pro.ref"/>
     </def-attr>
@@ -1417,6 +1422,22 @@
 		<clip pos="1" part="lemq"/>
 	      </lu> 
 	    </out>  
+	  </when>
+	  <when>
+	    <test>
+	      <equal>
+	        <clip pos="1" part="temps"/>
+	        <lit-tag v="pp"/>
+	      </equal>
+	    </test> 
+	    <out>
+	      <lu>
+		<clip pos="1" part="lemh"/>
+		<clip pos="0" part="a_verb"/>
+		<clip pos="0" part="temps"/>
+		<clip pos="1" part="lemq"/>
+	      </lu> 
+	    </out>
 	  </when>
 	  <otherwise>
 	    <out>
@@ -4070,7 +4091,25 @@
 	  </otherwise>
 	</choose>
       </action>
-    </rule> 
+    </rule>
+
+    <rule comment="REGLA: Converteix una estructura passiva en impersonal">
+      <pattern>
+	<pattern-item n="auxmod_inf_refl"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <lit v="es"/>
+            <lit-tag v="prn.pro.ref.p3.mf.sp"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="1" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
     
 
 <!--<rule comment="arregla el pron reflexiu de tercera persona quan és enclític. No es pot accedir el lema del pronom enclític i per ara no es pot fer la regla">
