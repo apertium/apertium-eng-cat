@@ -163,6 +163,16 @@
       <select lemma="nothing" tags="prn.ind.*"/>
     </match>
   </rule>
+
+
+<!-- Traduccions de preposicions -->
+
+  <rule weight="1">
+    <match lemma="dret" tags="n.*"/>
+    <match lemma="a" tags="pr">
+      <select lemma="to" tags="pr" />
+    </match>
+  </rule>
   
 </rules>
 
