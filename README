@@ -1,7 +1,4 @@
-English and Catalan
-
-                            apertium-eng-cat
-===============================================================================
+# English and Catalan: apertium-eng-cat
 
 This is an Apertium language pair for translating between English and
 Catalan. What you can use this language package for:
@@ -13,8 +10,7 @@ Catalan. What you can use this language package for:
 For information on the latter two points, see subheading "For more
 information" below
 
-Requirements
-===============================================================================
+## Requirements
 
 You will need the following software installed:
 
@@ -26,59 +22,55 @@ You will need the following software installed:
 
 If this does not make any sense, we recommend you look at: www.apertium.org
 
-Compiling
-===============================================================================
+## Compiling
 
 Given the requirements being installed, you should be able to just run:
 
-$ ./configure
-$ make
-# make install
+    $ ./configure
+    $ make
+    # make install
 
-You can use ./autogen.sh instead of ./configure you're compiling from
-SVN. If you installed any prerequisite language packages using a --prefix
+You can use `./autogen.sh` instead of `./configure` in case you're compiling from
+source. If you installed any prerequisite language packages using a --prefix
 to ./configure, make sure to give the same --prefix to ./configure here.
 
-Testing
-===============================================================================
+## Testing
 
 If you are in the source directory after running make, the following
 commands should work:
 
-$  echo "TODO test sentence 1" | apertium -d . eng-cat
-TODO test translated sentence 1
+    $  echo "TODO test sentence 1" | apertium -d . eng-cat
+    TODO test translated sentence 1
 
-$ echo "TODO test sentence 2" | apertium -d . cat-eng
-TODO test translated sentence 2
+    $ echo "TODO test sentence 2" | apertium -d . cat-eng
+    TODO test translated sentence 2
 
 After installing somewhere in $PATH, you should be able to do e.g.
 
-$  echo "TODO test sentence 1" | apertium eng-cat
-TODO test translated sentence 1
+    $  echo "TODO test sentence 1" | apertium eng-cat
+    TODO test translated sentence 1
 
-Files and data
-===============================================================================
+## Files and data
 
 * apertium-eng-cat.eng-cat.dix  - Bilingual dictionary
 * apertium-eng-cat.eng-cat.t1x  - Chunking rules for translating into Catalan
 * apertium-eng-cat.cat-eng.t1x  - Chunking rules for translating into English
-* apertium-eng-cat.eng-cat.t2x  - Interchunk rules for translating into Catalan
+* apertium-eng-cat.eng-cat.t2x  - Interchunk (stage 1) rules for translating into Catalan
 * apertium-eng-cat.cat-eng.t2x  - Interchunk rules for translating into English
-* apertium-eng-cat.eng-cat.t3x  - Postchunk rules for translating into Catalan
+* apertium-eng-cat.eng-cat.t3x  - Interchunk (stage 2) rules for translating into Catalan
 * apertium-eng-cat.cat-eng.t3x  - Postchunk rules for translating into English
+* apertium-eng-cat.eng-cat.t4x  - Postchunk rules for translating into Catalan
 * apertium-eng-cat.eng-cat.lrx  - Lexical selection rules for translating into Catalan
 * apertium-eng-cat.cat-eng.lrx  - Lexical selection rules for translating into English
 * modes.xml                     - Translation modes
 
-For more information
-===============================================================================
+## For more information
 
 * http://wiki.apertium.org/wiki/Installation
 * http://wiki.apertium.org/wiki/apertium-eng-cat
 * http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
 
-Help and support
-===============================================================================
+## Help and support
 
 If you need help using this language pair or data, you can contact:
 
