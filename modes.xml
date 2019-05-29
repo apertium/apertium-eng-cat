@@ -30,9 +30,13 @@
         <file name="apertium-eng-cat.eng-cat.t2x"/>
         <file name="eng-cat.t2x.bin"/>
       </program>
-      <program name="apertium-postchunk">
+      <program name="apertium-interchunk">
         <file name="apertium-eng-cat.eng-cat.t3x"/>
         <file name="eng-cat.t3x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-cat.eng-cat.t4x"/>
+        <file name="eng-cat.t4x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="eng-cat.autogen.bin"/>
@@ -75,9 +79,13 @@
         <file name="apertium-eng-cat.eng-cat.t2x"/>
         <file name="eng-cat.t2x.bin"/>
       </program>
-      <program name="apertium-postchunk">
+      <program name="apertium-interchunk">
         <file name="apertium-eng-cat.eng-cat.t3x"/>
         <file name="eng-cat.t3x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-cat.eng-cat.t4x"/>
+        <file name="eng-cat.t4x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="eng-cat.autogen.bin"/>
@@ -120,9 +128,13 @@
         <file name="apertium-eng-cat.eng-cat.t2x"/>
         <file name="eng-cat.t2x.bin"/>
       </program>
-      <program name="apertium-postchunk">
+      <program name="apertium-interchunk">
         <file name="apertium-eng-cat.eng-cat.t3x"/>
         <file name="eng-cat.t3x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-cat.eng-cat.t4x"/>
+        <file name="eng-cat.t4x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="eng-cat_valencia_gva.autogen.bin"/>
@@ -165,9 +177,13 @@
         <file name="apertium-eng-cat.eng-cat.t2x"/>
         <file name="eng-cat.t2x.bin"/>
       </program>
-      <program name="apertium-postchunk">
+      <program name="apertium-interchunk">
         <file name="apertium-eng-cat.eng-cat.t3x"/>
         <file name="eng-cat.t3x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-cat.eng-cat.t4x"/>
+        <file name="eng-cat.t4x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="eng-cat_valencia_gva.autogen.bin"/>
@@ -210,9 +226,13 @@
         <file name="apertium-eng-cat.eng-cat.t2x"/>
         <file name="eng-cat.t2x.bin"/>
       </program>
-      <program name="apertium-postchunk">
+      <program name="apertium-interchunk">
         <file name="apertium-eng-cat.eng-cat.t3x"/>
         <file name="eng-cat.t3x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-cat.eng-cat.t4x"/>
+        <file name="eng-cat.t4x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="eng-cat_valencia_uni.autogen.bin"/>
@@ -255,9 +275,13 @@
         <file name="apertium-eng-cat.eng-cat.t2x"/>
         <file name="eng-cat.t2x.bin"/>
       </program>
-      <program name="apertium-postchunk">
+      <program name="apertium-interchunk">
         <file name="apertium-eng-cat.eng-cat.t3x"/>
         <file name="eng-cat.t3x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-eng-cat.eng-cat.t4x"/>
+        <file name="eng-cat.t4x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="eng-cat_valencia_uni.autogen.bin"/>
