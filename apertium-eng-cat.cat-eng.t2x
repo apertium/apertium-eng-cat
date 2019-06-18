@@ -509,6 +509,14 @@
                   <clip pos="3" part="lem"/>
                   <lit v="cog"/>
                 </equal>
+                <equal>
+                  <clip pos="3" part="lem"/>
+                  <lit v="ant_cog"/>
+                </equal>
+                <equal>
+                  <clip pos="3" part="lem"/>
+                  <lit v="ant_cog_cog"/>
+                </equal>
                 <in caseless="yes">
                   <clip pos="3" part="lem"/>
                   <list n="genitiu_saxo"/>

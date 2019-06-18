@@ -1029,7 +1029,7 @@
 	  </when>
 	</choose>
       </action>
-</rule>
+    </rule>
 
     <rule comment="CHUNK: SN, rm 'the'">
       <pattern>
@@ -1039,30 +1039,30 @@
 	<choose>
 	  <when>
 	    <test>
-	      <equal>
-		<clip pos="1" part="lem"/>
-		<lit v="the"/>
-	      </equal>
+              <or>
+	        <equal>
+		  <lu-count/>
+		  <lit v="2"/>
+	        </equal>
+	        <equal>
+		  <lu-count/>
+		  <lit v="3"/>
+	        </equal>
+	        <equal>
+		  <lu-count/>
+		  <lit v="4"/>
+	        </equal>
+	        <equal>
+		  <lu-count/>
+		  <lit v="5"/>
+	        </equal>
+	        <equal>
+		  <lu-count/>
+		  <lit v="6"/>
+	        </equal>
+              </or>
 	    </test>
-          </when>
-          <otherwise>
 	    <out>
-	      <lu>
-		<clip pos="1" part="whole"/>
-	      </lu>
-	    </out> 
-          </otherwise>
-	</choose> 
-	<choose>
-	  <when>
-	    <test>
-	      <equal>
-		<lu-count/>
-		<lit v="2"/>
-	      </equal>
-	    </test>
-	    <out>
-	      <b pos="1"/>
 	      <lu>
 		<clip pos="2" part="whole"/>
 	      </lu>
@@ -1072,10 +1072,24 @@
 	<choose>
 	  <when>
 	    <test>
-	      <equal>
-		<lu-count/>
-		<lit v="3"/>
-	      </equal>
+              <or>
+	        <equal>
+		  <lu-count/>
+		  <lit v="3"/>
+	        </equal>
+	        <equal>
+		  <lu-count/>
+		  <lit v="4"/>
+	        </equal>
+	        <equal>
+		  <lu-count/>
+		  <lit v="5"/>
+	        </equal>
+	        <equal>
+		  <lu-count/>
+		  <lit v="6"/>
+	        </equal>
+              </or>
 	    </test>
 	    <out>
 	      <b pos="2"/>
@@ -1088,10 +1102,20 @@
 	<choose>
 	  <when>
 	    <test>
-	      <equal>
-		<lu-count/>
-		<lit v="4"/>
-	      </equal>
+              <or>
+	        <equal>
+		  <lu-count/>
+		  <lit v="4"/>
+	        </equal>
+	        <equal>
+		  <lu-count/>
+		  <lit v="5"/>
+	        </equal>
+	        <equal>
+		  <lu-count/>
+		  <lit v="6"/>
+	        </equal>
+              </or>
 	    </test>
 	    <out>
 	      <b pos="3"/>
@@ -1104,10 +1128,16 @@
 	<choose>
 	  <when>
 	    <test>
-	      <equal>
-		<lu-count/>
-		<lit v="5"/>
-	      </equal>
+              <or>
+	        <equal>
+		  <lu-count/>
+		  <lit v="5"/>
+	        </equal>
+	        <equal>
+		  <lu-count/>
+		  <lit v="6"/>
+	        </equal>
+              </or>
 	    </test>
 	    <out>
 	      <b pos="4"/>
