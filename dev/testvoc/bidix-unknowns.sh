@@ -63,6 +63,7 @@ in_mono () {
 }
 echo "Expanding bidix and checking for entries missing from monodix …" >&2
 lt-expand "${bidix}" \
+    | grep -ve __REGEXP__ \
     | awk -vside="${side}" -F':|:[<>]:' '
         BEGIN {
           if(side=="l") {
