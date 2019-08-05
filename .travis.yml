@@ -17,4 +17,4 @@ script:
     - make langs
 after_success:
     - cd dev/testvoc
-    - ./testvoc.sh -etu
+    - ./testvoc.sh -e
