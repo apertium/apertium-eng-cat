@@ -15,3 +15,6 @@ before_install:
 script:
     - ./autogen.sh --with-lang1=./apertium-eng --with-lang2=./apertium-cat
     - make langs
+after_success:
+    - cd dev/testvoc
+    - ./testvoc.sh -tu
