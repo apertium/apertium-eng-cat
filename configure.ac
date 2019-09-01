@@ -29,6 +29,9 @@ AS_IF([test x$LSXCOMP = xfalse], [AC_MSG_ERROR([You don't have lsx-comp installe
 AC_PATH_PROG([LSXPROC], [lsx-proc], [false], [$PATH$PATH_SEPARATOR$with_lsx_proc/bin])
 AS_IF([test x$LSXPROC = xfalse], [AC_MSG_ERROR([You don't have lsx-proc installed])])
 
+AC_PATH_PROG([APERTIUMANAPHORA], [apertium-anaphora], [false], [$PATH$PATH_SEPARATOR$with_apertium_anaphora/bin])
+AS_IF([test x$APERTIUMANAPHORA = xfalse], [AC_MSG_ERROR([You don't have apertium-anaphora installed])])
+
 AC_PATH_PROGS(ZCAT, [gzcat zcat], [false])
 AS_IF([test x$ZCAT = xfalse], [AC_MSG_ERROR([You don't have zcat nor gzcat installed])])
 

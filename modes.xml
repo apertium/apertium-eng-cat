@@ -22,6 +22,9 @@
       <program name="lrx-proc -m">
         <file name="eng-cat.autolex.bin"/>
       </program>
+      <program name="apertium-anaphora" debug-suff="anaphora">
+        <file name="apertium-eng-cat.eng-cat.arx"/>
+      </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-eng-cat.eng-cat.t1x"/>
         <file name="eng-cat.t1x.bin"/>
@@ -30,7 +33,7 @@
         <file name="apertium-eng-cat.eng-cat.t2x"/>
         <file name="eng-cat.t2x.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk" debug-suff="interchunk2">
         <file name="apertium-eng-cat.eng-cat.t3x"/>
         <file name="eng-cat.t3x.bin"/>
       </program>
@@ -41,7 +44,7 @@
       <program name="lt-proc $1">
         <file name="eng-cat.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
+      <program name="lt-proc -x" debug-suff="intergen">
         <file name="eng-cat.autopgen-diacritics-vells.bin"/>
       </program>
       <program name="lt-proc -p">
@@ -70,6 +73,9 @@
       </program>
       <program name="lrx-proc -m">
         <file name="eng-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-anaphora" debug-suff="anaphora">
+        <file name="apertium-eng-cat.eng-cat.arx"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-eng-cat.eng-cat.t1x"/>
@@ -120,6 +126,9 @@
       <program name="lrx-proc -m">
         <file name="eng-cat.autolex.bin"/>
       </program>
+      <program name="apertium-anaphora" debug-suff="anaphora">
+        <file name="apertium-eng-cat.eng-cat.arx"/>
+      </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-eng-cat.eng-cat.t1x"/>
         <file name="eng-cat.t1x.bin"/>
@@ -168,6 +177,9 @@
       </program>
       <program name="lrx-proc -m">
         <file name="eng-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-anaphora" debug-suff="anaphora">
+        <file name="apertium-eng-cat.eng-cat.arx"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-eng-cat.eng-cat.t1x"/>
@@ -218,6 +230,9 @@
       <program name="lrx-proc -m">
         <file name="eng-cat.autolex.bin"/>
       </program>
+      <program name="apertium-anaphora" debug-suff="anaphora">
+        <file name="apertium-eng-cat.eng-cat.arx"/>
+      </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-eng-cat.eng-cat.t1x"/>
         <file name="eng-cat.t1x.bin"/>
@@ -266,6 +281,9 @@
       </program>
       <program name="lrx-proc -m">
         <file name="eng-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-anaphora" debug-suff="anaphora">
+        <file name="apertium-eng-cat.eng-cat.arx"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-eng-cat.eng-cat.t1x"/>
@@ -316,6 +334,9 @@
       <program name="lrx-proc -m">
         <file name="cat-eng.autolex.bin"/>
       </program>
+      <program name="apertium-anaphora" debug-suff="anaphora">
+        <file name="apertium-eng-cat.cat-eng.arx"/>
+      </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-eng-cat.cat-eng.t1x"/>
         <file name="cat-eng.t1x.bin"/>
@@ -357,6 +378,9 @@
       </program>
       <program name="lrx-proc -m">
         <file name="cat-eng.autolex.bin"/>
+      </program>
+      <program name="apertium-anaphora" debug-suff="anaphora">
+        <file name="apertium-eng-cat.cat-eng.arx"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-eng-cat.cat-eng.t1x"/>

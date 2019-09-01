@@ -195,7 +195,14 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
     </def-cat>
 
     <def-cat n="haver">
-      <cat-item tags="vbhaver.*"/>
+      <cat-item tags="vbhaver.cni.*"/>
+      <cat-item tags="vbhaver.fti.*"/>
+      <cat-item tags="vbhaver.fts.*"/>
+      <cat-item tags="vbhaver.ifi.*"/>
+      <cat-item tags="vbhaver.pii.*"/>
+      <cat-item tags="vbhaver.pis.*"/>
+      <cat-item tags="vbhaver.pri.*"/>
+      <cat-item tags="vbhaver.prs.*"/>
     </def-cat>
     <def-cat n="haverinf">
       <cat-item tags="vbhaver.inf"/>

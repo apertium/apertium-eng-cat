@@ -1252,6 +1252,23 @@
       </choose>
     </def-macro>
 
+    <def-macro n="anaphora" npar="1" comment="Adapta un element anafòric en funció de l'antecedent">
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="ref" part="gen"/>
+              <lit-tag v="f"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="ref" part="gen"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+
 
 
 <!-- Macros antigues -->
@@ -14755,6 +14772,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="firstWord">
       <with-param pos="1"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="1"/>
+    </call-macro>
     <choose>
       <when>
         <test>
@@ -14898,6 +14918,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       <action>
     <call-macro n="firstWord">
       <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="2"/>
     </call-macro>
     <choose>
       <when>
@@ -15191,7 +15214,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="tipus_verbs"> <!-- per tractar la cua en verbs multiparaula -->
       <with-param pos="4"/>
     </call-macro>
-
+    <call-macro n="anaphora">
+      <with-param pos="5"/>
+    </call-macro>
     <choose>
       <when>
         <test>
@@ -15464,6 +15489,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </call-macro>
     <call-macro n="tipus_verbs"> <!-- per tractar la cua en verbs multiparaula -->
       <with-param pos="3"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="4"/>
     </call-macro>
     <choose>
       <when>
@@ -15793,6 +15821,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </call-macro>
     <call-macro n="tipus_verbs"> <!-- per tractar la cua en verbs multiparaula -->
       <with-param pos="5"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="6"/>
     </call-macro>
     <choose>
       <when>
@@ -17387,6 +17418,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
         <call-macro n="tipus_verbs">
           <with-param pos="3"/>
         </call-macro>
+        <call-macro n="anaphora">
+          <with-param pos="4"/>
+        </call-macro>
         <choose>
           <when>
             <test>
@@ -17835,6 +17869,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
         <call-macro n="tipus_verbs"> <!-- per tractar la cua en verbs multiparaula -->
           <with-param pos="4"/>
         </call-macro>
+        <call-macro n="anaphora">
+          <with-param pos="5"/>
+        </call-macro>
         <choose>
           <when>
             <test>
@@ -18157,6 +18194,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="pron">
       <with-param pos="1"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="2"/>
+    </call-macro>
     <choose>
       <when> <!--Per als verbs meteorològics, l'imperatiu el traduïm per 'que + subjuntiu'  -->
         <test>
@@ -18330,6 +18370,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </call-macro>
     <call-macro n="pron">
       <with-param pos="3"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="4"/>
     </call-macro>
             <choose>
       <when> <!--Per als verbs meteorològics, l'imperatiu el traduïm per 'que + subjuntiu'  -->
@@ -18715,6 +18758,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="conj_verb1">
       <with-param pos="1"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="2"/>
+    </call-macro>
     <let>
       <var n="lema_SV"/><!--anteposa 'pro_' al nom del lema_SV assignat per la marco conj_verb1 -->
       <concat>
@@ -18907,6 +18953,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </call-macro>
     <call-macro n="tipus_verbs">
       <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="2"/>
     </call-macro>
     <choose>
       <when>
@@ -19107,6 +19156,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="tipus_verbs">
       <with-param pos="2"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="3"/>
+    </call-macro>
     <let>               <!-- canvi de preposició-->
       <clip pos="1" side="tl" part="lem"/>
       <lit v="per"/>
@@ -19281,6 +19333,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="tipus_verbs">
       <with-param pos="1"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="2"/>
+    </call-macro>
     <choose>
       <when>
         <test>
@@ -19419,6 +19474,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </call-macro>
     <call-macro n="tipus_verbs">
       <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="2"/>
     </call-macro>
     <choose>
       <when>
@@ -19609,6 +19667,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </call-macro>
     <call-macro n="tipus_verbs">
       <with-param pos="2"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="3"/>
     </call-macro>
     <let>
       <clip pos="2" side="tl" part="temps"/>
@@ -19838,6 +19899,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </call-macro>
     <call-macro n="tipus_verbs">
       <with-param pos="3"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="4"/>
     </call-macro>
     <let>
       <clip pos="2" side="tl" part="temps"/>
@@ -20755,6 +20819,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="tipus_verbs">
       <with-param pos="1"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="2"/>
+    </call-macro>
     <choose>
       <when>
         <test>
@@ -21076,6 +21143,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       <with-param pos="1"/>
       <with-param pos="2"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="3"/>
+    </call-macro>
     <let>
       <var n="lema_SV"/><!--anteposa 'pro_' al nom del lema_SV assignat per la marco conj_verb_compost -->
       <concat>
@@ -21178,6 +21248,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="conj_verb1">
       <with-param pos="1"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="3"/>
+    </call-macro>
     <out>
       <chunk name="pro_auxmod_inf" case="caseFirstWord">
         <tags>
@@ -21272,6 +21345,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="conj_verb_compost">
       <with-param pos="1"/>
       <with-param pos="2"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="3"/>
     </call-macro>
     <let>
       <var n="lema_SV"/><!--anteposa 'pro_' al nom del lema_SV assignat per la marco conj_verb_compost -->
@@ -21406,6 +21482,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </call-macro>
     <call-macro n="passa_pp_a_ifip"><!--si entra com a 'pp', ho tractarem com si fos 'past' -->
       <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="3"/>
     </call-macro>
     <choose><!-- sobrescriu el nom de chunk assignat per la macro 'conj_verb1' -->
       <when>
@@ -21612,7 +21691,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="pron">
       <with-param pos="3"/>
     </call-macro>
-
+    <call-macro n="anaphora">
+      <with-param pos="4"/>
+    </call-macro>
 <!--MG: potser ho hauria de desdoblar en dues regles, una per a conj_verb1 i una per a conj_verb_compost -->
     <choose>
       <when>
@@ -21964,6 +22045,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="passa_inf_a_pres"><!--Si el tagger s'equivoca i tria 'inf', ho tractarem com si fos 'pres' (MG revisar)-->
       <with-param pos="1"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="3"/>
+    </call-macro>
     <choose>
       <when> <!--en aquesta regla hem decidit traduir el passat, no com a 'vaig haver fet' sinó com a 'havia fet'  -->
         <test>
@@ -22259,6 +22343,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </call-macro>
     <call-macro n="pronenc">
       <with-param pos="3"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="4"/>
     </call-macro>
     <choose>
       <when>
@@ -22818,6 +22905,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       <with-param pos="1"/>
       <with-param pos="2"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="3"/>
+    </call-macro>
     <choose>
       <when>
         <test>
@@ -23040,6 +23130,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="conj_be_ger">
       <with-param pos="1"/>
       <with-param pos="3"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="4"/>
     </call-macro>
     <choose>
       <when>
@@ -23349,6 +23442,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       <with-param pos="2"/>
       <with-param pos="4"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="5"/>
+    </call-macro>
     <let>
       <var n="lema_SV"/><!--anteposa 'pro_' al nom del lema_SV assignat per la marco conj_going_to_inf -->
       <concat>
@@ -23507,6 +23603,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       <with-param pos="1"/>
       <with-param pos="3"/>
       <with-param pos="5"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="6"/>
     </call-macro>
     <let>
       <var n="lema_SV"/><!--anteposa 'pro_' al nom del lema_SV assignat per la marco conj_going_to_inf -->
@@ -23798,6 +23897,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       <with-param pos="1"/>
       <with-param pos="3"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="4"/>
+    </call-macro>
     <let>
       <var n="lema_SV"/><!--anteposa 'pro_' al nom del lema_SV assignat per la marco conj_verb_compost -->
       <concat>
@@ -23960,6 +24062,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="conj_verb1">
       <with-param pos="1"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="4"/>
+    </call-macro>
     <choose>
       <when>
         <test>
@@ -24119,6 +24224,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="conj_verb_compost">
       <with-param pos="1"/>
       <with-param pos="3"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="4"/>
     </call-macro>
     <let>
       <var n="lema_SV"/><!--anteposa 'pro_' al nom del lema_SV assignat per la marco conj_verb_compost -->
@@ -24374,6 +24482,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </call-macro>
     <call-macro n="pron">
       <with-param pos="4"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="5"/>
     </call-macro>
     <choose>
       <when>
@@ -24668,6 +24779,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="passa_inf_a_pres"><!--Si el tagger s'equivoca i tria 'inf', ho tractarem com si fos 'pres' (MG revisar)-->
       <with-param pos="1"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="4"/>
+    </call-macro>
     <choose>
       <when>
         <test>
@@ -24886,6 +25000,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       <with-param pos="1"/>
       <with-param pos="2"/>
     </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="4"/>
+    </call-macro>
     <out>
       <chunk name="pro_have_pp" case="caseFirstWord">
         <tags>
@@ -24944,7 +25061,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <call-macro n="conj_verb1">
       <with-param pos="1"/>
     </call-macro>
-
+    <call-macro n="anaphora">
+      <with-param pos="4"/>
+    </call-macro>
     <out>
       <chunk name="pro_auxmod_have_pp" case="caseFirstWord">
         <tags>
@@ -25335,7 +25454,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       <with-param pos="1"/>
       <with-param pos="3"/>
     </call-macro>
-
+    <call-macro n="anaphora">
+      <with-param pos="5"/>
+    </call-macro>
     <choose>
       <when>
         <test>
@@ -25424,6 +25545,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     </call-macro>
     <call-macro n="conj_verb1">
       <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="anaphora">
+      <with-param pos="5"/>
     </call-macro>
     <choose>
       <when>
