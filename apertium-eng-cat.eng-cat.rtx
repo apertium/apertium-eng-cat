@@ -62,22 +62,26 @@ SN ->   0: n
                 { 1[gender=$gender,number=$number] } |
 
 
-        1: SDet SN.undet.$gender.$number
+        2: SDet SN.undet.$gender.$number
                 [$SN_det=det]
                 { 1[gender=$gender,number=$number] _1 2[gender=$gender,number=$number] } |
-        2: SNum SN.undet.$gender.$number
+        3: SNum SN.undet.$gender.$number
                 [$SN_det=undet]
                 { 1[gender=$gender,number=$number] _1 2[gender=$gender,number=$number] } |
-        2: SAdj SN.undet.$gender.$number
+        3: SAdj SN.undet.$gender.$number
                 [$SN_det=undet]
                 { 2[gender=$gender,number=$number] _1 1[gender=$gender,number=$number] } |
-        3: SAdj.ord SN.undet.$gender.$number
+        4: SAdj.ord SN.undet.$gender.$number
                 [$SN_det=undet]
                 { 1[gender=$gender,number=$number] _1 2[gender=$gender,number=$number] } |
 
-        4: SN cnjcoo SN
+        5: SN cnjcoo SN
                 [$SN_det=1.det_type,$gender=(if(1.gender = 3.gender) 1.gender else m),$number=pl]
                 { 1 _1 2 _2 3 } |
+
+        1: SN gen SN.undet.$gender.$number
+                [$SN_det=det]
+                { el@det.def.$gender.$number _ 3 _ de@pr _2 1 } |
 
         0: prn
                 [$SN_det=prnsubj,$gender=(if(1.gender not=mf) 1.gender else GD),$number=(if(1.number not=sp) 1.number else ND)]
