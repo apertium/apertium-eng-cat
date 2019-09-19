@@ -48,134 +48,150 @@ SN_det = undet det predet prnsubj ;
 
 SN ->   0: n
                 [$SN_det=undet,$gender=(if(1.gender not=mf) 1.gender else GD),$number=(if(1.number not=sp) 1.number else ND)]
-                { 1[gender=$gender,number=$number] } |
+                { %1 } |
         10: n n
                 [$SN_det=undet,$gender=(if(2.gender not=mf) 2.gender else GD),$number=(if(2.number not=sp) 2.number else ND)]
-                { 2[gender=$gender,number=$number] _1 de@pr _ 1 } |
+                { %2 _1 de@pr _ 1 } |
 
 
-        0: np.top
-                [$SN_det=undet,$gender=(if(1.gender not=mf) 1.gender else GD),$number=(if(1.number not=sp) 1.number else ND)]
-                { 1[gender=$gender,number=$number] } |
-        0: np.al
+        0: %np.ant
+                [$SN_det=undet]
+                { %1 } |
+        0: np.cog
+                [$SN_det=undet,$number=(if(1.number/sl=pl) 1.number/sl else ND)]
+                { %1 } |
+        0: %np.top
+                [$SN_det=undet]
+                { %1 } |
+        0: %np.al
+                [$SN_det=undet]
+                { %1 } |
+
+
+        2: SDet %SN.undet
                 [$SN_det=det]
-                { 1[gender=$gender,number=$number] } |
-
-
-        2: SDet SN.undet.$gender.$number
-                [$SN_det=det]
-                { 1[gender=$gender,number=$number] _1 2[gender=$gender,number=$number] } |
-        3: SNum SN.undet.$gender.$number
+                { %1 _1 %2 } |
+        3: SNum %SN.undet
                 [$SN_det=undet]
-                { 1[gender=$gender,number=$number] _1 2[gender=$gender,number=$number] } |
-        3: SAdj SN.undet.$gender.$number
+                { %1 _1 %2 } |
+        3: SAdj %SN.undet
                 [$SN_det=undet]
-                { 2[gender=$gender,number=$number] _1 1[gender=$gender,number=$number] } |
-        4: SAdj.ord SN.undet.$gender.$number
+                { %2 _1 %1 } |
+        4: SAdj.ord %SN.undet
                 [$SN_det=undet]
-                { 1[gender=$gender,number=$number] _1 2[gender=$gender,number=$number] } |
+                { %1 _1 %2 } |
 
         5: SN cnjcoo SN
                 [$SN_det=1.det_type,$gender=(if(1.gender = 3.gender) 1.gender else m),$number=pl]
                 { 1 _1 2 _2 3 } |
 
-        1: SN gen SN.undet.$gender.$number
+        1: SN gen %SN.undet
                 [$SN_det=det]
                 { el@det.def.$gender.$number _ 3 _ de@pr _2 1 } |
 
         0: prn
                 [$SN_det=prnsubj,$gender=(if(1.gender not=mf) 1.gender else GD),$number=(if(1.number not=sp) 1.number else ND)]
-                { 1[gender=$gender,number=$number] } |
+                { %1 } |
         1: prn.subj.$person
                 [$SN_det=prnsubj,$gender=(if(1.gender not=mf) 1.gender else GD),$number=(if(1.number not=sp) 1.number else ND)]
-                { 1(prpers)[person=$person,gender=$gender,number=$number] } ;
+                { %1(prpers) } ;
 
 
 
 
 SDet -> 0: det.$det_type.$gender.$number
-                { 1[gender=$gender,number=$number] } ;
+                { %1 } ;
 
 
 
-SAdj -> 0: adj.$adj_type.$gender.$number
-                { 1[gender=$gender,number=$number] } |
-        1: adj.$adj_type.$gender.$number enough@adv
-                { 2 _1 1[gender=$gender,number=$number] } |
-        1: adj.$adj_type cnjcoo adj
-                { 1[gender=$gender,number=$number] _1 2 _2 3[gender=$gender,number=$number] } |
-        1: adj.$adj_type cm adj
-                { 1[gender=$gender,number=$number] _1 2 _2 3[gender=$gender,number=$number] } |
+SAdj -> 0: %adj
+                [$gender=(if(1.gender not=mf) 1.gender else GD),$number=(if(1.number not=sp) 1.number else ND)]
+                { %1 } |
+        1: %adj enough@adv
+                [$gender=(if(1.gender not=mf) 1.gender else GD),$number=(if(1.number not=sp) 1.number else ND)]
+                { 2 _1 %1 } |
+        1: %adj cnjcoo adj
+                [$gender=(if(1.gender not=mf) 1.gender else GD),$number=(if(1.number not=sp) 1.number else ND)]
+                { %1 _1 2 _2 %3[adj_type=3.adj_type] } |
+        1: %adj cm adj
+                [$gender=(if(1.gender not=mf) 1.gender else GD),$number=(if(1.number not=sp) 1.number else ND)]
+                { %1 _1 2 _2 %3[adj_type=3.adj_type] } |
 
 
-        0: vblex.pp.$gender.$number.$adj_type
-                { 1(vb_pp)[gender=$gender,number=$number] } ;
+        0: %vblex.pp
+                { %1(vb_pp) } ;
 
 
 
-SNum -> 0: num.$gender.$number
-                { (if($number not = sp) 1(num_digits) else 1[gender=$gender,number=$number]) } ;
+SNum -> 0: %num
+                { (if($number not = sp) 1(num_digits) else %1) } ;
 
 
 
-SV ->   0: vblex.*.pres.$vb_type.$person.$number
+SV ->   0: %vblex.*.pres
                 [$vb_cnj=cnj,$tense=pri]
-                { 1[tense=$tense,person=$person,number=$number] } |
-        0: vbser.*.pres.$vb_type.$person.$number
+                { %1 } |
+        0: %vbser.*.pres
                 [$vb_cnj=cnj,$tense=pri]
-                { 1[tense=$tense,person=$person,number=$number] } |
-        0: vblex.*.past.$vb_type.$person.$number
+                { %1 } |
+        0: %vblex.*.past
                 [$vb_cnj=cnj,$tense=ifip]
                 { anar@vaux.$person.$number _ 1(vb_infger)[tense=inf] } |
-        0: vbser.*.past.$vb_type.$person.$number
+        0: %vbser.*.past
                 [$vb_cnj=cnj,$tense=pii]
-                { 1[tense=$tense] } |
-        0: vblex.*.imp.$vb_type.$tense.$person.$number
+                { %1 } |
+        0: %vblex.*.imp
                 [$vb_cnj=cnj]
-                { 1[tense=$tense,person=$person,number=$number] } |
+                { %1 } |
 
-        0: will@vbmod.pres vblex.*.inf.$vb_type
+        0: will@vbmod.pres %vblex.*.inf
                 [$vb_cnj=cnj,$tense=fti]
-                { 2[tense=$tense,person=$person,number=$number] } |
-        0: will@vbmod.pres vbser.*.inf.$vb_type
+                { %2 } |
+        0: will@vbmod.pres %vbser.*.inf
                 [$vb_cnj=cnj,$tense=fti]
-                { 2[tense=$tense,person=$person,number=$number] } |
-        0: will@vbmod.past vblex.*.inf.$vb_type
+                { %2 } |
+        0: will@vbmod.past %vblex.*.inf
                 [$vb_cnj=cnj,$tense=cni]
-                { 2[tense=$tense,person=$person,number=$number] } |
-        0: will@vbmod.past vbser.*.inf.$vb_type
+                { %2 } |
+        0: will@vbmod.past %vbser.*.inf
                 [$vb_cnj=cnj,$tense=cni]
-                { 2[tense=$tense,person=$person,number=$number] } |
+                { %2 } |
 
 
-        0: vblex.*.inf.$vb_type.$tense
+        0: %vblex.*.inf
                 [$vb_cnj=impers]
-                { 1(vb_infger)[tense=$tense] } |
-        0: vbser.*.inf.$vb_type.$tense
+                { %1(vb_infger) } |
+        0: %vbser.*.inf
                 [$vb_cnj=impers]
-                { 1(vb_infger)[tense=$tense] } |
-        0: vblex.*.ger.$vb_type.$tense
+                { %1(vb_infger) } |
+        0: %vblex.*.ger
                 [$vb_cnj=impers]
-                { 1(vb_infger)[tense=$tense] } |
-        0: vbser.*.ger.$vb_type.$tense
+                { %1(vb_infger) } |
+        0: %vbser.*.ger
                 [$vb_cnj=impers]
-                { 1(vb_infger)[tense=$tense] } |
-        0: vblex.*.pprs.$vb_type
+                { %1(vb_infger) } |
+        0: %vblex.*.pprs
                 [$vb_cnj=impers,$tense=ger]
-                { 1(vb_infger)[tense=$tense] } |
-        0: vbser.*.pprs.$vb_type
+                { %1(vb_infger) } |
+        0: %vbser.*.pprs
                 [$vb_cnj=impers,$tense=ger]
-                { 1(vb_infger)[tense=$tense] } |
-        0: vblex.*.subs.$vb_type
+                { %1(vb_infger) } |
+        0: %vblex.*.subs
                 [$vb_cnj=impers,$tense=inf]
-                { 1(vb_infger)[tense=$tense] } |
-        0: vbser.*.subs.$vb_type
+                { %1(vb_infger) } |
+        0: %vbser.*.subs
                 [$vb_cnj=impers,$tense=inf]
-                { 1(vb_infger)[tense=$tense] } ;
+                { %1(vb_infger) } |
+
+
+        1: SAdv %SV
+                { 1 _1 %2 } ;
 
 
 
-SAdv -> 0: SN ago@adv
+SAdv -> 0: adv
+                { 1 } |
+        0: SN ago@adv
                 { fer@vblex.pri.p3.sg _1 1 } ;
 
 
