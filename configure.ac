@@ -1,36 +1,16 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium English-Catalan], [1.0.0], [apertium-stuff@lists.sourceforge.net], [apertium-eng-cat], [http://wiki.apertium.org/wiki/Apertium-eng-cat])
+AC_INIT([Apertium English-Catalan], [1.0.0], [marc.riera.irigoyen@gmail.com], [apertium-eng-cat], [http://wiki.apertium.org/wiki/Apertium-eng-cat])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
 AC_PROG_AWK
 
-m4_define([required_apertium_version], [3.5.0])
-PKG_CHECK_MODULES(APERTIUM, apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM, apertium-3.5 >= required_apertium_version)])
-
-
-
-AC_PATH_PROG([CGCOMP], [cg-comp], [false], [$PATH$PATH_SEPARATOR$with_cg_comp/bin])
-AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed])])
-
-AC_PATH_PROG([CGPROC], [cg-proc], [false], [$PATH$PATH_SEPARATOR$with_cg_proc/bin])
-AS_IF([test x$CGPROC = xfalse], [AC_MSG_ERROR([You don't have cg-proc installed])])
-
-AC_PATH_PROG([LRXCOMP], [lrx-comp], [false], [$PATH$PATH_SEPARATOR$with_lrx_comp/bin])
-AS_IF([test x$LRXCOMP = xfalse], [AC_MSG_ERROR([You don't have lrx-comp installed])])
-
-AC_PATH_PROG([LRXPROC], [lrx-proc], [false], [$PATH$PATH_SEPARATOR$with_lrx_proc/bin])
-AS_IF([test x$LRXPROC = xfalse], [AC_MSG_ERROR([You don't have lrx-proc installed])])
-
-AC_PATH_PROG([LSXCOMP], [lsx-comp], [false], [$PATH$PATH_SEPARATOR$with_lsx_comp/bin])
-AS_IF([test x$LSXCOMP = xfalse], [AC_MSG_ERROR([You don't have lsx-comp installed])])
-
-AC_PATH_PROG([LSXPROC], [lsx-proc], [false], [$PATH$PATH_SEPARATOR$with_lsx_proc/bin])
-AS_IF([test x$LSXPROC = xfalse], [AC_MSG_ERROR([You don't have lsx-proc installed])])
-
-AC_PATH_PROG([APERTIUMANAPHORA], [apertium-anaphora], [false], [$PATH$PATH_SEPARATOR$with_apertium_anaphora/bin])
-AS_IF([test x$APERTIUMANAPHORA = xfalse], [AC_MSG_ERROR([You don't have apertium-anaphora installed])])
+PKG_CHECK_MODULES(APERTIUM, apertium >= 3.6.0)
+PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.5.0)
+PKG_CHECK_MODULES(CG3, cg3 >= 1.3.0)
+PKG_CHECK_MODULES(APERTIUM_LEX_TOOLS, apertium-lex-tools >= 0.2.2)
+PKG_CHECK_MODULES(APERTIUM_ANAPHORA, apertium-anaphora >= 0.0.2)
 
 AC_PATH_PROGS(ZCAT, [gzcat zcat], [false])
 AS_IF([test x$ZCAT = xfalse], [AC_MSG_ERROR([You don't have zcat nor gzcat installed])])
@@ -42,5 +22,6 @@ AP_CHECK_LING([2], [apertium-cat])
 
 AP_MKINCLUDE
 
-AC_OUTPUT([Makefile])
+AC_CONFIG_FILES([Makefile])
+AC_OUTPUT
 

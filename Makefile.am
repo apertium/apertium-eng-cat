@@ -2,7 +2,6 @@
 ## Makefile for English--Catalan
 ###############################################################################
 
-VERSION=1.0.0
 LANG1=eng
 LANG2=cat
 
