@@ -1,7 +1,7 @@
-dist: xenial
+dist: bionic
 before_install:
     - wget http://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
-    - sudo apt-get install apertium apertium-separable apertium-anaphora lttoolbox apertium-dev lttoolbox-dev cg3 apertium-lex-tools apcalc
+    - sudo apt-get install apertium apertium-separable apertium-anaphora lttoolbox apertium-dev lttoolbox-dev cg3 cg3-dev apertium-lex-tools
     - wget https://github.com/apertium/apertium-eng/archive/master.zip
     - unzip master.zip
     - mv apertium-eng-master apertium-eng
@@ -15,6 +15,3 @@ before_install:
 script:
     - ./autogen.sh --with-lang1=./apertium-eng --with-lang2=./apertium-cat
     - make langs
-after_success:
-    - cd dev/testvoc
-    - ./testvoc.sh -e
