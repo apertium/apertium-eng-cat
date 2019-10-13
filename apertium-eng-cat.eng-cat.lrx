@@ -3605,6 +3605,32 @@
       <match lemma="enable" tags="vblex.pp"/>
     </or>
   </rule>
+  <rule weight="1">
+    <match lemma="be" tags="vbser.*">
+      <select lemma="estar" tags="vblex.*" />
+    </match>
+    <or>
+      <match tags="vblex.ger"/>
+      <match tags="vblex.*.ger"/>
+      <match tags="vbser.ger"/>
+    </or>
+  </rule>
+  <rule weight="1">
+    <match lemma="be" tags="vbser.*">
+      <select lemma="tenir" tags="vblex.*" />
+    </match>
+    <or>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or>
+      <match lemma="day" tags="n.pl"/>
+      <match lemma="week" tags="n.pl"/>
+      <match lemma="month" tags="n.pl"/>
+      <match lemma="year" tags="n.pl"/>
+    </or>
+    <match lemma="old" tags="adj.sint"/>
+  </rule>
   <rule weight="0.8">
     <match lemma="be" tags="vbser.*">
       <select lemma="ser" tags="vbser.*" />
