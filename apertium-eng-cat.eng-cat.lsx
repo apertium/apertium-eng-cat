@@ -753,48 +753,6 @@
       <p><l></l><r>not<s n="adv"/><j/></r></p>
       <par n="inf"/>
     </e>
-    <e lm="have" c="question reordering">
-      <p><l>have<s n="vbhaver"/><s n="pres"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>have<s n="vbhaver"/><s n="pres"/><s n="itg"/><j/></r></p>
-      <par n="pp"/>
-    </e>
-    <e lm="have" c="question reordering">
-      <p><l>have<s n="vbhaver"/><s n="pres"/><j/></l><r></r></p>
-      <p><l>not<s n="adv"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>have<s n="vbhaver"/><s n="pres"/><s n="itg"/><j/></r></p>
-      <p><l></l><r>not<s n="adv"/><j/></r></p>
-      <par n="pp"/>
-    </e>
-    <e lm="have" c="question reordering">
-      <p><l>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/><s n="itg"/><j/></r></p>
-      <par n="pp"/>
-    </e>
-    <e lm="have" c="question reordering">
-      <p><l>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/><j/></l><r></r></p>
-      <p><l>not<s n="adv"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>have<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/><s n="itg"/><j/></r></p>
-      <p><l></l><r>not<s n="adv"/><j/></r></p>
-      <par n="pp"/>
-    </e>
-    <e lm="have" c="question reordering">
-      <p><l>have<s n="vbhaver"/><s n="past"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>have<s n="vbhaver"/><s n="past"/><s n="itg"/><j/></r></p>
-      <par n="pp"/>
-    </e>
-    <e lm="have" c="question reordering">
-      <p><l>have<s n="vbhaver"/><s n="past"/><j/></l><r></r></p>
-      <p><l>not<s n="adv"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>have<s n="vbhaver"/><s n="past"/><s n="itg"/><j/></r></p>
-      <p><l></l><r>not<s n="adv"/><j/></r></p>
-      <par n="pp"/>
-    </e>
     <e lm="may" c="question reordering">
       <p><l>may<s n="vbmod"/><s n="pres"/><j/></l><r></r></p>
       <par n="SN-adv"/>
@@ -805,54 +763,6 @@
       <p><l>might<s n="vbmod"/><s n="past"/><j/></l><r></r></p>
       <par n="SN-adv"/>
       <p><l></l><r>might<s n="vbmod"/><s n="past"/><s n="itg"/><j/></r></p>
-      <par n="inf"/>
-    </e>
-    <e lm="shall" c="question reordering">
-      <p><l>shall<s n="vbmod"/><s n="pres"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>shall<s n="vbmod"/><s n="pres"/><s n="itg"/><j/></r></p>
-      <par n="inf"/>
-    </e>
-    <e lm="shall" c="question reordering">
-      <p><l>shall<s n="vbmod"/><s n="past"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>shall<s n="vbmod"/><s n="past"/><s n="itg"/><j/></r></p>
-      <par n="inf"/>
-    </e>
-    <e lm="shall" c="question reordering">
-      <p><l>shall<s n="vbmod"/><s n="past"/><j/></l><r></r></p>
-      <p><l>not<s n="adv"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>shall<s n="vbmod"/><s n="past"/><s n="itg"/><j/></r></p>
-      <p><l></l><r>not<s n="adv"/><j/></r></p>
-      <par n="inf"/>
-    </e>
-    <e lm="will" c="question reordering">
-      <p><l>will<s n="vbmod"/><s n="pres"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>will<s n="vbmod"/><s n="pres"/><s n="itg"/><j/></r></p>
-      <par n="inf"/>
-    </e>
-    <e lm="will" c="question reordering">
-      <p><l>will<s n="vbmod"/><s n="pres"/><j/></l><r></r></p>
-      <p><l>not<s n="adv"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>will<s n="vbmod"/><s n="pres"/><s n="itg"/><j/></r></p>
-      <p><l></l><r>not<s n="adv"/><j/></r></p>
-      <par n="inf"/>
-    </e>
-    <e lm="will" c="question reordering">
-      <p><l>will<s n="vbmod"/><s n="past"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>will<s n="vbmod"/><s n="past"/><s n="itg"/><j/></r></p>
-      <par n="inf"/>
-    </e>
-    <e lm="will" c="question reordering">
-      <p><l>will<s n="vbmod"/><s n="past"/><j/></l><r></r></p>
-      <p><l>not<s n="adv"/><j/></l><r></r></p>
-      <par n="SN-adv"/>
-      <p><l></l><r>will<s n="vbmod"/><s n="past"/><s n="itg"/><j/></r></p>
-      <p><l></l><r>not<s n="adv"/><j/></r></p>
       <par n="inf"/>
     </e>
 
