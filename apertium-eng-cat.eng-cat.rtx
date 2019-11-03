@@ -8,7 +8,7 @@ prpers: _.prn_type.person.gender.number ;
 adj: _.adj_type.gender.number ;
 num: _.gender.number ;
 num_digits: _ ;
-adv: _ ;
+adv: _.adv_type ;
 vblex: _.tense.person.number ;
 vbser: _.tense.person.number ;
 vbhaver: _.tense.person.number ;
@@ -22,7 +22,8 @@ SN: _.SN_det.person.gender.number ;
 SDet: _.det_type.gender.number ;
 SAdj: _.adj_type.gender.number ;
 SNum: _.gender.number ;
-SAdv: _ ;
+SAdv: _.adv_type ;
+AdvItg: _ ;
 SV: _.vb_type.vb_cnj.tense.person.number ;
 
 PV: _;
@@ -39,6 +40,7 @@ separable = sep ;
 det_type = def ind pos qnt dem itg ;
 adj_type = ind ord pos qnt itg ;
 prn_type = tn itg pro ;
+adv_type = itg ;
 np_type = al org top ant cog ;
 vb_type = vblex vbser vblike ;
 vb_cnj = cnj impers ;
@@ -142,7 +144,7 @@ SV ->   1: %vblex.*.pres
                 [$vb_cnj=cnj,$tense=pii]
                 { %1 } |
         1: %vblex.*.imp
-                [$vb_cnj=cnj]
+                [$vb_cnj=cnj,$person=p2,$number=pl]
                 { %1 } |
 
         2: vbser.*.pres %SV.vblex.impers.ger
@@ -277,21 +279,29 @@ SN SV -> 2: will@vbmod.pres SN %SV.*.impers.inf
                 { 2 _2 { %3 } } |
         2: shall@vbmod.past SN %SV.*.impers.inf
                 [$vb_cnj=cnj,$tense=cni]
-                { 2 _2 { %1 _1 3 } } ;
+                { 2 _2 { %1 _1 3 } } |
+
+        2: %SV SN.prnsubj
+                { 2 _1 { %1 } } ;
 
 
 
 SAdv -> 0: %adv
                 { %1 } |
-        0: SN ago@adv
+        0: SN %ago@adv
                 { fer@vblex.pri.p3.sg _1 1 } ;
 
 
 
+AdvItg -> 2: adv.itg
+                { 1 } ;
+
+
+
 PV ->   1: SN SV.*.cnj
-                { (if(1.SN_det not= prnsubj) [ 1 _1 ] ) 2[person=1.person,number=1.number] } |
+                { (if(1.SN_det not=prnsubj) [ 1 _1 ] ) 2[person=1.person,number=1.number] } |
         2: SN SV.*.cnj SAdj
-                { (if(1.SN_det not= prnsubj) [ 1 _1 ] ) 2[person=1.person,number=1.number] _2 3[gender=1.gender,number=1.number] } ;
+                { (if(1.SN_det not=prnsubj) [ 1 _1 ] ) 2[person=1.person,number=1.number] _2 3[gender=1.gender,number=1.number] } ;
 
 
 
