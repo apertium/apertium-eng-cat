@@ -149,14 +149,14 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/$(LANG2).rlx.bin
 	cp $< $@
 
 .deps/$(PREFIX1).cat.dix: .deps/$(PREFIX1).dix
-	python genvrdix.py cat $< >$@
+	apertium-genvrdix cat $< >$@
 
 .deps/$(PREFIX1).val_gva.dix: .deps/$(PREFIX1).dix
-	python genvrdix.py val_gva $< >$@
+	apertium-genvrdix val_gva $< >$@
 
 .deps/$(PREFIX1).val_uni.dix: .deps/$(PREFIX1).dix
-	python genvrdix.py val_uni $< >$@
-	
+	apertium-genvrdix val_uni $< >$@
+
 $(PREFIX1C).autobil.bin: .deps/$(PREFIX1).cat.dix
 	apertium-validate-dictionary $<
 	lt-comp --var-right=cat lr $< $@
@@ -170,10 +170,10 @@ $(PREFIX1U).autobil.bin: .deps/$(PREFIX1).val_uni.dix
 	lt-comp --var-right=val_uni lr $< $@
 
 .deps/$(PREFIX1).eng.dix: .deps/$(PREFIX1).dix
-	python genvrdix.py eng $< >$@
+	apertium-genvrdix eng $< >$@
 
 .deps/$(PREFIX1).eng_US.dix: .deps/$(PREFIX1).dix
-	python genvrdix.py eng_US $< >$@
+	apertium-genvrdix eng_US $< >$@
 
 $(PREFIX2GB).autobil.bin: .deps/$(PREFIX1).eng.dix
 	apertium-validate-dictionary $<
@@ -321,4 +321,3 @@ test: all
 	@echo "The house" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
-
