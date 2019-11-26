@@ -304,12 +304,3 @@ PV ->   1: SN SV.*.cnj
                 { (if(1.SN_det not=prnsubj) [ 1 _1 ] ) 2[person=1.person,number=1.number] _2 3[gender=1.gender,number=1.number] } ;
 
 
-
-
-
-
-FALLBACK: _;
-NONEXISTENT: _;
-FALLBACK -> SAdj cm NONEXISTENT {} ;
-FALLBACK -> SAdj cnjcoo NONEXISTENT {} ;
-FALLBACK -> SV SV NONEXISTENT {} ;
