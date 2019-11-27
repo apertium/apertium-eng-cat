@@ -288,10 +288,12 @@ apertium_eng_catdir=$(prefix)/share/apertium/$(BASENAME)/
 # Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
 apertium_eng_cat_DATA=	\
 	$(TARGETS_COMMON)				\
+	$(BASENAME).$(PREFIX1).arx          \
 	$(BASENAME).$(PREFIX1).t1x			\
 	$(BASENAME).$(PREFIX1).t2x			\
 	$(BASENAME).$(PREFIX1).t3x			\
 	$(BASENAME).$(PREFIX1).t4x			\
+	$(BASENAME).$(PREFIX2).arx          \
 	$(BASENAME).$(PREFIX2).t1x			\
 	$(BASENAME).$(PREFIX2).t2x			\
 	$(BASENAME).$(PREFIX2).t3x
