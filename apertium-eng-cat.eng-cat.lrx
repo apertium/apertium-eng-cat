@@ -1996,6 +1996,21 @@
     </match>
   </rule>
 
+  <rule weight="1.0">
+    <match lemma="right" tags="adj">
+      <select lemma="correcte" tags="adj" />
+    </match>
+    <or>
+      <match lemma="question" tags="n.*"/>
+      <match lemma="answer" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="right" tags="adj">
+      <select lemma="dret" tags="adj" />
+    </match>
+  </rule>
+
 
 <!-- Traduccions de preposicions -->
 
@@ -3523,6 +3538,19 @@
   <rule weight="0.8">
     <match lemma="meet" tags="vblex.*">
       <select lemma="conèixer" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="press" tags="vblex.*"/>
+    <match lemma="and" tags="cnjcoo"/>
+    <match lemma="hold" tags="vblex.*">
+      <select lemma="mantenir" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="hold" tags="vblex.*">
+      <select lemma="aguantar" tags="vblex.*" />
     </match>
   </rule>
 
