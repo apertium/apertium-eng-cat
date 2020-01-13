@@ -153,6 +153,31 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="tick" tags="vblex.*" />
+    <match lemma="box" tags="n.*">
+      <select lemma="casella" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="tick" tags="vblex.*" />
+    <or>
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <match lemma="box" tags="n.*">
+      <select lemma="casella" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="box" tags="n.*">
+      <select lemma="caixa" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
     <or>
       <match lemma="constitutional" tags="adj"/>
       <match lemma="god-given" tags="adj"/>
@@ -3598,6 +3623,18 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="clock" tags="n.*"/>
+    <match lemma="tick" tags="vblex.*">
+      <select lemma="fer# tic-tac" tags="vblex.*" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="tick" tags="vblex.*">
+      <select lemma="marcar" tags="vblex.*" />
+    </match>
+  </rule>
+
+  <rule weight="1.0">
     <match lemma="turn" tags="vblex.*">
       <select lemma="convertir" tags="vblex.pron.*" />
     </match>
@@ -3636,6 +3673,22 @@
   <rule weight="0.8">
     <match lemma="be" tags="vbser.*">
       <select lemma="ser" tags="vbser.*" />
+    </match>
+  </rule>
+
+
+<!-- Regles de pronoms -->
+
+  <rule weight="1.0">
+    <match lemma="what" tags="prn.itg.*">
+      <select lemma="quin" tags="prn.itg.*" />
+    </match>
+    <match lemma="be" tags="vbser.*"/>
+    <match lemma="the" tags="det.def.*"/>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="what" tags="prn.itg.*">
+      <select lemma="què" tags="prn.itg.*" />
     </match>
   </rule>
 
