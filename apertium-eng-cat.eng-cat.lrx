@@ -1950,6 +1950,24 @@
 <!-- Traduccions de substantius -->
 
   <rule weight="0.8">
+    <match lemma="collection" tags="n.*">
+      <select lemma="col·lecció" tags="n.*" />
+    </match>
+  </rule>
+  <rule weight="1.0">  
+    <match lemma="garbage" tags="n.*"/>
+    <match lemma="collection" tags="n.*">
+      <select lemma="recollida" tags="n.*" />
+    </match>
+  </rule>
+  <rule weight="1.0">  
+    <match lemma="tax" tags="n.*"/>
+    <match lemma="collection" tags="n.*">
+      <select lemma="cobrament" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
     <match lemma="question" tags="n.*">
       <select lemma="pregunta" tags="n.*" />
     </match>
@@ -2001,9 +2019,6 @@
       <select lemma="fosc" tags="adj" />
     </match>
   </rule>
-
-
-<!-- Traduccions d'adjectius -->
 
   <rule weight="1">
     <match lemma="nice" tags="adj.sint">
@@ -3553,6 +3568,12 @@
       <match lemma="money" tags="n.*"/>
       <match lemma="fortune" tags="n.*"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="make" tags="vblex.*">
+      <select lemma="prendre" tags="vblex.*" />
+    </match>
+    <match lemma="decision" tags="n.*"/>
   </rule>
   <rule weight="0.8">
     <match lemma="make" tags="vblex.*">

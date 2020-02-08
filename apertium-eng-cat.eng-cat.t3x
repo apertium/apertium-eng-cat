@@ -91,7 +91,7 @@
       <cat-item tags="SV.reporting.pii*"/>
       <cat-item lemma="going_to_inf"  tags="SV.*"/>
       <cat-item lemma="pro_going_to_inf"  tags="SV.*"/>
-
+      <cat-item lemma="voler_inf" tags="SV.*"/>
 </def-cat>
 
     <def-cat n="SVGER"><!-- BCN. Per ara no entren els compostos amb have (having won)-->
