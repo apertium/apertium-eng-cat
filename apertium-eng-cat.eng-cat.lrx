@@ -1950,6 +1950,29 @@
 <!-- Traduccions de substantius -->
 
   <rule weight="0.8">
+    <match lemma="buffer" tags="n.*">
+      <select lemma="para-xocs" tags="n.*" />
+    </match>
+  </rule>
+  <rule weight="1.0">  
+    <or>
+      <match lemma="audio" tags="n.*"/>
+      <match lemma="data" tags="n.*"/>
+      <match lemma="device" tags="n.*"/>
+      <match lemma="frame" tags="n.*"/>
+      <match lemma="persistent" tags="adj"/>
+      <match lemma="software" tags="n.*"/>
+      <match lemma="text" tags="n.*"/>
+      <match lemma="texture" tags="n.*"/>
+      <match lemma="video" tags="n.*"/>
+      <match lemma="volatile" tags="adj"/>
+    </or>
+    <match lemma="buffer" tags="n.*">
+      <select lemma="memòria intermèdia" tags="n.*" />
+    </match>
+  </rule>
+
+  <rule weight="0.8">
     <match lemma="collection" tags="n.*">
       <select lemma="col·lecció" tags="n.*" />
     </match>
