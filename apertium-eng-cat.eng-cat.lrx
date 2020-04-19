@@ -1,8 +1,5 @@
 <rules>
-  <!--
-    This rule chooses "energía" as the translation of "power" when it is preceded by "wind".
-    Add your own rules within <rule> here, using the resources below as a guide
-  -->
+
   <rule>
     <match lemma="bat" tags="n.*"><select lemma="ratpenat" tags="n.*"/></match>
   </rule>
@@ -700,7 +697,7 @@
     </or>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="0.8">
     <match lemma="play" tags="vblex.*">
       <select lemma="jugar" tags="vblex.*" />
     </match>
@@ -1900,48 +1897,10 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="start" tags="vblex.*">
-      <select lemma="començar" tags="vblex.*" />
-    </match>
-    <or>
-      <match lemma="to" tags="pr"/>
-      <match tags="vblex.ger"/>
-      <match tags="vblex.subs"/>
-    </or>
-  </rule>
-
-  <rule weight="1.0">
-    <match lemma="begin" tags="vblex.*">
-      <select lemma="començar" tags="vblex.*" />
-    </match>
-    <or>
-      <match lemma="to" tags="pr"/>
-      <match tags="vblex.ger"/>
-      <match tags="vblex.subs"/>
-    </or>
-  </rule>
-
-  <rule weight="1.0">
-    <match lemma="end" tags="vblex.*">
-      <select lemma="acabar" tags="vblex.*" />
-    </match>
-    <or>
-      <match tags="vblex.ger"/>
-      <match tags="vblex.subs"/>
-    </or>
-  </rule>
-
-  <rule weight="1.0">
     <match lemma="Ferdinand" tags="np.ant.m.sg">
       <select lemma="Fernão" tags="np.ant.m.sg" />
     </match>
     <match lemma="Magellan" tags="np.cog.sg"/>
-  </rule>
-
-  <rule weight="0.8">
-    <match lemma="Ferdinand" tags="np.ant.m.sg">
-      <select lemma="Ferdinand" tags="np.ant.m.sg" />
-    </match>
   </rule>
 
 
@@ -1949,11 +1908,6 @@
 
 <!-- Traduccions de substantius -->
 
-  <rule weight="0.8">
-    <match lemma="buffer" tags="n.*">
-      <select lemma="para-xocs" tags="n.*" />
-    </match>
-  </rule>
   <rule weight="1.0">  
     <or>
       <match lemma="audio" tags="n.*"/>
@@ -1972,11 +1926,6 @@
     </match>
   </rule>
 
-  <rule weight="0.8">
-    <match lemma="collection" tags="n.*">
-      <select lemma="col·lecció" tags="n.*" />
-    </match>
-  </rule>
   <rule weight="1.0">  
     <match lemma="garbage" tags="n.*"/>
     <match lemma="collection" tags="n.*">
@@ -1990,21 +1939,6 @@
     </match>
   </rule>
 
-  <rule weight="0.8">
-    <match lemma="question" tags="n.*">
-      <select lemma="pregunta" tags="n.*" />
-    </match>
-  </rule>
-  <rule weight="0.8">
-    <match lemma="tear" tags="n.*">
-      <select lemma="llàgrima" tags="n.*" />
-    </match>
-  </rule>
-  <rule weight="0.8">
-    <match lemma="request" tags="n.*">
-      <select lemma="sol·licitud" tags="n.*" />
-    </match>
-  </rule>
   <rule weight="1.0">  
     <or>
       <match lemma="white" tags="adj.sint"/>
@@ -2016,11 +1950,7 @@
       <select lemma="fons" tags="n.*" />
     </match>
   </rule>
-  <rule weight="0.8">
-    <match lemma="share" tags="n.*">
-      <select lemma="participació" tags="n.*" />
-    </match>
-  </rule>
+
   <rule weight="1.0">  
     <match lemma="share" tags="n.*">
       <select lemma="compartició" tags="n.*" />
@@ -2043,30 +1973,15 @@
       <match lemma="weather" tags="n.*"/>
     </or>
   </rule> -->
-  <rule weight="0.8">
-    <match lemma="bad" tags="adj.sint">
-      <select lemma="dolent" tags="adj" />
-    </match>
-  </rule>
-  <rule weight="0.8">
-    <match lemma="bad" tags="adj.sint">
-      <select lemma="roí" tags="adj" />
-    </match>
-  </rule>
 
-  <rule weight="1">
+  <rule weight="1.0">
     <match lemma="dark" tags="adj.sint">
       <select lemma="morè" tags="adj" />
     </match>
   <match lemma="skin" tags="n.*"/>
   </rule>
-  <rule weight="0.8">
-    <match lemma="dark" tags="adj.sint">
-      <select lemma="fosc" tags="adj" />
-    </match>
-  </rule>
 
-  <rule weight="1">
+  <rule weight="1.0">
     <match lemma="nice" tags="adj.sint">
       <select lemma="encantat" tags="adj" />
     </match>
@@ -2075,11 +1990,6 @@
       <match tags="vblex.inf"/>
       <match tags="vbser.inf"/>
     </or>
-  </rule>
-  <rule weight="0.8">
-    <match lemma="nice" tags="adj.sint">
-      <select lemma="bo" tags="adj" />
-    </match>
   </rule>
 
   <rule weight="1.0">
@@ -2091,9 +2001,13 @@
       <match lemma="answer" tags="n.*"/>
     </or>
   </rule>
-  <rule weight="0.8">
+  <rule weight="1.0">
+    <match tags="vbser.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
     <match lemma="right" tags="adj">
-      <select lemma="dret" tags="adj" />
+      <select lemma="correcte" tags="adj" />
     </match>
   </rule>
 
@@ -2153,28 +2067,16 @@
     <match lemma="for" tags="pr">
       <select lemma="durant" tags="pr" />
     </match>
-    <or>
-      <match lemma="hour" tags="n.*"/>
-      <match lemma="minute" tags="n.*"/>
-      <match lemma="second" tags="n.*"/>
-      <match lemma="week" tags="n.*"/>
-      <match lemma="month" tags="n.*"/>
-      <match lemma="year" tags="n.*"/>
-      <match lemma="decade" tags="n.*"/>
-      <match lemma="century" tags="n.*"/>
-    </or>
-  </rule>
-  <rule weight="1">
-    <match lemma="for" tags="pr">
-      <select lemma="durant" tags="pr" />
-    </match>
-    <or>
-      <match tags="adj.sint"/>
-      <match tags="adj"/>
-      <match tags="det.*"/>
-      <match tags="num.*"/>
-      <match tags="num"/>
-    </or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="adj.sint"/>
+        <match tags="adj.sint.*"/>
+        <match tags="adj"/>
+        <match tags="det.*"/>
+        <match tags="num.*"/>
+        <match tags="num"/>
+      </or>
+    </repeat>
     <or>
       <match lemma="hour" tags="n.*"/>
       <match lemma="minute" tags="n.*"/>
@@ -2217,28 +2119,24 @@
       <select lemma="en" tags="pr" />
     </match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="run# out" tags="vblex.*"/>
+    <match lemma="of" tags="pr">
+      <select lemma="sense" tags="pr" />
+    </match>
+  </rule>
+  <rule weight="0.8">
+    <match lemma="of" tags="pr">
+      <select lemma="de" tags="pr" />
+    </match>
+  </rule>
 
 
 <!-- Traduccions de verbs -->
 
   <rule weight="0.8">
-    <match lemma="abduct" tags="vblex.*">
-      <select lemma="segrestar" tags="vblex.*" />
-    </match>
-  </rule>
-  <rule weight="0.8">
-    <match lemma="abridge" tags="vblex.*">
-      <select lemma="resumir" tags="vblex.*" />
-    </match>
-  </rule>
-  <rule weight="0.8">
     <match lemma="abuse" tags="vblex.*">
       <select lemma="abusar" tags="vblex.*" />
-    </match>
-  </rule>
-  <rule weight="0.8">
-    <match lemma="accomplish" tags="vblex.*">
-      <select lemma="acomplir" tags="vblex.*" />
     </match>
   </rule>
   <rule weight="0.8">
@@ -2269,11 +2167,6 @@
   <rule weight="0.8">
     <match lemma="address" tags="vblex.*">
       <select lemma="adreçar" tags="vblex.*" />
-    </match>
-  </rule>
-  <rule weight="0.8">
-    <match lemma="add" tags="vblex.*">
-      <select lemma="afegir" tags="vblex.*" />
     </match>
   </rule>
   <rule weight="0.8">
@@ -3568,6 +3461,38 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="start" tags="vblex.*">
+      <select lemma="començar" tags="vblex.*" />
+    </match>
+    <or>
+      <match lemma="to" tags="pr"/>
+      <match tags="vblex.ger"/>
+      <match tags="vblex.subs"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="begin" tags="vblex.*">
+      <select lemma="començar" tags="vblex.*" />
+    </match>
+    <or>
+      <match lemma="to" tags="pr"/>
+      <match tags="vblex.ger"/>
+      <match tags="vblex.subs"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="end" tags="vblex.*">
+      <select lemma="acabar" tags="vblex.*" />
+    </match>
+    <or>
+      <match tags="vblex.ger"/>
+      <match tags="vblex.subs"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
     <match lemma="head" tags="vblex.*">
       <select lemma="dirigir" tags="vblex.pron.*" />
     </match>
@@ -3640,6 +3565,7 @@
       <select lemma="mantenir" tags="vblex.*" />
     </match>
   </rule>
+
   <rule weight="0.8">
     <match lemma="hold" tags="vblex.*">
       <select lemma="aguantar" tags="vblex.*" />
@@ -3690,6 +3616,13 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="take" tags="vblex.*">
+      <select lemma="prendre" tags="vblex.*" />
+    </match>
+    <match lemma="note" tags="n.*"/>
+  </rule>
+
+  <rule weight="1.0">
     <match lemma="clock" tags="n.*"/>
     <match lemma="tick" tags="vblex.*">
       <select lemma="fer# tic-tac" tags="vblex.*" />
@@ -3728,7 +3661,7 @@
     </match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="1.0">
     <match lemma="be" tags="vbser.*">
       <select lemma="estar" tags="vblex.*" />
     </match>
@@ -3736,11 +3669,6 @@
       <match lemma="disable" tags="vblex.pp"/>
       <match lemma="enable" tags="vblex.pp"/>
     </or>
-  </rule>
-  <rule weight="0.8">
-    <match lemma="be" tags="vbser.*">
-      <select lemma="ser" tags="vbser.*" />
-    </match>
   </rule>
 
 
@@ -3753,16 +3681,11 @@
     <match lemma="be" tags="vbser.*"/>
     <match lemma="the" tags="det.def.*"/>
   </rule>
-  <rule weight="0.8">
-    <match lemma="what" tags="prn.itg.*">
-      <select lemma="què" tags="prn.itg.*" />
-    </match>
-  </rule>
 
 
 <!-- Regles especials -->
 
-  <rule weight="1"><!-- sharing > compartició -->
+  <rule weight="1.0"><!-- sharing > compartició -->
     <match tags="vblex.subs">
       <select tags="n.*" />
     </match>
