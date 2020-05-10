@@ -2072,6 +2072,7 @@
         <match tags="adj.sint"/>
         <match tags="adj.sint.*"/>
         <match tags="adj"/>
+        <match tags="adv"/>
         <match tags="det.*"/>
         <match tags="num.*"/>
         <match tags="num"/>
