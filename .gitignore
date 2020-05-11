@@ -13,6 +13,8 @@
 /install-sh
 /missing
 /modes
+/.test-mt
+/.test-ref
 /*.mode
 /.d
 /.deps
