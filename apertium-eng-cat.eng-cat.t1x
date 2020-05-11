@@ -26140,6 +26140,39 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
       </action>
     </rule>
 
+    <rule comment="paraula deconeguda + genitiu (la tractem com a SN)">
+      <pattern>
+        <pattern-item n="descon"/>
+        <pattern-item n="genitiu"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.NODET"/></tag>
+              <tag><lit-tag v="m"/></tag>
+              <tag><lit-tag v="sg"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+          <b/> <!-- Separa el genitiu del chunk anterior -->
+          <chunk name="pr">
+            <tags>
+              <tag><lit-tag v="GEN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
  <rule comment="THERE">
       <pattern>
     <pattern-item n="there"/>
