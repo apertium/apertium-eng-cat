@@ -159,15 +159,15 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/$(LANG2).rlx.bin
 
 $(PREFIX1C).autobil.bin: .deps/$(PREFIX1).cat.dix
 	apertium-validate-dictionary $<
-	lt-comp --var-right=cat lr $< $@
+	lt-comp -r cat lr $< $@
 
 $(PREFIX1V).autobil.bin: .deps/$(PREFIX1).val_gva.dix
 	apertium-validate-dictionary $<
-	lt-comp --var-right=val_gva lr $< $@
+	lt-comp -r val_gva lr $< $@
 
 $(PREFIX1U).autobil.bin: .deps/$(PREFIX1).val_uni.dix
 	apertium-validate-dictionary $<
-	lt-comp --var-right=val_uni lr $< $@
+	lt-comp -r val_uni lr $< $@
 
 .deps/$(PREFIX1).eng.dix: .deps/$(PREFIX1).dix
 	apertium-genvrdix eng $< >$@
@@ -177,11 +177,11 @@ $(PREFIX1U).autobil.bin: .deps/$(PREFIX1).val_uni.dix
 
 $(PREFIX2GB).autobil.bin: .deps/$(PREFIX1).eng.dix
 	apertium-validate-dictionary $<
-	lt-comp --var-left=eng rl $< $@
+	lt-comp -l eng rl $< $@
 
 $(PREFIX2US).autobil.bin: .deps/$(PREFIX1).eng_US.dix
 	apertium-validate-dictionary $<
-	lt-comp --var-left=eng_US rl $< $@
+	lt-comp -l eng_US rl $< $@
 
 
 ###############################################################################
