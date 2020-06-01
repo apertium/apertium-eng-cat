@@ -68,6 +68,36 @@
   </rule>
 
 
+  <!-- Determinants -->
+
+  <rule lm="any">
+    <match lemma="not" tags="adv"/>
+    <repeat from="1" upto="2">
+      <or>
+        <match tags="vblex.*"/>
+        <match tags="vbser.*"/>
+        <match tags="vbhaver.*"/>
+      </or>
+    </repeat>
+    <match lemma="any" tags="det.ind.*"><select lemma="cap" tags="det.ind.*"/></match>
+  </rule>
+
+
+  <!-- Pronoms -->
+
+  <rule lm="any">
+    <match lemma="not" tags="adv"/>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="vblex.*"/>
+        <match tags="vbser.*"/>
+        <match tags="vbhaver.*"/>
+      </or>
+    </repeat>
+    <match lemma="any" tags="prn.qnt.*"><select lemma="cap" tags="prn.tn.*"/></match>
+  </rule>
+
+
   <!-- Substantius -->
 
   <rule lm="background">

@@ -162,6 +162,7 @@
     <def-cat n="verbimp">
       <cat-item tags="vblex.imp"/>
       <cat-item tags="vblex.sep.imp"/>
+      <cat-item tags="vbser.imp"/>
     </def-cat>
 
     <def-cat n="verbdoimp">
