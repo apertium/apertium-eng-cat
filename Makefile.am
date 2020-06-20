@@ -50,7 +50,8 @@ TARGETS_COMMON =		\
 	$(PREFIX1).t2x.bin	\
 	$(PREFIX1).t3x.bin	\
 	$(PREFIX1).t4x.bin	\
-	$(PREFIX1).autosep.bin	\
+	$(PREFIX1).autoseq.bin	\
+	$(PREFIX1).revautoseq.bin	\
 	$(PREFIX2).automorf.bin	\
 	$(PREFIX2).prob		\
 	$(PREFIX2).rlx.bin	\
@@ -64,7 +65,8 @@ TARGETS_COMMON =		\
 	$(PREFIX2).t1x.bin	\
 	$(PREFIX2).t2x.bin	\
 	$(PREFIX2).t3x.bin	\
-	$(PREFIX2).autosep.bin
+	$(PREFIX2).autoseq.bin	\
+	$(PREFIX2).revautoseq.bin
 
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
@@ -198,11 +200,17 @@ $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
 ## Reordering separable/discontiguous multiwords
 ###############################################################################
 
-$(PREFIX1).autosep.bin: $(BASENAME).$(PREFIX1).lsx
+$(PREFIX1).autoseq.bin: $(BASENAME).$(PREFIX1).lsx
 	lsx-comp lr $< $@
 
-$(PREFIX2).autosep.bin: $(BASENAME).$(PREFIX2).lsx
+$(PREFIX2).autoseq.bin: $(BASENAME).$(PREFIX2).lsx
 	lsx-comp lr $< $@
+
+$(PREFIX1).revautoseq.bin: $(BASENAME).$(PREFIX2).lsx
+	lsx-comp rl $< $@
+
+$(PREFIX2).revautoseq.bin: $(BASENAME).$(PREFIX1).lsx
+	lsx-comp rl $< $@
 
 ###############################################################################
 ## Structural transfer rules
