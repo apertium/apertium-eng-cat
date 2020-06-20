@@ -1178,7 +1178,7 @@
               <test>
                 <equal>
                   <clip pos="1" side="tl" part="tags"/>
-                  <lit-tag v="prn.tn.p1.mf.sg.min"/>
+                  <lit-tag v="prn.tn.p1.mf.sg"/>
                 </equal>
               </test>
               <let>

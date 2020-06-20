@@ -83,6 +83,14 @@
   </rule>
 
 
+  <!-- Preposicions -->
+
+  <rule lm="from">
+    <match lemma="free" tags="adj.sint"/>
+    <match lemma="from" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+
+
   <!-- Pronoms -->
 
   <rule lm="any">

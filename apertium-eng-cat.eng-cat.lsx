@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary type="separable">
   <alphabet>
     ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyziǎšěřčžǔůýệướễăạảðÐđ
@@ -22,6 +23,7 @@
     <sdef n="pp"/>
     <sdef n="pr"/>
     <sdef n="prn"/>
+    <sdef n="subj"/>
     <sdef n="v"/>
     <sdef n="vblex"/>
     <sdef n="vbser"/>
@@ -73,6 +75,9 @@
     <pardef n="prn">
       <e><i><w/><s n="prn"/><t/><j/></i></e>
     </pardef>
+    <pardef n="prnpers">
+      <e><i><w/><s n="prn"/><s n="subj"/><t/><j/></i></e>
+    </pardef>
     <pardef n="modifier-n">
       <e><par n="adj"/><par n="n"/></e>
       <e><par n="adj"/><par n="adj"/><par n="n"/></e>
@@ -115,9 +120,7 @@
     <pardef n="person">
       <e><par n="np"/></e>
       <e><par n="np"/><par n="np"/></e>
-      <e><par n="prn"/></e>
-      <e><par n="modifier-n"/></e>
-      <e><par n="det-modifier-n"/></e>
+      <e><par n="prnpers"/></e>
     </pardef>
     <pardef n="SA">
       <e><par n="adj"/><par n="cnjcoo"/><par n="adj"/></e>
@@ -193,6 +196,28 @@
       <p><l>be<s n="vbser"/></l><r>be<g><b/>oppose</g><s n="vbser"/><s n="sep"/></r></p><i><t/><j/></i>
       <par n="SAdv"/>
       <p><l>oppose<t/><b/>to<s n="pr"/></l><r>to<s n="pr"/></r></p><i><j/></i>
+    </e>
+    <e lm="be right" r="LR" c="tenir raó">
+      <par n="person"/>
+      <p><l>be<s n="vbser"/></l><r>be<g><b/>right</g><s n="vblex"/></r></p><i><t/><j/></i>
+      <par n="SAdv"/>
+      <p><l>right<t/><j/></l><r></r></p>
+    </e>
+    <e lm="be right" r="LR" c="tenir raó">
+      <par n="person"/>
+      <p><l>be<s n="vbser"/></l><r>be<g><b/>right</g><s n="vblex"/></r></p><i><t/><j/></i>
+      <p><l>right<t/><j/></l><r></r></p>
+    </e>
+    <e lm="be wrong" r="LR" c="equivocar-se">
+      <par n="person"/>
+      <p><l>be<s n="vbser"/></l><r>be<g><b/>wrong</g><s n="vblex"/></r></p><i><t/><j/></i>
+      <p><l>wrong<t/><j/></l><r></r></p>
+    </e>
+    <e lm="be wrong" r="LR" c="equivocar-se">
+      <par n="person"/>
+      <p><l>be<s n="vbser"/></l><r>be<g><b/>wrong</g><s n="vblex"/></r></p><i><t/><j/></i>
+      <par n="SAdv"/>
+      <p><l>wrong<t/><j/></l><r></r></p>
     </e>
     <e lm="blow out" c="apagar">
       <p><l>blow<s n="vblex"/></l><r>blow<g><b/>out</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
@@ -512,6 +537,11 @@
     </e>
     <e lm="take off" c="quitarse">
       <p><l>take<s n="vblex"/></l><r>take<g><b/>off</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
+      <par n="SN"/>
+      <p><l>off<t/><j/></l><r></r></p>
+    </e>
+    <e r="RL" lm="take off" c="quitarse">
+      <p><l>take<s n="vblex"/></l><r>take<s n="vblex"/><s n="sep"/><g><b/>off</g></r></p><i><t/><j/></i>
       <par n="SN"/>
       <p><l>off<t/><j/></l><r></r></p>
     </e>

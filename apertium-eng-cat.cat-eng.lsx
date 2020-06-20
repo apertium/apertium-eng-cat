@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary type="separable">
   <alphabet>
     ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyziǎšěřčžǔůýệướễăạảðÐđ
@@ -46,11 +47,6 @@
     </pardef>
   </pardefs>
   <section id="main" type="standard">
-
-    <e lm="topònims amb article">
-      <p><l>el<s n="det"/><s n="def"/><t/><j/></l><r></r></p>
-      <par n="toponim-article"/>
-    </e>
 
   </section>
 </dictionary>
