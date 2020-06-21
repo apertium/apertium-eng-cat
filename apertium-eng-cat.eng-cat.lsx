@@ -24,6 +24,7 @@
     <sdef n="pr"/>
     <sdef n="prn"/>
     <sdef n="subj"/>
+    <sdef n="obj"/>
     <sdef n="v"/>
     <sdef n="vblex"/>
     <sdef n="vbser"/>
@@ -77,6 +78,7 @@
     </pardef>
     <pardef n="prnpers">
       <e><i><w/><s n="prn"/><s n="subj"/><t/><j/></i></e>
+      <e><i><w/><s n="prn"/><s n="obj"/><t/><j/></i></e>
     </pardef>
     <pardef n="modifier-n">
       <e><par n="adj"/><par n="n"/></e>
@@ -133,6 +135,8 @@
     </pardef>
     <pardef n="SN">
       <e><par n="n"/></e>
+      <e><par n="modifier-n"/></e>
+      <e><par n="det-modifier-n"/></e>
       <e><par n="num"/></e>
       <e><par n="person"/></e>
       <e><par n="n"/><par n="gen"/><par n="n"/></e>
@@ -254,6 +258,11 @@
       <par n="SN"/>
       <p><l>up<t/><j/></l><r></r></p>
     </e>
+    <e lm="burn down" c="calar foc">
+      <p><l>burn<s n="vblex"/></l><r>burn<g><b/>down</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
+      <par n="SN"/>
+      <p><l>down<t/><j/></l><r></r></p>
+    </e>
     <e lm="call off" c="suspender, cancelar">
       <p><l>call<s n="vblex"/></l><r>call<g><b/>off</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
       <par n="SN"/>
@@ -274,7 +283,7 @@
       <par n="SN"/>
       <p><l>in<t/><j/></l><r></r></p>
     </e>
-    <e lm="check out" c="sacar">
+    <e lm="check out" c="donar un cop d'ull">
       <p><l>check<s n="vblex"/></l><r>check<g><b/>out</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
       <par n="SN"/>
       <p><l>out<t/><j/></l><r></r></p>
@@ -288,6 +297,12 @@
       <p><l>coil<s n="vblex"/></l><r>coil<g><b/>up</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
       <par n="SN"/>
       <p><l>up<t/><j/></l><r></r></p>
+    </e>
+    <e lm="cry sbd's eyes out" c="plorar com una magdalena">
+      <p><l>cry<s n="vblex"/></l><r>cry<g><b/>sbd's<b/>eyes<b/>out</g><s n="vblex"/></r></p><i><t/><j/></i>
+      <p><l><w/><s n="det"/><s n="pos"/><t/><j/></l><r></r></p>
+      <p><l>eye<s n="n"/><s n="pl"/></l><r></r></p>
+      <p><l>out<s n="adv"/><j/></l><r></r></p>
     </e>
     <e lm="depend on" c="depender de">
       <p><l>depend<s n="vblex"/></l><r>depend<g><b/>on</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
@@ -410,6 +425,11 @@
       <par n="SN"/>
       <p><l>up<t/><j/></l><r></r></p>
     </e>
+    <e lm="make sbd want" c="fer venir ganes">
+      <p><l>make<s n="vblex"/></l><r>make<g><b/>sbd<b/>want</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
+      <par n="person"/>
+      <p><l>want<t/><j/></l><r></r></p>
+    </e>
     <e lm="move away" c="quitar">
       <p><l>move<s n="vblex"/></l><r>move<g><b/>away</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
       <par n="SN"/>
@@ -464,6 +484,11 @@
       <p><l>put<s n="vblex"/></l><r>put<g><b/>off</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
       <par n="SN"/>
       <p><l>off<t/><j/></l><r></r></p>
+    </e>
+    <e lm="put on" c="posar-se">
+      <p><l>put<s n="vblex"/></l><r>put<g><b/>on</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>
+      <par n="SN"/>
+      <p><l>on<t/><j/></l><r></r></p>
     </e>
     <e lm="roll up" c="enrollar">
       <p><l>roll<s n="vblex"/></l><r>roll<g><b/>up</g><s n="vblex"/><s n="sep"/></r></p><i><t/><j/></i>

@@ -85,9 +85,17 @@
 
   <!-- Preposicions -->
 
+  <rule lm="about">
+    <match lemma="care" tags="vblex.*"/>
+    <match lemma="about" tags="pr"><select lemma="per" tags="pr"/></match>
+  </rule>
   <rule lm="from">
     <match lemma="free" tags="adj.sint"/>
     <match lemma="from" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+  <rule lm="to">
+    <match lemma="relate" tags="vblex.*"/>
+    <match lemma="to" tags="pr"><select lemma="amb" tags="pr"/></match>
   </rule>
 
 
@@ -108,6 +116,10 @@
 
   <!-- Substantius -->
 
+  <rule lm="assembly">
+    <match lemma="assembly" tags="n.*"><select lemma="producció" tags="n.*"/></match>
+    <match lemma="plant" tags="n.*"/>
+  </rule>
   <rule lm="background">
     <or>
       <match lemma="white" tags="adj.sint"/>
@@ -118,8 +130,8 @@
     <match lemma="background" tags="n.*"><select lemma="fons" tags="n.*"/></match>
   </rule>
   <rule lm="bat">
-    <match lemma="baseball"  tags="n.*"/>
-    <match lemma="bat" tags="n.*"><select lemma="bat"  tags="n.*"/></match>
+    <match lemma="baseball" tags="n.*"/>
+    <match lemma="bat" tags="n.*"><select lemma="bat" tags="n.*"/></match>
   </rule>
   <rule lm="buffer">  
     <or>
@@ -136,6 +148,14 @@
     </or>
     <match lemma="buffer" tags="n.*"><select lemma="memòria intermèdia" tags="n.*"/></match>
   </rule>
+  <rule lm="bunch">
+    <match lemma="bunch" tags="n.*"><select lemma="ram" tags="n.*"/></match>
+    <match lemma="of" tags="pr"/>
+    <or>
+      <match lemma="flower" tags="n.*"/>
+      <match lemma="rose" tags="n.*"/>
+    </or>
+  </rule>
   <rule lm="collection">
     <match lemma="tax" tags="n.*"/>
     <match lemma="collection" tags="n.*"><select lemma="cobrament" tags="n.*"/></match>
@@ -147,6 +167,15 @@
   <rule lm="crane">
     <match lemma="bird"  tags="n.*"/>
     <match lemma="crane" tags="n.*"><select lemma="gruid" tags="n.*"/></match>
+  </rule>
+  <rule lm="cup">
+    <match lemma="cup" tags="n.*"><select lemma="got" tags="n.*"/></match>
+    <match lemma="of" tags="pr"/>
+    <match lemma="water" tags="n.*"/>
+  </rule>
+  <rule lm="gift">
+    <match lemma="gift" tags="n.*"><select lemma="regal" tags="n.*"/></match>
+    <match lemma="shop" tags="n.*"/>
   </rule>
   <rule lm="nail">
     <or>
@@ -182,6 +211,33 @@
     <match lemma="union" tags="n.*"><select lemma="sindicat" tags="n.*"/></match>
   </rule>
 
+
+<!-- Verbs -->
+
+  <rule lm="get">
+    <match lemma="get" tags="vblex.*"><select lemma="arribar" tags="vblex.*"/></match>
+    <match lemma="where" tags="adv"/>
+  </rule>
+  <rule lm="guess">
+    <match lemma="prpers" tags="prn.subj.p1.mf.*"/>
+    <match lemma="guess" tags="vblex.*"><select lemma="suposar" tags="vblex.*"/></match>
+  </rule>
+  <rule lm="join">
+    <match lemma="join" tags="vblex.*"><select lemma="acompanyar" tags="vblex.*"/></match>
+    <match lemma="prpers" tags="prn.obj.p1.mf.*"/>
+  </rule>
+  <rule lm="relate">
+    <match lemma="relate" tags="vblex.*"><select lemma="relacionar" tags="vblex.*"/></match>
+    <match lemma="to" tags="pr"/>
+  </rule>
+  <rule lm="wave">
+    <or>
+      <match lemma="prpers" tags="prn.subj.*"/>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+    </or>
+    <match lemma="wave" tags="vblex.*"><select lemma="saludar" tags="vblex.*"/></match>
+  </rule>
 
 
 
@@ -2703,6 +2759,15 @@
   <rule weight="1.0">
     <match lemma="take" tags="vblex.*"><select lemma="prendre" tags="vblex.*"/></match>
     <match lemma="note" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="take" tags="vblex.*"><select lemma="fer" tags="vblex.*"/></match>
+    <or>
+      <match lemma="pic" tags="n.*"/>
+      <match lemma="picture" tags="n.*"/>
+      <match lemma="photo" tags="n.*"/>
+      <match lemma="shot" tags="n.*"/>
+    </or>
   </rule>
 
   <rule weight="1.0">
