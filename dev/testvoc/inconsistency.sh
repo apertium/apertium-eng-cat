@@ -102,8 +102,11 @@ if [[ $MONODIX != "auto" ]]; then
 else
     MONODIX="$LANG1DIR/apertium-$LANG1.$LANG1.dix"
     if ! [[ -e $MONODIX ]]; then
-        echo "Monolingual dictionary ($MONODIX) not found."
-        exit 1
+        MONODIX="$LANG1DIR/.deps/apertium-$LANG1.$LANG1.dix"
+        if ! [[ -e $MONODIX ]]; then
+            echo "Monolingual dictionary ($MONODIX) not found."
+            exit 1
+        fi
     fi
 fi
 
