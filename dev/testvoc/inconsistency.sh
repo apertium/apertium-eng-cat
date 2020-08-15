@@ -35,8 +35,11 @@ while getopts "et" opt; do
 done
 
 expand_poly () {
-    sed 's/>\//>\/\//g' | sed 's/<sent>\/\//<sent>\/~\//g' > $POLY1
-    while grep -q "//" $POLY1; do 
+    sed 's/>\/\([^/]\)/>\/\/\1/g' | sed 's/<sent>\/\//<sent>\/~\//g' > $POLY1
+    for (( i=0; i<50; i++ )) do  # This runs for a limited number of iterations to avoid endless loops
+        if ! grep -q "//" $POLY; then
+            break
+        fi
         cat $POLY1 | 
         awk '# This program expands polysemic entries into multiple lines
         # so each possibility is tested during testvoc. Each time
