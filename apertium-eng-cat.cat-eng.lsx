@@ -14,6 +14,7 @@
     <sdef n="def"/>
     <sdef n="m"/>
     <sdef n="sg"/>
+    <sdef n="test"/>
   </sdefs>
   <pardefs>
     <pardef n="adj">
@@ -47,7 +48,13 @@
     </pardef>
   </pardefs>
   <section id="main" type="standard">
-
+    <e r="LR" lm="toponims">
+      <p><l>el<s n="det"/><s n="def"/><t/><j/></l><r></r></p>
+      <par n="toponim-article"/>
+    </e>
+    <e r="RL" lm="test">
+      <p><l>test<s n="test"/><t/><j/></l><r>test<s n="test"/></r></p>
+    </e>
   </section>
 </dictionary>
 
