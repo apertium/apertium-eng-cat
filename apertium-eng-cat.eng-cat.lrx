@@ -2818,7 +2818,7 @@
 <!-- Regles especials -->
 
   <rule weight="1.0"><!-- sharing > compartició -->
-    <match tags="vblex.subs"><select tags="n.*"/></match>
+    <match tags="vblex.subs"><select lemma=".*" tags="n.*"/></match>
   </rule>
 
 
