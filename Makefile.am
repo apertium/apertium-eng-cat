@@ -327,7 +327,25 @@ test: all
 	echo "The house" | apertium -d . eng-cat | tee .test-mt
 	@echo "La casa" > .test-ref
 	@diff .test-ref .test-mt
+	echo "The house" | apertium -d . eng-cat_iec2017 | tee .test-mt
+	@echo "La casa" > .test-ref
+	@diff .test-ref .test-mt
+	echo "The house" | apertium -d . eng-cat_valencia | tee .test-mt
+	@echo "La casa" > .test-ref
+	@diff .test-ref .test-mt
+	echo "The house" | apertium -d . eng-cat_valencia_iec2017 | tee .test-mt
+	@echo "La casa" > .test-ref
+	@diff .test-ref .test-mt
+	echo "The house" | apertium -d . eng-cat_valencia_uni | tee .test-mt
+	@echo "La casa" > .test-ref
+	@diff .test-ref .test-mt
+	echo "The house" | apertium -d . eng-cat_valencia_uni_iec2017 | tee .test-mt
+	@echo "La casa" > .test-ref
+	@diff .test-ref .test-mt
 	echo "La casa" | apertium -d . cat-eng | tee .test-mt
+	@echo "The house" > .test-ref
+	@diff .test-ref .test-mt
+	echo "La casa" | apertium -d . cat-eng_US | tee .test-mt
 	@echo "The house" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
