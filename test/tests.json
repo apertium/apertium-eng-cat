@@ -1,0 +1,34 @@
+{
+    "cat-eng": {
+        "input": "cat-eng-input.txt",
+        "mode": "cat-eng"
+    },
+    "cat-eng_US": {
+        "input": "cat-eng_US-input.txt",
+        "mode": "cat-eng_US"
+    },
+    "eng-cat": {
+        "input": "eng-cat-input.txt",
+        "mode": "eng-cat"
+    },
+    "eng-cat_iec2017": {
+        "input": "eng-cat_iec2017-input.txt",
+        "mode": "eng-cat_iec2017"
+    },
+    "eng-cat_valencia": {
+        "input": "eng-cat_valencia-input.txt",
+        "mode": "eng-cat_valencia"
+    },
+    "eng-cat_valencia_iec2017": {
+        "input": "eng-cat_valencia_iec2017-input.txt",
+        "mode": "eng-cat_valencia_iec2017"
+    },
+    "eng-cat_valencia_uni": {
+        "input": "eng-cat_valencia_uni-input.txt",
+        "mode": "eng-cat_valencia_uni"
+    },
+    "eng-cat_valencia_uni_iec2017": {
+        "input": "eng-cat_valencia_uni_iec2017-input.txt",
+        "mode": "eng-cat_valencia_uni_iec2017"
+    }
+}

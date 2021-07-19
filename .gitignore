@@ -27,3 +27,8 @@
 /dev/testvoc/testvoc-errors.cat-eng_US.txt
 /dev/testvoc/testvoc-missing.eng.txt
 /dev/testvoc/testvoc-missing.cat.txt
+/*.hfst
+/*.zhfst
+/.DS_Store
+/config.in
+/config

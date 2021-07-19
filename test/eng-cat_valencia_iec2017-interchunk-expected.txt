@@ -1,0 +1,2 @@
+[PyWEoF9jlVIm#0] ^Det_nom<SN><DET><f><sg>{^el<det><def><3><4>$ ^casa<n><3><4>$}$
+[/PyWEoF9jlVIm]
