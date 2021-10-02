@@ -44,11 +44,11 @@
       <program name="lsx-proc" debug-suff="revautoseq">
         <file name="eng-cat.revautoseq.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="eng-cat.autogen.bin"/>
       </program>
-      <program name="lt-proc -x" debug-suff="intergen">
-        <file name="eng-cat.autopgen-diacritics-nous.bin"/>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="eng-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="eng-cat.autopgen.bin"/>
@@ -99,11 +99,14 @@
       <program name="lsx-proc" debug-suff="revautoseq">
         <file name="eng-cat.revautoseq.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="eng-cat.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="eng-cat.autopgen-diacritics-vells.bin"/>
+      <program name="cg-proc" debug-suff="pre2017prefs">
+        <file name="eng-cat.pre2017_prefs.rlx.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="eng-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="eng-cat.autopgen.bin"/>
@@ -154,11 +157,11 @@
       <program name="lsx-proc" debug-suff="revautoseq">
         <file name="eng-cat.revautoseq.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="eng-cat_valencia_gva.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="eng-cat.autopgen-diacritics-nous.bin"/>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="eng-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="eng-cat_valencia_gva.autopgen.bin"/>
@@ -209,11 +212,14 @@
       <program name="lsx-proc" debug-suff="revautoseq">
         <file name="eng-cat.revautoseq.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="eng-cat_valencia_gva.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="eng-cat.autopgen-diacritics-vells.bin"/>
+      <program name="cg-proc -1 -n -g" debug-suff="pre2017prefs">
+        <file name="eng-cat.pre2017_prefs.rlx.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="eng-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="eng-cat_valencia_gva.autopgen.bin"/>
@@ -264,11 +270,11 @@
       <program name="lsx-proc" debug-suff="revautoseq">
         <file name="eng-cat.revautoseq.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="eng-cat_valencia_uni.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="eng-cat.autopgen-diacritics-nous.bin"/>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="eng-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="eng-cat_valencia_uni.autopgen.bin"/>
@@ -319,11 +325,14 @@
       <program name="lsx-proc" debug-suff="revautoseq">
         <file name="eng-cat.revautoseq.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="eng-cat_valencia_uni.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="eng-cat.autopgen-diacritics-vells.bin"/>
+      <program name="cg-proc -1 -n -g" debug-suff="pre2017prefs">
+        <file name="eng-cat.pre2017_prefs.rlx.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="eng-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="eng-cat_valencia_uni.autopgen.bin"/>
@@ -355,7 +364,7 @@
       <program name="apertium-anaphora" debug-suff="anaphora">
         <file name="apertium-eng-cat.cat-eng.arx"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="transfer">
+      <program name="apertium-transfer -bc" debug-suff="transfer">
         <file name="apertium-eng-cat.cat-eng.t1x"/>
         <file name="cat-eng.t1x.bin"/>
       </program>
