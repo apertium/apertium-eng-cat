@@ -30,6 +30,8 @@ PREFIX2US=$(LANG2)-$(LANG1US)
 
 BASENAME=apertium-$(PREFIX1)
 
+TARGETS_PREFS = prefs/$(PREFIX1).xml
+
 TARGETS_COMMON =		\
 	$(PREFIX1).automorf.bin	\
 	$(PREFIX1).prob		\
@@ -44,8 +46,8 @@ TARGETS_COMMON =		\
 	$(PREFIX1C).autopgen.bin	\
 	$(PREFIX1V).autopgen.bin	\
 	$(PREFIX1U).autopgen.bin	\
-	$(PREFIX1).autopgen-diacritics-vells.bin 	\
-	$(PREFIX1).autopgen-diacritics-nous.bin	\
+	$(PREFIX1).prefs.rlx.bin	\
+	$(PREFIX1).pre2017_prefs.rlx.bin \
 	$(PREFIX1).t1x.bin	\
 	$(PREFIX1).t2x.bin	\
 	$(PREFIX1).t3x.bin	\
@@ -66,7 +68,8 @@ TARGETS_COMMON =		\
 	$(PREFIX2).t2x.bin	\
 	$(PREFIX2).t3x.bin	\
 	$(PREFIX2).autoseq.bin	\
-	$(PREFIX2).revautoseq.bin
+	$(PREFIX2).revautoseq.bin	\
+ 	prefs/$(PREFIX1).xml
 
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
@@ -258,17 +261,43 @@ $(PREFIX1V).autopgen.bin: $(AP_SRC2)/$(LANG2V).autopgen.bin
 $(PREFIX1U).autopgen.bin: $(AP_SRC2)/$(LANG2U).autopgen.bin
 	cp $< $@
 
-$(PREFIX1).autopgen-diacritics-vells.bin: $(AP_SRC2)/$(LANG2).autopgen-diacritics-vells.bin
-	cp $< $@
-
-$(PREFIX1).autopgen-diacritics-nous.bin: $(AP_SRC2)/$(LANG2).autopgen-diacritics-nous.bin
-	cp $< $@
-
 $(PREFIX2GB).autopgen.bin: $(AP_SRC1)/$(LANG1GB).autopgen.bin
 	cp $< $@
 
 $(PREFIX2US).autopgen.bin: $(AP_SRC1)/$(LANG1US).autopgen.bin
 	cp $< $@
+
+
+###############################################################################
+## Variant preferences
+###############################################################################
+
+$(PREFIX1).pre2017_prefs.rlx.bin: $(AP_SRC2)/$(LANG2).pre2017_prefs.rlx.bin
+	cp $< $@
+
+$(PREFIX1).prefs.rlx.bin: $(AP_SRC2)/$(LANG2).prefs.rlx.bin
+	cp $< $@
+
+###############################################################################
+## Preferences
+###############################################################################
+
+prefs/$(LANG2).preferences.xml: $(AP_SRC2)/$(LANG2).preferences.xml
+	$(MKDIR_P) prefs
+	cp $< $@
+
+define mergePrefs =
+$(MKDIR_P) prefs
+echo '<preferences>' >$@.tmp
+for f in $^; do xmllint --xpath '/preferences/preference' "$$f"; done >>$@.tmp
+echo '</preferences>' >>$@.tmp
+mv $@.tmp $@
+endef
+
+# uncomment when we have bilingual preferences
+# prefs/$(PREFIX1).xml: $(LANG2).preferences.xml $(PREFIX1).preferences.xml
+prefs/$(PREFIX1).xml: prefs/$(LANG2).preferences.xml 
+		$(mergePrefs)
 
 ###############################################################################
 ## Distribution
@@ -285,7 +314,8 @@ EXTRA_DIST=					\
 		$(BASENAME).$(PREFIX2).t1x	\
 		$(BASENAME).$(PREFIX2).t2x	\
 		$(BASENAME).$(PREFIX2).t3x	\
-		modes.xml
+		modes.xml	\
+		$(PREFIX1).preferences.xml
 
 ###############################################################################
 ## Installation
@@ -307,9 +337,11 @@ apertium_eng_cat_DATA=	\
 	$(BASENAME).$(PREFIX2).t3x
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
-noinst_DATA=modes/$(PREFIX1).mode
+noinst_DATA=modes/$(PREFIX1).mode $(TARGETS_PREFS)
 
 install-data-local: install-modes
+	$(MKDIR_P) $(DESTDIR)$(apertium_modesdir)/../prefs
+	$(INSTALL_DATA) $(TARGETS_PREFS) $(DESTDIR)$(apertium_modesdir)/../prefs
 
 ###############################################################################
 ## Cleanup
