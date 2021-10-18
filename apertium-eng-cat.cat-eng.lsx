@@ -18,42 +18,42 @@
   </sdefs>
   <pardefs>
     <pardef n="adj">
-      <e><i><w/><s n="adj"/><j/></i></e>
+      <e><i><w/><s n="adj"/><d/></i></e>
     </pardef>
     <pardef n="adv">
-      <e><i><w/><s n="adv"/><j/></i></e>
+      <e><i><w/><s n="adv"/><d/></i></e>
     </pardef>
     <pardef n="det">
-      <e><i><w/><s n="det"/><t/><j/></i></e>
+      <e><i><w/><s n="det"/><t/><d/></i></e>
     </pardef>
     <pardef n="n">
-      <e><i><w/><s n="n"/><t/><j/></i></e>
+      <e><i><w/><s n="n"/><t/><d/></i></e>
     </pardef>
     <pardef n="np">
-      <e><i><w/><s n="np"/><t/><j/></i></e>
+      <e><i><w/><s n="np"/><t/><d/></i></e>
     </pardef>
     <pardef n="toponim-article">
-      <e><p><l>afganistan<s n="np"/><s n="top"/></l><r>Afganistan<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
-      <e><p><l>amèrica<b/>central<s n="np"/><s n="top"/></l><r>Amèrica<b/>Central<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
-      <e><p><l>amèrica<b/>del<b/>nord<s n="np"/><s n="top"/></l><r>Amèrica<b/>del<b/>Nord<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
-      <e><p><l>amèrica<b/>del<b/>sud<s n="np"/><s n="top"/></l><r>Amèrica<b/>del<b/>Sud<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
-      <e><p><l>aràbia<b/>saudita<s n="np"/><s n="top"/></l><r>Aràbia<b/>Saudita<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
-      <e><p><l>argentina<s n="np"/><s n="top"/></l><r>Argentina<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
-      <e><p><l>brasil<s n="np"/><s n="top"/></l><r>Brasil<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
-      <e><p><l>caire<s n="np"/><s n="top"/></l><r>Caire<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
-      <e><p><l>camerun<s n="np"/><s n="top"/></l><r>Camerun<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
-      <e><p><l>canadà<s n="np"/><s n="top"/></l><r>Canadà<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
-      <e><p><l>congo<s n="np"/><s n="top"/></l><r>Congo<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
-      <e><p><l>japó<s n="np"/><s n="top"/></l><r>Japó<s n="np"/><s n="top"/></r></p><i><t/><j/></i></e>
+      <e><p><l>afganistan<s n="np"/><s n="top"/></l><r>Afganistan<s n="np"/><s n="top"/></r></p><i><t/><d/></i></e>
+      <e><p><l>amèrica<b/>central<s n="np"/><s n="top"/></l><r>Amèrica<b/>Central<s n="np"/><s n="top"/></r></p><i><t/><d/></i></e>
+      <e><p><l>amèrica<b/>del<b/>nord<s n="np"/><s n="top"/></l><r>Amèrica<b/>del<b/>Nord<s n="np"/><s n="top"/></r></p><i><t/><d/></i></e>
+      <e><p><l>amèrica<b/>del<b/>sud<s n="np"/><s n="top"/></l><r>Amèrica<b/>del<b/>Sud<s n="np"/><s n="top"/></r></p><i><t/><d/></i></e>
+      <e><p><l>aràbia<b/>saudita<s n="np"/><s n="top"/></l><r>Aràbia<b/>Saudita<s n="np"/><s n="top"/></r></p><i><t/><d/></i></e>
+      <e><p><l>argentina<s n="np"/><s n="top"/></l><r>Argentina<s n="np"/><s n="top"/></r></p><i><t/><d/></i></e>
+      <e><p><l>brasil<s n="np"/><s n="top"/></l><r>Brasil<s n="np"/><s n="top"/></r></p><i><t/><d/></i></e>
+      <e><p><l>caire<s n="np"/><s n="top"/></l><r>Caire<s n="np"/><s n="top"/></r></p><i><t/><d/></i></e>
+      <e><p><l>camerun<s n="np"/><s n="top"/></l><r>Camerun<s n="np"/><s n="top"/></r></p><i><t/><d/></i></e>
+      <e><p><l>canadà<s n="np"/><s n="top"/></l><r>Canadà<s n="np"/><s n="top"/></r></p><i><t/><d/></i></e>
+      <e><p><l>congo<s n="np"/><s n="top"/></l><r>Congo<s n="np"/><s n="top"/></r></p><i><t/><d/></i></e>
+      <e><p><l>japó<s n="np"/><s n="top"/></l><r>Japó<s n="np"/><s n="top"/></r></p><i><t/><d/></i></e>
     </pardef>
   </pardefs>
   <section id="main" type="standard">
     <e r="LR" lm="toponims">
-      <p><l>el<s n="det"/><s n="def"/><t/><j/></l><r></r></p>
+      <p><l>el<s n="det"/><s n="def"/><t/><d/></l><r></r></p>
       <par n="toponim-article"/>
     </e>
     <e r="RL" lm="test">
-      <p><l>test<s n="test"/><t/><j/></l><r>test<s n="test"/></r></p>
+      <p><l>test<s n="test"/><t/><d/></l><r>test<s n="test"/></r></p>
     </e>
   </section>
 </dictionary>
@@ -62,11 +62,11 @@
 <b/> = blank
 <w/> = ANY_CHAR (loop)
 <t/> = ANY_TAG (loop)
-<j/> = <$>
+<d/> = <$>
 
 Available:
 <c/> <d/> <f/> <h/> <k/> <m/> <n/> <o/> <q/> <t/> <u/> <v/> <w/> <x/> <y/> <z/>
 
 Taken:
-<a/> <b/> <e/> <g/> <i/> <j/> <l/> <p/> <r/> <s/>
+<a/> <b/> <e/> <g/> <i/> <d/> <l/> <p/> <r/> <s/>
  -->
