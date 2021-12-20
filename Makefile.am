@@ -46,7 +46,9 @@ TARGETS_COMMON =		\
 	$(PREFIX1C).autopgen.bin	\
 	$(PREFIX1V).autopgen.bin	\
 	$(PREFIX1U).autopgen.bin	\
-	$(PREFIX1).prefs.rlx.bin	\
+	$(PREFIX1C).prefs.rlx.bin	\
+	$(PREFIX1V).prefs.rlx.bin	\
+	$(PREFIX1U).prefs.rlx.bin	\
 	$(PREFIX1).pre2017_prefs.rlx.bin \
 	$(PREFIX1).t1x.bin	\
 	$(PREFIX1).t2x.bin	\
@@ -275,7 +277,13 @@ $(PREFIX2US).autopgen.bin: $(AP_SRC1)/$(LANG1US).autopgen.bin
 $(PREFIX1).pre2017_prefs.rlx.bin: $(AP_SRC2)/$(LANG2).pre2017_prefs.rlx.bin
 	cp $< $@
 
-$(PREFIX1).prefs.rlx.bin: $(AP_SRC2)/$(LANG2).prefs.rlx.bin
+$(PREFIX1C).prefs.rlx.bin: $(AP_SRC2)/$(LANG2C).prefs.rlx.bin
+	cp $< $@
+
+$(PREFIX1V).prefs.rlx.bin: $(AP_SRC2)/$(LANG2V).prefs.rlx.bin
+	cp $< $@
+
+$(PREFIX1U).prefs.rlx.bin: $(AP_SRC2)/$(LANG2U).prefs.rlx.bin
 	cp $< $@
 
 ###############################################################################
