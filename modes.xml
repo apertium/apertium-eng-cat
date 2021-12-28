@@ -47,7 +47,7 @@
       <program name="lt-proc $1 -b">
         <file name="eng-cat.autogen.bin"/>
       </program>
-      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+      <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="eng-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
@@ -105,7 +105,7 @@
       <program name="cg-proc" debug-suff="pre2017prefs">
         <file name="eng-cat.pre2017_prefs.rlx.bin"/>
       </program>
-      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+      <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="eng-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
@@ -163,7 +163,7 @@
       <program name="cg-proc" debug-suff="valencia_gva_prefs">
         <file name="eng-cat_valencia_gva.prefs.rlx.bin"/>
       </program>
-      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+      <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="eng-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
@@ -221,10 +221,10 @@
       <program name="cg-proc" debug-suff="valencia_gva_prefs">
         <file name="eng-cat_valencia_gva.prefs.rlx.bin"/>
       </program>
-      <program name="cg-proc -1 -n -g" debug-suff="pre2017prefs">
+      <program name="cg-proc" debug-suff="pre2017prefs">
         <file name="eng-cat.pre2017_prefs.rlx.bin"/>
       </program>
-      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+      <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="eng-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
@@ -282,7 +282,7 @@
       <program name="cg-proc" debug-suff="valencia_uni_prefs">
         <file name="eng-cat_valencia_uni.prefs.rlx.bin"/>
       </program>
-      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+      <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="eng-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
@@ -340,10 +340,10 @@
       <program name="cg-proc" debug-suff="valencia_uni_prefs">
         <file name="eng-cat_valencia_uni.prefs.rlx.bin"/>
       </program>
-      <program name="cg-proc -1 -n -g" debug-suff="pre2017prefs">
+      <program name="cg-proc" debug-suff="pre2017prefs">
         <file name="eng-cat.pre2017_prefs.rlx.bin"/>
       </program>
-      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+      <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="eng-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
