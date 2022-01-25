@@ -85,8 +85,9 @@ else
     else
         PIPELINE_ALL=$(grep -m1 'apertium-pretransfer' $MODE |\
         sed 's/.*apertium-pretransfer/apertium-pretransfer/' |\
-        sed "s%\ lrx-proc[^|]*|%%" |\
-        sed "s%\ lt-proc \$1%\ lt-proc -d%")
+        sed "s%lrx-proc[^|]*|%%" |\
+        sed "s%cg-proc%cg-proc -t%" |\
+        sed "s%lt-proc \$1%lt-proc -d%")
         PIPELINE_LEX=$(mktemp -t testvoc.XXXXXXXXXXX)
         PIPELINE_TFR=$(mktemp -t testvoc.XXXXXXXXXXX)
         PIPELINE_GEN=$(mktemp -t testvoc.XXXXXXXXXXX)
