@@ -9,7 +9,7 @@
       <program name="cg-proc -w" debug-suff="disamb">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx">
+      <program name="apertium-tagger -gx $2">
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -22,10 +22,10 @@
       <program name="lrx-proc -m">
         <file name="eng-cat.autolex.bin"/>
       </program>
-      <program name="apertium-anaphora" debug-suff="anaphora">
+      <program name="apertium-anaphora">
         <file name="apertium-eng-cat.eng-cat.arx"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-eng-cat.eng-cat.t1x"/>
         <file name="eng-cat.t1x.bin"/>
       </program>
@@ -64,7 +64,7 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx">
+      <program name="apertium-tagger -gx $2">
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -77,10 +77,10 @@
       <program name="lrx-proc -m">
         <file name="eng-cat.autolex.bin"/>
       </program>
-      <program name="apertium-anaphora" debug-suff="anaphora">
+      <program name="apertium-anaphora">
         <file name="apertium-eng-cat.eng-cat.arx"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-eng-cat.eng-cat.t1x"/>
         <file name="eng-cat.t1x.bin"/>
       </program>
@@ -122,7 +122,7 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx">
+      <program name="apertium-tagger -gx $2">
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -135,10 +135,10 @@
       <program name="lrx-proc -m">
         <file name="eng-cat.autolex.bin"/>
       </program>
-      <program name="apertium-anaphora" debug-suff="anaphora">
+      <program name="apertium-anaphora">
         <file name="apertium-eng-cat.eng-cat.arx"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-eng-cat.eng-cat.t1x"/>
         <file name="eng-cat.t1x.bin"/>
       </program>
@@ -180,7 +180,7 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx">
+      <program name="apertium-tagger -gx $2">
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -193,10 +193,10 @@
       <program name="lrx-proc -m">
         <file name="eng-cat.autolex.bin"/>
       </program>
-      <program name="apertium-anaphora" debug-suff="anaphora">
+      <program name="apertium-anaphora">
         <file name="apertium-eng-cat.eng-cat.arx"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-eng-cat.eng-cat.t1x"/>
         <file name="eng-cat.t1x.bin"/>
       </program>
@@ -241,7 +241,7 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx">
+      <program name="apertium-tagger -gx $2">
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -254,10 +254,10 @@
       <program name="lrx-proc -m">
         <file name="eng-cat.autolex.bin"/>
       </program>
-      <program name="apertium-anaphora" debug-suff="anaphora">
+      <program name="apertium-anaphora">
         <file name="apertium-eng-cat.eng-cat.arx"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-eng-cat.eng-cat.t1x"/>
         <file name="eng-cat.t1x.bin"/>
       </program>
@@ -299,7 +299,7 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx">
+      <program name="apertium-tagger -gx $2">
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -312,10 +312,10 @@
       <program name="lrx-proc -m">
         <file name="eng-cat.autolex.bin"/>
       </program>
-      <program name="apertium-anaphora" debug-suff="anaphora">
+      <program name="apertium-anaphora">
         <file name="apertium-eng-cat.eng-cat.arx"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-eng-cat.eng-cat.t1x"/>
         <file name="eng-cat.t1x.bin"/>
       </program>
@@ -373,10 +373,10 @@
       <program name="lrx-proc -m">
         <file name="cat-eng.autolex.bin"/>
       </program>
-      <program name="apertium-anaphora" debug-suff="anaphora">
+      <program name="apertium-anaphora">
         <file name="apertium-eng-cat.cat-eng.arx"/>
       </program>
-      <program name="apertium-transfer -bc" debug-suff="transfer">
+      <program name="apertium-transfer -bc">
         <file name="apertium-eng-cat.cat-eng.t1x"/>
         <file name="cat-eng.t1x.bin"/>
       </program>
@@ -421,10 +421,10 @@
       <program name="lrx-proc -m">
         <file name="cat-eng.autolex.bin"/>
       </program>
-      <program name="apertium-anaphora" debug-suff="anaphora">
+      <program name="apertium-anaphora">
         <file name="apertium-eng-cat.cat-eng.arx"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-eng-cat.cat-eng.t1x"/>
         <file name="cat-eng.t1x.bin"/>
       </program>
