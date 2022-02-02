@@ -86,15 +86,10 @@ else
         PIPELINE_ALL=$(grep -m1 'apertium-pretransfer' $MODE |\
         sed 's/.*apertium-pretransfer/apertium-pretransfer/' |\
         sed "s%lrx-proc[^|]*|%%" |\
-        sed "s%cg-proc%cg-proc -t%" |\
         sed "s%lt-proc \$1%lt-proc -d%")
-        PIPELINE_LEX=$(mktemp -t testvoc.XXXXXXXXXXX)
-        PIPELINE_TFR=$(mktemp -t testvoc.XXXXXXXXXXX)
-        PIPELINE_GEN=$(mktemp -t testvoc.XXXXXXXXXXX)
-        echo $PIPELINE_ALL | sed "s%lt-proc -b\([^|]*\)|.*%lt-proc -b\1%" > "$PIPELINE_LEX"
-        echo $PIPELINE_ALL | sed "s%.*lt-proc -b\([^|]*\)|\(.*\)%\2%" | sed "s/| lt-proc -d.*//" > "$PIPELINE_TFR"
-        echo $PIPELINE_ALL | sed 's/.*lt-proc -d/lt-proc -d/' > "$PIPELINE_GEN"
-        TMPFILES+=("$PIPELINE_LEX" "$PIPELINE_TFR" "$PIPELINE_GEN")
+        PIPELINE_LEX=$(echo $PIPELINE_ALL | sed 's%lt-proc -b\([^|]*\)|.*%lt-proc -b\1%')
+        PIPELINE_TFR=$(echo $PIPELINE_ALL | sed 's%.*lt-proc -b\([^|]*\)|\(.*\)%\2%' | sed 's/| lt-proc -d.*//')
+        PIPELINE_GEN=$(echo $PIPELINE_ALL | sed 's/.*lt-proc -d/lt-proc -d/')
     fi
 fi
 
@@ -122,11 +117,11 @@ lt-expand $MONODIX | grep -v 'REGEX' | grep -v ':<:' |  # The monodix is expande
 ( [[ $ENCLITICS ]] && grep -v '<prn><enc>' || cat ) |  # If the -e flag is used, enclitics are removed for faster processing
 sed 's/:>:/\'$'\t/g' | sed 's/:/\'$'\t/g' | cut -f2 -d$'\t' |  # Surface forms are removed
 sed 's/^/^/g' | sed 's/\(.*\)/[\\\1\$]\1/g' | sed 's/$/$ ^.<sent>$/g' |  # Entries are converted to Apertium pipeline format, preceded by the source form and followed by a full stop
-bash "$PIPELINE_LEX" |  # Lexical transfer takes place
+eval "$PIPELINE_LEX" |  # Lexical transfer takes place
 trim |  # The list of entries is trimmed according to the bidix
 expand_poly |  # Polysemic entries are expanded into multiple lines
-bash "$PIPELINE_TFR" |  # Structural transfer takes place
-bash "$PIPELINE_GEN" |  # Target language surface forms are generated
+eval "$PIPELINE_TFR" |  # Structural transfer takes place
+eval "$PIPELINE_GEN" |  # Target language surface forms are generated
 sed 's/^\[\\\(.*\)\$\]/\1\$ _ /g' | sed 's/ \^.<sent>\$//g' | sed 's/ \.//g' | sed 's/ _ /   --------->   /g'
 
 for f in "${TMPFILES[@]}"; do
