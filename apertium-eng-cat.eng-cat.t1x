@@ -68,21 +68,17 @@
 
     <def-cat n="adj">
       <cat-item tags="adj"/>
-      <cat-item tags="adj.*"/>
       <cat-item tags="adj.comp"/>
       <cat-item tags="adj.sup"/>
       <cat-item tags="adj.pos"/>
       <cat-item tags="adj.sint"/>
-      <cat-item tags="adj.sint.*"/>
       <cat-item tags="vblex.pp"/> <!-- BCN ok implica tocar les regles per la concordança-->
       <cat-item tags="vbmod.pp"/> <!-- BCN ok implica tocar les regles per la concordança-->
     </def-cat>
 
     <def-cat n="adj2"><!--revisar regles amb 'adj' i 'adj2' -->
       <cat-item tags="adj"/>
-      <cat-item tags="adj.*"/>
       <cat-item tags="adj.sint"/>
-      <cat-item tags="adj.sint.*"/>
       <cat-item tags="adj.comp"/>
       <cat-item tags="adj.sup"/>
     </def-cat>
@@ -90,9 +86,7 @@
     <def-cat n="adj2pos">
       <cat-item tags="adj.pos"/>
       <cat-item tags="adj"/>
-      <cat-item tags="adj.*"/>
       <cat-item tags="adj.sint"/>
-      <cat-item tags="adj.sint.*"/>
       <cat-item tags="adj.comp"/>
       <cat-item tags="adj.sup"/>
     </def-cat>
