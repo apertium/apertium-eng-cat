@@ -1,2 +1,0 @@
-[BRZSocjctAJv#0] ^Det_nom<SN><f><sg>{^the<det><def><3>$ ^house<n><3>$}$
-[/BRZSocjctAJv]

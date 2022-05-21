@@ -11,24 +11,24 @@
         "input": "eng-cat-input.txt",
         "mode": "eng-cat"
     },
-    "eng-cat_iec2017": {
-        "input": "eng-cat_iec2017-input.txt",
-        "mode": "eng-cat_iec2017"
+    "eng-cat_pre2017": {
+        "input": "eng-cat_pre2017-input.txt",
+        "mode": "eng-cat_pre2017"
     },
     "eng-cat_valencia": {
         "input": "eng-cat_valencia-input.txt",
         "mode": "eng-cat_valencia"
     },
-    "eng-cat_valencia_iec2017": {
-        "input": "eng-cat_valencia_iec2017-input.txt",
-        "mode": "eng-cat_valencia_iec2017"
+    "eng-cat_valencia_pre2017": {
+        "input": "eng-cat_valencia_pre2017-input.txt",
+        "mode": "eng-cat_valencia_pre2017"
     },
     "eng-cat_valencia_uni": {
         "input": "eng-cat_valencia_uni-input.txt",
         "mode": "eng-cat_valencia_uni"
     },
-    "eng-cat_valencia_uni_iec2017": {
-        "input": "eng-cat_valencia_uni_iec2017-input.txt",
-        "mode": "eng-cat_valencia_uni_iec2017"
+    "eng-cat_valencia_uni_pre2017": {
+        "input": "eng-cat_valencia_uni_pre2017-input.txt",
+        "mode": "eng-cat_valencia_uni_pre2017"
     }
 }

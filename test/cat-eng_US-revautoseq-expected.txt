@@ -1,2 +1,2 @@
-[BRZSocjctAJv#0] ^The<det><def><sg>$ ^house<n><sg>$
+[BRZSocjctAJv#0] ^Prpers<prn><subj><p3><nt><sg>$ ^marry<vblex><pres><p3><sg>$ ^prpers<prn><obj><p3><nt><sg>$
 [/BRZSocjctAJv]

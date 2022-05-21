@@ -1,2 +1,2 @@
-[PyWEoF9jlVIm#0] ~La casa
+[PyWEoF9jlVIm#0] ^El<det><def><f><sg>/~La$ ^casa<n><f><sg>/casa$
 [/PyWEoF9jlVIm]

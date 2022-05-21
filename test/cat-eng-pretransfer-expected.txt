@@ -1,2 +1,2 @@
-[BRZSocjctAJv#0] ^El<det><def><f><sg>$ ^casa<n><f><sg>$
+[BRZSocjctAJv#0] ^El<prn><pro><p3><f><sg>$ ^casar<vblex><pri><p3><sg>$
 [/BRZSocjctAJv]
