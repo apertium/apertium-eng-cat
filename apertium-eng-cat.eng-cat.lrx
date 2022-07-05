@@ -3,7 +3,7 @@
 
   <!-- Adjectius -->
 
-  <!-- <rule lm="bad">
+  <!-- <rule c="bad">
     <match lemma="bad" tags="adj.sint"><select lemma="mal" tags="adj"/></match>
     <or>
       <match lemma="luck" tags="n.*"/>
@@ -13,15 +13,15 @@
       <match lemma="weather" tags="n.*"/>
     </or>
   </rule> -->
-  <rule lm="dark">
+  <rule c="dark">
     <match lemma="dark" tags="adj.sint"><select lemma="morè" tags="adj"/></match>
   <match lemma="skin" tags="n.*"/>
   </rule>
-  <rule lm="free">
+  <rule c="free">
     <match lemma="admission" tags="n.*"/>
     <match lemma="free" tags="adj.sint"><select lemma="gratuït" tags="adj"/></match>
   </rule>
-  <rule lm="free">
+  <rule c="free">
     <match lemma="free" tags="adj.sint"><select lemma="gratuït" tags="adj"/></match>
     <or>
       <match lemma="admission" tags="n.*"/>
@@ -33,18 +33,18 @@
       <match lemma="ticket" tags="n.*"/>
     </or>
   </rule>
-  <rule lm="free">
+  <rule c="free">
     <match lemma="free" tags="adj.sint"><select lemma="lliure" tags="adj.*"/></match>
     <match lemma="software" tags="n.*"/>
   </rule>
-  <rule lm="great">
+  <rule c="great">
     <match lemma="great" tags="adj.sint"><select lemma="summe" tags="adj"/></match>
     <or>
       <match lemma="pope" tags="n.*"/>
       <match lemma="priest" tags="n.*"/>
     </or>
   </rule>
-  <rule lm="nice">
+  <rule c="nice">
     <match lemma="nice" tags="adj.sint"><select lemma="encantat" tags="adj"/></match>
     <match lemma="to" tags="pr"/>
     <or>
@@ -52,14 +52,14 @@
       <match tags="vbser.inf"/>
     </or>
   </rule>
-  <rule lm="right">
+  <rule c="right">
     <match lemma="right" tags="adj"><select lemma="correcte" tags="adj"/></match>
     <or>
       <match lemma="answer" tags="n.*"/>
       <match lemma="question" tags="n.*"/>
     </or>
   </rule>
-  <rule lm="right">
+  <rule c="right">
     <match tags="vbser.*"/>
     <repeat from="0" upto="1">
       <match tags="adv"/>
@@ -70,7 +70,7 @@
 
   <!-- Determinants -->
 
-  <rule lm="any">
+  <rule c="any">
     <match lemma="not" tags="adv"/>
     <repeat from="1" upto="2">
       <or>
@@ -85,15 +85,15 @@
 
   <!-- Preposicions -->
 
-  <rule lm="about">
+  <rule c="about">
     <match lemma="care" tags="vblex.*"/>
     <match lemma="about" tags="pr"><select lemma="per" tags="pr"/></match>
   </rule>
-  <rule lm="from">
+  <rule c="from">
     <match lemma="free" tags="adj.sint"/>
     <match lemma="from" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
-  <rule lm="to">
+  <rule c="to">
     <match lemma="relate" tags="vblex.*"/>
     <match lemma="to" tags="pr"><select lemma="amb" tags="pr"/></match>
   </rule>
@@ -101,7 +101,7 @@
 
   <!-- Pronoms -->
 
-  <rule lm="any">
+  <rule c="any">
     <match lemma="not" tags="adv"/>
     <repeat from="0" upto="2">
       <or>
@@ -116,11 +116,11 @@
 
   <!-- Substantius -->
 
-  <rule lm="assembly">
+  <rule c="assembly">
     <match lemma="assembly" tags="n.*"><select lemma="producció" tags="n.*"/></match>
     <match lemma="plant" tags="n.*"/>
   </rule>
-  <rule lm="background">
+  <rule c="background">
     <or>
       <match lemma="white" tags="adj.sint"/>
       <match lemma="black" tags="adj"/>
@@ -129,11 +129,11 @@
     </or>
     <match lemma="background" tags="n.*"><select lemma="fons" tags="n.*"/></match>
   </rule>
-  <rule lm="bat">
+  <rule c="bat">
     <match lemma="baseball" tags="n.*"/>
     <match lemma="bat" tags="n.*"><select lemma="bat" tags="n.*"/></match>
   </rule>
-  <rule lm="buffer">  
+  <rule c="buffer">  
     <or>
       <match lemma="audio" tags="n.*"/>
       <match lemma="data" tags="n.*"/>
@@ -148,7 +148,7 @@
     </or>
     <match lemma="buffer" tags="n.*"><select lemma="memòria intermèdia" tags="n.*"/></match>
   </rule>
-  <rule lm="bunch">
+  <rule c="bunch">
     <match lemma="bunch" tags="n.*"><select lemma="ram" tags="n.*"/></match>
     <match lemma="of" tags="pr"/>
     <or>
@@ -156,28 +156,28 @@
       <match lemma="rose" tags="n.*"/>
     </or>
   </rule>
-  <rule lm="collection">
+  <rule c="collection">
     <match lemma="tax" tags="n.*"/>
     <match lemma="collection" tags="n.*"><select lemma="cobrament" tags="n.*"/></match>
   </rule>
-  <rule lm="collection">
+  <rule c="collection">
     <match lemma="garbage" tags="n.*"/>
     <match lemma="collection" tags="n.*"><select lemma="recollida" tags="n.*"/></match>
   </rule>
-  <rule lm="crane">
+  <rule c="crane">
     <match lemma="bird"  tags="n.*"/>
     <match lemma="crane" tags="n.*"><select lemma="gruid" tags="n.*"/></match>
   </rule>
-  <rule lm="cup">
+  <rule c="cup">
     <match lemma="cup" tags="n.*"><select lemma="got" tags="n.*"/></match>
     <match lemma="of" tags="pr"/>
     <match lemma="water" tags="n.*"/>
   </rule>
-  <rule lm="gift">
+  <rule c="gift">
     <match lemma="gift" tags="n.*"><select lemma="regal" tags="n.*"/></match>
     <match lemma="shop" tags="n.*"/>
   </rule>
-  <rule lm="nail">
+  <rule c="nail">
     <or>
       <match lemma="paint" tags="vblex.*"/>
       <match tags="det.pos.*"/>
@@ -189,11 +189,11 @@
     </repeat>
     <match lemma="nail" tags="n.*"><select lemma="ungla" tags="n.*"/></match>
   </rule>
-  <rule lm="share">
+  <rule c="share">
     <match lemma="share" tags="n.*"><select lemma="compartició" tags="n.*"/></match>
     <match lemma="type" tags="n.*"/>
   </rule>
-  <rule lm="report">
+  <rule c="report">
     <or>
       <match lemma="news" tags="n.*"/>
       <match lemma="investigative" tags="adj"/>
@@ -202,7 +202,7 @@
     </or>
     <match lemma="report" tags="n.*"><select lemma="reportatge" tags="n.*"/></match>
   </rule>
-  <rule lm="union">
+  <rule c="union">
     <or>
       <match lemma="trade" tags="n.*"/>
       <match lemma="labour" tags="n.*"/>
@@ -214,23 +214,23 @@
 
 <!-- Verbs -->
 
-  <rule lm="get">
+  <rule c="get">
     <match lemma="get" tags="vblex.*"><select lemma="arribar" tags="vblex.*"/></match>
     <match lemma="where" tags="adv"/>
   </rule>
-  <rule lm="guess">
+  <rule c="guess">
     <match lemma="prpers" tags="prn.subj.p1.mf.*"/>
     <match lemma="guess" tags="vblex.*"><select lemma="suposar" tags="vblex.*"/></match>
   </rule>
-  <rule lm="join">
+  <rule c="join">
     <match lemma="join" tags="vblex.*"><select lemma="acompanyar" tags="vblex.*"/></match>
     <match lemma="prpers" tags="prn.obj.p1.mf.*"/>
   </rule>
-  <rule lm="relate">
+  <rule c="relate">
     <match lemma="relate" tags="vblex.*"><select lemma="relacionar" tags="vblex.*"/></match>
     <match lemma="to" tags="pr"/>
   </rule>
-  <rule lm="wave">
+  <rule c="wave">
     <or>
       <match lemma="prpers" tags="prn.subj.*"/>
       <match tags="np.ant.*"/>
@@ -1157,7 +1157,7 @@
       <match lemma="go" tags="vblex.*"/>
       <match lemma="on" tags="pr"/>
     </or>
-    <match lemma="stage" tags="n.*"><select lemmau="escenari" tags="n.*"/></match>
+    <match lemma="stage" tags="n.*"><select lemma="escenari" tags="n.*"/></match>
   </rule>
 
   <rule weight="1.0">
