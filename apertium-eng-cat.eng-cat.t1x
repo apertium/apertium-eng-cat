@@ -797,6 +797,7 @@
 
     <def-attr n="a_pp">
       <attr-item tags="vblex.pp"/>
+      <attr-item tags="vblex.sep.pp"/>
       <attr-item tags="vblex.pron.pp"/>
       <attr-item tags="vbser.pp"/>
       <attr-item tags="vbmod.pp"/>
@@ -21267,10 +21268,16 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
     <choose>
       <when>
         <test>
-          <equal>
-            <clip pos="1" side="tl" part="a_pp"/>
-            <lit-tag v="vblex.pron.pp"/>
-          </equal>
+          <or>
+            <equal>
+              <clip pos="1" side="tl" part="a_pp"/>
+              <lit-tag v="vblex.pron.pp"/>
+            </equal>
+            <equal>
+              <clip pos="1" side="tl" part="a_pp"/>
+              <lit-tag v="vblex.sep.pp"/>
+            </equal>
+          </or>
         </test>
         <let>
           <clip pos="1" side="tl" part="a_pp"/>

@@ -441,7 +441,6 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
       <attr-item tags="adj.pos"/>
       <attr-item tags="adj.pos.pred"/>
       <attr-item tags="vblex.pp"/>
-      <attr-item tags="vblex.sep.pp"/>
       <attr-item tags="adjant"/>
       <attr-item tags="det.qnt.sg"/><!-- "so much" -->
       <attr-item tags="det.qnt.pl"/><!-- "too many" / "so many" -->
@@ -513,9 +512,6 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
       <attr-item tags="vblex.pp"/>
       <attr-item tags="vbser.pp"/>
       <attr-item tags="vbmod.pp"/>
-      <attr-item tags="vblex.sep.pp"/>
-      <attr-item tags="vbser.sep.pp"/>
-      <attr-item tags="vbmod.sep.pp"/>
       <attr-item tags="vaux.pp"/>
       <attr-item tags="vbhaver.pp"/>
     </def-attr>
