@@ -71,6 +71,7 @@
       <cat-item tags="adj.comp"/>
       <cat-item tags="adj.sup"/>
       <cat-item tags="adj.pos"/>
+      <cat-item tags="adj.pos.pred"/>
       <cat-item tags="adj.sint"/>
       <cat-item tags="adj.sint.comp"/>
       <cat-item tags="adj.sint.sup"/>
@@ -89,6 +90,7 @@
 
     <def-cat n="adj2pos">
       <cat-item tags="adj.pos"/>
+      <cat-item tags="adj.pos.pred"/>
       <cat-item tags="adj"/>
       <cat-item tags="adj.sint"/>
       <cat-item tags="adj.comp"/>
