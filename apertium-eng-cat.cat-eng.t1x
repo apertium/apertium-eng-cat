@@ -3095,9 +3095,9 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
 	<pattern-item n="nom"/>
       </pattern>
       <action>
-	<call-macro n="firstWord">
+	<!--<call-macro n="firstWord">
 	  <with-param pos="1"/>
-	</call-macro>
+	</call-macro>-->
 	<call-macro n="tipus_nom">
 	  <with-param pos="1"/>
 	</call-macro>

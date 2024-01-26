@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<capitalization>
+  <rules>
+    <rule weight="1"> <!-- Per defecte, genera les unitats lèxiques en minúscula -->
+      <match srcsurf="aa" trgsurf="aa" select="dix"/>
+    </rule>
+    <rule weight="2"> <!-- Genera en majúscula les unitats lèxiques en majúscula -->
+      <match srcsurf="AA" select="AA"/>
+    </rule>
+  </rules>
+</capitalization>
