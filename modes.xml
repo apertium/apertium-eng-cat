@@ -158,7 +158,7 @@
         <file name="eng-cat.revautoseq.bin"/>
       </program>
       <program name="lt-proc $1 -b">
-        <file name="eng-cat_valencia_gva.autogen.bin"/>
+        <file name="eng-cat.autogen.bin"/>
       </program>
       <program name="cg-proc" debug-suff="valencia_gva_prefs">
         <file name="eng-cat_valencia_gva.prefs.rlx.bin"/>
@@ -216,7 +216,7 @@
         <file name="eng-cat.revautoseq.bin"/>
       </program>
       <program name="lt-proc $1 -b">
-        <file name="eng-cat_valencia_gva.autogen.bin"/>
+        <file name="eng-cat.autogen.bin"/>
       </program>
       <program name="cg-proc" debug-suff="valencia_gva_prefs">
         <file name="eng-cat_valencia_gva.prefs.rlx.bin"/>
@@ -277,7 +277,7 @@
         <file name="eng-cat.revautoseq.bin"/>
       </program>
       <program name="lt-proc $1 -b">
-        <file name="eng-cat_valencia_uni.autogen.bin"/>
+        <file name="eng-cat.autogen.bin"/>
       </program>
       <program name="cg-proc" debug-suff="valencia_uni_prefs">
         <file name="eng-cat_valencia_uni.prefs.rlx.bin"/>
@@ -335,7 +335,7 @@
         <file name="eng-cat.revautoseq.bin"/>
       </program>
       <program name="lt-proc $1 -b">
-        <file name="eng-cat_valencia_uni.autogen.bin"/>
+        <file name="eng-cat.autogen.bin"/>
       </program>
       <program name="cg-proc" debug-suff="valencia_uni_prefs">
         <file name="eng-cat_valencia_uni.prefs.rlx.bin"/>

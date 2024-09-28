@@ -40,9 +40,7 @@ TARGETS_COMMON =		\
 	$(PREFIX1V).autobil.bin	 \
 	$(PREFIX1U).autobil.bin	 \
 	$(PREFIX1).autolex.bin	\
-	$(PREFIX1C).autogen.bin	 \
-	$(PREFIX1V).autogen.bin	 \
-	$(PREFIX1U).autogen.bin	 \
+	$(PREFIX1).autogen.bin	 \
 	$(PREFIX1C).autopgen.bin	\
 	$(PREFIX1V).autopgen.bin	\
 	$(PREFIX1U).autopgen.bin	\
@@ -118,14 +116,9 @@ $(PREFIX2US).automorf.bin: $(AP_SRC2)/$(LANG2).automorf.bin $(PREFIX2US).autobil
 # Catalan generation:
 # ---------------------
 
-$(PREFIX1C).autogen.bin: $(AP_SRC2)/$(LANG2C).autogen.bin
+$(PREFIX1).autogen.bin: $(AP_SRC2)/$(LANG2).autogen.bin
 	cp $< $@
 
-$(PREFIX1V).autogen.bin: $(AP_SRC2)/$(LANG2V).autogen.bin
-	cp $< $@
-
-$(PREFIX1U).autogen.bin: $(AP_SRC2)/$(LANG2U).autogen.bin
-	cp $< $@
 
 
 ###############################################################################
