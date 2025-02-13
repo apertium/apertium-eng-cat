@@ -765,11 +765,6 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
                       </equal>
                     </not>
                   </and>
-                  <!-- Elements amb majúscula forçada al bidix -->
-                  <equal>
-                    <clip pos="1" side="tl" part="a_maj"/>
-                    <lit-tag v="maj"/>
-                  </equal>
                 </or>
               </test>
               <let>
@@ -782,10 +777,6 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
                 <var n="caseFirstWord"/>
                 <case-of pos="1" side="tl" part="lemh"/>
               </let>
-              <modify-case>
-                <clip pos="1" side="tl" part="lemh"/>
-                <lit v="aa"/>
-              </modify-case>
             </otherwise>
           </choose>
         </when>
@@ -794,21 +785,6 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
             <var n="caseFirstWord"/>
             <lit v="aa"/>
           </let>
-          <choose>
-            <!-- Elements amb minúscula forçada al bidix -->
-            <when>
-              <test>
-                <equal>
-                  <clip pos="1" side="tl" part="a_maj"/>
-                  <lit-tag v="min"/>
-                </equal>
-              </test>
-              <modify-case>
-                <clip pos="1" side="tl" part="lemh"/>
-                <lit v="aa"/>
-              </modify-case>
-            </when>
-          </choose>
         </otherwise>
       </choose>
       <let>

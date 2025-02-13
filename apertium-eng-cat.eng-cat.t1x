@@ -905,11 +905,6 @@
       <attr-item tags="subs"/>
     </def-attr>
 
-    <def-attr n="a_maj">
-      <attr-item tags="maj"/>
-      <attr-item tags="min"/>
-    </def-attr>
-
   </section-def-attrs>
 
   <section-def-vars>
@@ -1146,11 +1141,6 @@
                       </equal>
                     </not>
                   </and>
-                  <!-- Elements amb majúscula forçada al bidix -->
-                  <equal>
-                    <clip pos="1" side="tl" part="a_maj"/>
-                    <lit-tag v="maj"/>
-                  </equal>
                 </or>
               </test>
               <let>
@@ -1163,10 +1153,6 @@
                 <var n="caseFirstWord"/>
                 <case-of pos="1" side="tl" part="lemh"/>
               </let>
-              <modify-case>
-                <clip pos="1" side="tl" part="lemh"/>
-                <lit v="aa"/>
-              </modify-case>
             </otherwise>
           </choose>
         </when>
@@ -1188,19 +1174,6 @@
                 <clip pos="1" side="tl" part="lemh"/>
                 <lit v="prpers"/>
               </let>
-            </when>
-            <!-- Elements amb minúscula forçada al bidix -->
-            <when>
-              <test>
-                <equal>
-                  <clip pos="1" side="tl" part="a_maj"/>
-                  <lit-tag v="min"/>
-                </equal>
-              </test>
-              <modify-case>
-                <clip pos="1" side="tl" part="lemh"/>
-                <lit v="aa"/>
-              </modify-case>
             </when>
           </choose>
         </otherwise>
