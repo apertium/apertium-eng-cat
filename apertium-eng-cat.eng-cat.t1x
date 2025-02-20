@@ -547,12 +547,14 @@
     <def-cat n="ppadj"><!--Participis que poden actuar com a adjectius (el verb 'ser' va aquí?) -->
       <cat-item tags="vblex.pp"/>
       <cat-item tags="vblex.sep.pp"/>
+      <cat-item tags="vblex.pron.sep.pp"/>
       <cat-item tags="vbser.pp"/>
     </def-cat>
 
     <def-cat n="pp">
       <cat-item tags="vblex.pp"/>
       <cat-item tags="vblex.sep.pp"/>
+      <cat-item tags="vblex.pron.sep.pp"/>
       <cat-item tags="vbser.pp"/>
       <cat-item tags="vbmod.pp"/>
     </def-cat>
@@ -14404,20 +14406,16 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
           <tag><var n="negative"/></tag> <!-- BCN per recollir si es negacio-->
         </tags>
         <lu>
-          <lit v="fer"/>
-          <lit-tag v="vblex"/>
-          <lit-tag v="pri"/>
-          <lit-tag v="p3"/>
-          <lit-tag v="sg"/>
+          <clip pos="3" side="tl" part="whole"/>
         </lu>
-        <b pos="1"/>
+        <b/>
         <lu>
           <clip pos="1" side="tl" part="lem"/>
           <clip pos="1" side="tl" part="a_det"/>
           <clip pos="1" side="tl" part="gen"/>
           <clip pos="1" side="tl" part="nbr"/>
         </lu>
-        <b pos="2"/>
+        <b/>
         <lu>
           <clip pos="2" side="tl" part="lemh"/>
           <clip pos="2" side="tl" part="a_nom"/>
@@ -14465,20 +14463,16 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
           <tag><var n="nbr_chunk"/></tag>
         </tags>
         <lu>
-          <lit v="fer"/>
-          <lit-tag v="vblex"/>
-          <lit-tag v="pri"/>
-          <lit-tag v="p3"/>
-          <lit-tag v="sg"/>
+          <clip pos="3" side="tl" part="whole"/>
         </lu>
-        <b pos="1"/>
+        <b/>
         <lu>
           <clip pos="1" side="tl" part="lem"/>
           <clip pos="1" side="tl" part="a_num"/>
           <clip pos="1" side="tl" part="gen"/>
           <clip pos="1" side="tl" part="nbr"/>
         </lu>
-        <b pos="2"/>
+        <b/>
         <lu>
           <clip pos="2" side="tl" part="lemh"/>
           <clip pos="2" side="tl" part="a_nom"/>
@@ -14513,13 +14507,9 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
           <tag><clip pos="1" side="tl" part="nbr"/></tag>
         </tags>
         <lu>
-          <lit v="fer"/>
-          <lit-tag v="vblex"/>
-          <lit-tag v="pri"/>
-          <lit-tag v="p3"/>
-          <lit-tag v="sg"/>
+          <clip pos="2" side="tl" part="whole"/>
         </lu>
-        <b pos="1"/>
+        <b/>
         <lu>
           <clip pos="1" side="tl" part="lemh"/>
           <clip pos="1" side="tl" part="a_nom"/>
@@ -21249,6 +21239,10 @@ El resultat és una sola forma lèxica (vindré) (excepte en el cas 'I did come'
             <equal>
               <clip pos="1" side="tl" part="a_pp"/>
               <lit-tag v="vblex.sep.pp"/>
+            </equal>
+            <equal>
+              <clip pos="1" side="tl" part="a_pp"/>
+              <lit-tag v="vblex.pron.sep.pp"/>
             </equal>
           </or>
         </test>
