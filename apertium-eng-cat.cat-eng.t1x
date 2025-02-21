@@ -510,6 +510,7 @@ del transfer i les regles. Potser seria necessari redefinir les regles.
 
     <def-attr n="a_pp">
       <attr-item tags="vblex.pp"/>
+      <attr-item tags="vblex.sep.pp"/>
       <attr-item tags="vbser.pp"/>
       <attr-item tags="vbmod.pp"/>
       <attr-item tags="vaux.pp"/>
