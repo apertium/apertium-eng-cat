@@ -9,7 +9,7 @@
       <program name="cg-proc -w" debug-suff="disamb">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -g $2">
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -64,7 +64,7 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -g $2">
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -122,7 +122,7 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -g $2">
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -180,7 +180,7 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -g $2">
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -241,7 +241,7 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -g $2">
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -299,7 +299,7 @@
       <program name="cg-proc -w">
         <file name="eng-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -gx $2">
+      <program name="apertium-tagger -g $2">
         <file name="eng-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
